@@ -1,0 +1,106 @@
+{{ define "main" }}
+{{ with .Params }}
+
+<!-- Product Hero -->
+<section class="product-hero">
+  {{ with .hero.image }}
+  <div class="product-hero-bg">
+    <img src="{{ . | relURL }}" alt="">
+  </div>
+  {{ end }}
+  <div class="product-hero-overlay"></div>
+  <div class="container product-hero-content">
+    {{ with .hero.badge }}<span class="badge">{{ . }}</span>{{ end }}
+    <h1 class="product-hero-title" data-aos="fade-up">{{ .title }}</h1>
+    <p class="product-hero-tagline" data-aos="fade-up" data-aos-delay="150">{{ .tagline }}</p>
+  </div>
+</section>
+
+<!-- Color Variants -->
+{{ with .colors }}
+<section class="colors section" id="colors">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">{{ .title }}</h2>
+    <div class="colors-grid">
+      {{ range .variants }}
+      <div class="color-card" data-aos="fade-up">
+        <div class="color-image">
+          <img src="{{ .image | relURL }}" alt="{{ .name }}" loading="lazy">
+        </div>
+        <h3 class="color-name">{{ .name }}</h3>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<!-- Feature Highlights -->
+{{ with .highlights }}
+<section class="highlights section section-alt">
+  <div class="container">
+    <div class="features-grid">
+      {{ range . }}
+      <div class="feature-card" data-aos="fade-up">
+        <div class="feature-icon"><i class="{{ .icon }}"></i></div>
+        <h3>{{ .title }}</h3>
+        <p>{{ .description }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<!-- Detail Sections -->
+{{ with .sections }}
+<section class="product-details section">
+  <div class="container">
+    {{ range $index, $section := . }}
+    <div class="product-row {{ if eq $section.image_side "left" }}product-row-reverse{{ end }}" data-aos="fade-up">
+      <div class="product-image">
+        <img src="{{ $section.image | relURL }}" alt="{{ $section.title }}" loading="lazy">
+      </div>
+      <div class="product-info">
+        <h2 class="product-title">{{ $section.title }}</h2>
+        {{ range split $section.content "\n\n" }}
+        <p>{{ . }}</p>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+<!-- Specs -->
+{{ with .specs }}
+<section class="specs section section-alt" id="specs">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">Technical Specifications</h2>
+    <div class="specs-table" data-aos="fade-up">
+      {{ range . }}
+      <div class="specs-row">
+        <span class="specs-label">{{ .label }}</span>
+        <span class="specs-value">{{ .value }}</span>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<!-- CTA -->
+{{ with .cta }}
+<section class="cta-section section">
+  <div class="container">
+    <div class="cta-card" data-aos="fade-up">
+      <h2>{{ .title }}</h2>
+      <a href="/#contact" class="btn btn-primary btn-lg">{{ .button_label }}</a>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}
+{{ end }}

@@ -6,31 +6,31 @@ weight = 1
 
 [[main]]
 name = "Products"
-url = "#products"
+url = "/products/al-n20/"
 weight = 2
 
 [[main]]
 name = "About"
-url = "#about"
+url = "/#about"
 weight = 3
 
 [[main]]
 name = "Contact"
-url = "#contact"
+url = "/#contact"
 weight = 4
 
 # footer menu left
 [[footer_left]]
 name = "Products"
-url = "#products"
+url = "/products/al-n20/"
 
 [[footer_left]]
 name = "About Us"
-url = "#about"
+url = "/#about"
 
 [[footer_left]]
 name = "Contact"
-url = "#contact"
+url = "/#contact"
 
 # footer menu middle
 [[footer_middle]]

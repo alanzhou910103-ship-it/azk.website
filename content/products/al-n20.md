@@ -1,0 +1,97 @@
+---
+title: "AL-N20 Pro"
+tagline: "Hall Effect Precision Controller"
+layout: "product"
+date: 2026-06-01
+
+#################### Product Hero ####################
+hero:
+  image: "images/hero/hero-main.jpg"
+  badge: "New Release"
+
+#################### Color Variants ####################
+colors:
+  title: "Available Colors"
+  variants:
+    - name: "Midnight Black"
+      image: "images/products/black.jpg"
+    - name: "Arctic White"
+      image: "images/products/white.jpg"
+    - name: "Sakura Pink"
+      image: "images/products/pink.jpg"
+
+#################### Feature Highlights ####################
+highlights:
+  - icon: "fas fa-gamepad"
+    title: "Hall Effect Joysticks"
+    description: "Magnetic sensing eliminates stick drift. Consistent precision after 10,000+ hours of use."
+  - icon: "fas fa-bolt"
+    title: "Adjustable Instant Triggers"
+    description: "Toggle between full-range analog and hair-trigger mode with a physical switch — no software needed."
+  - icon: "fas fa-sliders-h"
+    title: "4 Programmable Rear Paddles"
+    description: "Remap any face button or D-pad input to any paddle. Configurable on-the-fly, no app required."
+  - icon: "fas fa-microchip"
+    title: "Omron Mechanical Switches"
+    description: "D-pad and ABXY buttons use premium Japanese Omron switches with 20M click lifecycle."
+  - icon: "fas fa-wifi"
+    title: "Tri-Mode Connectivity"
+    description: "2.4GHz wireless for low latency, Bluetooth 5.2 for convenience, USB-C wired for tournament play."
+  - icon: "fas fa-battery-full"
+    title: "20-Hour Battery"
+    description: "Built-in 1200mAh rechargeable battery. Full charge in 2 hours via USB-C."
+
+#################### Product Detail Sections ####################
+sections:
+  - title: "Pro-Grade Hall Effect Precision"
+    image: "images/products/front.png"
+    image_side: "right"
+    content: "The AL-N20 features cutting-edge Hall effect magnetic sensors in both joysticks and triggers. Unlike traditional potentiometer-based controllers that degrade with use, our contactless technology delivers zero drift, zero dead zones, and unwavering accuracy even after tens of thousands of hours of competitive play.\n\nEvery stick movement and trigger pull is registered with sub-millisecond precision — giving you the edge when every frame counts."
+
+  - title: "Built for Competitive Play"
+    image: "images/products/scene-1.jpg"
+    image_side: "left"
+    content: "From the instant-trigger lock switches to the modular rear paddle system, every element of the AL-N20 is purpose-built for competition. Tournament Mode disables unnecessary buttons for rule-compliant play, while the low-latency 2.4GHz wireless delivers cable-like responsiveness.\n\nThe reinforced internal frame and aircraft-grade aluminum paddle arms ensure it survives the intensity of tournament play — match after match, season after season."
+
+  - title: "Customizable to Your Playstyle"
+    image: "images/products/scene-2.jpg"
+    image_side: "right"
+    content: "One controller shouldn't dictate how you play. Swap thumbstick heights, adjust trigger travel distance, remap paddles on-the-fly, and tune vibration intensity — all without tools or companion apps.\n\nSave up to 3 custom profiles and switch between them with a single button press. Whether you're sniping in an FPS, drifting in a racer, or speedrunning a platformer — the AL-N20 adapts instantly."
+
+  - title: "Premium Materials, Premium Feel"
+    image: "images/products/scene-3.jpg"
+    image_side: "left"
+    content: "Double-shot injection keycaps that never fade. Laser-etched grip texture calculated to maximize friction without skin irritation. A soft-touch coating on high-contact surfaces. Every material choice was scrutinized by our engineering team and validated by pro players.\n\nThe result is a controller that feels as good on hour 1000 as it did fresh out of the box."
+
+#################### Specs Table ####################
+specs:
+  - label: "Joystick Type"
+    value: "Hall Effect Magnetic (contactless, zero drift)"
+  - label: "Trigger Type"
+    value: "Adjustable Instant Trigger with Hall sensor"
+  - label: "Face Button Switches"
+    value: "Omron Mechanical (D-pad & ABXY)"
+  - label: "Rear Paddles"
+    value: "4 programmable, tool-free removable"
+  - label: "Connectivity"
+    value: "2.4GHz Wireless / Bluetooth 5.2 / USB-C Wired"
+  - label: "Battery"
+    value: "1200mAh rechargeable (Lithium-polymer)"
+  - label: "Battery Life"
+    value: "~20 hours continuous gameplay"
+  - label: "Charging"
+    value: "USB-C, 0-100% in ~2 hours"
+  - label: "Platforms"
+    value: "PC (Windows 10+) / Nintendo Switch / Android / iOS"
+  - label: "Weight"
+    value: "245g ± 5g (without cable)"
+  - label: "Dimensions"
+    value: "160mm × 110mm × 65mm"
+  - label: "Warranty"
+    value: "12 months (extendable to 24)"
+
+#################### CTA ####################
+cta:
+  title: "Want the AL-N20 in your lineup?"
+  button_label: "Contact Us for Wholesale"
+---

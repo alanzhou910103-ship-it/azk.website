@@ -1,0 +1,26 @@
+{{ define "main" }}
+<section class="product-hero" style="min-height:40vh">
+  <div class="product-hero-overlay" style="background: var(--bg-dark)"></div>
+  <div class="container product-hero-content">
+    <h1 class="product-hero-title">Our Controllers</h1>
+    <p class="product-hero-tagline">Professional-grade gaming peripherals engineered for competitive play</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="product-card-grid">
+      {{ range where site.RegularPages "Section" "products" }}
+      <a href="{{ .RelPermalink }}" class="product-card" data-aos="fade-up">
+        <div class="product-card-image">
+          <img src="/images/products/front.png" alt="{{ .Title }}">
+        </div>
+        <div class="product-card-info">
+          <h3 class="product-card-name">{{ .Title }}</h3>
+          <p class="product-card-tagline">{{ .Params.tagline }}</p>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

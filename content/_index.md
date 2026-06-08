@@ -1,120 +1,78 @@
 ---
 ####################### Banner #########################
 banner:
-  title : "AL-N20 <br> Professional Gaming Controller"
+  title : "Performance Controllers <br> Built for Champions"
   image : "images/hero/hero-main.jpg"
-  content : "Ergonomic design · Hall effect joystick · Customizable rear paddles <br> Built for competitive gamers and esports professionals"
+  content : "Professional-grade gaming controllers with Hall Effect technology, programmable paddles, <br> and precision engineering. Trusted by esports athletes worldwide."
   button:
     enable : true
-    label : "Explore Features"
-    link : "#features"
+    label : "Explore Controllers"
+    link : "#featured"
+
+##################### Featured Products ##########################
+featured_products:
+  enable : true
+  title : "Featured Controllers"
+  description : "Discover our lineup of professional gaming controllers"
+  items:
+    - name : "AL-N20 Pro"
+      tagline : "Hall Effect Precision Controller"
+      image : "images/products/front.png"
+      hover_image : "images/products/side.png"
+      link : "/products/al-n20/"
+      badge : "New"
+    - name : "AL-N30 Elite"
+      tagline : "Wireless Competition Controller"
+      image : "images/products/front.png"
+      hover_image : "images/products/back.png"
+      link : "/products/al-n30/"
+      badge : "Coming Soon"
+    - name : "AL-N10 Essential"
+      tagline : "Entry-Level Pro Controller"
+      image : "images/products/side.png"
+      hover_image : "images/products/front.png"
+      link : "/products/al-n10/"
+      badge : "Coming Soon"
 
 ##################### Feature ##########################
 feature:
   enable : true
-  title : "Key Features"
+  title : "Why Our Controllers Win"
   feature_item:
-    - name : "Hall Effect Joystick"
-      icon : "fas fa-gamepad"
-      content : "Magnetic sensing technology eliminates stick drift for unparalleled precision and durability"
-      
-    - name : "Adjustable Instant Triggers"
+    - name : "Hall Effect Sensors"
+      icon : "fas fa-magnet"
+      content : "Magnetic contactless technology in joysticks and triggers for zero drift, even after thousands of hours"
+    - name : "Instant Triggers"
       icon : "fas fa-bolt"
-      content : "Hair-trigger mode with adjustable stop for lightning-fast response in FPS games"
-      
-    - name : "Customizable Rear Paddles"
+      content : "Adjustable hair-trigger stops with tactile feedback for lightning-fast response in FPS and battle royale"
+    - name : "Programmable Paddles"
       icon : "fas fa-sliders-h"
-      content : "4 programmable rear paddles let you keep thumbs on the sticks while executing complex moves"
-      
-    - name : "Omron Mechanical Switches"
+      content : "4-way removable rear paddle system — remap any button without taking your thumbs off the sticks"
+    - name : "Omron™ Switches"
       icon : "fas fa-microchip"
-      content : "Premium Japanese Omron switches rated for 20 million clicks with satisfying tactile feedback"
-      
-    - name : "Ergonomic Grip"
+      content : "Japanese Omron mechanical switches under every face button, rated for 20 million clicks"
+    - name : "Ergonomic Design"
       icon : "fas fa-hand-rock"
-      content : "Laser-textured non-slip grip surface designed for marathon gaming sessions"
-      
-    - name : "Multi-Platform Support"
+      content : "Laser-textured grip + optimized contouring for marathon comfort across all hand sizes"
+    - name : "Universal Compatibility"
       icon : "fas fa-laptop"
-      content : "Compatible with PC, Nintendo Switch, Android, iOS — one controller for all your devices"
+      content : "Works seamlessly with PC, Switch, mobile, and more — one controller across all platforms"
 
-######################### Colors ########################
-color_variants:
+##################### About #####################
+about:
   enable : true
-  title : "Choose Your Color"
-  variants:
-    - name : "Midnight Black"
-      image : "images/products/black.jpg"
-    - name : "Arctic White"
-      image : "images/products/white.jpg"
-    - name : "Sakura Pink"
-      image : "images/products/pink.jpg"
-
-######################### Service / Product Detail #####################
-service:
-  enable : true
-  service_item:
-    - title : "Pro-Grade Hall Effect Precision"
-      images:
-      - "images/products/front.png"
-      - "images/products/side.png"
-      - "images/products/back.png"
-      content : "The AL-N20 features cutting-edge Hall effect magnetic sensors in both joysticks and triggers. Unlike traditional potentiometer-based controllers that wear out over time, our contactless magnetic technology delivers zero drift and consistent accuracy even after thousands of hours of intense gameplay."
-      button:
-        enable : true
-        label : "View Details"
-        link : "#"
-        
-    - title : "Built for Competitive Play"
-      images:
-      - "images/products/scene-1.jpg"
-      content : "Every component of the AL-N20 is engineered for competitive advantage. From the instant-trigger lock switches to the 4-way removable rear paddle system, this controller adapts to your playstyle — not the other way around. Tournament mode disables unnecessary buttons for rule-compliant competition."
-      button:
-        enable : true
-        label : "View Details"
-        link : "#"
-        
-    - title : "Customizable to Your Style"
-      images:
-      - "images/products/scene-2.jpg"
-      content : "Swap thumbsticks, adjust trigger travel, remap paddles — the AL-N20 puts full control in your hands. Our modular design means you can fine-tune every aspect of the controller to match your grip, game genre, and personal preferences without any tools."
-      button:
-        enable : true
-        label : "View Details"
-        link : "#"
-        
-    - title : "Premium Build Quality"
-      images:
-      - "images/products/scene-3.jpg"
-      content : "We don't cut corners. Aircraft-grade aluminum paddle arms, double-shot injection keycaps that never fade, and a reinforced internal frame that survived 2 million stress test cycles. The AL-N20 is built to outlast your current console generation."
-      button:
-        enable : true
-        label : "View Details"
-        link : "#"
-
-################### Specs Table ########################
-specs:
-  enable : true
-  title : "Technical Specifications"
-  items:
-    - label : "Joystick Type"
-      value : "Hall Effect Magnetic (contactless)"
-    - label : "Trigger Type"
-      value : "Adjustable Instant Trigger with Hall sensor"
-    - label : "Switches"
-      value : "Omron Mechanical (D-pad & ABXY)"
-    - label : "Rear Paddles"
-      value : "4 programmable, removable"
-    - label : "Connectivity"
-      value : "2.4G Wireless / Bluetooth 5.2 / USB-C Wired"
-    - label : "Battery"
-      value : "1200mAh rechargeable, ~20h play time"
-    - label : "Platforms"
-      value : "PC / Nintendo Switch / Android / iOS"
-    - label : "Weight"
-      value : "245g ± 5g"
-    - label : "Warranty"
-      value : "12 months"
+  label : "About AZK"
+  title : "Engineering the Competitive Edge"
+  content : "We design and manufacture professional gaming peripherals for players who refuse to compromise. Every controller we build combines cutting-edge sensor technology with premium materials and rigorous quality testing. From casual enthusiasts to esports world champions, AZK controllers deliver the precision, durability, and customization that serious players demand."
+  stats:
+    - number : "20M+"
+      label : "Click Lifespan"
+    - number : "&lt;0.1ms"
+      label : "Input Latency"
+    - number : "200+"
+      label : "Pro Testers"
+    - number : "100+"
+      label : "Patents"
 
 ##################### Call to action #####################
 call_to_action:
