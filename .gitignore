@@ -13,3 +13,4 @@ Thumbs.db
 
 # Node (if you ever add npm)
 node_modules/
+hugo_stats.json
