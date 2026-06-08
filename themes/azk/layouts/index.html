@@ -41,7 +41,7 @@
       <p class="section-text" data-aos="fade-up">{{ .description }}</p>
       <div class="product-card-grid">
         {{ range .items }}
-        <a href="{{ .link }}" class="product-card" data-aos="fade-up">
+        <a href="{{ .link | relURL }}" class="product-card" data-aos="fade-up">
           {{ with .badge }}<span class="product-card-badge">{{ . }}</span>{{ end }}
           <div class="product-card-image">
             <img src="{{ .image | relURL }}" alt="{{ .name }}" class="product-card-img-main" loading="lazy">

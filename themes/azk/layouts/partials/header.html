@@ -20,7 +20,7 @@
         {{ end }}
         {{ with site.Params.navigation_button }}
           {{ if .enable }}
-          <li><a href="{{ .link }}" class="btn btn-primary nav-cta">{{ .label }}</a></li>
+          <li><a href="{{ .link | relURL }}" class="btn btn-primary nav-cta">{{ .label }}</a></li>
           {{ end }}
         {{ end }}
       </ul>

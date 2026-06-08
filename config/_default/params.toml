@@ -17,7 +17,7 @@ enable = false
 [navigation_button]
 enable = true
 label = "Get In Touch"
-link = "#contact"
+link = "/#contact"
 
 [crisp_chat]
 enable = false
