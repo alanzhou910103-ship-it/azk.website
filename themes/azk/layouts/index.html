@@ -1,0 +1,148 @@
+{{ define "main" }}
+  {{ with .Params }}
+
+  <!-- Hero Section -->
+  {{ with .banner }}
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1 class="hero-title" data-aos="fade-up">{{ .title | safeHTML }}</h1>
+      <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">{{ .content | safeHTML }}</p>
+      {{ if .button.enable }}
+      <a href="{{ .button.link }}" class="btn btn-primary btn-lg" data-aos="fade-up" data-aos-delay="400">{{ .button.label }}</a>
+      {{ end }}
+    </div>
+    {{ with .image }}
+    <div class="hero-image" data-aos="fade-in" data-aos-delay="600">
+      <img src="{{ . | relURL }}" alt="">
+    </div>
+    {{ end }}
+  </section>
+  {{ end }}
+
+  <!-- USP Trust Bar -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item">
+          <i class="fas fa-certificate"></i>
+          <span>ISO 9001:2015 Certified</span>
+        </div>
+        <div class="trust-item">
+          <i class="fas fa-globe-americas"></i>
+          <span>Global Shipping</span>
+        </div>
+        <div class="trust-item">
+          <i class="fas fa-clock"></i>
+          <span>15+ Years Experience</span>
+        </div>
+        <div class="trust-item">
+          <i class="fas fa-shield-alt"></i>
+          <span>Quality Guaranteed</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature Grid -->
+  {{ with .feature }}
+  {{ if .enable }}
+  <section class="features section" id="features">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">{{ .title }}</h2>
+      <div class="features-grid">
+        {{ range .feature_item }}
+        <div class="feature-card" data-aos="fade-up">
+          <div class="feature-icon">
+            <i class="{{ .icon }}"></i>
+          </div>
+          <h3>{{ .name }}</h3>
+          <p>{{ .content }}</p>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+  {{ end }}
+
+  <!-- Products / Services -->
+  {{ with .service }}
+  {{ if .enable }}
+  <section class="products section section-alt" id="products">
+    <div class="container">
+      {{ range $index, $item := .service_item }}
+      <div class="product-row {{ if modBool $index 2 }}product-row-reverse{{ end }}" data-aos="fade-up">
+        <div class="product-image">
+          {{ with index .images 0 }}
+          <div class="product-img-placeholder">
+            <i class="fas fa-cube"></i>
+          </div>
+          {{ end }}
+        </div>
+        <div class="product-info">
+          <h2 class="product-title">{{ .title }}</h2>
+          <p>{{ .content }}</p>
+          {{ if .button.enable }}
+          <a href="{{ .button.link }}" class="btn btn-outline">{{ .button.label }}</a>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+  {{ end }}
+
+  <!-- About -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-content" data-aos="fade-up">
+        <span class="section-label">About Us</span>
+        <h2 class="section-title">Engineering Excellence Since 2010</h2>
+        <p class="section-text">AZK is a precision manufacturing partner trusted by industry leaders worldwide. We combine advanced technology with deep engineering expertise to deliver components and assemblies that meet the most demanding specifications. Our commitment to quality, innovation, and reliability drives everything we do.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-number">15+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">200+</span>
+            <span class="stat-label">Global Clients</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">50K+</span>
+            <span class="stat-label">Projects Delivered</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">99.8%</span>
+            <span class="stat-label">Quality Rate</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact section section-alt" id="contact">
+    <div class="container">
+      <span class="section-label" data-aos="fade-up">Get In Touch</span>
+      <h2 class="section-title" data-aos="fade-up">Let's Discuss Your Project</h2>
+      <p class="section-text" data-aos="fade-up">Whether you need a prototype or high-volume production, our team is ready to help.</p>
+      <form class="contact-form" action="{{ site.Params.contact_form_action }}" method="POST" data-aos="fade-up">
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-row">
+          <input type="text" name="company" placeholder="Company">
+          <input type="text" name="phone" placeholder="Phone">
+        </div>
+        <textarea name="message" placeholder="Tell us about your project..." rows="5" required></textarea>
+        <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  {{ end }}
+{{ end }}

@@ -1,0 +1,11 @@
+baseURL = "/"
+title = "AZK"
+theme = "azk"
+timeZone = "Asia/Shanghai"
+hasCJKLanguage = true
+
+disableKinds = ["taxonomy", "term"]
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true

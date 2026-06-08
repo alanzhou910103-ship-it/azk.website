@@ -1,0 +1,51 @@
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Products"
+url = "#products"
+weight = 2
+
+[[main]]
+name = "About"
+url = "#about"
+weight = 3
+
+[[main]]
+name = "Contact"
+url = "#contact"
+weight = 4
+
+# footer menu left
+[[footer_left]]
+name = "Products"
+url = "#products"
+
+[[footer_left]]
+name = "About Us"
+url = "#about"
+
+[[footer_left]]
+name = "Contact"
+url = "#contact"
+
+# footer menu middle
+[[footer_middle]]
+name = "Privacy Policy"
+url = "/privacy-policy"
+
+[[footer_middle]]
+name = "Terms & Conditions"
+url = "/terms-conditions"
+
+# footer menu right
+[[footer_right]]
+name = "LinkedIn"
+url = "#"
+
+[[footer_right]]
+name = "Email"
+url = "mailto:info@azk.com"

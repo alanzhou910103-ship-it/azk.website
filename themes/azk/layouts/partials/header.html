@@ -1,0 +1,29 @@
+<header class="header" id="header">
+  <div class="container">
+    <a href="/" class="logo">
+      {{ with site.Params.logo }}
+        <img src="{{ . | relURL }}" alt="{{ site.Title }}" width="140">
+      {{ else }}
+        <span class="logo-text">{{ site.Params.logo_text | default site.Title }}</span>
+      {{ end }}
+    </a>
+
+    <nav class="nav" id="nav">
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-list">
+        {{ range site.Menus.main }}
+        <li><a href="{{ .URL }}" class="nav-link">{{ .Name }}</a></li>
+        {{ end }}
+        {{ with site.Params.navigation_button }}
+          {{ if .enable }}
+          <li><a href="{{ .link }}" class="btn btn-primary nav-cta">{{ .label }}</a></li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,63 @@
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>{{ site.Title }}</h4>
+        <p>{{ site.Params.metadata.description }}</p>
+        <div class="footer-social">
+          {{ range site.Params.social }}
+          <a href="{{ .link }}" title="{{ .title }}" aria-label="{{ .title }}"><i class="{{ .icon }}"></i></a>
+          {{ end }}
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          {{ range site.Menus.footer_left }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          {{ range site.Menus.footer_middle }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          {{ range site.Menus.footer_right }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>{{ site.Params.copyright }}</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Mobile nav toggle
+  document.getElementById('navToggle').addEventListener('click', function() {
+    this.classList.toggle('active');
+    document.querySelector('.nav-list').classList.toggle('active');
+  });
+
+  // AOS init
+  AOS.init({ duration: 800, offset: 100, once: true });
+
+  // Sticky header
+  window.addEventListener('scroll', function() {
+    var header = document.getElementById('header');
+    header.classList.toggle('scrolled', window.scrollY > 50);
+  });
+</script>

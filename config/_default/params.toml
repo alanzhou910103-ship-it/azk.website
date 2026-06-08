@@ -1,0 +1,65 @@
+#################### default parameters ################################
+favicon = "images/favicon.png"
+logo = ""
+logo_width = "140px"
+logo_webp = true
+logo_text = "AZK"
+mainSections = []
+contact_form_action = "#" # Replace with your Formspree URL
+google_tag_manager = ""
+custom_script = ""
+theme_copyright = false
+copyright = "© 2026 AZK. All rights reserved."
+
+[preloader]
+enable = false
+
+[navigation_button]
+enable = true
+label = "Get In Touch"
+link = "#contact"
+
+[crisp_chat]
+enable = false
+
+[metadata]
+keywords = ["AZK", "B2B", "manufacturing", "industrial", "solutions"]
+description = "AZK - Professional Industrial Solutions Provider"
+author = "AZK"
+image = "images/logo.png"
+
+[matomo]
+enable = false
+
+[baidu]
+enable = false
+
+[plausible]
+enable = false
+
+[counter]
+enable = false
+
+[site_verification]
+google = ""
+bing = ""
+baidu = ""
+
+[cookies]
+enable = false
+
+############################# social site ########################
+[[social]]
+title = "linkedin"
+icon = "fab fa-linkedin"
+link = "#"
+
+[[social]]
+title = "twitter"
+icon = "fab fa-twitter"
+link = "#"
+
+[[social]]
+title = "email"
+icon = "fas fa-envelope"
+link = "mailto:info@azk.com"
