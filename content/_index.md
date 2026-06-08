@@ -1,95 +1,128 @@
 ---
 ####################### Banner #########################
 banner:
-  title : "Precision Engineering <br> for Industrial Excellence"
-  content : "Delivering high-precision components and integrated manufacturing solutions <br> to global partners since 2010."
+  title : "AL-N20 <br> Professional Gaming Controller"
+  image : "images/hero/hero-main.jpg"
+  content : "Ergonomic design · Hall effect joystick · Customizable rear paddles <br> Built for competitive gamers and esports professionals"
   button:
     enable : true
-    label : "Explore Products"
-    link : "#products"
+    label : "Explore Features"
+    link : "#features"
 
 ##################### Feature ##########################
 feature:
   enable : true
-  title : "Why Partner With Us"
+  title : "Key Features"
   feature_item:
-    - name : "ISO Certified"
-      icon : "fas fa-certificate"
-      content : "ISO 9001:2015 certified manufacturing processes ensuring consistent quality"
+    - name : "Hall Effect Joystick"
+      icon : "fas fa-gamepad"
+      content : "Magnetic sensing technology eliminates stick drift for unparalleled precision and durability"
       
-    - name : "Rapid Prototyping"
-      icon : "fas fa-cubes"
-      content : "From concept to prototype in days, accelerating your time-to-market"
+    - name : "Adjustable Instant Triggers"
+      icon : "fas fa-bolt"
+      content : "Hair-trigger mode with adjustable stop for lightning-fast response in FPS games"
       
-    - name : "Global Logistics"
-      icon : "fas fa-globe"
-      content : "Reliable worldwide shipping with dedicated supply chain management"
+    - name : "Customizable Rear Paddles"
+      icon : "fas fa-sliders-h"
+      content : "4 programmable rear paddles let you keep thumbs on the sticks while executing complex moves"
       
-    - name : "Custom Engineering"
-      icon : "fas fa-cogs"
-      content : "Tailored solutions designed to your exact specifications and requirements"
+    - name : "Omron Mechanical Switches"
+      icon : "fas fa-microchip"
+      content : "Premium Japanese Omron switches rated for 20 million clicks with satisfying tactile feedback"
       
-    - name : "Quality Assurance"
-      icon : "fas fa-check-double"
-      content : "Rigorous multi-stage inspection with full traceability and documentation"
+    - name : "Ergonomic Grip"
+      icon : "fas fa-hand-rock"
+      content : "Laser-textured non-slip grip surface designed for marathon gaming sessions"
       
-    - name : "Dedicated Support"
-      icon : "fas fa-headset"
-      content : "Technical expertise available throughout your project lifecycle"
+    - name : "Multi-Platform Support"
+      icon : "fas fa-laptop"
+      content : "Compatible with PC, Nintendo Switch, Android, iOS — one controller for all your devices"
 
-######################### Service #####################
+######################### Colors ########################
+color_variants:
+  enable : true
+  title : "Choose Your Color"
+  variants:
+    - name : "Midnight Black"
+      image : "images/products/black.jpg"
+    - name : "Arctic White"
+      image : "images/products/white.jpg"
+    - name : "Sakura Pink"
+      image : "images/products/pink.jpg"
+
+######################### Service / Product Detail #####################
 service:
   enable : true
   service_item:
-    - title : "Precision CNC Machining"
+    - title : "Pro-Grade Hall Effect Precision"
       images:
-      - "images/service-1.png"
-      - "images/service-2.png"
-      - "images/service-3.png"
-      content : "State-of-the-art multi-axis CNC machining centers delivering tight tolerances and superior surface finishes. Our advanced equipment handles complex geometries in metals, plastics, and composites — from prototype to full production runs."
+      - "images/products/front.png"
+      - "images/products/side.png"
+      - "images/products/back.png"
+      content : "The AL-N20 features cutting-edge Hall effect magnetic sensors in both joysticks and triggers. Unlike traditional potentiometer-based controllers that wear out over time, our contactless magnetic technology delivers zero drift and consistent accuracy even after thousands of hours of intense gameplay."
       button:
         enable : true
-        label : "Learn More"
+        label : "View Details"
         link : "#"
         
-    - title : "Injection Molding Solutions"
+    - title : "Built for Competitive Play"
       images:
-      - "images/service-1.png"
-      content : "High-volume and precision injection molding for industrial applications. Our automated production lines ensure consistent quality across millions of parts, with in-house tooling design to reduce lead times and costs."
+      - "images/products/scene-1.jpg"
+      content : "Every component of the AL-N20 is engineered for competitive advantage. From the instant-trigger lock switches to the 4-way removable rear paddle system, this controller adapts to your playstyle — not the other way around. Tournament mode disables unnecessary buttons for rule-compliant competition."
       button:
         enable : true
-        label : "Learn More"
+        label : "View Details"
         link : "#"
         
-    - title : "Assembly & Integration"
+    - title : "Customizable to Your Style"
       images:
-      - "images/service-2.png"
-      content : "Full-service sub-assembly and system integration capabilities. We combine components from multiple processes into finished modules, reducing your vendor complexity and streamlining your supply chain."
+      - "images/products/scene-2.jpg"
+      content : "Swap thumbsticks, adjust trigger travel, remap paddles — the AL-N20 puts full control in your hands. Our modular design means you can fine-tune every aspect of the controller to match your grip, game genre, and personal preferences without any tools."
       button:
         enable : true
-        label : "Learn More"
+        label : "View Details"
         link : "#"
         
-    - title : "Quality & Testing Lab"
+    - title : "Premium Build Quality"
       images:
-      - "images/service-3.png"
-      content : "In-house metrology lab equipped with CMM, optical measurement, and material testing. Every shipment comes with comprehensive inspection reports — we don't just claim quality, we prove it."
+      - "images/products/scene-3.jpg"
+      content : "We don't cut corners. Aircraft-grade aluminum paddle arms, double-shot injection keycaps that never fade, and a reinforced internal frame that survived 2 million stress test cycles. The AL-N20 is built to outlast your current console generation."
       button:
         enable : true
-        label : "Learn More"
+        label : "View Details"
         link : "#"
 
-################### Screenshot ########################
-screenshot:
-  enable : false
+################### Specs Table ########################
+specs:
+  enable : true
+  title : "Technical Specifications"
+  items:
+    - label : "Joystick Type"
+      value : "Hall Effect Magnetic (contactless)"
+    - label : "Trigger Type"
+      value : "Adjustable Instant Trigger with Hall sensor"
+    - label : "Switches"
+      value : "Omron Mechanical (D-pad & ABXY)"
+    - label : "Rear Paddles"
+      value : "4 programmable, removable"
+    - label : "Connectivity"
+      value : "2.4G Wireless / Bluetooth 5.2 / USB-C Wired"
+    - label : "Battery"
+      value : "1200mAh rechargeable, ~20h play time"
+    - label : "Platforms"
+      value : "PC / Nintendo Switch / Android / iOS"
+    - label : "Weight"
+      value : "245g ± 5g"
+    - label : "Warranty"
+      value : "12 months"
 
 ##################### Call to action #####################
 call_to_action:
   enable : true
-  title : "Ready to discuss your project?"
-  content : "Whether you need a single prototype or a high-volume production partner, our engineering team is ready to help bring your designs to life."
+  title : "Ready to level up?"
+  content : "Contact us for wholesale pricing, OEM customization, or partnership opportunities."
   button:
     enable : true
-    label : "Contact Us"
+    label : "Get In Touch"
     link : "#contact"
 ---
