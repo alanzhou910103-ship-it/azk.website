@@ -52,6 +52,18 @@
     document.querySelector('.nav-list').classList.toggle('active');
   });
 
+  // Dropdown toggle for mobile (click to open/close)
+  var dropdownToggle = document.querySelector('.nav-dropdown-toggle');
+  if (dropdownToggle) {
+    dropdownToggle.addEventListener('click', function(e) {
+      if (window.innerWidth <= 768) {
+        e.preventDefault();
+        var parent = this.parentElement;
+        parent.classList.toggle('dropdown-open');
+      }
+    });
+  }
+
   // AOS init
   AOS.init({ duration: 800, offset: 100, once: true });
 

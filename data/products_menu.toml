@@ -1,0 +1,19 @@
+[[items]]
+name = "AL-N20 Pro"
+tagline = "Hall Effect Precision"
+url = "/products/al-n20/"
+
+[[items]]
+name = "AL-10"
+tagline = "Compact Multi-Platform"
+url = "/products/al-10/"
+
+[[items]]
+name = "AL-N30 Elite"
+tagline = "Wireless Competition"
+url = "/products/al-n30/"
+badge = "Coming Soon"
+
+[[items]]
+name = "View All Products"
+url = "/products/"
