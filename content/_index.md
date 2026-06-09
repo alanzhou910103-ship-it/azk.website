@@ -61,18 +61,18 @@ feature:
 ##################### About #####################
 about:
   enable : true
-  label : "About AZK"
-  title : "Engineering the Competitive Edge"
-  content : "We design and manufacture professional gaming peripherals for players who refuse to compromise. Every controller we build combines cutting-edge sensor technology with premium materials and rigorous quality testing. From casual enthusiasts to esports world champions, AZK controllers deliver the precision, durability, and customization that serious players demand."
+  label : "About int-rock"
+  title : "The New Force in Gaming Gear"
+  content : "int-rock is a rising gaming peripherals brand on a mission to bring richer, more professional gear to players everywhere. We design controllers, accessories, and gaming tools that bridge the gap between casual play and competitive performance — without the premium price tag.\n\nOur product lineup spans every major platform: Nintendo Switch 2, Nintendo Switch, PlayStation 5, PlayStation 4, PC, and Xbox. Whether you're a weekend warrior, an esports professional, or a content creator streaming to millions, int-rock has the gear that fits your game.\n\nFor our business partners, we offer flexible collaboration programs — from wholesale distribution and white-label OEM to co-branded limited editions. We don't just sell controllers. We build partnerships that grow."
   stats:
-    - number : "20M+"
-      label : "Click Lifespan"
+    - number : "6"
+      label : "Platforms Supported"
     - number : "&lt;0.1ms"
       label : "Input Latency"
-    - number : "200+"
-      label : "Pro Testers"
-    - number : "100+"
-      label : "Patents"
+    - number : "20M+"
+      label : "Click Lifespan"
+    - number : "Flexible"
+      label : "Partner Programs"
 
 ##################### Call to action #####################
 call_to_action:

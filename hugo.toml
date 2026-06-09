@@ -1,5 +1,5 @@
 baseURL = "https://int-rock.com/"
-title = "AZK"
+title = "int-rock"
 theme = "azk"
 timeZone = "Asia/Shanghai"
 hasCJKLanguage = true

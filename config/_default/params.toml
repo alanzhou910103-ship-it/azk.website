@@ -3,13 +3,13 @@ favicon = "images/favicon.png"
 logo = ""
 logo_width = "140px"
 logo_webp = true
-logo_text = "AZK"
+logo_text = "int-rock"
 mainSections = []
 contact_form_action = "#" # Replace with your Formspree URL
 google_tag_manager = ""
 custom_script = ""
 theme_copyright = false
-copyright = "© 2026 AZK. All rights reserved."
+copyright = "© 2026 int-rock. All rights reserved."
 
 [preloader]
 enable = false
@@ -23,9 +23,9 @@ link = "/#contact"
 enable = false
 
 [metadata]
-keywords = ["AZK", "B2B", "manufacturing", "industrial", "solutions"]
-description = "AZK - Professional Industrial Solutions Provider"
-author = "AZK"
+keywords = ["int-rock", "gaming", "controller", "esports", "hall effect", "Nintendo Switch", "PS5", "Xbox", "PC"]
+description = "int-rock — The New Force in Gaming Gear. Professional controllers for NS2, Switch, PS5, PS4, PC & Xbox."
+author = "int-rock"
 image = "images/logo.png"
 
 [matomo]
@@ -62,4 +62,4 @@ link = "#"
 [[social]]
 title = "email"
 icon = "fas fa-envelope"
-link = "mailto:info@azk.com"
+link = "mailto:info@int-rock.com"
