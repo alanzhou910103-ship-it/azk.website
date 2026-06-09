@@ -12,7 +12,8 @@
       {{ range where site.RegularPages "Section" "products" }}
       <a href="{{ .RelPermalink }}" class="product-card" data-aos="fade-up">
         <div class="product-card-image">
-          <img src="/images/products/front.png" alt="{{ .Title }}">
+          {{ $img := .Params.card_image | default "images/products/front.png" }}
+          <img src="{{ $img | relURL }}" alt="{{ .Title }}">
         </div>
         <div class="product-card-info">
           <h3 class="product-card-name">{{ .Title }}</h3>

@@ -1,6 +1,7 @@
 ---
 title: "AL-N30 Elite"
 tagline: "Wireless Competition Controller"
+card_image: "images/products/front.png"
 layout: "product"
 draft: false
 

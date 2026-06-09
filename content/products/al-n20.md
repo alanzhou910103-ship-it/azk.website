@@ -1,6 +1,7 @@
 ---
 title: "AL-N20 Pro"
 tagline: "Hall Effect Precision Controller"
+card_image: "images/products/front.png"
 layout: "product"
 date: 2026-06-01
 

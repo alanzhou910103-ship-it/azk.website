@@ -1,6 +1,7 @@
 ---
 title: "AL-N10 Essential"
 tagline: "Entry-Level Pro Controller"
+card_image: "images/products/side.png"
 layout: "product"
 draft: false
 
