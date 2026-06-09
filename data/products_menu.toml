@@ -1,12 +1,12 @@
 [[items]]
-name = "AL-N20 Pro"
+name = "G11"
 tagline = "Hall Effect Precision"
-url = "/products/al-n20/"
+url = "/products/g11/"
 
 [[items]]
-name = "AL-10"
+name = "G12"
 tagline = "Compact Multi-Platform"
-url = "/products/al-10/"
+url = "/products/g12/"
 
 [[items]]
 name = "AL-N30 Elite"

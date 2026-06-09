@@ -2,7 +2,7 @@
 ####################### Banner #########################
 banner:
   title : "Performance Controllers <br> Built for Champions"
-  image : "images/al10/main.jpg"
+  image : "images/g12/main.jpg"
   content : "Professional-grade gaming controllers with Hall Effect technology, programmable paddles, <br> and precision engineering. Trusted by esports athletes worldwide."
   button:
     enable : true
@@ -15,17 +15,17 @@ featured_products:
   title : "Featured Controllers"
   description : "Discover our lineup of professional gaming controllers"
   items:
-    - name : "AL-N20 Pro"
+    - name : "G11"
       tagline : "Hall Effect Precision Controller"
       image : "images/products/front.png"
       hover_image : "images/products/side.png"
-      link : "/products/al-n20/"
+      link : "/products/g11/"
       badge : "New"
-    - name : "AL-10"
+    - name : "G12"
       tagline : "Compact Multi-Platform Controller"
-      image : "images/al10/hero.png"
-      hover_image : "images/al10/main.jpg"
-      link : "/products/al-10/"
+      image : "images/g12/hero.png"
+      hover_image : "images/g12/main.jpg"
+      link : "/products/g12/"
       badge : "Popular"
     - name : "AL-N30 Elite"
       tagline : "Wireless Competition Controller"

@@ -6,7 +6,7 @@ weight = 1
 
 [[main]]
 name = "Products"
-url = "/products/al-n20/"
+url = "/products/g11/"
 weight = 2
 
 [[main]]
@@ -22,7 +22,7 @@ weight = 4
 # footer menu left
 [[footer_left]]
 name = "Products"
-url = "/products/al-n20/"
+url = "/products/g11/"
 
 [[footer_left]]
 name = "About Us"
