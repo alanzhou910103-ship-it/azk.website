@@ -44,7 +44,7 @@ url = "/terms-conditions"
 # footer menu right
 [[footer_right]]
 name = "LinkedIn"
-url = "#"
+url = "https://www.linkedin.com/in/alan-zhou-42b224415"
 
 [[footer_right]]
 name = "Email"
