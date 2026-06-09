@@ -34,6 +34,22 @@
   </div>
 </section>
 {{ end }}
+{{ with .views }}
+<section class="colors section" id="views">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">{{ .title }}</h2>
+    <div class="colors-grid">
+      {{ range .images }}
+      <div class="color-card" data-aos="fade-up">
+        <div class="color-image">
+          <img src="{{ .image | relURL }}" alt="" loading="lazy">
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
 
 <!-- Feature Highlights -->
 {{ with .highlights }}
