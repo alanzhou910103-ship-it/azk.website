@@ -2,10 +2,9 @@
   <div class="container">
     <a href="/" class="logo">
       {{ with site.Params.logo }}
-        <img src="{{ . | relURL }}" alt="{{ site.Title }}" width="140">
-      {{ else }}
-        <span class="logo-text">{{ site.Params.logo_text | default site.Title }}</span>
+        <img src="{{ . | relURL }}" alt="{{ site.Title }}" class="logo-img">
       {{ end }}
+      <span class="logo-text">{{ site.Params.logo_text | default site.Title }}</span>
     </a>
 
     <nav class="nav" id="nav">

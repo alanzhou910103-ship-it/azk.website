@@ -1,7 +1,7 @@
 #################### default parameters ################################
 favicon = "images/favicon.png"
-logo = ""
-logo_width = "140px"
+logo = "images/logo.png"
+logo_width = "24px"
 logo_webp = true
 logo_text = "int-rock"
 mainSections = []

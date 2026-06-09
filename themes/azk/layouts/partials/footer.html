@@ -2,7 +2,12 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-col">
-        <h4>{{ site.Title }}</h4>
+        <div class="footer-brand">
+          {{ with site.Params.logo }}
+            <img src="{{ . | relURL }}" alt="{{ site.Title }}" class="footer-logo-img">
+          {{ end }}
+          <h4>{{ site.Title }}</h4>
+        </div>
         <p>{{ site.Params.metadata.description }}</p>
         <div class="footer-social">
           {{ range site.Params.social }}
