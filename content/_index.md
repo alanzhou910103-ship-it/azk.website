@@ -65,14 +65,18 @@ about:
   title : "The New Force in Gaming Gear"
   content : "int-rock is a rising gaming peripherals brand on a mission to bring richer, more professional gear to players everywhere. We design controllers, accessories, and gaming tools that bridge the gap between casual play and competitive performance — without the premium price tag.\n\nOur product lineup spans every major platform: Nintendo Switch 2, Nintendo Switch, PlayStation 5, PlayStation 4, PC, and Xbox. Whether you're a weekend warrior, an esports professional, or a content creator streaming to millions, int-rock has the gear that fits your game.\n\nFor our business partners, we offer flexible collaboration programs — from wholesale distribution and white-label OEM to co-branded limited editions. We don't just sell controllers. We build partnerships that grow."
   stats:
-    - number : "6"
-      label : "Platforms Supported"
-    - number : "&lt;0.1ms"
-      label : "Input Latency"
-    - number : "20M+"
-      label : "Click Lifespan"
-    - number : "Flexible"
-      label : "Partner Programs"
+    - icon : "fa-solid fa-gamepad"
+      number : "6"
+      label : "Platforms"
+    - icon : "fa-solid fa-boxes-stacked"
+      number : "3"
+      label : "Product Lines"
+    - icon : "fa-solid fa-handshake"
+      number : ""
+      label : "Flexible Partnerships"
+    - icon : "fa-solid fa-globe"
+      number : "30+"
+      label : "Countries Shipping"
 
 ##################### Call to action #####################
 call_to_action:

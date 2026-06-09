@@ -94,7 +94,8 @@
         <div class="about-stats">
           {{ range . }}
           <div class="stat">
-            <span class="stat-number">{{ .number | safeHTML }}</span>
+            {{ with .icon }}<div class="stat-icon"><i class="{{ . }}"></i></div>{{ end }}
+            {{ with .number }}<span class="stat-number">{{ . | safeHTML }}</span>{{ end }}
             <span class="stat-label">{{ .label }}</span>
           </div>
           {{ end }}
