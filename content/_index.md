@@ -2,7 +2,7 @@
 ####################### Banner #########################
 banner:
   title : "Performance Controllers <br> Built for Champions"
-  image : "images/hero/hero-main.jpg"
+  image : "images/al10/main.jpg"
   content : "Professional-grade gaming controllers with Hall Effect technology, programmable paddles, <br> and precision engineering. Trusted by esports athletes worldwide."
   button:
     enable : true
