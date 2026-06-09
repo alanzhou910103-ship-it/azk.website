@@ -27,12 +27,12 @@ featured_products:
       hover_image : "images/g12/main.jpg"
       link : "/products/g12/"
       badge : "Popular"
-    - name : "AL-N30 Elite"
-      tagline : "Wireless Competition Controller"
-      image : "images/products/front.png"
-      hover_image : "images/products/back.png"
-      link : "/products/al-n30/"
-      badge : "Coming Soon"
+    - name : "G3"
+      tagline : "PS5 Pro Wireless Controller"
+      image : "images/g3/hero.png"
+      hover_image : "images/g3/angle1.png"
+      link : "/products/g3/"
+      badge : "New"
 
 ##################### Feature ##########################
 feature:
