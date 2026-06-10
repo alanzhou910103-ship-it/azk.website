@@ -15,6 +15,12 @@ featured_products:
   title : "Featured Controllers"
   description : "Discover our lineup of professional gaming controllers"
   items:
+    - name : "G8"
+      tagline : "NS2 Pro Wireless Controller"
+      image : "images/g8/hero.png"
+      hover_image : "images/g8/main1.jpg"
+      link : "/products/g8/"
+      badge : "New"
     - name : "G11"
       tagline : "Hall Effect Precision Controller"
       image : "images/products/front.png"

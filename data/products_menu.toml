@@ -1,4 +1,10 @@
 [[items]]
+name = "G8"
+tagline = "NS2 Pro Wireless"
+url = "/products/g8/"
+badge = "New"
+
+[[items]]
 name = "G11"
 tagline = "Hall Effect Precision"
 url = "/products/g11/"

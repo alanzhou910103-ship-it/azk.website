@@ -161,8 +161,8 @@ a:hover { color: var(--accent-dim); }
 /* --- Featured Products Grid (SCUF-style) --- */
 .featured-products { text-align: center; }
 .product-card-grid {
-  display: grid; grid-template-columns: repeat(3, 1fr);
-  gap: 32px; max-width: 1000px; margin: 0 auto;
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 24px; max-width: 1100px; margin: 0 auto;
 }
 .product-card {
   position: relative; display: block;
