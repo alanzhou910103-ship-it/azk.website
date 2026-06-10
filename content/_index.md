@@ -1,4 +1,6 @@
 ---
+title: "Professional Gaming Controllers"
+description: "int-rock designs premium gaming controllers with Hall Effect technology, programmable paddles, and multi-platform support. NS2, Switch, PS5, PC & Xbox compatible. Wholesale and OEM partnerships available."
 ####################### Banner #########################
 banner:
   title : "Performance Controllers <br> Built for Champions"
