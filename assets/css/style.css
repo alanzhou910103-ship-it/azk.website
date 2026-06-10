@@ -187,7 +187,7 @@ a:hover { color: var(--accent-dim); }
   display: flex; align-items: center; justify-content: center;
 }
 .product-card-image img {
-  max-width: 80%; max-height: 80%;
+  max-width: 90%; max-height: 90%;
   object-fit: contain; transition: all 0.5s ease;
 }
 .product-card-img-main {
