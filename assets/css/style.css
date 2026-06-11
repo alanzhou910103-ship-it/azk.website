@@ -342,6 +342,10 @@ a:hover { color: var(--accent-dim); }
 }
 .footer-social a:hover { border-color: var(--accent); color: var(--accent); }
 .footer-bottom { padding-top: 24px; border-top: 1px solid var(--bg-dark-border); text-align: center; color: var(--text-muted); font-size: 0.85rem; }
+.footer-company { color: var(--text-secondary); font-weight: 500; margin-bottom: 4px; }
+.footer-phone { color: var(--text-muted); margin-bottom: 8px; }
+.footer-phone i { color: var(--accent); margin-right: 4px; font-size: 0.75rem; }
+.footer-copyright { color: var(--text-muted); font-size: 0.8rem; }
 
 /* --- Page Template --- */
 .page { min-height: 60vh; padding-top: 120px; }
