@@ -39,6 +39,12 @@ url = "/products/ga06p/"
 badge = "Best Value"
 
 [[accessories]]
+name = "GC01"
+tagline = "Switch 2 Protective Back Shell"
+url = "/products/gc01/"
+badge = "New"
+
+[[accessories]]
 name = "GC02"
 tagline = "Switch 2 Slim Carrying Case"
 url = "/products/gc02/"
