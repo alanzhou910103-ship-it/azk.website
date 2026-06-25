@@ -23,26 +23,16 @@
             </button>
             <div class="nav-dropdown-menu">
               <div class="nav-dropdown-grid">
-                <!-- Controllers -->
-                <div class="nav-dropdown-group-label">Controllers</div>
-                {{ range hugo.Data.nav_products.controllers }}
-                <a href="{{ .url }}" class="nav-dropdown-item">
-                  <span class="nav-dropdown-item-name">{{ .name }}</span>
-                  {{ with .tagline }}<span class="nav-dropdown-item-tagline">{{ . }}</span>{{ end }}
-                  {{ with .badge }}<span class="nav-dropdown-item-badge">{{ . }}</span>{{ end }}
+                <a href="/controllers/" class="nav-dropdown-item nav-dropdown-category">
+                  <span class="nav-dropdown-item-name">
+                    <i class="fas fa-gamepad" style="margin-right:6px;font-size:0.8rem;"></i> Controllers
+                  </span>
                 </a>
-                {{ end }}
-                <!-- Accessories -->
-                {{ with hugo.Data.nav_products.accessories }}
-                <div class="nav-dropdown-group-label">Accessories</div>
-                {{ range . }}
-                <a href="{{ .url }}" class="nav-dropdown-item">
-                  <span class="nav-dropdown-item-name">{{ .name }}</span>
-                  {{ with .tagline }}<span class="nav-dropdown-item-tagline">{{ . }}</span>{{ end }}
-                  {{ with .badge }}<span class="nav-dropdown-item-badge">{{ . }}</span>{{ end }}
+                <a href="/accessories/" class="nav-dropdown-item nav-dropdown-category">
+                  <span class="nav-dropdown-item-name">
+                    <i class="fas fa-puzzle-piece" style="margin-right:6px;font-size:0.8rem;"></i> Accessories
+                  </span>
                 </a>
-                {{ end }}
-                {{ end }}
                 <div class="nav-dropdown-divider"></div>
                 <a href="/products/" class="nav-dropdown-item nav-dropdown-view-all">
                   <span class="nav-dropdown-item-name">View All Products</span>

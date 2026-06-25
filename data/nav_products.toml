@@ -1,57 +1,67 @@
 [[controllers]]
 name = "G8"
 tagline = "NS2 Pro Wireless"
+image = "images/g8/main1.jpg"
 url = "/products/g8/"
 badge = "New"
 
 [[controllers]]
 name = "G11"
 tagline = "Hall Effect Precision"
+image = "images/g11/front.png"
 url = "/products/g11/"
 
 [[controllers]]
 name = "G12"
 tagline = "Compact Multi-Platform"
+image = "images/g12/main.jpg"
 url = "/products/g12/"
 
 [[controllers]]
 name = "G3"
 tagline = "PS5 Pro Wireless"
+image = "images/g3/color-black.png"
 url = "/products/g3/"
 badge = "New"
 
 [[accessories]]
 name = "GA05"
 tagline = "Switch 2 Joy-Con Grip"
+image = "images/ga05/hero.jpg"
 url = "/products/ga05/"
 badge = "New"
 
 [[accessories]]
 name = "GA06L"
 tagline = "Charging Grip + Back Paddles"
+image = "images/ga06l/hero.jpg"
 url = "/products/ga06l/"
 badge = "New"
 
 [[accessories]]
 name = "GA06P"
 tagline = "Pro Kit: Grip + Paddles + Grips"
+image = "images/ga06p/hero.jpg"
 url = "/products/ga06p/"
 badge = "Best Value"
 
 [[accessories]]
 name = "GC01"
 tagline = "Switch 2 Protective Back Shell"
+image = "images/gc01/hero.jpg"
 url = "/products/gc01/"
 badge = "New"
 
 [[accessories]]
 name = "GC02"
 tagline = "Switch 2 Slim Carrying Case"
+image = "images/gc02/hero.jpg"
 url = "/products/gc02/"
 badge = "New"
 
 [[accessories]]
 name = "GC03"
 tagline = "Switch 2 Protective Faceplate"
+image = "images/gc03/hero.jpg"
 url = "/products/gc03/"
 badge = "New"

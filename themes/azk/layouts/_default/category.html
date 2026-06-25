@@ -1,0 +1,39 @@
+{{ define "main" }}
+{{ $section := .Section }}
+{{ $products := index hugo.Data.nav_products $section }}
+
+<section class="product-hero" style="min-height:30vh">
+  <div class="product-hero-overlay" style="background: var(--bg-dark)"></div>
+  <div class="container product-hero-content">
+    <h1 class="product-hero-title">{{ .Title }}</h1>
+    <p class="product-hero-tagline">{{ .Params.description }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {{ if $products }}
+    <div class="product-card-grid">
+      {{ range $products }}
+      <a href="{{ .url | relURL }}" class="product-card" data-aos="fade-up">
+        {{ with .badge }}<span class="product-card-badge">{{ . }}</span>{{ end }}
+        <div class="product-card-image">
+          {{ $img := .image | default "images/products/front.png" }}
+          <img src="{{ $img | relURL }}" alt="{{ .name }}" loading="lazy">
+        </div>
+        <div class="product-card-info">
+          <h3 class="product-card-name">{{ .name }}</h3>
+          <p class="product-card-tagline">{{ .tagline }}</p>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+    {{ else }}
+    <p class="section-text">No products found.</p>
+    {{ end }}
+    <div style="text-align:center; margin-top:48px;">
+      <a href="/products/" class="btn btn-outline">View All Products</a>
+    </div>
+  </div>
+</section>
+{{ end }}
