@@ -11,23 +11,17 @@ banner:
     label : "Explore Controllers"
     link : "#featured"
 
-##################### Featured Products ##########################
-featured_products:
+##################### Featured Controllers ##########################
+featured_controllers:
   enable : true
-  title : "Featured Products"
-  description : "Discover our full lineup of gaming controllers and accessories"
+  title : "Featured Controllers"
+  description : "Professional-grade gaming controllers built for competitive play"
   items:
     - name : "G8"
       tagline : "NS2 Pro Wireless Controller"
       image : "images/g8/main1.jpg"
       hover_image : "images/g8/main2.jpg"
       link : "/products/g8/"
-      badge : "New"
-    - name : "GA05"
-      tagline : "Switch 2 Joy-Con Grip"
-      image : "images/ga05/hero.jpg"
-      hover_image : "images/ga05/pink-hero.jpg"
-      link : "/products/ga05/"
       badge : "New"
     - name : "G11"
       tagline : "Hall Effect Precision Controller"
@@ -46,6 +40,19 @@ featured_products:
       image : "images/g3/color-black.png"
       hover_image : "images/g3/color-white.png"
       link : "/products/g3/"
+      badge : "New"
+
+##################### Featured Accessories ##########################
+featured_accessories:
+  enable : true
+  title : "Featured Accessories"
+  description : "Enhance your gaming experience with our premium accessories"
+  items:
+    - name : "GA05"
+      tagline : "Switch 2 Joy-Con Grip"
+      image : "images/ga05/hero.jpg"
+      hover_image : "images/ga05/pink-hero.jpg"
+      link : "/products/ga05/"
       badge : "New"
 
 ##################### Feature ##########################

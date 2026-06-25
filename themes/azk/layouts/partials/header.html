@@ -23,13 +23,30 @@
             </button>
             <div class="nav-dropdown-menu">
               <div class="nav-dropdown-grid">
-                {{ range hugo.Data.products_menu.items }}
+                <!-- Controllers -->
+                <div class="nav-dropdown-group-label">Controllers</div>
+                {{ range hugo.Data.nav_products.controllers }}
                 <a href="{{ .url }}" class="nav-dropdown-item">
                   <span class="nav-dropdown-item-name">{{ .name }}</span>
                   {{ with .tagline }}<span class="nav-dropdown-item-tagline">{{ . }}</span>{{ end }}
                   {{ with .badge }}<span class="nav-dropdown-item-badge">{{ . }}</span>{{ end }}
                 </a>
                 {{ end }}
+                <!-- Accessories -->
+                {{ with hugo.Data.nav_products.accessories }}
+                <div class="nav-dropdown-group-label">Accessories</div>
+                {{ range . }}
+                <a href="{{ .url }}" class="nav-dropdown-item">
+                  <span class="nav-dropdown-item-name">{{ .name }}</span>
+                  {{ with .tagline }}<span class="nav-dropdown-item-tagline">{{ . }}</span>{{ end }}
+                  {{ with .badge }}<span class="nav-dropdown-item-badge">{{ . }}</span>{{ end }}
+                </a>
+                {{ end }}
+                {{ end }}
+                <div class="nav-dropdown-divider"></div>
+                <a href="/products/" class="nav-dropdown-item nav-dropdown-view-all">
+                  <span class="nav-dropdown-item-name">View All Products</span>
+                </a>
               </div>
             </div>
           </li>

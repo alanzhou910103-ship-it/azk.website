@@ -1,31 +1,27 @@
-[[items]]
+[[controllers]]
 name = "G8"
 tagline = "NS2 Pro Wireless"
 url = "/products/g8/"
 badge = "New"
 
-[[items]]
-name = "GA05"
-tagline = "Switch 2 Joy-Con Grip"
-url = "/products/ga05/"
-badge = "New"
-
-[[items]]
+[[controllers]]
 name = "G11"
 tagline = "Hall Effect Precision"
 url = "/products/g11/"
 
-[[items]]
+[[controllers]]
 name = "G12"
 tagline = "Compact Multi-Platform"
 url = "/products/g12/"
 
-[[items]]
+[[controllers]]
 name = "G3"
 tagline = "PS5 Pro Wireless"
 url = "/products/g3/"
 badge = "New"
 
-[[items]]
-name = "View All Products"
-url = "/products/"
+[[accessories]]
+name = "GA05"
+tagline = "Switch 2 Joy-Con Grip"
+url = "/products/ga05/"
+badge = "New"

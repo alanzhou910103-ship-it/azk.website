@@ -1,0 +1,17 @@
+<div class="product-card-grid">
+  {{ range . }}
+  <a href="{{ .link | relURL }}" class="product-card" data-aos="fade-up">
+    {{ with .badge }}<span class="product-card-badge">{{ . }}</span>{{ end }}
+    <div class="product-card-image">
+      <img src="{{ .image | relURL }}" alt="{{ .name }}" class="product-card-img-main" loading="lazy">
+      {{ with .hover_image }}
+      <img src="{{ . | relURL }}" alt="" class="product-card-img-hover" loading="lazy">
+      {{ end }}
+    </div>
+    <div class="product-card-info">
+      <h3 class="product-card-name">{{ .name }}</h3>
+      <p class="product-card-tagline">{{ .tagline }}</p>
+    </div>
+  </a>
+  {{ end }}
+</div>

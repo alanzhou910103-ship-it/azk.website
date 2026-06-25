@@ -32,30 +32,29 @@
     </div>
   </section>
 
-  <!-- Featured Products Grid -->
-  {{ with .featured_products }}
+  <!-- Featured Controllers -->
+  {{ with .featured_controllers }}
   {{ if .enable }}
   <section class="featured-products section" id="featured">
     <div class="container">
+      <span class="section-label">Controllers</span>
       <h2 class="section-title" data-aos="fade-up">{{ .title }}</h2>
       <p class="section-text" data-aos="fade-up">{{ .description }}</p>
-      <div class="product-card-grid">
-        {{ range .items }}
-        <a href="{{ .link | relURL }}" class="product-card" data-aos="fade-up">
-          {{ with .badge }}<span class="product-card-badge">{{ . }}</span>{{ end }}
-          <div class="product-card-image">
-            <img src="{{ .image | relURL }}" alt="{{ .name }}" class="product-card-img-main" loading="lazy">
-            {{ with .hover_image }}
-            <img src="{{ . | relURL }}" alt="" class="product-card-img-hover" loading="lazy">
-            {{ end }}
-          </div>
-          <div class="product-card-info">
-            <h3 class="product-card-name">{{ .name }}</h3>
-            <p class="product-card-tagline">{{ .tagline }}</p>
-          </div>
-        </a>
-        {{ end }}
-      </div>
+      {{ partial "product-card-grid.html" .items }}
+    </div>
+  </section>
+  {{ end }}
+  {{ end }}
+
+  <!-- Featured Accessories -->
+  {{ with .featured_accessories }}
+  {{ if .enable }}
+  <section class="featured-products section section-alt" id="accessories">
+    <div class="container">
+      <span class="section-label">Accessories</span>
+      <h2 class="section-title" data-aos="fade-up">{{ .title }}</h2>
+      <p class="section-text" data-aos="fade-up">{{ .description }}</p>
+      {{ partial "product-card-grid.html" .items }}
     </div>
   </section>
   {{ end }}
