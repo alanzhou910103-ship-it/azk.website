@@ -37,3 +37,9 @@ name = "GA06P"
 tagline = "Pro Kit: Grip + Paddles + Grips"
 url = "/products/ga06p/"
 badge = "Best Value"
+
+[[accessories]]
+name = "GC02"
+tagline = "Switch 2 Slim Carrying Case"
+url = "/products/gc02/"
+badge = "New"

@@ -66,6 +66,12 @@ featured_accessories:
       hover_image : "images/ga06p/main.jpg"
       link : "/products/ga06p/"
       badge : "Best Value"
+    - name : "GC02"
+      tagline : "Switch 2 Slim Carrying Case"
+      image : "images/gc02/hero.jpg"
+      hover_image : "images/gc02/main.jpg"
+      link : "/products/gc02/"
+      badge : "New"
 
 ##################### Feature ##########################
 feature:
