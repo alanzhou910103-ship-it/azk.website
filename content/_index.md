@@ -72,6 +72,12 @@ featured_accessories:
       hover_image : "images/gc02/main.jpg"
       link : "/products/gc02/"
       badge : "New"
+    - name : "GC03"
+      tagline : "Switch 2 Protective Faceplate"
+      image : "images/gc03/hero.jpg"
+      hover_image : "images/gc03/all-colors.png"
+      link : "/products/gc03/"
+      badge : "New"
 
 ##################### Feature ##########################
 feature:

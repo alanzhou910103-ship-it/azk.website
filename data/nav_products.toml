@@ -43,3 +43,9 @@ name = "GC02"
 tagline = "Switch 2 Slim Carrying Case"
 url = "/products/gc02/"
 badge = "New"
+
+[[accessories]]
+name = "GC03"
+tagline = "Switch 2 Protective Faceplate"
+url = "/products/gc03/"
+badge = "New"
