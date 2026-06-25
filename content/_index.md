@@ -54,6 +54,18 @@ featured_accessories:
       hover_image : "images/ga05/pink-hero.jpg"
       link : "/products/ga05/"
       badge : "New"
+    - name : "GA06L"
+      tagline : "Charging Grip + Back Paddles"
+      image : "images/ga06l/hero.jpg"
+      hover_image : "images/ga06l/main.jpg"
+      link : "/products/ga06l/"
+      badge : "New"
+    - name : "GA06P"
+      tagline : "Charging Grip + Paddles + Grips"
+      image : "images/ga06p/hero.jpg"
+      hover_image : "images/ga06p/main.jpg"
+      link : "/products/ga06p/"
+      badge : "Best Value"
 
 ##################### Feature ##########################
 feature:

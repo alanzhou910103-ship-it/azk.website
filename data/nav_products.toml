@@ -25,3 +25,15 @@ name = "GA05"
 tagline = "Switch 2 Joy-Con Grip"
 url = "/products/ga05/"
 badge = "New"
+
+[[accessories]]
+name = "GA06L"
+tagline = "Charging Grip + Back Paddles"
+url = "/products/ga06l/"
+badge = "New"
+
+[[accessories]]
+name = "GA06P"
+tagline = "Pro Kit: Grip + Paddles + Grips"
+url = "/products/ga06p/"
+badge = "Best Value"
