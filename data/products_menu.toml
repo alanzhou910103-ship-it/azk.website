@@ -5,6 +5,12 @@ url = "/products/g8/"
 badge = "New"
 
 [[items]]
+name = "GA05"
+tagline = "Switch 2 Joy-Con Grip"
+url = "/products/ga05/"
+badge = "New"
+
+[[items]]
 name = "G11"
 tagline = "Hall Effect Precision"
 url = "/products/g11/"
