@@ -4,7 +4,7 @@ description: "int-rock designs premium gaming controllers with Hall Effect techn
 ####################### Banner #########################
 banner:
   title : "Performance Controllers <br> Built for Champions"
-  image : "images/g12/main.jpg"
+  image : "images/hero/facebook_banner.png"
   content : "Professional-grade gaming controllers with Hall Effect technology, programmable paddles, <br> and precision engineering. Trusted by esports athletes worldwide."
   button:
     enable : true
