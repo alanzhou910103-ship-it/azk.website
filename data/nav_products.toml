@@ -65,3 +65,10 @@ tagline = "Switch 2 Protective Faceplate"
 image = "images/gc03/hero.jpg"
 url = "/products/gc03/"
 badge = "New"
+
+[[accessories]]
+name = "TMR Edge"
+tagline = "Adjustable-Tension TMR Replacement Joystick"
+image = "images/tmr-edge/hero.jpg"
+url = "/products/tmr-edge/"
+badge = "New"

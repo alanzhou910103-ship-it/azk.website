@@ -84,6 +84,12 @@ featured_accessories:
       hover_image : "images/gc03/all-colors.png"
       link : "/products/gc03/"
       badge : "New"
+    - name : "TMR Edge"
+      tagline : "Adjustable-Tension TMR Replacement Joystick"
+      image : "images/tmr-edge/hero.jpg"
+      hover_image : "images/tmr-edge/compatibility.jpg"
+      link : "/products/tmr-edge/"
+      badge : "New"
 
 ##################### Feature ##########################
 feature:

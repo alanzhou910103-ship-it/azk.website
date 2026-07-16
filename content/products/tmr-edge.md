@@ -1,0 +1,77 @@
+---
+title: "TMR Edge"
+description: "TMR Edge adjustable-tension TMR replacement joystick module for compatible PlayStation 5 DualSense Edge wireless controllers. Tool-free slide-in installation and textured thumb cap. Wholesale from int-rock."
+tagline: "Adjustable-Tension TMR Replacement Joystick"
+card_image: "images/tmr-edge/hero.jpg"
+layout: "product"
+date: 2026-07-16
+
+hero:
+  image: "images/tmr-edge/hero.jpg"
+  badge: "New"
+
+views:
+  title: "Product & Installation Views"
+  images:
+    - image: "images/tmr-edge/hero.jpg"
+    - image: "images/tmr-edge/compatibility.jpg"
+    - image: "images/tmr-edge/installation.jpg"
+
+highlights:
+  - icon: "fas fa-sliders-h"
+    title: "Adjustable Tension"
+    description: "Adjustable stick tension lets players choose a resistance feel that suits their preferred control style."
+  - icon: "fas fa-microchip"
+    title: "TMR Sensing"
+    description: "TMR sensing technology is designed for consistent stick input in a replaceable module format."
+  - icon: "fas fa-puzzle-piece"
+    title: "Drop-In Replacement"
+    description: "Designed to slide into the controller's compatible joystick-module bay without soldering."
+  - icon: "fas fa-hand-rock"
+    title: "Textured Thumb Cap"
+    description: "Textured thumb-cap surface supports a secure, comfortable grip during play."
+  - icon: "fas fa-tools"
+    title: "Service-Friendly Design"
+    description: "Replaceable-module construction supports practical after-sales service and accessory programs."
+  - icon: "fas fa-boxes-stacked"
+    title: "Wholesale Ready"
+    description: "Suitable for gaming-accessory distributors, repair channels, and compatible-controller accessory assortments."
+
+sections:
+  - title: "TMR Replacement Module for Compatible Controllers"
+    image: "images/tmr-edge/hero.jpg"
+    image_side: "right"
+    content: "TMR Edge is a third-party replacement joystick module designed for compatible PlayStation 5 DualSense Edge wireless controllers. It combines TMR sensing with an adjustable-tension mechanism in a compact, replaceable format.\n\nThe module is intended for customers who want a serviceable joystick option and a choice of stick resistance. Confirm controller compatibility before purchase or installation."
+
+  - title: "Tool-Free Slide-In Installation"
+    image: "images/tmr-edge/installation.jpg"
+    image_side: "left"
+    content: "The replacement process uses the controller's removable joystick-module access system. Open the compatible module cover, release the existing module, then slide the replacement module into place until it is seated securely.\n\nFollow the controller manufacturer's instructions during installation. Avoid forcing the module or touching internal contacts, and test the controller after replacement."
+
+  - title: "Built for an Accessory and Service Lineup"
+    image: "images/tmr-edge/compatibility.jpg"
+    image_side: "right"
+    content: "The TMR Edge module is positioned for gaming-accessory distributors, repair-focused sellers, and customers looking for a compatible replacement module. Its compact form makes it suitable for standalone retail, repair bundles, and after-sales accessory programs.\n\nPlayStation and DualSense Edge are trademarks of Sony Interactive Entertainment. TMR Edge is a third-party accessory and is not an official Sony product."
+
+specs:
+  - label: "Product Type"
+    value: "Third-party replacement joystick module"
+  - label: "Compatible Controller"
+    value: "Compatible PlayStation 5 DualSense Edge wireless controllers"
+  - label: "Sensing Technology"
+    value: "TMR"
+  - label: "Tension"
+    value: "Adjustable"
+  - label: "Installation"
+    value: "Tool-free slide-in module replacement"
+  - label: "Thumb Cap"
+    value: "Textured, anti-slip surface"
+  - label: "Color"
+    value: "Black"
+  - label: "Brand Notice"
+    value: "Third-party accessory; not an official Sony product"
+
+cta:
+  title: "Add TMR Edge to your accessory lineup"
+  button_label: "Contact Us for Wholesale"
+---
