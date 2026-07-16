@@ -11,6 +11,7 @@ contact_form_action = "#" # Replace with your Formspree URL
 google_tag_manager = ""
 custom_script = ""
 theme_copyright = false
+footer_description = "int-rock supplies gaming controllers and console accessories for distributors, retailers, and online sellers. Alongside wholesale, private-label, and OEM opportunities, we also serve gamers through our Shopee Thailand and TikTok Shop Southeast Asia stores."
 copyright = "© 2026 int-rock. All rights reserved."
 
 [preloader]

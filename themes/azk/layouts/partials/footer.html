@@ -8,7 +8,7 @@
           {{ end }}
           <h4>{{ site.Title }}</h4>
         </div>
-        <p>{{ site.Params.metadata.description }}</p>
+        <p>{{ site.Params.footer_description }}</p>
         <div class="footer-social">
           {{ range site.Params.social }}
           <a href="{{ .link }}" title="{{ .title }}" aria-label="{{ .title }}" target="_blank" rel="noopener"><i class="{{ .icon }}"></i></a>
