@@ -2,7 +2,7 @@
   {{ range . }}
   <a href="{{ .link | relURL }}" class="product-card" data-aos="fade-up">
     {{ with .badge }}<span class="product-card-badge">{{ . }}</span>{{ end }}
-    <div class="product-card-image">
+    <div class="product-card-image" style="--product-card-scale: {{ .image_scale | default 1 }};">
       <img src="{{ .image | relURL }}" alt="{{ .name }}" class="product-card-img-main" loading="lazy">
       {{ with .hover_image }}
       <img src="{{ . | relURL }}" alt="" class="product-card-img-hover" loading="lazy">

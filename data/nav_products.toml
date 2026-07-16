@@ -2,6 +2,7 @@
 name = "G8"
 tagline = "NS2 Pro Wireless"
 image = "images/g8/main1.jpg"
+image_scale = 1.10
 url = "/products/g8/"
 badge = "New"
 
@@ -9,18 +10,21 @@ badge = "New"
 name = "G11"
 tagline = "Hall Effect Precision"
 image = "images/g11/front.png"
+image_scale = 0.85
 url = "/products/g11/"
 
 [[controllers]]
 name = "G12"
 tagline = "Compact Multi-Platform"
 image = "images/g12/main.jpg"
+image_scale = 1.08
 url = "/products/g12/"
 
 [[controllers]]
 name = "G3"
 tagline = "PS5 Pro Wireless"
 image = "images/g3/color-black.png"
+image_scale = 0.90
 url = "/products/g3/"
 badge = "New"
 

@@ -20,24 +20,28 @@ featured_controllers:
     - name : "G8"
       tagline : "NS2 Pro Wireless Controller"
       image : "images/g8/main1.jpg"
+      image_scale : 1.10
       hover_image : "images/g8/main2.jpg"
       link : "/products/g8/"
       badge : "New"
     - name : "G11"
       tagline : "Hall Effect Precision Controller"
       image : "images/g11/front.png"
+      image_scale : 0.85
       hover_image : "images/g11/angle1.png"
       link : "/products/g11/"
       badge : "New"
     - name : "G12"
       tagline : "Compact Multi-Platform Controller"
       image : "images/g12/main.jpg"
+      image_scale : 1.08
       hover_image : "images/g12/main2.jpg"
       link : "/products/g12/"
       badge : "Popular"
     - name : "G3"
       tagline : "PS5 Pro Wireless Controller"
       image : "images/g3/color-black.png"
+      image_scale : 0.90
       hover_image : "images/g3/color-white.png"
       link : "/products/g3/"
       badge : "New"

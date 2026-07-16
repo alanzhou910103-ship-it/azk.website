@@ -17,9 +17,9 @@
       {{ range $products }}
       <a href="{{ .url | relURL }}" class="product-card" data-aos="fade-up">
         {{ with .badge }}<span class="product-card-badge">{{ . }}</span>{{ end }}
-        <div class="product-card-image">
+        <div class="product-card-image" style="--product-card-scale: {{ .image_scale | default 1 }};">
           {{ $img := .image | default "images/products/front.png" }}
-          <img src="{{ $img | relURL }}" alt="{{ .name }}" loading="lazy">
+          <img src="{{ $img | relURL }}" alt="{{ .name }}" class="product-card-img-main" loading="lazy">
         </div>
         <div class="product-card-info">
           <h3 class="product-card-name">{{ .name }}</h3>
