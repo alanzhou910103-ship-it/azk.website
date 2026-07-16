@@ -67,8 +67,8 @@ url = "/products/gc03/"
 badge = "New"
 
 [[accessories]]
-name = "TMR Edge"
+name = "GC06"
 tagline = "Adjustable-Tension TMR Replacement Joystick"
-image = "images/tmr-edge/hero.jpg"
-url = "/products/tmr-edge/"
+image = "images/gc06/hero.jpg"
+url = "/products/gc06/"
 badge = "New"
