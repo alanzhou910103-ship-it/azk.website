@@ -1,7 +1,7 @@
 ---
 title: "GA06L"
 description: "GA06L Charging Grip with Back Paddles for Switch 2 — pass-through USB-C charging, 3 interchangeable back paddle sets, multi-mode compatible. Pro-level control without pausing. Wholesale from int-rock."
-tagline: "Switch 2 Charging Grip + Back Paddles"
+tagline: "Joy-Con 2 Charging Grip + Back Paddles"
 card_image: "images/ga06l/hero.jpg"
 layout: "product"
 date: 2026-06-23
