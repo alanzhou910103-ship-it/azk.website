@@ -1,26 +1,45 @@
+{{- $description := site.Params.metadata.description -}}
+{{- with .Params.description }}{{ $description = . }}{{ end -}}
+{{- $pageTitle := site.Title -}}
+{{- if .IsHome -}}
+  {{- with .Title }}{{ $pageTitle = printf "%s — %s" . site.Title }}{{ end -}}
+{{- else if .Params.seo_title -}}
+  {{- $pageTitle = printf "%s | %s" .Params.seo_title site.Title -}}
+{{- else if .Params.tagline -}}
+  {{- $pageTitle = printf "%s | %s | %s" .Title .Params.tagline site.Title -}}
+{{- else if .Title -}}
+  {{- $pageTitle = printf "%s | %s" .Title site.Title -}}
+{{- end -}}
+{{- $socialImage := site.Params.metadata.image -}}
+{{- with .Params.share_image }}
+  {{- $socialImage = . -}}
+{{- else }}
+  {{- with .Params.card_image }}{{ $socialImage = . }}{{ end -}}
+{{- end -}}
 <meta charset="utf-8">
-<title>{{ if .Title }}{{ .Title }} — {{ site.Title }}{{ else }}{{ site.Title }}{{ end }}</title>
+<title>{{ $pageTitle }}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{{ with site.Params.favicon }}<link rel="icon" href="{{ . | relURL }}" type="image/png">{{ end }}
 
 <!-- SEO Meta -->
-<meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ site.Params.metadata.description }}{{ end }}">
+<meta name="description" content="{{ $description }}">
 <meta name="keywords" content="{{ delimit site.Params.metadata.keywords ", " }}">
 <meta name="author" content="{{ site.Params.metadata.author }}">
 {{ with .Permalink }}<link rel="canonical" href="{{ . }}">{{ end }}
 
 <!-- Open Graph -->
-<meta property="og:title" content="{{ if .Title }}{{ .Title }} — {{ site.Title }}{{ else }}{{ site.Title }}{{ end }}">
-<meta property="og:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ site.Params.metadata.description }}{{ end }}">
-<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<meta property="og:title" content="{{ $pageTitle }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:type" content="{{ if .IsHome }}website{{ else if eq .Section "products" }}product{{ else }}article{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:image" content="{{ site.Params.metadata.image | absURL }}">
+<meta property="og:image" content="{{ $socialImage | absURL }}">
 <meta property="og:site_name" content="{{ site.Title }}">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ if .Title }}{{ .Title }} — {{ site.Title }}{{ else }}{{ site.Title }}{{ end }}">
-<meta name="twitter:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ site.Params.metadata.description }}{{ end }}">
-<meta name="twitter:image" content="{{ site.Params.metadata.image | absURL }}">
+<meta name="twitter:title" content="{{ $pageTitle }}">
+<meta name="twitter:description" content="{{ $description }}">
+<meta name="twitter:image" content="{{ $socialImage | absURL }}">
 
 <!-- Site Verification -->
 {{ with site.Params.site_verification.google }}<meta name="google-site-verification" content="{{ . }}">{{ end }}
@@ -43,18 +62,32 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <!-- Structured Data: Organization -->
+{{- $organization := dict
+  "@context" "https://schema.org"
+  "@type" "Organization"
+  "name" site.Title
+  "url" site.BaseURL
+  "logo" (site.Params.metadata.image | absURL)
+  "description" site.Params.metadata.description
+  "email" "sales@int-rock.com"
+  "sameAs" (slice "https://www.linkedin.com/in/alan-zhou-42b224415" "https://x.com/Alangaming91")
+-}}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "int-rock",
-  "url": "https://int-rock.com",
-  "logo": "{{ site.Params.metadata.image | absURL }}",
-  "description": "{{ site.Params.metadata.description }}",
-  "email": "sales@int-rock.com",
-  "sameAs": [
-    "https://www.linkedin.com/in/alan-zhou-42b224415",
-    "https://x.com/Alangaming91"
-  ]
-}
+{{ $organization | jsonify | safeJS }}
 </script>
+
+{{- if eq .Section "products" }}
+{{- $product := dict
+  "@context" "https://schema.org"
+  "@type" "Product"
+  "name" .Title
+  "description" $description
+  "image" ($socialImage | absURL)
+  "url" .Permalink
+  "sku" .Title
+  "brand" (dict "@type" "Brand" "name" site.Title)
+-}}
+<script type="application/ld+json">
+{{ $product | jsonify | safeJS }}
+</script>
+{{- end }}

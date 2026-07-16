@@ -1,5 +1,7 @@
 #################### default parameters ################################
-favicon = "images/favicon.png"
+# Reuse the verified brand logo until a dedicated 32×32 favicon is supplied.
+# This prevents the missing favicon request on every page view.
+favicon = "images/logo.png"
 logo = "images/logo.png"
 logo_width = "24px"
 logo_webp = true

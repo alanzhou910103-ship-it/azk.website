@@ -5,7 +5,7 @@ description: "int-rock designs premium gaming controllers with Hall Effect techn
 banner:
   title : "Performance Controllers <br> Built for Champions"
   image : "images/hero/facebook_banner.png"
-  content : "Professional-grade gaming controllers with Hall Effect technology, programmable paddles, <br> and precision engineering. Trusted by esports athletes worldwide."
+  content : "Gaming controllers and accessories engineered for responsive play, reliable compatibility, <br> and flexible wholesale or OEM programs."
   button:
     enable : true
     label : "Explore Controllers"
@@ -88,26 +88,26 @@ featured_accessories:
 ##################### Feature ##########################
 feature:
   enable : true
-  title : "Why Our Controllers Win"
+  title : "Engineered for Serious Play"
   feature_item:
     - name : "Hall Effect Sensors"
       icon : "fas fa-magnet"
-      content : "Magnetic contactless technology in joysticks and triggers for zero drift, even after thousands of hours"
+      content : "Selected models use magnetic contactless sensing for precise, consistent controller input."
     - name : "Instant Triggers"
       icon : "fas fa-bolt"
-      content : "Adjustable hair-trigger stops with tactile feedback for lightning-fast response in FPS and battle royale"
+      content : "Selected models offer adjustable trigger travel for faster response in compatible game genres."
     - name : "Programmable Paddles"
       icon : "fas fa-sliders-h"
-      content : "4-way removable rear paddle system — remap any button without taking your thumbs off the sticks"
-    - name : "Omron™ Switches"
+      content : "Selected models offer rear controls and remapping options to support personalized play styles."
+    - name : "Mechanical Switch Options"
       icon : "fas fa-microchip"
-      content : "Japanese Omron mechanical switches under every face button, rated for 20 million clicks"
+      content : "Selected models use tactile mechanical switches for a distinct button feel and responsive input."
     - name : "Ergonomic Design"
       icon : "fas fa-hand-rock"
-      content : "Laser-textured grip + optimized contouring for marathon comfort across all hand sizes"
+      content : "Textured grips and ergonomic contours are designed to support comfortable extended sessions."
     - name : "Universal Compatibility"
       icon : "fas fa-laptop"
-      content : "Works seamlessly with PC, Switch, mobile, and more — one controller across all platforms"
+      content : "Compatibility varies by model. Check each product page for supported platforms and connection modes."
 
 ##################### About #####################
 about:
