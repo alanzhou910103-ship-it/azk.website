@@ -17,7 +17,7 @@ badge = "New"
 [[controllers]]
 name = "G2"
 tagline = "Custom TMR Wireless"
-image = "images/g2/hero.png"
+image = "images/cards/g2.png"
 image_scale = 1.00
 url = "/products/g2/"
 badge = "New"
@@ -25,7 +25,7 @@ badge = "New"
 [[controllers]]
 name = "G1"
 tagline = "TMR Tri-Mode Wireless"
-image = "images/g1/card.jpg"
+image = "images/cards/g1.png"
 image_scale = 1.00
 url = "/products/g1/"
 badge = "New"
@@ -33,30 +33,30 @@ badge = "New"
 [[controllers]]
 name = "G8"
 tagline = "NS2 Pro Wireless"
-image = "images/g8/main1.jpg"
-image_scale = 1.10
+image = "images/cards/g8.png"
+image_scale = 1.00
 url = "/products/g8/"
 badge = "New"
 
 [[controllers]]
 name = "G11"
 tagline = "Hall Effect Precision"
-image = "images/g11/front.png"
-image_scale = 0.85
+image = "images/cards/g11.png"
+image_scale = 1.00
 url = "/products/g11/"
 
 [[controllers]]
 name = "G12"
 tagline = "Compact Multi-Platform"
-image = "images/g12/main.jpg"
-image_scale = 1.08
+image = "images/cards/g12.png"
+image_scale = 1.00
 url = "/products/g12/"
 
 [[controllers]]
 name = "G3"
 tagline = "PS5 Pro Wireless"
-image = "images/g3/color-black.png"
-image_scale = 0.90
+image = "images/cards/g3.png"
+image_scale = 1.00
 url = "/products/g3/"
 badge = "New"
 

@@ -33,44 +33,44 @@ featured_controllers:
       badge : "New"
     - name : "G2"
       tagline : "Custom TMR Wireless Controller"
-      image : "images/g2/hero.png"
+      image : "images/cards/g2.png"
       image_scale : 1.00
-      hover_image : "images/g2/mech-black.png"
+      hover_image : "images/cards/g2.png"
       link : "/products/g2/"
       badge : "New"
     - name : "G1"
       tagline : "TMR Tri-Mode Wireless Controller"
-      image : "images/g1/card.jpg"
+      image : "images/cards/g1.png"
       image_scale : 1.00
-      hover_image : "images/g1/battle-black.png"
+      hover_image : "images/cards/g1.png"
       link : "/products/g1/"
       badge : "New"
     - name : "G8"
       tagline : "NS2 Pro Wireless Controller"
-      image : "images/g8/main1.jpg"
-      image_scale : 1.10
-      hover_image : "images/g8/main2.jpg"
+      image : "images/cards/g8.png"
+      image_scale : 1.00
+      hover_image : "images/cards/g8.png"
       link : "/products/g8/"
       badge : "New"
     - name : "G11"
       tagline : "Hall Effect Precision Controller"
-      image : "images/g11/front.png"
-      image_scale : 0.85
-      hover_image : "images/g11/angle1.png"
+      image : "images/cards/g11.png"
+      image_scale : 1.00
+      hover_image : "images/cards/g11.png"
       link : "/products/g11/"
       badge : "New"
     - name : "G12"
       tagline : "Compact Multi-Platform Controller"
-      image : "images/g12/main.jpg"
-      image_scale : 1.08
-      hover_image : "images/g12/main2.jpg"
+      image : "images/cards/g12.png"
+      image_scale : 1.00
+      hover_image : "images/cards/g12.png"
       link : "/products/g12/"
       badge : "Popular"
     - name : "G3"
       tagline : "PS5 Pro Wireless Controller"
-      image : "images/g3/color-black.png"
-      image_scale : 0.90
-      hover_image : "images/g3/color-white.png"
+      image : "images/cards/g3.png"
+      image_scale : 1.00
+      hover_image : "images/cards/g3.png"
       link : "/products/g3/"
       badge : "New"
 
