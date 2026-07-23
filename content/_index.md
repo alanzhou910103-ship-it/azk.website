@@ -17,6 +17,13 @@ featured_controllers:
   title : "Featured Controllers"
   description : "Professional-grade gaming controllers built for competitive play"
   items:
+    - name : "G7"
+      tagline : "1000Hz Tri-Mode Gaming Controller"
+      image : "images/g7/hero.png"
+      image_scale : 1.00
+      hover_image : "images/g7/details.png"
+      link : "/products/g7/"
+      badge : "New"
     - name : "G6 Pro"
       tagline : "Hall Effect Tri-Mode Controller"
       image : "images/g6-pro/card.png"
