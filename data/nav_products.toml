@@ -63,42 +63,48 @@ badge = "New"
 [[accessories]]
 name = "GA05"
 tagline = "Joy-Con 2 Ergonomic Grip"
-image = "images/ga05/hero.jpg"
+image = "images/cards/ga05.png"
+image_scale = 1.00
 url = "/products/ga05/"
 badge = "New"
 
 [[accessories]]
 name = "GA06L"
 tagline = "Joy-Con 2 Charging Grip + Back Paddles"
-image = "images/ga06l/hero.jpg"
+image = "images/cards/ga06l.png"
+image_scale = 1.00
 url = "/products/ga06l/"
 badge = "New"
 
 [[accessories]]
 name = "GA06P"
 tagline = "Joy-Con 2 Charging Grip + Paddles + Grips"
-image = "images/ga06p/hero.jpg"
+image = "images/cards/ga06p.png"
+image_scale = 1.00
 url = "/products/ga06p/"
 badge = "Best Value"
 
 [[accessories]]
 name = "GC01"
 tagline = "Switch 2 Console Carrying Case"
-image = "images/gc02/hero.jpg"
+image = "images/cards/gc01.png"
+image_scale = 1.00
 url = "/products/gc01/"
 badge = "New"
 
 [[accessories]]
 name = "GC02"
 tagline = "Switch 2 Console Protective Back Shell"
-image = "images/gc01/hero.jpg"
+image = "images/cards/gc02.png"
+image_scale = 1.00
 url = "/products/gc02/"
 badge = "New"
 
 [[accessories]]
 name = "GC03"
 tagline = "Switch 2 Console Protective Faceplate"
-image = "images/gc03/faceplate-hero.png"
+image = "images/cards/gc03.png"
+image_scale = 1.00
 url = "/products/gc03/"
 badge = "New"
 
