@@ -9,7 +9,7 @@ badge = "New"
 [[controllers]]
 name = "G6 Pro"
 tagline = "Hall Effect Tri-Mode"
-image = "images/g6-pro/card.png"
+image = "images/g6-pro/hero.png"
 image_scale = 1.00
 url = "/products/g6-pro/"
 badge = "New"

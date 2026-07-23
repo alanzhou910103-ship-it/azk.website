@@ -26,7 +26,7 @@ featured_controllers:
       badge : "New"
     - name : "G6 Pro"
       tagline : "Hall Effect Tri-Mode Controller"
-      image : "images/g6-pro/card.png"
+      image : "images/g6-pro/hero.png"
       image_scale : 1.00
       hover_image : "images/g6-pro/hero.png"
       link : "/products/g6-pro/"
