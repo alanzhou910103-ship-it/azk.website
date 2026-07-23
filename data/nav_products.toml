@@ -1,4 +1,12 @@
 [[controllers]]
+name = "G6 Pro"
+tagline = "Hall Effect Tri-Mode"
+image = "images/g6-pro/card.png"
+image_scale = 1.00
+url = "/products/g6-pro/"
+badge = "New"
+
+[[controllers]]
 name = "G2"
 tagline = "Custom TMR Wireless"
 image = "images/g2/hero.png"

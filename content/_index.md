@@ -17,6 +17,13 @@ featured_controllers:
   title : "Featured Controllers"
   description : "Professional-grade gaming controllers built for competitive play"
   items:
+    - name : "G6 Pro"
+      tagline : "Hall Effect Tri-Mode Controller"
+      image : "images/g6-pro/card.png"
+      image_scale : 1.00
+      hover_image : "images/g6-pro/hero.png"
+      link : "/products/g6-pro/"
+      badge : "New"
     - name : "G2"
       tagline : "Custom TMR Wireless Controller"
       image : "images/g2/hero.png"

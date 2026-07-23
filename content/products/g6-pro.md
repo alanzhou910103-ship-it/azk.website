@@ -1,0 +1,102 @@
+---
+title: "G6 Pro"
+description: "G6 Pro Hall Effect multi-platform wireless controller with Bluetooth 5.3, 2.4GHz, and USB-C connectivity, programmable M1/M2 buttons, Turbo, six-axis motion control, and dual vibration motors. Compatible with Switch 2, Switch, PC, iOS, and Android. Wholesale from int-rock."
+tagline: "Hall Effect Tri-Mode Controller"
+card_image: "images/g6-pro/card.png"
+layout: "product"
+date: 2026-07-23
+
+hero:
+  image: "images/g6-pro/hero.png"
+  badge: "New"
+
+views:
+  title: "Product Views"
+  images:
+    - image: "images/g6-pro/card.png"
+    - image: "images/g6-pro/hero.png"
+    - image: "images/g6-pro/macro-buttons.png"
+
+highlights:
+  - icon: "fas fa-crosshairs"
+    title: "Hall Effect Joysticks"
+    description: "Hall Effect joysticks are designed for stable centering, accurate input, and drift-resistant performance during extended gameplay."
+  - icon: "fas fa-bolt"
+    title: "Hall Effect Triggers"
+    description: "Linear Hall Effect triggers provide smooth travel and responsive control for compatible racing, action, and competitive games."
+  - icon: "fas fa-wifi"
+    title: "Tri-Mode Connectivity"
+    description: "Bluetooth 5.3, 2.4GHz wireless, and USB-C wired modes support flexible play across compatible devices."
+  - icon: "fas fa-sliders-h"
+    title: "Programmable M1 & M2"
+    description: "Two programmable rear buttons let players assign commands and access preferred controls more easily."
+  - icon: "fas fa-tachometer-alt"
+    title: "Turbo Rapid-Fire"
+    description: "Turbo mode supports rapid repeated inputs for compatible games."
+  - icon: "fas fa-gamepad"
+    title: "Motion & Vibration"
+    description: "Six-axis motion control and independent dual vibration motors add control and feedback in compatible games."
+
+sections:
+  - title: "Hall Effect Control, Built for Precision"
+    image: "images/g6-pro/hall-joysticks.png"
+    image_side: "right"
+    content: "The G6 Pro combines Hall Effect joysticks and Hall Effect triggers for precise control across compatible games. The joystick design is intended to deliver stable centering and drift-resistant performance during extended sessions.\n\nLinear trigger travel supports smooth input for racing and action games, while the transparent gaming design creates a distinctive visual identity for retail displays and online listings."
+
+  - title: "Tri-Mode, Multi-Platform Play"
+    image: "images/g6-pro/hero.png"
+    image_side: "left"
+    content: "Connect through Bluetooth 5.3, 2.4GHz wireless, or USB-C wired mode across compatible Switch 2, Switch, PC, iOS, and Android devices. The optional wireless receiver is not included as standard.\n\nG6 Pro is compatible with Switch 2 gameplay, but it does not wake the Switch 2 console. Functions may vary by platform, game, and connection mode."
+
+  - title: "Programmable Back Controls and Turbo"
+    image: "images/g6-pro/macro-buttons.png"
+    image_side: "right"
+    content: "Two programmable rear buttons, M1 and M2, make it easier to place selected commands within reach. Turbo rapid-fire can be used for repeated inputs in compatible games.\n\nConductive ABXY buttons are designed for a crisp tactile feel and responsive input, supporting a practical feature set for everyday and competitive play."
+
+  - title: "Motion Control and Dual Vibration"
+    image: "images/g6-pro/dual-vibration.png"
+    image_side: "left"
+    content: "Built-in six-axis motion sensing supports motion-based control in compatible games. Independent left and right vibration motors provide richer in-game feedback.\n\nThe controller does not include nine-axis sensing or a C-button voice-chat function."
+
+specs:
+  - label: "Model"
+    value: "G6 Pro"
+  - label: "Joystick"
+    value: "Hall Effect joystick"
+  - label: "Triggers"
+    value: "Hall Effect linear triggers"
+  - label: "Connectivity"
+    value: "Bluetooth 5.3 / 2.4GHz wireless / USB-C wired"
+  - label: "Compatible Platforms"
+    value: "Switch 2 / Switch / PC / iOS / Android"
+  - label: "Switch 2 Note"
+    value: "Compatible for gameplay; does not wake the console"
+  - label: "Rear Buttons"
+    value: "2 programmable buttons (M1 / M2)"
+  - label: "Turbo"
+    value: "Rapid-fire function"
+  - label: "Motion Control"
+    value: "Six-axis; no nine-axis sensing"
+  - label: "Voice Chat"
+    value: "No C-button voice-chat function"
+  - label: "Vibration"
+    value: "Independent dual vibration motors"
+  - label: "Lighting"
+    value: "RGB lighting"
+  - label: "Battery"
+    value: "400mAh rechargeable"
+  - label: "Charging Time"
+    value: "About 2-3 hours"
+  - label: "Weight"
+    value: "About 180g"
+  - label: "Wireless Receiver"
+    value: "Optional accessory; not standard"
+  - label: "Certifications"
+    value: "CE / RoHS / FCC"
+  - label: "Packaging"
+    value: "Standard printed color box"
+
+cta:
+  title: "Want the G6 Pro in your lineup?"
+  button_label: "Contact Us for Wholesale"
+---
