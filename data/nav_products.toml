@@ -1,4 +1,12 @@
 [[controllers]]
+name = "G1"
+tagline = "TMR Tri-Mode Wireless"
+image = "images/g1/card.jpg"
+image_scale = 1.00
+url = "/products/g1/"
+badge = "New"
+
+[[controllers]]
 name = "G8"
 tagline = "NS2 Pro Wireless"
 image = "images/g8/main1.jpg"
