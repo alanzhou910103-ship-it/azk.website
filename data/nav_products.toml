@@ -83,15 +83,15 @@ badge = "Best Value"
 
 [[accessories]]
 name = "GC01"
-tagline = "Switch 2 Console Protective Back Shell"
-image = "images/gc01/hero.jpg"
+tagline = "Switch 2 Console Carrying Case"
+image = "images/gc02/hero.jpg"
 url = "/products/gc01/"
 badge = "New"
 
 [[accessories]]
 name = "GC02"
-tagline = "Switch 2 Console Carrying Case"
-image = "images/gc02/hero.jpg"
+tagline = "Switch 2 Console Protective Back Shell"
+image = "images/gc01/hero.jpg"
 url = "/products/gc02/"
 badge = "New"
 
