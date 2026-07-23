@@ -17,6 +17,13 @@ featured_controllers:
   title : "Featured Controllers"
   description : "Professional-grade gaming controllers built for competitive play"
   items:
+    - name : "G2"
+      tagline : "Custom TMR Wireless Controller"
+      image : "images/g2/hero.png"
+      image_scale : 1.00
+      hover_image : "images/g2/mech-black.png"
+      link : "/products/g2/"
+      badge : "New"
     - name : "G1"
       tagline : "TMR Tri-Mode Wireless Controller"
       image : "images/g1/card.jpg"
