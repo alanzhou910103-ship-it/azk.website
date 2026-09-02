@@ -1,4 +1,12 @@
 [[controllers]]
+name = "G17"
+tagline = "Hall Effect PS5-Compatible Wireless"
+image = "images/g17/card.webp"
+image_scale = 1.00
+url = "/products/g17/"
+badge = "New"
+
+[[controllers]]
 name = "G9"
 tagline = "Hall Effect Tri-Mode Wireless"
 image = "images/g9/hero.png"

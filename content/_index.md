@@ -21,6 +21,13 @@ featured_controllers:
   title : "Featured Controllers"
   description : "Professional-grade gaming controllers built for competitive play"
   items:
+    - name : "G17"
+      tagline : "Hall Effect PS5-Compatible Wireless Controller"
+      image : "images/g17/card.webp"
+      image_scale : 1.00
+      hover_image : "images/g17/hero.webp"
+      link : "/products/g17/"
+      badge : "New"
     - name : "G9"
       tagline : "Hall Effect Tri-Mode Wireless Controller"
       image : "images/g9/hero.png"
