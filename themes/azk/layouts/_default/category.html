@@ -10,6 +10,20 @@
   </div>
 </section>
 
+{{ with .Params.intro }}
+<section class="catalog-intro section">
+  <div class="container catalog-intro-grid">
+    <div>
+      <span class="section-label">B2B Product Sourcing</span>
+      <h2>{{ .title }}</h2>
+    </div>
+    <div class="catalog-intro-copy">
+      {{ range .content }}<p>{{ . }}</p>{{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
 <section class="section">
   <div class="container">
     {{ if $products }}
@@ -36,4 +50,22 @@
     </div>
   </div>
 </section>
+
+{{ with .Params.buyer_needs }}
+<section class="category-support section section-alt">
+  <div class="container category-support-grid">
+    <div>
+      <span class="section-label">Project Planning</span>
+      <h2>{{ .title }}</h2>
+      <p>Send us your target market, price range, expected quantity, and must-have functions. We will help organize the requirements and recommend a practical next step.</p>
+      <a href="/#contact" class="btn btn-primary">Discuss Your Project</a>
+    </div>
+    <ul class="product-b2b-list">
+      {{ range .items }}
+      <li><i class="fas fa-check"></i><span>{{ . }}</span></li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}
 {{ end }}

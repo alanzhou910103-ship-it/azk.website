@@ -394,6 +394,25 @@ a:hover { color: var(--accent-dim); }
 .related-products .section-label { display: inline-block; margin-bottom: 10px; }
 .related-products .section-title { margin-bottom: 42px; }
 
+/* --- Catalog SEO Content --- */
+.catalog-intro { border-bottom: 1px solid var(--bg-dark-border); }
+.catalog-intro-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 72px; align-items: start; }
+.catalog-intro h2,
+.category-support h2 { margin-top: 12px; font-size: clamp(1.8rem, 3vw, 2.6rem); }
+.catalog-intro-copy p,
+.category-support p { color: var(--text-secondary); font-size: 1.02rem; line-height: 1.8; margin-bottom: 18px; }
+.catalog-intro-copy p:last-child { margin-bottom: 0; }
+.catalog-heading { margin: 10px 0 42px; }
+.catalog-services,
+.catalog-faq { text-align: center; }
+.catalog-faq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 1000px; margin: 44px auto 0; text-align: left; }
+.catalog-faq-item { padding: 28px; background: var(--bg-dark-card); border: 1px solid var(--bg-dark-border); border-radius: var(--radius-lg); }
+.catalog-faq-item h3 { margin-bottom: 10px; font-size: 1.05rem; }
+.catalog-faq-item p { color: var(--text-secondary); font-size: 0.92rem; line-height: 1.7; }
+.category-support-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center; }
+.category-support .btn { margin-top: 10px; }
+.cta-card p { color: var(--text-secondary); line-height: 1.7; margin: -8px 0 24px; }
+
 /* --- CTA Card --- */
 .cta-section { text-align: center; }
 .cta-card {
@@ -473,6 +492,9 @@ a:hover { color: var(--accent-dim); }
   .product-row, .product-row-reverse { grid-template-columns: 1fr; gap: 30px; }
   .product-row-reverse .product-image { order: -1; }
   .product-b2b-grid { grid-template-columns: 1fr; gap: 36px; }
+  .catalog-intro-grid,
+  .category-support-grid { grid-template-columns: 1fr; gap: 36px; }
+  .catalog-faq-grid { grid-template-columns: 1fr; }
   .specs-label { flex: 0 0 130px; }
   .about-stats { grid-template-columns: repeat(2, 1fr); gap: 24px; }
   .stat-number { font-size: 1.5rem; }

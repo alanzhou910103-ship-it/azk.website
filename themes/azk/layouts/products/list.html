@@ -6,8 +6,25 @@
     <p class="product-hero-tagline">{{ .Params.tagline | default "Gaming controllers and accessories for wholesale, private-label, and OEM/ODM projects" }}</p>
   </div>
 </section>
+
+{{ with .Params.intro }}
+<section class="catalog-intro section">
+  <div class="container catalog-intro-grid">
+    <div>
+      <span class="section-label">Wholesale · Private Label · OEM/ODM</span>
+      <h2>{{ .title }}</h2>
+    </div>
+    <div class="catalog-intro-copy">
+      {{ range .content }}<p>{{ . }}</p>{{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
 <section class="section">
   <div class="container">
+    <span class="section-label">Product Range</span>
+    <h2 class="section-title catalog-heading">Explore Controllers & Accessories</h2>
     <div class="product-card-grid">
       {{ range where site.RegularPages "Section" "products" }}
       <a href="{{ .RelPermalink }}" class="product-card" data-aos="fade-up">
@@ -21,6 +38,49 @@
         </div>
       </a>
       {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ with .Params.services }}
+<section class="catalog-services section section-alt">
+  <div class="container">
+    <h2 class="section-title">{{ .title }}</h2>
+    <div class="features-grid">
+      {{ range .items }}
+      <div class="feature-card">
+        <div class="feature-icon"><i class="{{ .icon }}"></i></div>
+        <h3>{{ .title }}</h3>
+        <p>{{ .content }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.faq }}
+<section class="catalog-faq section">
+  <div class="container">
+    <h2 class="section-title">{{ .title }}</h2>
+    <div class="catalog-faq-grid">
+      {{ range .items }}
+      <article class="catalog-faq-item">
+        <h3>{{ .question }}</h3>
+        <p>{{ .answer }}</p>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<section class="cta-section section">
+  <div class="container">
+    <div class="cta-card">
+      <h2>Tell Us What You Want to Source or Develop</h2>
+      <p>Share your target market, required functions, estimated quantity, and price range.</p>
+      <a href="/#contact" class="btn btn-primary btn-lg">Discuss Your Project</a>
     </div>
   </div>
 </section>
