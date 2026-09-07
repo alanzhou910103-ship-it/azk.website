@@ -77,18 +77,18 @@
 </script>
 
 {{- if and (eq .Section "products") (eq .Kind "page") }}
-{{- $product := dict
+{{- $breadcrumbs := slice
+  (dict "@type" "ListItem" "position" 1 "name" "Home" "item" site.BaseURL)
+  (dict "@type" "ListItem" "position" 2 "name" "Products" "item" ("products/" | absURL))
+  (dict "@type" "ListItem" "position" 3 "name" .Title "item" .Permalink)
+-}}
+{{- $breadcrumbList := dict
   "@context" "https://schema.org"
-  "@type" "Product"
-  "name" .Title
-  "description" $description
-  "image" ($socialImage | absURL)
-  "url" .Permalink
-  "sku" .Title
-  "brand" (dict "@type" "Brand" "name" site.Title)
+  "@type" "BreadcrumbList"
+  "itemListElement" $breadcrumbs
 -}}
 <script type="application/ld+json">
-{{ $product | jsonify | safeJS }}
+{{ $breadcrumbList | jsonify | safeJS }}
 </script>
 {{- end }}
 

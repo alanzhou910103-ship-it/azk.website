@@ -1,11 +1,22 @@
 {{ define "main" }}
+{{ $page := . }}
 {{ with .Params }}
+
+<nav class="product-breadcrumb" aria-label="Breadcrumb">
+  <div class="container product-breadcrumb-inner">
+    <a href="/">Home</a>
+    <span aria-hidden="true">/</span>
+    <a href="/products/">Products</a>
+    <span aria-hidden="true">/</span>
+    <span aria-current="page">{{ $page.Title }}</span>
+  </div>
+</nav>
 
 <!-- Product Hero -->
 <section class="product-hero">
   {{ with .hero.image }}
   <div class="product-hero-bg">
-    <img src="{{ . | relURL }}" alt="">
+    <img src="{{ . | relURL }}" alt="{{ $page.Title }} {{ $page.Params.tagline }}">
   </div>
   {{ end }}
   <div class="product-hero-overlay"></div>
@@ -39,10 +50,10 @@
   <div class="container">
     <h2 class="section-title" data-aos="fade-up">{{ .title }}</h2>
     <div class="colors-grid">
-      {{ range .images }}
+      {{ range $index, $view := .images }}
       <div class="color-card" data-aos="fade-up">
         <div class="color-image">
-          <img src="{{ .image | relURL }}" alt="" loading="lazy">
+          <img src="{{ $view.image | relURL }}" alt="{{ $page.Title }} product view {{ add $index 1 }}" loading="lazy">
         </div>
       </div>
       {{ end }}
@@ -102,6 +113,48 @@
       </div>
       {{ end }}
     </div>
+  </div>
+</section>
+{{ end }}
+
+<!-- B2B Support -->
+<section class="product-b2b section">
+  <div class="container product-b2b-grid">
+    <div>
+      <span class="section-label">For Distributors, Retailers & Gaming Brands</span>
+      <h2>Wholesale, OEM & Customization Support</h2>
+      <p>INT-ROCK helps B2B buyers evaluate products, confirm specifications, prepare samples, and coordinate production through experienced manufacturing and solution partners.</p>
+    </div>
+    <ul class="product-b2b-list">
+      <li><i class="fas fa-check"></i><span>MOQ from 500 units, depending on the model and customization</span></li>
+      <li><i class="fas fa-check"></i><span>Logo, color, packaging, firmware, and feature customization</span></li>
+      <li><i class="fas fa-check"></i><span>Typical sample preparation in 7–14 days</span></li>
+      <li><i class="fas fa-check"></i><span>Private tooling and new product development coordination</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- Internal product discovery -->
+{{ $related := first 4 (sort (where (where site.RegularPages "Section" "products") "RelPermalink" "ne" $page.RelPermalink) "Date" "desc") }}
+{{ with $related }}
+<section class="related-products section section-alt">
+  <div class="container">
+    <span class="section-label">More from INT-ROCK</span>
+    <h2 class="section-title">Explore More Gaming Products</h2>
+    <div class="product-card-grid">
+      {{ range . }}
+      <a href="{{ .RelPermalink }}" class="product-card">
+        <div class="product-card-image">
+          <img src="{{ .Params.card_image | relURL }}" alt="{{ .Title }} {{ .Params.tagline }}" loading="lazy">
+        </div>
+        <div class="product-card-info">
+          <h3 class="product-card-name">{{ .Title }}</h3>
+          <p class="product-card-tagline">{{ .Params.tagline }}</p>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+    <div class="section-action"><a href="/products/" class="btn btn-dark-outline">View All Products</a></div>
   </div>
 </section>
 {{ end }}

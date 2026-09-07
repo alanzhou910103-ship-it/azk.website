@@ -318,6 +318,17 @@ a:hover { color: var(--accent-dim); }
    =========================== */
 
 /* --- Product Hero --- */
+.product-breadcrumb {
+  padding: 96px 0 14px;
+  background: var(--bg-dark);
+  border-bottom: 1px solid var(--bg-dark-border);
+}
+.product-breadcrumb-inner {
+  display: flex; align-items: center; flex-wrap: wrap; gap: 9px;
+  color: var(--text-muted); font-size: 0.82rem;
+}
+.product-breadcrumb a { color: var(--text-secondary); }
+.product-breadcrumb a:hover { color: var(--accent); }
 .product-hero {
   position: relative; min-height: 60vh;
   display: flex; align-items: center; justify-content: center;
@@ -368,6 +379,20 @@ a:hover { color: var(--accent-dim); }
 .specs-row:last-child { border-bottom: none; }
 .specs-label { flex: 0 0 220px; text-align: left; color: var(--text-muted); font-size: 0.9rem; font-weight: 500; }
 .specs-value { flex: 1; text-align: left; color: var(--text-primary); font-size: 0.9rem; font-weight: 600; }
+
+/* --- B2B Product Support --- */
+.product-b2b { background: linear-gradient(135deg, rgba(0,188,212,0.08), rgba(0,121,157,0.03)); }
+.product-b2b-grid { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 72px; align-items: center; }
+.product-b2b h2 { margin: 12px 0 18px; font-size: clamp(1.8rem, 3vw, 2.6rem); }
+.product-b2b p { color: var(--text-secondary); font-size: 1.02rem; line-height: 1.8; }
+.product-b2b-list { display: grid; gap: 14px; list-style: none; }
+.product-b2b-list li { display: flex; gap: 12px; color: var(--text-secondary); line-height: 1.6; }
+.product-b2b-list i { color: var(--accent); margin-top: 5px; }
+
+/* --- Related Products --- */
+.related-products { text-align: center; }
+.related-products .section-label { display: inline-block; margin-bottom: 10px; }
+.related-products .section-title { margin-bottom: 42px; }
 
 /* --- CTA Card --- */
 .cta-section { text-align: center; }
@@ -447,6 +472,7 @@ a:hover { color: var(--accent-dim); }
   .colors-grid { grid-template-columns: 1fr; max-width: 300px; }
   .product-row, .product-row-reverse { grid-template-columns: 1fr; gap: 30px; }
   .product-row-reverse .product-image { order: -1; }
+  .product-b2b-grid { grid-template-columns: 1fr; gap: 36px; }
   .specs-label { flex: 0 0 130px; }
   .about-stats { grid-template-columns: repeat(2, 1fr); gap: 24px; }
   .stat-number { font-size: 1.5rem; }
