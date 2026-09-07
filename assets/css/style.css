@@ -298,6 +298,17 @@ a:hover { color: var(--accent-dim); }
 .contact-form input::placeholder, .contact-form textarea::placeholder { color: var(--text-muted); }
 .contact-form select { color: var(--text-muted); }
 .contact-form button { align-self: center; margin-top: 8px; }
+.contact-form button:disabled { cursor: wait; opacity: 0.68; }
+.form-status {
+  width: 100%; margin: 0; padding: 12px 16px; border-radius: var(--radius-md);
+  font-size: 0.9rem; line-height: 1.5; text-align: center;
+}
+.form-status:empty { display: none; }
+.form-status.is-pending { color: var(--text-secondary); background: rgba(255,255,255,0.05); }
+.form-status.is-success { color: #a7f3d0; background: rgba(16,185,129,0.12); border: 1px solid rgba(16,185,129,0.3); }
+.form-status.is-error { color: #fecaca; background: rgba(239,68,68,0.12); border: 1px solid rgba(239,68,68,0.3); }
+.form-status a { color: inherit; font-weight: 700; text-decoration: underline; }
+.form-status:focus { outline: none; }
 .contact-note { margin-top: 18px; color: var(--text-muted); font-size: 0.82rem; }
 .contact-direct { margin-top: 20px; color: var(--text-muted); font-size: 0.9rem; }
 .contact-direct a { color: var(--accent); font-weight: 600; }

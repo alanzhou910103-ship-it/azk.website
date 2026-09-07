@@ -127,7 +127,8 @@
       <span class="section-label" data-aos="fade-up">Get In Touch</span>
       <h2 class="section-title" data-aos="fade-up">Let's Discuss Your Project</h2>
       <p class="section-text" data-aos="fade-up">Whether you need wholesale pricing, custom OEM design, or partnership inquiries — our team is ready to help.</p>
-      <form class="contact-form" id="inquiryForm" action="{{ site.Params.contact_form_action }}" method="GET" data-recipient="sales@int-rock.com" data-aos="fade-up">
+      <form class="contact-form" id="inquiryForm" action="{{ site.Params.contact_form_action }}" method="POST" data-aos="fade-up">
+        <input type="hidden" name="subject" value="New B2B Inquiry — INT-ROCK Website">
         <div class="form-row">
           <input type="text" name="name" placeholder="Your Name" autocomplete="name" required>
           <input type="email" name="email" placeholder="Your Email" autocomplete="email" required>
@@ -148,9 +149,10 @@
           <input type="text" name="quantity" placeholder="Estimated Quantity">
         </div>
         <textarea name="message" placeholder="Tell us about your product requirements, target price, or reference model..." rows="5" required></textarea>
-        <button type="submit" class="btn btn-primary btn-lg">Prepare Inquiry Email</button>
+        <button type="submit" class="btn btn-primary btn-lg">Send Inquiry</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite" tabindex="-1"></p>
       </form>
-      <p class="contact-note">The button opens your email app with the inquiry details prepared for you.</p>
+      <p class="contact-note">Your inquiry will be sent securely to our sales team.</p>
       <p class="contact-direct">Or email us directly: <a href="mailto:sales@int-rock.com">sales@int-rock.com</a></p>
     </div>
   </section>
