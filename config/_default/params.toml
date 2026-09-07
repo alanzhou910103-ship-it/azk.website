@@ -7,11 +7,11 @@ logo_width = "24px"
 logo_webp = true
 logo_text = "int-rock"
 mainSections = []
-contact_form_action = "#" # Replace with your Formspree URL
+contact_form_action = "mailto:sales@int-rock.com"
 google_tag_manager = ""
 custom_script = ""
 theme_copyright = false
-footer_description = "int-rock supplies gaming controllers and console accessories for distributors, retailers, and online sellers. Alongside wholesale, private-label, and OEM opportunities, we also serve gamers through our Shopee Thailand and TikTok Shop Southeast Asia stores."
+footer_description = "INT-ROCK helps distributors, retailers, and gaming brands source, customize, and develop gaming controllers and accessories through experienced manufacturing and solution partners."
 copyright = "© 2026 int-rock. All rights reserved."
 
 [preloader]
@@ -26,8 +26,8 @@ link = "/#contact"
 enable = false
 
 [metadata]
-keywords = ["int-rock", "gaming controller", "hall effect controller", "esports", "NS2 controller", "PS5 controller", "Xbox controller", "PC controller", "Nintendo Switch controller", "wireless gaming controller", "wholesale gaming", "OEM controller"]
-description = "int-rock — Professional gaming controllers with Hall Effect technology, multi-platform compatibility, and custom engineering. Available for NS2, Nintendo Switch, PS5, PS4, PC, and Xbox. Wholesale and OEM partnerships worldwide."
+keywords = ["int-rock", "game controller supplier", "gaming controller wholesale", "OEM game controller", "ODM game controller", "private label controller", "Hall Effect controller", "TMR controller", "Switch 2 accessories wholesale"]
+description = "INT-ROCK provides gaming controller sourcing and OEM/ODM support for distributors, retailers, and brands, including customization, tooling, and packaging."
 author = "int-rock"
 image = "images/logo.png"
 

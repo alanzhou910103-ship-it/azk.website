@@ -30,7 +30,7 @@
 <!-- Open Graph -->
 <meta property="og:title" content="{{ $pageTitle }}">
 <meta property="og:description" content="{{ $description }}">
-<meta property="og:type" content="{{ if .IsHome }}website{{ else if eq .Section "products" }}product{{ else }}article{{ end }}">
+<meta property="og:type" content="{{ if .IsHome }}website{{ else if and (eq .Section "products") (eq .Kind "page") }}product{{ else }}website{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:image" content="{{ $socialImage | absURL }}">
 <meta property="og:site_name" content="{{ site.Title }}">
@@ -76,7 +76,7 @@
 {{ $organization | jsonify | safeJS }}
 </script>
 
-{{- if eq .Section "products" }}
+{{- if and (eq .Section "products") (eq .Kind "page") }}
 {{- $product := dict
   "@context" "https://schema.org"
   "@type" "Product"
@@ -89,5 +89,28 @@
 -}}
 <script type="application/ld+json">
 {{ $product | jsonify | safeJS }}
+</script>
+{{- end }}
+
+{{- if and (eq .Section "products") (eq .Kind "section") }}
+{{- $items := slice -}}
+{{- range where site.RegularPages "Section" "products" -}}
+  {{- $items = $items | append (dict
+    "@type" "ListItem"
+    "position" (add (len $items) 1)
+    "name" .Title
+    "url" .Permalink
+  ) -}}
+{{- end -}}
+{{- $collection := dict
+  "@context" "https://schema.org"
+  "@type" "CollectionPage"
+  "name" .Title
+  "description" $description
+  "url" .Permalink
+  "mainEntity" (dict "@type" "ItemList" "itemListElement" $items)
+-}}
+<script type="application/ld+json">
+{{ $collection | jsonify | safeJS }}
 </script>
 {{- end }}

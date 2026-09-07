@@ -1,10 +1,10 @@
 ---
-title: "Professional Gaming Controllers"
-description: "int-rock designs premium gaming controllers with Hall Effect technology, programmable paddles, and multi-platform support. NS2, Switch, PS5, PC & Xbox compatible. Wholesale and OEM partnerships available."
+title: "Gaming Controller Sourcing & OEM/ODM Partner"
+description: "INT-ROCK provides gaming controller sourcing and OEM/ODM support for distributors, retailers, and brands, including customization, tooling, and packaging."
 ####################### Banner #########################
 banner:
-  eyebrow : "Product Expertise. Reliable Resources. Practical Solutions."
-  title : "Turning Product Ideas into <br> Market-Ready Gaming Solutions"
+  eyebrow : "Gaming Controller Sourcing & OEM/ODM Partner"
+  title : "Turn Product Ideas into <br> Market-Ready Gaming Solutions"
   image : "images/hero/facebook_banner.png"
   content : "INT-ROCK helps distributors, retailers, and gaming brands source, customize, and develop gaming controllers and accessories. Drawing on hands-on product knowledge and an established partner network, we turn customer requirements into practical, market-ready products."
   buttons:
@@ -19,7 +19,7 @@ banner:
 featured_controllers:
   enable : true
   title : "Featured Controllers"
-  description : "Professional-grade gaming controllers built for competitive play"
+  description : "Selected controller platforms for distributors, retailers, and gaming brands"
   items:
     - name : "G17"
       tagline : "Hall Effect PS5-Compatible Wireless Controller"
@@ -96,7 +96,7 @@ featured_controllers:
 featured_accessories:
   enable : true
   title : "Featured Accessories"
-  description : "Enhance your gaming experience with our premium accessories"
+  description : "Practical console accessories selected for wholesale and customization opportunities"
   items:
     - name : "GA05"
       tagline : "Joy-Con 2 Ergonomic Grip"

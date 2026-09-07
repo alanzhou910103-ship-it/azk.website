@@ -66,6 +66,7 @@
       e.stopPropagation();
       var parent = this.parentElement;
       parent.classList.toggle('dropdown-open');
+      this.setAttribute('aria-expanded', parent.classList.contains('dropdown-open') ? 'true' : 'false');
     });
     // Close dropdown when clicking outside
     document.addEventListener('click', function(e) {
@@ -84,11 +85,40 @@
   }
 
   // AOS init
-  AOS.init({ duration: 800, offset: 100, once: true });
+  if (window.AOS) {
+    AOS.init({ duration: 650, offset: 60, once: true });
+  }
 
   // Sticky header
   window.addEventListener('scroll', function() {
     var header = document.getElementById('header');
     header.classList.toggle('scrolled', window.scrollY > 50);
   });
+
+  // Static-site inquiry flow: prepare a complete email in the visitor's email app.
+  var inquiryForm = document.getElementById('inquiryForm');
+  if (inquiryForm) {
+    inquiryForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      if (!inquiryForm.reportValidity()) return;
+
+      var data = new FormData(inquiryForm);
+      var recipient = inquiryForm.getAttribute('data-recipient');
+      var company = data.get('company') || 'Company not provided';
+      var subject = 'B2B Inquiry from ' + company;
+      var body = [
+        'Name: ' + data.get('name'),
+        'Email: ' + data.get('email'),
+        'Company: ' + company,
+        'Target Market / Country: ' + (data.get('market') || 'Not provided'),
+        'Project Type: ' + data.get('project_type'),
+        'Estimated Quantity: ' + (data.get('quantity') || 'Not provided'),
+        '',
+        'Requirements:',
+        data.get('message')
+      ].join('\n');
+
+      window.location.href = 'mailto:' + recipient + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+    });
+  }
 </script>

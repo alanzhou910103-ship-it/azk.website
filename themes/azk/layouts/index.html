@@ -33,10 +33,10 @@
   <section class="trust-bar">
     <div class="container">
       <div class="trust-grid">
-        <div class="trust-item"><i class="fas fa-gamepad"></i><span>11+ Years in Gaming Peripherals</span></div>
-        <div class="trust-item"><i class="fas fa-search"></i><span>Requirement-Based Product Sourcing</span></div>
-        <div class="trust-item"><i class="fas fa-industry"></i><span>Manufacturing & Solution Partners</span></div>
-        <div class="trust-item"><i class="fas fa-file-lines"></i><span>Product Documentation Support</span></div>
+        <div class="trust-item"><i class="fas fa-gamepad"></i><span>11+ Years of Product Experience</span></div>
+        <div class="trust-item"><i class="fas fa-boxes-stacked"></i><span>MOQ from 500 Units</span></div>
+        <div class="trust-item"><i class="fas fa-flask"></i><span>Samples in 7–14 Days</span></div>
+        <div class="trust-item"><i class="fas fa-calendar-check"></i><span>Typical Production in 30 Days</span></div>
       </div>
     </div>
   </section>
@@ -50,6 +50,7 @@
       <h2 class="section-title" data-aos="fade-up">{{ .title }}</h2>
       <p class="section-text" data-aos="fade-up">{{ .description }}</p>
       {{ partial "product-card-grid.html" .items }}
+      <div class="section-action"><a href="/controllers/" class="btn btn-dark-outline">View All Controllers</a></div>
     </div>
   </section>
   {{ end }}
@@ -64,6 +65,7 @@
       <h2 class="section-title" data-aos="fade-up">{{ .title }}</h2>
       <p class="section-text" data-aos="fade-up">{{ .description }}</p>
       {{ partial "product-card-grid.html" .items }}
+      <div class="section-action"><a href="/accessories/" class="btn btn-dark-outline">View All Accessories</a></div>
     </div>
   </section>
   {{ end }}
@@ -125,19 +127,31 @@
       <span class="section-label" data-aos="fade-up">Get In Touch</span>
       <h2 class="section-title" data-aos="fade-up">Let's Discuss Your Project</h2>
       <p class="section-text" data-aos="fade-up">Whether you need wholesale pricing, custom OEM design, or partnership inquiries — our team is ready to help.</p>
-      <form class="contact-form" action="{{ site.Params.contact_form_action }}" method="POST" data-aos="fade-up">
+      <form class="contact-form" id="inquiryForm" action="{{ site.Params.contact_form_action }}" method="GET" data-recipient="sales@int-rock.com" data-aos="fade-up">
         <div class="form-row">
-          <input type="text" name="name" placeholder="Your Name" required>
-          <input type="email" name="email" placeholder="Your Email" required>
+          <input type="text" name="name" placeholder="Your Name" autocomplete="name" required>
+          <input type="email" name="email" placeholder="Your Email" autocomplete="email" required>
         </div>
         <div class="form-row">
-          <input type="text" name="company" placeholder="Company">
-          <input type="text" name="phone" placeholder="Phone">
+          <input type="text" name="company" placeholder="Company" autocomplete="organization">
+          <input type="text" name="market" placeholder="Target Market / Country" autocomplete="country-name">
         </div>
-        <textarea name="message" placeholder="Tell us about your project..." rows="5" required></textarea>
-        <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+        <div class="form-row">
+          <select name="project_type" aria-label="Project Type" required>
+            <option value="" disabled selected>Project Type</option>
+            <option>Wholesale</option>
+            <option>OEM / ODM</option>
+            <option>Private Tooling</option>
+            <option>Packaging Customization</option>
+            <option>Other Cooperation</option>
+          </select>
+          <input type="text" name="quantity" placeholder="Estimated Quantity">
+        </div>
+        <textarea name="message" placeholder="Tell us about your product requirements, target price, or reference model..." rows="5" required></textarea>
+        <button type="submit" class="btn btn-primary btn-lg">Prepare Inquiry Email</button>
       </form>
-      <p class="contact-direct">Prefer email? <a href="mailto:sales@int-rock.com">sales@int-rock.com</a></p>
+      <p class="contact-note">The button opens your email app with the inquiry details prepared for you.</p>
+      <p class="contact-direct">Or email us directly: <a href="mailto:sales@int-rock.com">sales@int-rock.com</a></p>
     </div>
   </section>
 
