@@ -70,7 +70,7 @@ url = "/products/g12/"
 
 [[controllers]]
 name = "G3"
-tagline = "PS5 Pro Wireless"
+tagline = "Multi-Platform Wireless"
 image = "images/cards/g3.png"
 image_scale = 1.00
 url = "/products/g3/"

@@ -1,0 +1,28 @@
+{{- if and (not .IsHome) (ne .Kind "404") -}}
+{{- $crumbs := slice (dict "name" "Home" "url" site.Home.Permalink) -}}
+{{- if and .IsPage (eq .Section "products") -}}
+  {{- with site.GetPage "/products" -}}
+    {{- $crumbs = $crumbs | append (dict "name" "Products" "url" .Permalink) -}}
+  {{- end -}}
+  {{- with partial "product-category.html" . -}}
+    {{- with site.GetPage (printf "/%s" .) -}}
+      {{- $crumbs = $crumbs | append (dict "name" .Title "url" .Permalink) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $crumbs = $crumbs | append (dict "name" .Title "url" .Permalink) -}}
+<nav class="product-breadcrumb" aria-label="Breadcrumb">
+  <div class="container">
+  <ol class="product-breadcrumb-inner">
+    {{- range $index, $crumb := $crumbs -}}
+    <li>{{ if eq $index (sub (len $crumbs) 1) }}<span aria-current="page">{{ $crumb.name }}</span>{{ else }}<a href="{{ $crumb.url }}">{{ $crumb.name }}</a>{{ end }}</li>
+    {{- end -}}
+  </ol>
+  </div>
+</nav>
+{{- $items := slice -}}
+{{- range $index, $crumb := $crumbs -}}
+  {{- $items = $items | append (dict "@type" "ListItem" "position" (add $index 1) "name" $crumb.name "item" $crumb.url) -}}
+{{- end -}}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $items | jsonify | safeJS }}</script>
+{{- end -}}

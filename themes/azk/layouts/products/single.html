@@ -2,16 +2,6 @@
 {{ $page := . }}
 {{ with .Params }}
 
-<nav class="product-breadcrumb" aria-label="Breadcrumb">
-  <div class="container product-breadcrumb-inner">
-    <a href="/">Home</a>
-    <span aria-hidden="true">/</span>
-    <a href="/products/">Products</a>
-    <span aria-hidden="true">/</span>
-    <span aria-current="page">{{ $page.Title }}</span>
-  </div>
-</nav>
-
 <!-- Product Hero -->
 <section class="product-hero">
   {{ with .hero.image }}
@@ -36,7 +26,7 @@
       {{ range .variants }}
       <div class="color-card" data-aos="fade-up">
         <div class="color-image">
-          <img src="{{ .image | relURL }}" alt="{{ .name }}" loading="lazy">
+          <img src="{{ .image | relURL }}" alt="{{ $page.Title }} — {{ .name }}" loading="lazy">
         </div>
         <h3 class="color-name">{{ .name }}</h3>
       </div>
@@ -135,7 +125,18 @@
 </section>
 
 <!-- Internal product discovery -->
-{{ $related := first 4 (sort (where (where site.RegularPages "Section" "products") "RelPermalink" "ne" $page.RelPermalink) "Date" "desc") }}
+{{ $category := partial "product-category.html" $page }}
+{{ $candidates := slice }}
+{{ with $category }}
+  {{ range index hugo.Data.nav_products . }}
+    {{ with site.GetPage .url }}
+      {{ if ne .RelPermalink $page.RelPermalink }}{{ $candidates = $candidates | append . }}{{ end }}
+    {{ end }}
+  {{ end }}
+{{ else }}
+  {{ $candidates = where (where site.RegularPages "Section" "products") "RelPermalink" "ne" $page.RelPermalink }}
+{{ end }}
+{{ $related := first 4 (sort $candidates "Date" "desc") }}
 {{ with $related }}
 <section class="related-products section section-alt">
   <div class="container">

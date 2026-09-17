@@ -16,3 +16,13 @@ buyer_needs:
     - "Battery, motion, vibration, audio, and lighting functions"
     - "Logo, color, packaging, firmware, and tooling scope"
 ---
+
+## Choose controllers for your product range
+
+Compare [TMR wireless controllers such as the G1](/products/g1/) with [Hall Effect models such as the G9](/products/g9/). Check each model's connection modes, button layout and platform support before choosing a sample for your store or distribution range.
+
+For a performance-focused range, the [G7 tri-mode controller](/products/g7/) supports up to 1000Hz polling in wired and 2.4GHz modes. The [G9](/products/g9/) supports up to 1000Hz in 2.4GHz mode. Wireless receivers are optional accessories on these two models; confirm your required bundle when enquiring.
+
+## Confirm compatibility before ordering
+
+Compatibility and features vary by model, platform, game and connection mode. For example, G7 and G9 support Switch 2 gameplay but do not support console wake-up. Use the individual product specifications to check the functions your customers need.

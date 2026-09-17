@@ -28,6 +28,9 @@ jobs:
       - name: Build
         run: hugo --minify
 
+      - name: Check SEO and internal links
+        run: python3 scripts/check_seo.py
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:

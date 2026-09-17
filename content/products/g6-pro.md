@@ -1,6 +1,7 @@
 ---
 title: "G6 Pro"
-description: "G6 Pro Hall Effect multi-platform wireless controller with Bluetooth 5.3, 2.4GHz, and USB-C connectivity, programmable M1/M2 buttons, Turbo, six-axis motion control, and dual vibration motors. Compatible with Switch 2, Switch, PC, iOS, and Android. Wholesale from int-rock."
+seo_title: "G6 Pro Hall Effect Wireless Gaming Controller"
+description: "G6 Pro Hall Effect wireless controller with tri-mode connectivity, programmable rear buttons and motion control. Explore specifications and wholesale options."
 tagline: "Hall Effect Tri-Mode Controller"
 card_image: "images/g6-pro/hero.png"
 layout: "product"

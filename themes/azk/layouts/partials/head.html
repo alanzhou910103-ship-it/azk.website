@@ -76,25 +76,16 @@
 {{ $organization | jsonify | safeJS }}
 </script>
 
-{{- if and (eq .Section "products") (eq .Kind "page") }}
-{{- $breadcrumbs := slice
-  (dict "@type" "ListItem" "position" 1 "name" "Home" "item" site.BaseURL)
-  (dict "@type" "ListItem" "position" 2 "name" "Products" "item" ("products/" | absURL))
-  (dict "@type" "ListItem" "position" 3 "name" .Title "item" .Permalink)
--}}
-{{- $breadcrumbList := dict
-  "@context" "https://schema.org"
-  "@type" "BreadcrumbList"
-  "itemListElement" $breadcrumbs
--}}
-<script type="application/ld+json">
-{{ $breadcrumbList | jsonify | safeJS }}
-</script>
-{{- end }}
-
-{{- if and (eq .Section "products") (eq .Kind "section") }}
+{{- if and (eq .Kind "section") (in (slice "products" "controllers" "accessories") .Section) }}
+{{- $collectionPages := where site.RegularPages "Section" "products" -}}
+{{- if ne .Section "products" -}}
+  {{- $collectionPages = slice -}}
+  {{- range index hugo.Data.nav_products .Section -}}
+    {{- with site.GetPage .url -}}{{- $collectionPages = $collectionPages | append . -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
 {{- $items := slice -}}
-{{- range where site.RegularPages "Section" "products" -}}
+{{- range $collectionPages -}}
   {{- $items = $items | append (dict
     "@type" "ListItem"
     "position" (add (len $items) 1)

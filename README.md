@@ -23,6 +23,7 @@ For a production-equivalent check, run:
 
 ```powershell
 hugo --minify
+python scripts/check_seo.py
 ```
 
 Hugo writes the generated site to `public/`. Do not edit files in that folder manually.

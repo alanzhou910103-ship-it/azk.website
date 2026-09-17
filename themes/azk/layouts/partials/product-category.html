@@ -1,0 +1,8 @@
+{{- $category := "" -}}
+{{- $url := .RelPermalink -}}
+{{- range $key, $products := hugo.Data.nav_products -}}
+  {{- range $products -}}
+    {{- if eq .url $url -}}{{- $category = $key -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $category -}}

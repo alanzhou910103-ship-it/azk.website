@@ -33,7 +33,7 @@
         {{ with .badge }}<span class="product-card-badge">{{ . }}</span>{{ end }}
         <div class="product-card-image" style="--product-card-scale: {{ .image_scale | default 1 }};">
           {{ $img := .image | default "images/products/front.png" }}
-          <img src="{{ $img | relURL }}" alt="{{ .name }}" class="product-card-img-main" loading="lazy">
+          <img src="{{ $img | relURL }}" alt="{{ .name }} {{ .tagline }}" class="product-card-img-main" loading="lazy">
         </div>
         <div class="product-card-info">
           <h3 class="product-card-name">{{ .name }}</h3>
@@ -45,6 +45,7 @@
     {{ else }}
     <p class="section-text">No products found.</p>
     {{ end }}
+    {{ with .Content }}<div class="category-guide page-content">{{ . }}</div>{{ end }}
     <div style="text-align:center; margin-top:48px;">
       <a href="/products/" class="btn btn-outline">View All Products</a>
     </div>

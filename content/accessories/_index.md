@@ -16,3 +16,13 @@ buyer_needs:
     - "Individual products or coordinated bundles"
     - "Retail-ready descriptions and presentation materials"
 ---
+
+## Build a Switch 2 accessory range
+
+Browse [GA05 ergonomic Joy-Con 2 grips](/products/ga05/), the [GA06L charging grip with back paddles](/products/ga06l/) and the [GA06P grip kit](/products/ga06p/). Compare the included parts on each product page to choose the right package for your customers.
+
+For console protection and transport, compare the [GC01 carrying case](/products/gc01/), [GC02 protective back shell](/products/gc02/) and [GC03 protective faceplate](/products/gc03/). These are separate products with different coverage and use cases.
+
+## Match replacement parts to the exact controller
+
+The [GC06 adjustable-tension TMR joystick module](/products/gc06/) is designed for compatible PlayStation 5 DualSense Edge controllers. Check the exact controller model before ordering replacement parts; compatibility should not be assumed across the full DualSense range.

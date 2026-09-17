@@ -512,3 +512,10 @@ a:hover { color: var(--accent-dim); }
   .section { padding: 60px 0; }
   .specs-row { flex-direction: column; gap: 4px; }
 }
+
+/* Category guides and shared breadcrumb lists */
+.product-breadcrumb ol { list-style: none; margin: 0; padding: 0; }
+.product-breadcrumb li + li::before { content: "/"; margin-right: 10px; }
+.category-guide { max-width: 850px; margin: 64px auto 0; }
+.category-guide h2 { font-size: clamp(1.4rem, 3vw, 2rem); margin: 32px 0 16px; }
+.category-guide p { margin-bottom: 16px; }
