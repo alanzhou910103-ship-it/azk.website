@@ -86,11 +86,11 @@ badge = "New"
 
 [[accessories]]
 name = "GA06L"
-tagline = "Joy-Con 2 Charging Grip + Back Paddles"
+tagline = "Customizable Joy-Con 2 Charging Grip + Back Buttons"
 image = "images/cards/ga06l.webp"
 image_scale = 1.00
 url = "/products/ga06l/"
-badge = "New"
+badge = "Custom"
 
 [[accessories]]
 name = "GA06P"

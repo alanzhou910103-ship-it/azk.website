@@ -5,7 +5,7 @@ description: "Source gaming controllers and console accessories with INT-ROCK. W
 banner:
   eyebrow : "11+ Years in Gaming Peripherals"
   title : "Gaming Controllers & Accessories <br> for Wholesale & OEM/ODM"
-  image : "images/hero/facebook_banner.webp"
+  image : "images/hero/ga06l-custom-hero.webp"
   content : "INT-ROCK helps distributors, retailers, and gaming brands source proven controller platforms, customize colors, branding and packaging, and develop products for their target markets."
   categories:
     - "Wireless Controllers"
@@ -95,12 +95,12 @@ featured_accessories:
       link : "/products/ga05/"
       badge : "New"
     - name : "GA06L"
-      tagline : "Joy-Con 2 Charging Grip + Back Paddles"
+      tagline : "Customizable Joy-Con 2 Charging Grip + Back Buttons"
       image : "images/cards/ga06l.webp"
       image_scale : 1.00
       hover_image : "images/cards/ga06l.webp"
       link : "/products/ga06l/"
-      badge : "New"
+      badge : "Custom"
     - name : "GA06P"
       tagline : "Joy-Con 2 Charging Grip + Paddles + Grips"
       image : "images/cards/ga06p.webp"

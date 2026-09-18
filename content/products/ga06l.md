@@ -1,15 +1,15 @@
 ---
 title: "GA06L"
-seo_title: "GA06L Joy-Con 2 Charging Grip with Back Paddles"
-description: "GA06L charging grip for Joy-Con 2 with USB-C pass-through charging and three interchangeable back paddle sets. Explore the kit and request wholesale details."
-tagline: "Joy-Con 2 Charging Grip + Back Paddles"
+seo_title: "Custom GA06L Joy-Con 2 Charging Grip with Back Buttons"
+description: "Customize the GA06L Joy-Con 2 charging grip with brand graphics, artwork and back-button designs, plus USB-C charging and three interchangeable button sets."
+tagline: "Customizable Joy-Con 2 Charging Grip + Back Buttons"
 card_image: "images/cards/ga06l.webp"
 layout: "product"
 date: 2026-06-23
 
 hero:
-  image: "images/ga06l/hero.jpg"
-  badge: "New"
+  image: "images/hero/ga06l-custom-hero.webp"
+  badge: "Customizable"
 
 views:
   title: "Product Views"
@@ -19,15 +19,15 @@ views:
     - image: "images/ga06l/detail3.jpg"
 
 highlights:
+  - icon: "fas fa-palette"
+    title: "Custom Artwork & Brand Graphics"
+    description: "Turn the center bridge and back buttons into a branded product with custom artwork, color graphics, and logo applications for your market."
   - icon: "fas fa-puzzle-piece"
     title: "3 Sets of Replaceable Back Paddles"
     description: "Includes 3 different back button styles — short, long, and hybrid. Swap them tool-free in seconds to match your playstyle for FPS, racing, RPG, or casual gaming."
   - icon: "fas fa-bolt"
     title: "Play While Charging"
     description: "Built-in pass-through USB-C charging port keeps your Joy-Cons powered during intense gaming sessions. No more mid-game battery anxiety."
-  - icon: "fas fa-random"
-    title: "Mix & Match Back Buttons"
-    description: "Not locked to one style. Combine different paddle types on the same grip to customize your control layout exactly how you want."
   - icon: "fas fa-tv"
     title: "Multi-Mode Compatibility"
     description: "Works seamlessly across handheld, tabletop, and TV modes. One grip for every way you play."
@@ -39,6 +39,13 @@ highlights:
     description: "Both the grip handle and back paddles are fully detachable. Switch configurations in seconds — compact for travel storage."
 
 sections:
+  - title: "Your Artwork. Your Charging Bridge."
+    image: "images/ga06l/custom-artwork.webp"
+    image_side: "right"
+    content: "Create a GA06L edition that belongs to your brand. The center bridge can carry custom artwork, campaign graphics, or logo-led designs using waterslide decals or water transfer printing.
+
+The visual treatment can also extend to the interchangeable GL and GR back buttons for a coordinated front-and-back design. Send us your artwork or brand direction and we will prepare a customization proposal for sample approval."
+
   - title: "Upgrade Your Gaming with Pro-Level Control"
     image: "images/ga06l/main.jpg"
     image_side: "right"
@@ -60,6 +67,10 @@ sections:
     content: "Everything on the GA06L snaps on and off without tools. Swap back paddle sets in seconds. Remove the grip handle for compact storage when traveling. Reconfigure between games without touching a single screw.\n\nThe textured, ergonomic surface provides a secure non-slip hold even during the most intense moments, while the contoured shape significantly reduces hand fatigue over long play sessions."
 
 specs:
+  - label: "Graphic Customization"
+    value: "Center bridge artwork, brand graphics, logos, and coordinated back-button graphics"
+  - label: "Decoration Process"
+    value: "Waterslide decals or water transfer printing, subject to design and sample approval"
   - label: "Compatibility"
     value: "Nintendo Switch 2 Joy-Con controllers"
   - label: "Back Paddles"
@@ -78,6 +89,6 @@ specs:
     value: "1× Charging Grip, 3× Back Paddle Sets (Short/Long/Hybrid), 1× USB-C Cable, 1× User Manual"
 
 cta:
-  title: "Want GA06L in your lineup?"
-  button_label: "Contact Us for Wholesale"
+  title: "Ready to create your own GA06L edition?"
+  button_label: "Request a Customization Proposal"
 ---
