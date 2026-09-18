@@ -3,7 +3,7 @@ title: "GA06L"
 seo_title: "GA06L Joy-Con 2 Charging Grip with Back Paddles"
 description: "GA06L charging grip for Joy-Con 2 with USB-C pass-through charging and three interchangeable back paddle sets. Explore the kit and request wholesale details."
 tagline: "Joy-Con 2 Charging Grip + Back Paddles"
-card_image: "images/cards/ga06l.png"
+card_image: "images/cards/ga06l.webp"
 layout: "product"
 date: 2026-06-23
 

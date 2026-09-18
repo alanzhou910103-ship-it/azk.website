@@ -6,7 +6,7 @@
   <section class="hero" id="home">
     {{ with .image }}
     <div class="hero-bg">
-      <img src="{{ . | relURL }}" alt="">
+      <img src="{{ . | relURL }}" alt="" fetchpriority="high" decoding="async">
     </div>
     {{ end }}
     <div class="hero-overlay"></div>

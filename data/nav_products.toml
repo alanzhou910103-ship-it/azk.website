@@ -9,7 +9,7 @@ badge = "New"
 [[controllers]]
 name = "G9"
 tagline = "Hall Effect Tri-Mode Wireless"
-image = "images/g9/hero.png"
+image = "images/g9/hero.webp"
 image_scale = 1.00
 url = "/products/g9/"
 badge = "New"
@@ -17,7 +17,7 @@ badge = "New"
 [[controllers]]
 name = "G7"
 tagline = "1000Hz Tri-Mode Gaming"
-image = "images/g7/hero.png"
+image = "images/g7/hero.webp"
 image_scale = 1.00
 url = "/products/g7/"
 badge = "New"
@@ -25,7 +25,7 @@ badge = "New"
 [[controllers]]
 name = "G6 Pro"
 tagline = "Hall Effect Tri-Mode"
-image = "images/g6-pro/hero.png"
+image = "images/g6-pro/hero.webp"
 image_scale = 1.00
 url = "/products/g6-pro/"
 badge = "New"
@@ -33,7 +33,7 @@ badge = "New"
 [[controllers]]
 name = "G2"
 tagline = "Custom TMR Wireless"
-image = "images/cards/g2.png"
+image = "images/cards/g2.webp"
 image_scale = 1.00
 url = "/products/g2/"
 badge = "New"
@@ -41,7 +41,7 @@ badge = "New"
 [[controllers]]
 name = "G1"
 tagline = "TMR Tri-Mode Wireless"
-image = "images/cards/g1.png"
+image = "images/cards/g1.webp"
 image_scale = 1.00
 url = "/products/g1/"
 badge = "New"
@@ -49,7 +49,7 @@ badge = "New"
 [[controllers]]
 name = "G8"
 tagline = "NS2 Pro Wireless"
-image = "images/cards/g8.png"
+image = "images/cards/g8.webp"
 image_scale = 1.00
 url = "/products/g8/"
 badge = "New"
@@ -57,21 +57,21 @@ badge = "New"
 [[controllers]]
 name = "G11"
 tagline = "Hall Effect Precision"
-image = "images/cards/g11.png"
+image = "images/cards/g11.webp"
 image_scale = 1.00
 url = "/products/g11/"
 
 [[controllers]]
 name = "G12"
 tagline = "Compact Multi-Platform"
-image = "images/cards/g12.png"
+image = "images/cards/g12.webp"
 image_scale = 1.00
 url = "/products/g12/"
 
 [[controllers]]
 name = "G3"
 tagline = "Multi-Platform Wireless"
-image = "images/cards/g3.png"
+image = "images/cards/g3.webp"
 image_scale = 1.00
 url = "/products/g3/"
 badge = "New"
@@ -79,7 +79,7 @@ badge = "New"
 [[accessories]]
 name = "GA05"
 tagline = "Joy-Con 2 Ergonomic Grip"
-image = "images/cards/ga05.png"
+image = "images/cards/ga05.webp"
 image_scale = 1.00
 url = "/products/ga05/"
 badge = "New"
@@ -87,7 +87,7 @@ badge = "New"
 [[accessories]]
 name = "GA06L"
 tagline = "Joy-Con 2 Charging Grip + Back Paddles"
-image = "images/cards/ga06l.png"
+image = "images/cards/ga06l.webp"
 image_scale = 1.00
 url = "/products/ga06l/"
 badge = "New"
@@ -95,7 +95,7 @@ badge = "New"
 [[accessories]]
 name = "GA06P"
 tagline = "Joy-Con 2 Charging Grip + Paddles + Grips"
-image = "images/cards/ga06p.png"
+image = "images/cards/ga06p.webp"
 image_scale = 1.00
 url = "/products/ga06p/"
 badge = "Best Value"
@@ -103,7 +103,7 @@ badge = "Best Value"
 [[accessories]]
 name = "GC01"
 tagline = "Switch 2 Console Carrying Case"
-image = "images/cards/gc01.png"
+image = "images/cards/gc01.webp"
 image_scale = 1.00
 url = "/products/gc01/"
 badge = "New"
@@ -111,7 +111,7 @@ badge = "New"
 [[accessories]]
 name = "GC02"
 tagline = "Switch 2 Console Protective Back Shell"
-image = "images/cards/gc02.png"
+image = "images/cards/gc02.webp"
 image_scale = 1.00
 url = "/products/gc02/"
 badge = "New"
@@ -119,7 +119,7 @@ badge = "New"
 [[accessories]]
 name = "GC03"
 tagline = "Switch 2 Console Protective Faceplate"
-image = "images/cards/gc03.png"
+image = "images/cards/gc03.webp"
 image_scale = 1.00
 url = "/products/gc03/"
 badge = "New"
@@ -127,6 +127,6 @@ badge = "New"
 [[accessories]]
 name = "GC06"
 tagline = "Adjustable-Tension TMR Replacement Joystick"
-image = "images/gc06/hero.jpg"
+image = "images/gc06/hero.webp"
 url = "/products/gc06/"
 badge = "New"

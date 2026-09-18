@@ -3,7 +3,7 @@ title: "GA06P"
 seo_title: "GA06P Joy-Con 2 Charging Grip & Paddle Kit"
 description: "GA06P Switch 2 accessory kit with a charging grip, three back paddle sets and detachable Joy-Con grips. Contact int-rock for wholesale enquiries."
 tagline: "Joy-Con 2 Charging Grip + Paddles + Grips Kit"
-card_image: "images/cards/ga06p.png"
+card_image: "images/cards/ga06p.webp"
 layout: "product"
 date: 2026-06-23
 

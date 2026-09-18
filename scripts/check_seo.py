@@ -21,6 +21,7 @@ class Page(HTMLParser):
         self.descriptions = []
         self.h1 = 0
         self.references = []
+        self.images = []
         self.anchors = set()
         self.breadcrumbs = 0
 
@@ -44,6 +45,8 @@ class Page(HTMLParser):
         key = "href" if tag in ("a", "link") else "src"
         if tag in ("a", "link", "img", "script") and attrs.get(key):
             self.references.append(attrs[key])
+        if tag == "img" and attrs.get("src"):
+            self.images.append(attrs["src"])
 
     def handle_data(self, data):
         if self.in_title:
@@ -80,6 +83,14 @@ def main():
         require(descriptions[page.descriptions[0]] == 1, f"{url}: duplicate description")
         require(page.canonical == [url], f"{url}: canonical mismatch")
         require(page.h1 == 1, f"{url}: expected one H1")
+        image_bytes = 0
+        for ref in set(page.images):
+            target = urlsplit(urljoin(url, ref))
+            if target.netloc == urlsplit(url).netloc:
+                image_path = ROOT / unquote(target.path).lstrip("/")
+                if image_path.is_file():
+                    image_bytes += image_path.stat().st_size
+        require(image_bytes <= 8_000_000, f"{url}: image payload exceeds 8 MB")
         crumbs = [item for item in page.schemas if item.get("@type") == "BreadcrumbList"]
         if urlsplit(url).path != "/":
             require(len(crumbs) == 1 and page.breadcrumbs == 1, f"{url}: breadcrumb count")

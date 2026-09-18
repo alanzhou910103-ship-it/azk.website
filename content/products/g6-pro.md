@@ -3,20 +3,20 @@ title: "G6 Pro"
 seo_title: "G6 Pro Hall Effect Wireless Gaming Controller"
 description: "G6 Pro Hall Effect wireless controller with tri-mode connectivity, programmable rear buttons and motion control. Explore specifications and wholesale options."
 tagline: "Hall Effect Tri-Mode Controller"
-card_image: "images/g6-pro/hero.png"
+card_image: "images/g6-pro/hero.webp"
 layout: "product"
 date: 2026-07-23
 
 hero:
-  image: "images/g6-pro/hero.png"
+  image: "images/g6-pro/hero.webp"
   badge: "New"
 
 views:
   title: "Product Views"
   images:
-    - image: "images/g6-pro/card.png"
-    - image: "images/g6-pro/hero.png"
-    - image: "images/g6-pro/macro-buttons.png"
+    - image: "images/g6-pro/card.webp"
+    - image: "images/g6-pro/hero.webp"
+    - image: "images/g6-pro/macro-buttons.webp"
 
 highlights:
   - icon: "fas fa-crosshairs"
@@ -40,22 +40,22 @@ highlights:
 
 sections:
   - title: "Hall Effect Control, Built for Precision"
-    image: "images/g6-pro/hall-joysticks.png"
+    image: "images/g6-pro/hall-joysticks.webp"
     image_side: "right"
     content: "The G6 Pro combines Hall Effect joysticks and Hall Effect triggers for precise control across compatible games. The joystick design is intended to deliver stable centering and drift-resistant performance during extended sessions.\n\nLinear trigger travel supports smooth input for racing and action games, while the transparent gaming design creates a distinctive visual identity for retail displays and online listings."
 
   - title: "Tri-Mode, Multi-Platform Play"
-    image: "images/g6-pro/hero.png"
+    image: "images/g6-pro/hero.webp"
     image_side: "left"
     content: "Connect through Bluetooth 5.3, 2.4GHz wireless, or USB-C wired mode across compatible Switch 2, Switch, PC, iOS, and Android devices. The optional wireless receiver is not included as standard.\n\nG6 Pro is compatible with Switch 2 gameplay, but it does not wake the Switch 2 console. Functions may vary by platform, game, and connection mode."
 
   - title: "Programmable Back Controls and Turbo"
-    image: "images/g6-pro/macro-buttons.png"
+    image: "images/g6-pro/macro-buttons.webp"
     image_side: "right"
     content: "Two programmable rear buttons, M1 and M2, make it easier to place selected commands within reach. Turbo rapid-fire can be used for repeated inputs in compatible games.\n\nConductive ABXY buttons are designed for a crisp tactile feel and responsive input, supporting a practical feature set for everyday and competitive play."
 
   - title: "Motion Control and Dual Vibration"
-    image: "images/g6-pro/dual-vibration.png"
+    image: "images/g6-pro/dual-vibration.webp"
     image_side: "left"
     content: "Built-in six-axis motion sensing supports motion-based control in compatible games. Independent left and right vibration motors provide richer in-game feedback.\n\nThe controller does not include nine-axis sensing or a C-button voice-chat function."
 

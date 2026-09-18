@@ -26,6 +26,16 @@ hugo --minify
 python scripts/check_seo.py
 ```
 
+After adding large PNG or JPEG product images, generate optimized WebP copies and update the source references:
+
+```powershell
+python scripts/optimize_images.py
+hugo --minify
+python scripts/check_seo.py
+```
+
+The optimizer keeps the original supplier images for future editing while the website serves the smaller WebP copies.
+
 Hugo writes the generated site to `public/`. Do not edit files in that folder manually.
 
 ## Release checklist

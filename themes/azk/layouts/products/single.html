@@ -6,7 +6,7 @@
 <section class="product-hero">
   {{ with .hero.image }}
   <div class="product-hero-bg">
-    <img src="{{ . | relURL }}" alt="{{ $page.Title }} {{ $page.Params.tagline }}">
+    <img src="{{ . | relURL }}" alt="{{ $page.Title }} {{ $page.Params.tagline }}" fetchpriority="high" decoding="async">
   </div>
   {{ end }}
   <div class="product-hero-overlay"></div>
@@ -26,7 +26,7 @@
       {{ range .variants }}
       <div class="color-card" data-aos="fade-up">
         <div class="color-image">
-          <img src="{{ .image | relURL }}" alt="{{ $page.Title }} — {{ .name }}" loading="lazy">
+          <img src="{{ .image | relURL }}" alt="{{ $page.Title }} — {{ .name }}" loading="lazy" decoding="async">
         </div>
         <h3 class="color-name">{{ .name }}</h3>
       </div>
@@ -43,7 +43,7 @@
       {{ range $index, $view := .images }}
       <div class="color-card" data-aos="fade-up">
         <div class="color-image">
-          <img src="{{ $view.image | relURL }}" alt="{{ $page.Title }} product view {{ add $index 1 }}" loading="lazy">
+          <img src="{{ $view.image | relURL }}" alt="{{ $page.Title }} product view {{ add $index 1 }}" loading="lazy" decoding="async">
         </div>
       </div>
       {{ end }}
@@ -76,7 +76,7 @@
     {{ range $index, $section := . }}
     <div class="product-row {{ if eq $section.image_side "left" }}product-row-reverse{{ end }}" data-aos="fade-up">
       <div class="product-image">
-        <img src="{{ $section.image | relURL }}" alt="{{ $section.title }}" loading="lazy">
+        <img src="{{ $section.image | relURL }}" alt="{{ $section.title }}" loading="lazy" decoding="async">
       </div>
       <div class="product-info">
         <h2 class="product-title">{{ $section.title }}</h2>
@@ -146,7 +146,7 @@
       {{ range . }}
       <a href="{{ .RelPermalink }}" class="product-card">
         <div class="product-card-image">
-          <img src="{{ .Params.card_image | relURL }}" alt="{{ .Title }} {{ .Params.tagline }}" loading="lazy">
+          <img src="{{ .Params.card_image | relURL }}" alt="{{ .Title }} {{ .Params.tagline }}" loading="lazy" decoding="async">
         </div>
         <div class="product-card-info">
           <h3 class="product-card-name">{{ .Title }}</h3>
