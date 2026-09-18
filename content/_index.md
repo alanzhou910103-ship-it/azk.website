@@ -22,8 +22,8 @@ banner:
 ##################### Featured Controllers ##########################
 featured_controllers:
   enable : true
-  title : "Featured Controllers"
-  description : "Selected controller platforms for distributors, retailers, and gaming brands"
+  title : "Controller Platforms, Ready to Compete"
+  description : "Performance-focused platforms selected for distributors, retailers, and gaming brands — with room for differentiation."
   items:
     - name : "G17"
       tagline : "Hall Effect PS5-Compatible Wireless Controller"
@@ -81,26 +81,11 @@ featured_controllers:
       hover_image : "images/cards/g11.webp"
       link : "/products/g11/"
       badge : "New"
-    - name : "G12"
-      tagline : "Compact Multi-Platform Controller"
-      image : "images/cards/g12.webp"
-      image_scale : 1.00
-      hover_image : "images/cards/g12.webp"
-      link : "/products/g12/"
-      badge : "Popular"
-    - name : "G3"
-      tagline : "PS5 Pro Wireless Controller"
-      image : "images/cards/g3.webp"
-      image_scale : 1.00
-      hover_image : "images/cards/g3.webp"
-      link : "/products/g3/"
-      badge : "New"
-
 ##################### Featured Accessories ##########################
 featured_accessories:
   enable : true
-  title : "Featured Accessories"
-  description : "Practical console accessories selected for wholesale and customization opportunities"
+  title : "Accessories with Retail Potential"
+  description : "Focused console accessories chosen for clear consumer value, strong presentation, and customization potential."
   items:
     - name : "GA05"
       tagline : "Joy-Con 2 Ergonomic Grip"
@@ -154,7 +139,7 @@ featured_accessories:
 ##################### Feature ##########################
 feature:
   enable : true
-  title : "Why Choose INT-ROCK"
+  title : "Built for Better Product Decisions"
   feature_item:
     - name : "Deep Product Knowledge"
       icon : "fas fa-gamepad"
@@ -179,7 +164,7 @@ feature:
 about:
   enable : true
   label : "About int-rock"
-  title : "Your Gaming Peripherals Product Partner"
+  title : "Product Expertise Behind Every Detail"
   content : "INT-ROCK is a game controller and gaming accessories trading and product development company serving distributors, retailers, and gaming brands worldwide.\n\nOur strength lies in product expertise, customer communication, and resource coordination. With over 11 years of experience in gaming peripherals, we understand both the technical details of the product and the commercial requirements of the customer.\n\nWe work with a strong network of manufacturing partners, electronic solution providers, tooling suppliers, and packaging resources. This allows us to provide flexible solutions - from existing product sourcing and OEM/ODM customization to private tooling and new product development.\n\nWe also help organize product specifications, refine selling points, and present each product clearly, making it easier for customers to evaluate, market, and sell."
   stats:
     - icon : "fa-solid fa-gamepad"

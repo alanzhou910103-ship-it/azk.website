@@ -59,10 +59,6 @@
 {{ $style := resources.Get "css/style.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
-<!-- AOS Animation -->
-<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
 <!-- Structured Data: Organization -->
 {{- $organization := dict
   "@context" "https://schema.org"
