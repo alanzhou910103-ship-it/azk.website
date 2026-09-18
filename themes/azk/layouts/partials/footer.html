@@ -4,7 +4,7 @@
       <div class="footer-col">
         <div class="footer-brand">
           {{ with site.Params.logo }}
-            <img src="{{ . | relURL }}" alt="{{ site.Title }}" class="footer-logo-img">
+            <img src="{{ . | relURL }}" alt="{{ site.Title }}" class="footer-logo-img" width="144" height="144" loading="lazy" decoding="async">
           {{ end }}
           <h4>{{ site.Title }}</h4>
         </div>

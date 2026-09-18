@@ -11,20 +11,27 @@
     {{ end }}
     <div class="hero-overlay"></div>
     <div class="container hero-content">
-      {{ with .eyebrow }}<p class="hero-eyebrow" data-aos="fade-up">{{ . }}</p>{{ end }}
-      <h1 class="hero-title" data-aos="fade-up">{{ .title | safeHTML }}</h1>
-      <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="150">{{ .content | safeHTML }}</p>
-      {{ with .buttons }}
-      <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
-        {{ range . }}
-        <a href="{{ .link }}" class="{{ .class | default "btn btn-primary btn-lg" }}">{{ .label }}</a>
+      <div class="hero-copy">
+        {{ with .eyebrow }}<p class="hero-eyebrow" data-aos="fade-up">{{ . }}</p>{{ end }}
+        <h1 class="hero-title" data-aos="fade-up">{{ .title | safeHTML }}</h1>
+        <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">{{ .content | safeHTML }}</p>
+        {{ with .categories }}
+        <ul class="hero-categories" aria-label="Product and service categories" data-aos="fade-up" data-aos-delay="150">
+          {{ range . }}<li>{{ . }}</li>{{ end }}
+        </ul>
+        {{ end }}
+        {{ with .buttons }}
+        <div class="hero-actions" data-aos="fade-up" data-aos-delay="200">
+          {{ range . }}
+          <a href="{{ .link }}" class="{{ .class | default "btn btn-primary btn-lg" }}">{{ .label }}</a>
+          {{ end }}
+        </div>
+        {{ else }}
+        {{ if .button.enable }}
+        <a href="{{ .button.link }}" class="btn btn-primary btn-lg" data-aos="fade-up" data-aos-delay="200">{{ .button.label }}</a>
+        {{ end }}
         {{ end }}
       </div>
-      {{ else }}
-      {{ if .button.enable }}
-      <a href="{{ .button.link }}" class="btn btn-primary btn-lg" data-aos="fade-up" data-aos-delay="300">{{ .button.label }}</a>
-      {{ end }}
-      {{ end }}
     </div>
   </section>
   {{ end }}

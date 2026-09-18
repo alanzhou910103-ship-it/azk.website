@@ -26,6 +26,8 @@
 <meta name="keywords" content="{{ delimit site.Params.metadata.keywords ", " }}">
 <meta name="author" content="{{ site.Params.metadata.author }}">
 {{ with .Permalink }}<link rel="canonical" href="{{ . }}">{{ end }}
+{{ with .Params.banner.image }}<link rel="preload" as="image" href="{{ . | relURL }}" fetchpriority="high">{{ end }}
+{{ with .Params.hero.image }}<link rel="preload" as="image" href="{{ . | relURL }}" fetchpriority="high">{{ end }}
 
 <!-- Open Graph -->
 <meta property="og:title" content="{{ $pageTitle }}">

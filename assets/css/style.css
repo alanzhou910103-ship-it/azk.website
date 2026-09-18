@@ -155,21 +155,23 @@ a:hover { color: var(--accent-dim); }
 .hero {
   position: relative; min-height: 88vh;
   display: flex; align-items: center; justify-content: center;
-  text-align: center; overflow: hidden; background: var(--bg-dark);
+  text-align: left; overflow: hidden; background: var(--bg-dark);
 }
 .hero-bg { position: absolute; inset: 0; z-index: 0; }
-.hero-bg img { width: 100%; height: 100%; object-fit: cover; opacity: 0.4; transform: scale(1.05); }
+.hero-bg img { width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0.46; transform: scale(1.03); }
 .hero-overlay {
   position: absolute; inset: 0; z-index: 1;
   background:
-    radial-gradient(ellipse at 40% 50%, rgba(0,0,0,0.3) 0%, transparent 60%),
-    radial-gradient(ellipse at 70% 30%, rgba(180,255,0,0.05) 0%, transparent 50%),
-    linear-gradient(to bottom, rgba(10,10,10,0.6) 0%, var(--bg-dark) 100%);
+    linear-gradient(90deg, rgba(5,8,10,0.96) 0%, rgba(5,8,10,0.83) 44%, rgba(5,8,10,0.38) 78%, rgba(5,8,10,0.62) 100%),
+    linear-gradient(to bottom, rgba(10,10,10,0.35) 0%, var(--bg-dark) 100%);
 }
-.hero-content { position: relative; z-index: 2; max-width: 920px; }
+.hero-content { position: relative; z-index: 2; width: 100%; max-width: var(--max-width); padding-top: 72px; }
+.hero-copy { max-width: 900px; }
 .hero-eyebrow { color: var(--accent); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.12em; margin-bottom: 18px; text-transform: uppercase; }
-.hero-title { font-weight: 900; margin-bottom: 24px; line-height: 1.1; }
-.hero-subtitle { font-size: 1.2rem; color: var(--text-secondary); margin-bottom: 40px; line-height: 1.8; }
+.hero-title { max-width: 900px; font-size: clamp(2.8rem, 5vw, 4.3rem); font-weight: 900; margin-bottom: 24px; line-height: 1.07; }
+.hero-subtitle { max-width: 720px; font-size: 1.15rem; color: #d0d0d0; margin-bottom: 24px; line-height: 1.68; }
+.hero-categories { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; margin-bottom: 34px; }
+.hero-categories li { padding: 7px 13px; color: #e8e8e8; background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.16); border-radius: 100px; font-size: 0.78rem; font-weight: 600; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; }
 
 /* --- Trust Bar --- */
@@ -479,9 +481,13 @@ a:hover { color: var(--accent-dim); }
   .nav-dropdown.dropdown-open .nav-dropdown-menu { opacity: 1; visibility: visible; max-height: 300px; }
   .nav-dropdown-item { padding: 10px 16px; }
   .nav-chevron { display: none; }
-  .hero { min-height: 760px; }
-  .hero-title { font-size: 2.15rem; }
-  .hero-subtitle { font-size: 1rem; }
+  .logo-img { height: 58px; }
+  .hero { min-height: auto; padding: 138px 0 76px; }
+  .hero-content { padding-top: 0; }
+  .hero-title { font-size: clamp(2.15rem, 10vw, 3rem); }
+  .hero-subtitle { font-size: 1rem; line-height: 1.65; }
+  .hero-categories { gap: 8px; margin-bottom: 28px; }
+  .hero-categories li { padding: 6px 10px; font-size: 0.72rem; }
   .hero-actions { flex-direction: column; align-items: flex-start; }
   .hero-actions .btn { width: 100%; text-align: center; }
   .product-card-grid { grid-template-columns: 1fr; max-width: 360px; margin: 0 auto; }

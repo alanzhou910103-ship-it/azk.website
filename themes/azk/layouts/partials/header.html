@@ -2,7 +2,7 @@
   <div class="container">
     <a href="/" class="logo">
       {{ with site.Params.logo }}
-        <img src="{{ . | relURL }}" alt="{{ site.Title }}" class="logo-img">
+        <img src="{{ . | relURL }}" alt="{{ site.Title }}" class="logo-img" width="144" height="144" decoding="async">
       {{ end }}
       <span class="logo-text">{{ site.Params.logo_text | default site.Title }}</span>
     </a>

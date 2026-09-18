@@ -1,18 +1,22 @@
 ---
-title: "Gaming Controller Sourcing & OEM/ODM Partner"
-description: "INT-ROCK provides gaming controller sourcing and OEM/ODM support for distributors, retailers, and brands, including customization, tooling, and packaging."
+title: "Wholesale Gaming Controllers & OEM/ODM Accessories"
+description: "Source gaming controllers and console accessories with INT-ROCK. Wholesale, private-label and OEM/ODM support for distributors, retailers and gaming brands."
 ####################### Banner #########################
 banner:
-  eyebrow : "Gaming Controller Sourcing & OEM/ODM Partner"
-  title : "Turn Product Ideas into <br> Market-Ready Gaming Solutions"
-  image : "images/hero/facebook_banner.png"
-  content : "INT-ROCK helps distributors, retailers, and gaming brands source, customize, and develop gaming controllers and accessories. Drawing on hands-on product knowledge and an established partner network, we turn customer requirements into practical, market-ready products."
+  eyebrow : "11+ Years in Gaming Peripherals"
+  title : "Gaming Controllers & Accessories <br> for Wholesale & OEM/ODM"
+  image : "images/hero/facebook_banner.webp"
+  content : "INT-ROCK helps distributors, retailers, and gaming brands source proven controller platforms, customize colors, branding and packaging, and develop products for their target markets."
+  categories:
+    - "Wireless Controllers"
+    - "Console Accessories"
+    - "Private Label & Tooling"
   buttons:
+    - label : "Browse Product Range"
+      link : "#featured"
+      class : "btn btn-primary btn-lg"
     - label : "Discuss Your Project"
       link : "#contact"
-      class : "btn btn-primary btn-lg"
-    - label : "Explore Products"
-      link : "#featured"
       class : "btn btn-outline btn-lg"
 
 ##################### Featured Controllers ##########################
