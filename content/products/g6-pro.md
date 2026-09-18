@@ -15,7 +15,7 @@ views:
   title: "Product Views"
   images:
     - image: "images/g6-pro/card.webp"
-    - image: "images/g6-pro/hero.webp"
+    - image: "images/g6-pro/hall-triggers.webp"
     - image: "images/g6-pro/macro-buttons.webp"
 
 highlights:

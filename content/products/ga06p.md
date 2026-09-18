@@ -14,7 +14,7 @@ hero:
 views:
   title: "Product Views"
   images:
-    - image: "images/ga06p/hero.jpg"
+    - image: "images/ga06p/detail5.jpg"
     - image: "images/ga06p/main.jpg"
     - image: "images/ga06p/detail0.jpg"
 

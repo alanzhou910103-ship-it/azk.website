@@ -1,5 +1,6 @@
 """Validate the generated site's metadata, navigation and local assets using stdlib."""
 import json
+import hashlib
 from collections import Counter
 from html.parser import HTMLParser
 from pathlib import Path
@@ -84,6 +85,17 @@ def main():
         require(page.canonical == [url], f"{url}: canonical mismatch")
         require(page.h1 == 1, f"{url}: expected one H1")
         image_bytes = 0
+        image_identities = Counter()
+        for ref in page.images:
+            target = urlsplit(urljoin(url, ref))
+            if target.netloc == urlsplit(url).netloc:
+                image_path = ROOT / unquote(target.path).lstrip("/")
+                if image_path.is_file():
+                    image_identities[hashlib.sha256(image_path.read_bytes()).hexdigest()] += 1
+        require(
+            not image_identities or max(image_identities.values()) <= 2,
+            f"{url}: the same image appears more than twice",
+        )
         for ref in set(page.images):
             target = urlsplit(urljoin(url, ref))
             if target.netloc == urlsplit(url).netloc:
