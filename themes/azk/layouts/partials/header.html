@@ -1,6 +1,6 @@
 <header class="header" id="header">
   <div class="container">
-    <a href="/" class="logo">
+    <a href="{{ site.Home.RelPermalink }}" class="logo">
       {{ with site.Params.logo }}
         <img src="{{ . | relURL }}" alt="{{ site.Title }}" class="logo-img" width="144" height="144" decoding="async">
       {{ end }}
@@ -8,14 +8,14 @@
     </a>
 
     <nav class="nav" id="nav">
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <button class="nav-toggle" id="navToggle" aria-label="{{ i18n "toggle_menu" }}">
         <span></span>
         <span></span>
         <span></span>
       </button>
       <ul class="nav-list">
         {{ range site.Menus.main }}
-          {{ if eq .Name "Products" }}
+          {{ if eq .Identifier "products" }}
           <li class="nav-dropdown">
             <button class="nav-link nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
               {{ .Name }}
@@ -23,30 +23,31 @@
             </button>
             <div class="nav-dropdown-menu">
               <div class="nav-dropdown-grid">
-                <a href="/controllers/" class="nav-dropdown-item nav-dropdown-category">
+                <a href="{{ relLangURL "/controllers/" }}" class="nav-dropdown-item nav-dropdown-category">
                   <span class="nav-dropdown-item-name">
-                    <i class="fas fa-gamepad" style="margin-right:6px;font-size:0.8rem;"></i> Controllers
+                    <i class="fas fa-gamepad" style="margin-right:6px;font-size:0.8rem;"></i> {{ i18n "controllers" }}
                   </span>
                 </a>
-                <a href="/accessories/" class="nav-dropdown-item nav-dropdown-category">
+                <a href="{{ relLangURL "/accessories/" }}" class="nav-dropdown-item nav-dropdown-category">
                   <span class="nav-dropdown-item-name">
-                    <i class="fas fa-puzzle-piece" style="margin-right:6px;font-size:0.8rem;"></i> Accessories
+                    <i class="fas fa-puzzle-piece" style="margin-right:6px;font-size:0.8rem;"></i> {{ i18n "accessories" }}
                   </span>
                 </a>
                 <div class="nav-dropdown-divider"></div>
-                <a href="/products/" class="nav-dropdown-item nav-dropdown-view-all">
-                  <span class="nav-dropdown-item-name">View All Products</span>
+                <a href="{{ relLangURL "/products/" }}" class="nav-dropdown-item nav-dropdown-view-all">
+                  <span class="nav-dropdown-item-name">{{ i18n "view_all_products" }}</span>
                 </a>
               </div>
             </div>
           </li>
           {{ else }}
-          <li><a href="{{ .URL }}" class="nav-link">{{ .Name }}</a></li>
+          <li><a href="{{ if hasPrefix .URL "http" }}{{ .URL }}{{ else }}{{ relLangURL .URL }}{{ end }}" class="nav-link">{{ .Name }}</a></li>
           {{ end }}
         {{ end }}
+        {{ partial "language-switcher.html" $ }}
         {{ with site.Params.navigation_button }}
           {{ if .enable }}
-          <li><a href="{{ .link | relURL }}" class="btn btn-primary nav-cta">{{ .label }}</a></li>
+          <li><a href="{{ relLangURL .link }}" class="btn btn-primary nav-cta">{{ i18n "get_in_touch" }}</a></li>
           {{ end }}
         {{ end }}
       </ul>

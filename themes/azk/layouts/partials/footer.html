@@ -8,7 +8,7 @@
           {{ end }}
           <h4>{{ site.Title }}</h4>
         </div>
-        <p>{{ site.Params.footer_description }}</p>
+        <p>{{ i18n "footer_description" }}</p>
         <div class="footer-social">
           {{ range site.Params.social }}
           <a href="{{ .link }}" title="{{ .title }}" aria-label="{{ .title }}" target="_blank" rel="noopener"><i class="{{ .icon }}"></i></a>
@@ -17,25 +17,25 @@
       </div>
 
       <div class="footer-col">
-        <h4>Quick Links</h4>
+        <h4>{{ i18n "quick_links" }}</h4>
         <ul>
           {{ range site.Menus.footer_left }}
-          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          <li><a href="{{ if hasPrefix .URL "http" }}{{ .URL }}{{ else }}{{ relLangURL .URL }}{{ end }}">{{ .Name }}</a></li>
           {{ end }}
         </ul>
       </div>
 
       <div class="footer-col">
-        <h4>Legal</h4>
+        <h4>{{ i18n "legal" }}</h4>
         <ul>
           {{ range site.Menus.footer_middle }}
-          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          <li><a href="{{ relLangURL .URL }}">{{ .Name }}</a></li>
           {{ end }}
         </ul>
       </div>
 
       <div class="footer-col">
-        <h4>Connect</h4>
+        <h4>{{ i18n "connect" }}</h4>
         <ul>
           {{ range site.Menus.footer_right }}
           <li><a href="{{ .URL }}">{{ .Name }}</a></li>
@@ -102,8 +102,8 @@
 
       if (inquiryButton.disabled) return;
       inquiryButton.disabled = true;
-      inquiryButton.textContent = 'Sending...';
-      inquiryStatus.textContent = 'Sending your inquiry...';
+      inquiryButton.textContent = {{ i18n "sending" | jsonify | safeJS }};
+      inquiryStatus.textContent = {{ i18n "sending_inquiry" | jsonify | safeJS }};
       inquiryStatus.className = 'form-status is-pending';
 
       try {
@@ -116,14 +116,14 @@
         if (!response.ok) throw new Error('Submission failed');
 
         inquiryForm.reset();
-        inquiryStatus.textContent = 'Thank you. Your inquiry has been sent to our sales team.';
+        inquiryStatus.textContent = {{ i18n "inquiry_success" | jsonify | safeJS }};
         inquiryStatus.className = 'form-status is-success';
       } catch (error) {
-        inquiryStatus.innerHTML = 'Sorry, the form could not be sent. Please email <a href="mailto:sales@int-rock.com">sales@int-rock.com</a> directly.';
+        inquiryStatus.innerHTML = {{ printf "%s <a href=\"mailto:sales@int-rock.com\">sales@int-rock.com</a>" (i18n "inquiry_error") | jsonify | safeJS }};
         inquiryStatus.className = 'form-status is-error';
       } finally {
         inquiryButton.disabled = false;
-        inquiryButton.textContent = 'Send Inquiry';
+        inquiryButton.textContent = {{ i18n "send_inquiry" | jsonify | safeJS }};
         inquiryStatus.focus();
       }
     });

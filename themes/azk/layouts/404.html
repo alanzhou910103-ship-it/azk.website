@@ -2,10 +2,10 @@
 <section class="not-found">
   <div class="container">
     <p class="not-found-code">404</p>
-    <span class="section-label">Page Not Found</span>
-    <h1>That page has moved or does not exist.</h1>
-    <p class="not-found-copy">Browse our gaming controllers and accessories, or contact the INT-ROCK team for product and wholesale inquiries.</p>
-    <a href="{{ "/" | relURL }}" class="btn btn-primary btn-lg">Back to Home</a>
+    <span class="section-label">{{ i18n "page_not_found" }}</span>
+    <h1>{{ i18n "not_found_title" }}</h1>
+    <p class="not-found-copy">{{ i18n "not_found_text" }}</p>
+    <a href="{{ site.Home.RelPermalink }}" class="btn btn-primary btn-lg">{{ i18n "back_home" }}</a>
   </div>
 </section>
 {{ end }}

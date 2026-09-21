@@ -1,0 +1,128 @@
+[toggle_menu]
+other = "Toggle menu"
+[controllers]
+other = "Controllers"
+[accessories]
+other = "Accessories"
+[view_all_products]
+other = "View All Products"
+[view_all_controllers]
+other = "View All Controllers"
+[view_all_accessories]
+other = "View All Accessories"
+[get_in_touch]
+other = "Get In Touch"
+[quick_links]
+other = "Quick Links"
+[legal]
+other = "Legal"
+[connect]
+other = "Connect"
+[home]
+other = "Home"
+[products]
+other = "Products"
+[trust_experience]
+other = "11+ Years of Product Experience"
+[trust_moq]
+other = "MOQ from 500 Units"
+[trust_samples]
+other = "Samples in 7–14 Days"
+[trust_production]
+other = "Typical Production in 30 Days"
+[contact_title]
+other = "Bring Us the Brief. We'll Build the Route."
+[contact_text]
+other = "Share your market, target price, and product requirements. We will turn them into a clear sourcing or development plan."
+[your_name]
+other = "Your Name"
+[your_email]
+other = "Your Email"
+[company]
+other = "Company"
+[target_market]
+other = "Target Market / Country"
+[project_type]
+other = "Project Type"
+[wholesale]
+other = "Wholesale"
+[private_tooling]
+other = "Private Tooling"
+[packaging_customization]
+other = "Packaging Customization"
+[other_cooperation]
+other = "Other Cooperation"
+[estimated_quantity]
+other = "Estimated Quantity"
+[requirements_placeholder]
+other = "Tell us about your product requirements, target price, or reference model..."
+[send_inquiry]
+other = "Send Inquiry"
+[contact_note]
+other = "Your inquiry will be sent securely to our sales team."
+[email_direct]
+other = "Or email us directly:"
+[sending]
+other = "Sending..."
+[sending_inquiry]
+other = "Sending your inquiry..."
+[inquiry_success]
+other = "Thank you. Your inquiry has been sent to our sales team."
+[inquiry_error]
+other = "Sorry, the form could not be sent. Please email"
+[catalog_default_tagline]
+other = "Gaming controllers and accessories for wholesale, private-label, and OEM/ODM projects"
+[wholesale_label]
+other = "Wholesale · Private Label · OEM/ODM"
+[product_range]
+other = "Product Range"
+[explore_catalog]
+other = "Explore Controllers & Accessories"
+[source_develop_title]
+other = "Tell Us What You Want to Source or Develop"
+[source_develop_text]
+other = "Share your target market, required functions, estimated quantity, and price range."
+[discuss_project]
+other = "Discuss Your Project"
+[b2b_sourcing]
+other = "B2B Product Sourcing"
+[project_planning]
+other = "Project Planning"
+[planning_text]
+other = "Send us your target market, price range, expected quantity, and must-have functions. We will help organize the requirements and recommend a practical next step."
+[no_products]
+other = "No products found."
+[technical_specs]
+other = "Technical Specifications"
+[product_view]
+other = "product view"
+[b2b_label]
+other = "For Distributors, Retailers & Gaming Brands"
+[b2b_title]
+other = "Wholesale, OEM & Customization Support"
+[b2b_text]
+other = "INT-ROCK helps B2B buyers evaluate products, confirm specifications, prepare samples, and coordinate production through experienced manufacturing and solution partners."
+[b2b_moq]
+other = "MOQ from 500 units, depending on the model and customization"
+[b2b_customization]
+other = "Logo, color, packaging, firmware, and feature customization"
+[b2b_samples]
+other = "Typical sample preparation in 7–14 days"
+[b2b_tooling]
+other = "Private tooling and new product development coordination"
+[more_from]
+other = "More from INT-ROCK"
+[explore_more]
+other = "Explore More Gaming Products"
+[not_found_title]
+other = "That page has moved or does not exist."
+[not_found_text]
+other = "Browse our gaming controllers and accessories, or contact the INT-ROCK team for product and wholesale inquiries."
+[back_home]
+other = "Back to Home"
+[page_not_found]
+other = "Page Not Found"
+[language]
+other = "Language"
+[footer_description]
+other = "INT-ROCK helps distributors, retailers, and gaming brands source, customize, and develop gaming controllers and accessories through experienced manufacturing and solution partners."

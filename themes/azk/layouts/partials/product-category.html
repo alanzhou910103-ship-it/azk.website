@@ -1,8 +1,8 @@
 {{- $category := "" -}}
-{{- $url := .RelPermalink -}}
+{{- $title := .Title -}}
 {{- range $key, $products := hugo.Data.nav_products -}}
   {{- range $products -}}
-    {{- if eq .url $url -}}{{- $category = $key -}}{{- end -}}
+    {{- if eq .name $title -}}{{- $category = $key -}}{{- end -}}
   {{- end -}}
 {{- end -}}
 {{- return $category -}}

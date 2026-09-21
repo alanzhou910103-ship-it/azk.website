@@ -3,8 +3,23 @@ title = "int-rock"
 theme = "azk"
 timeZone = "Asia/Shanghai"
 hasCJKLanguage = true
-
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 disableKinds = ["taxonomy", "term"]
+
+[languages]
+  [languages.en]
+    label = "English"
+    locale = "en-US"
+    weight = 1
+  [languages.es]
+    label = "Español"
+    locale = "es-ES"
+    weight = 2
+  [languages.pt]
+    label = "Português"
+    locale = "pt-BR"
+    weight = 3
 
 [markup]
   [markup.goldmark.renderer]

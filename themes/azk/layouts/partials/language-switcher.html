@@ -1,0 +1,6 @@
+{{- $page := . -}}
+<li class="language-switcher" aria-label="{{ i18n "language" }}">
+  {{- range $page.AllTranslations -}}
+  <a href="{{ .RelPermalink }}" hreflang="{{ .Language.Locale }}" lang="{{ .Language.Lang }}" class="language-link{{ if eq .Language.Lang $page.Language.Lang }} is-active{{ end }}"{{ if eq .Language.Lang $page.Language.Lang }} aria-current="page"{{ end }}>{{ upper .Language.Lang }}</a>
+  {{- end -}}
+</li>

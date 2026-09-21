@@ -3,7 +3,7 @@
   <div class="product-hero-overlay" style="background: var(--bg-dark)"></div>
   <div class="container product-hero-content">
     <h1 class="product-hero-title">{{ .Title }}</h1>
-    <p class="product-hero-tagline">{{ .Params.tagline | default "Gaming controllers and accessories for wholesale, private-label, and OEM/ODM projects" }}</p>
+    <p class="product-hero-tagline">{{ .Params.tagline | default (i18n "catalog_default_tagline") }}</p>
   </div>
 </section>
 
@@ -11,7 +11,7 @@
 <section class="catalog-intro section">
   <div class="container catalog-intro-grid">
     <div>
-      <span class="section-label">Wholesale · Private Label · OEM/ODM</span>
+      <span class="section-label">{{ i18n "wholesale_label" }}</span>
       <h2>{{ .title }}</h2>
     </div>
     <div class="catalog-intro-copy">
@@ -23,8 +23,8 @@
 
 <section class="section">
   <div class="container">
-    <span class="section-label">Product Range</span>
-    <h2 class="section-title catalog-heading">Explore Controllers & Accessories</h2>
+    <span class="section-label">{{ i18n "product_range" }}</span>
+    <h2 class="section-title catalog-heading">{{ i18n "explore_catalog" }}</h2>
     <div class="product-card-grid">
       {{ range where site.RegularPages "Section" "products" }}
       <a href="{{ .RelPermalink }}" class="product-card" data-aos="fade-up">
@@ -78,9 +78,9 @@
 <section class="cta-section section">
   <div class="container">
     <div class="cta-card">
-      <h2>Tell Us What You Want to Source or Develop</h2>
-      <p>Share your target market, required functions, estimated quantity, and price range.</p>
-      <a href="/#contact" class="btn btn-primary btn-lg">Discuss Your Project</a>
+      <h2>{{ i18n "source_develop_title" }}</h2>
+      <p>{{ i18n "source_develop_text" }}</p>
+      <a href="{{ relLangURL "/#contact" }}" class="btn btn-primary btn-lg">{{ i18n "discuss_project" }}</a>
     </div>
   </div>
 </section>

@@ -14,7 +14,7 @@
 <section class="catalog-intro section">
   <div class="container catalog-intro-grid">
     <div>
-      <span class="section-label">B2B Product Sourcing</span>
+      <span class="section-label">{{ i18n "b2b_sourcing" }}</span>
       <h2>{{ .title }}</h2>
     </div>
     <div class="catalog-intro-copy">
@@ -29,25 +29,26 @@
     {{ if $products }}
     <div class="product-card-grid">
       {{ range $products }}
-      <a href="{{ .url | relURL }}" class="product-card" data-aos="fade-up">
-        {{ with .badge }}<span class="product-card-badge">{{ . }}</span>{{ end }}
-        <div class="product-card-image" style="--product-card-scale: {{ .image_scale | default 1 }};">
-          {{ $img := .image | default "images/products/front.webp" }}
-          <img src="{{ $img | relURL }}" alt="{{ .name }} {{ .tagline }}" class="product-card-img-main" loading="lazy" decoding="async">
+      {{ $item := . }}
+      {{ $product := site.GetPage .url }}
+      {{ with $product }}<a href="{{ .RelPermalink }}" class="product-card" data-aos="fade-up">
+        {{ with .Params.hero.badge }}<span class="product-card-badge">{{ . }}</span>{{ end }}
+        <div class="product-card-image" style="--product-card-scale: {{ $item.image_scale | default 1 }};">
+          <img src="{{ .Params.card_image | relURL }}" alt="{{ .Title }} {{ .Params.tagline }}" class="product-card-img-main" loading="lazy" decoding="async">
         </div>
         <div class="product-card-info">
-          <h3 class="product-card-name">{{ .name }}</h3>
-          <p class="product-card-tagline">{{ .tagline }}</p>
+          <h3 class="product-card-name">{{ .Title }}</h3>
+          <p class="product-card-tagline">{{ .Params.tagline }}</p>
         </div>
-      </a>
+      </a>{{ end }}
       {{ end }}
     </div>
     {{ else }}
-    <p class="section-text">No products found.</p>
+    <p class="section-text">{{ i18n "no_products" }}</p>
     {{ end }}
     {{ with .Content }}<div class="category-guide page-content">{{ . }}</div>{{ end }}
     <div style="text-align:center; margin-top:48px;">
-      <a href="/products/" class="btn btn-outline">View All Products</a>
+      <a href="{{ relLangURL "/products/" }}" class="btn btn-outline">{{ i18n "view_all_products" }}</a>
     </div>
   </div>
 </section>
@@ -56,10 +57,10 @@
 <section class="category-support section section-alt">
   <div class="container category-support-grid">
     <div>
-      <span class="section-label">Project Planning</span>
+      <span class="section-label">{{ i18n "project_planning" }}</span>
       <h2>{{ .title }}</h2>
-      <p>Send us your target market, price range, expected quantity, and must-have functions. We will help organize the requirements and recommend a practical next step.</p>
-      <a href="/#contact" class="btn btn-primary">Discuss Your Project</a>
+      <p>{{ i18n "planning_text" }}</p>
+      <a href="{{ relLangURL "/#contact" }}" class="btn btn-primary">{{ i18n "discuss_project" }}</a>
     </div>
     <ul class="product-b2b-list">
       {{ range .items }}

@@ -43,7 +43,7 @@
       {{ range $index, $view := .images }}
       <div class="color-card" data-aos="fade-up">
         <div class="color-image">
-          <img src="{{ $view.image | relURL }}" alt="{{ $page.Title }} product view {{ add $index 1 }}" loading="lazy" decoding="async">
+          <img src="{{ $view.image | relURL }}" alt="{{ $page.Title }} {{ i18n "product_view" }} {{ add $index 1 }}" loading="lazy" decoding="async">
         </div>
       </div>
       {{ end }}
@@ -80,9 +80,7 @@
       </div>
       <div class="product-info">
         <h2 class="product-title">{{ $section.title }}</h2>
-        {{ range split $section.content "\n\n" }}
-        <p>{{ . }}</p>
-        {{ end }}
+        {{ range split $section.content "\n\n" }}{{ with strings.TrimSpace . }}<p>{{ . }}</p>{{ end }}{{ end }}
       </div>
     </div>
     {{ end }}
@@ -94,7 +92,7 @@
 {{ with .specs }}
 <section class="specs section section-alt" id="specs">
   <div class="container">
-    <h2 class="section-title" data-aos="fade-up">Technical Specifications</h2>
+    <h2 class="section-title" data-aos="fade-up">{{ i18n "technical_specs" }}</h2>
     <div class="specs-table" data-aos="fade-up">
       {{ range . }}
       <div class="specs-row">
@@ -111,15 +109,15 @@
 <section class="product-b2b section">
   <div class="container product-b2b-grid">
     <div>
-      <span class="section-label">For Distributors, Retailers & Gaming Brands</span>
-      <h2>Wholesale, OEM & Customization Support</h2>
-      <p>INT-ROCK helps B2B buyers evaluate products, confirm specifications, prepare samples, and coordinate production through experienced manufacturing and solution partners.</p>
+      <span class="section-label">{{ i18n "b2b_label" }}</span>
+      <h2>{{ i18n "b2b_title" }}</h2>
+      <p>{{ i18n "b2b_text" }}</p>
     </div>
     <ul class="product-b2b-list">
-      <li><i class="fas fa-check"></i><span>MOQ from 500 units, depending on the model and customization</span></li>
-      <li><i class="fas fa-check"></i><span>Logo, color, packaging, firmware, and feature customization</span></li>
-      <li><i class="fas fa-check"></i><span>Typical sample preparation in 7–14 days</span></li>
-      <li><i class="fas fa-check"></i><span>Private tooling and new product development coordination</span></li>
+      <li><i class="fas fa-check"></i><span>{{ i18n "b2b_moq" }}</span></li>
+      <li><i class="fas fa-check"></i><span>{{ i18n "b2b_customization" }}</span></li>
+      <li><i class="fas fa-check"></i><span>{{ i18n "b2b_samples" }}</span></li>
+      <li><i class="fas fa-check"></i><span>{{ i18n "b2b_tooling" }}</span></li>
     </ul>
   </div>
 </section>
@@ -140,8 +138,8 @@
 {{ with $related }}
 <section class="related-products section section-alt">
   <div class="container">
-    <span class="section-label">More from INT-ROCK</span>
-    <h2 class="section-title">Explore More Gaming Products</h2>
+    <span class="section-label">{{ i18n "more_from" }}</span>
+    <h2 class="section-title">{{ i18n "explore_more" }}</h2>
     <div class="product-card-grid">
       {{ range . }}
       <a href="{{ .RelPermalink }}" class="product-card">
@@ -155,7 +153,7 @@
       </a>
       {{ end }}
     </div>
-    <div class="section-action"><a href="/products/" class="btn btn-dark-outline">View All Products</a></div>
+    <div class="section-action"><a href="{{ relLangURL "/products/" }}" class="btn btn-dark-outline">{{ i18n "view_all_products" }}</a></div>
   </div>
 </section>
 {{ end }}
@@ -166,7 +164,7 @@
   <div class="container">
     <div class="cta-card" data-aos="fade-up">
       <h2>{{ .title }}</h2>
-      <a href="/#contact" class="btn btn-primary btn-lg">{{ .button_label }}</a>
+      <a href="{{ relLangURL "/#contact" }}" class="btn btn-primary btn-lg">{{ .button_label }}</a>
     </div>
   </div>
 </section>

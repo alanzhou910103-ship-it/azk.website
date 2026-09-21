@@ -1,52 +1,48 @@
-# main menu
 [[main]]
-name = "Home"
+name = "Início"
 url = "/"
 weight = 1
 
 [[main]]
-name = "Products"
+name = "Produtos"
 identifier = "products"
 url = "/products/"
 weight = 2
 
 [[main]]
-name = "About"
+name = "Sobre nós"
 url = "/#about"
 weight = 3
 
 [[main]]
-name = "Contact"
+name = "Contato"
 url = "/#contact"
 weight = 4
 
-# footer menu left
 [[footer_left]]
-name = "Products"
+name = "Produtos"
 url = "/products/"
 
 [[footer_left]]
-name = "About Us"
+name = "Sobre nós"
 url = "/#about"
 
 [[footer_left]]
-name = "Contact"
+name = "Contato"
 url = "/#contact"
 
-# footer menu middle
 [[footer_middle]]
-name = "Privacy Policy"
+name = "Política de privacidade"
 url = "/privacy-policy"
 
 [[footer_middle]]
-name = "Terms & Conditions"
+name = "Termos e condições"
 url = "/terms-conditions"
 
-# footer menu right
 [[footer_right]]
 name = "LinkedIn"
 url = "https://www.linkedin.com/in/alan-zhou-42b224415"
 
 [[footer_right]]
-name = "Email"
+name = "E-mail"
 url = "mailto:sales@int-rock.com"

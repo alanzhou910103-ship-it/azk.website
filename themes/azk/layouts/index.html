@@ -16,7 +16,7 @@
         <h1 class="hero-title" data-aos="fade-up">{{ .title | safeHTML }}</h1>
         <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">{{ .content | safeHTML }}</p>
         {{ with .categories }}
-        <ul class="hero-categories" aria-label="Product and service categories" data-aos="fade-up" data-aos-delay="150">
+        <ul class="hero-categories" aria-label="{{ i18n "product_range" }}" data-aos="fade-up" data-aos-delay="150">
           {{ range . }}<li>{{ . }}</li>{{ end }}
         </ul>
         {{ end }}
@@ -40,10 +40,10 @@
   <section class="trust-bar">
     <div class="container">
       <div class="trust-grid">
-        <div class="trust-item"><i class="fas fa-gamepad"></i><span>11+ Years of Product Experience</span></div>
-        <div class="trust-item"><i class="fas fa-boxes-stacked"></i><span>MOQ from 500 Units</span></div>
-        <div class="trust-item"><i class="fas fa-flask"></i><span>Samples in 7–14 Days</span></div>
-        <div class="trust-item"><i class="fas fa-calendar-check"></i><span>Typical Production in 30 Days</span></div>
+        <div class="trust-item"><i class="fas fa-gamepad"></i><span>{{ i18n "trust_experience" }}</span></div>
+        <div class="trust-item"><i class="fas fa-boxes-stacked"></i><span>{{ i18n "trust_moq" }}</span></div>
+        <div class="trust-item"><i class="fas fa-flask"></i><span>{{ i18n "trust_samples" }}</span></div>
+        <div class="trust-item"><i class="fas fa-calendar-check"></i><span>{{ i18n "trust_production" }}</span></div>
       </div>
     </div>
   </section>
@@ -53,11 +53,11 @@
   {{ if .enable }}
   <section class="featured-products section" id="featured">
     <div class="container">
-      <span class="section-label">Controllers</span>
+      <span class="section-label">{{ i18n "controllers" }}</span>
       <h2 class="section-title" data-aos="fade-up">{{ .title }}</h2>
       <p class="section-text" data-aos="fade-up">{{ .description }}</p>
       {{ partial "product-card-grid.html" .items }}
-      <div class="section-action"><a href="/controllers/" class="btn btn-dark-outline">View All Controllers</a></div>
+      <div class="section-action"><a href="{{ relLangURL "/controllers/" }}" class="btn btn-dark-outline">{{ i18n "view_all_controllers" }}</a></div>
     </div>
   </section>
   {{ end }}
@@ -68,11 +68,11 @@
   {{ if .enable }}
   <section class="featured-products section section-alt" id="accessories">
     <div class="container">
-      <span class="section-label">Accessories</span>
+      <span class="section-label">{{ i18n "accessories" }}</span>
       <h2 class="section-title" data-aos="fade-up">{{ .title }}</h2>
       <p class="section-text" data-aos="fade-up">{{ .description }}</p>
       {{ partial "product-card-grid.html" .items }}
-      <div class="section-action"><a href="/accessories/" class="btn btn-dark-outline">View All Accessories</a></div>
+      <div class="section-action"><a href="{{ relLangURL "/accessories/" }}" class="btn btn-dark-outline">{{ i18n "view_all_accessories" }}</a></div>
     </div>
   </section>
   {{ end }}
@@ -107,9 +107,7 @@
         <span class="section-label">{{ .label }}</span>
         <h2 class="section-title">{{ .title }}</h2>
         <div class="about-copy">
-          {{ range split .content "\n\n" }}
-          <p>{{ . }}</p>
-          {{ end }}
+          {{ range split .content "\n\n" }}{{ with strings.TrimSpace . }}<p>{{ . }}</p>{{ end }}{{ end }}
         </div>
         {{ with .stats }}
         <div class="about-stats">
@@ -131,36 +129,36 @@
   <!-- Contact -->
   <section class="contact section section-alt" id="contact">
     <div class="container">
-      <span class="section-label" data-aos="fade-up">Get In Touch</span>
-      <h2 class="section-title" data-aos="fade-up">Bring Us the Brief. We'll Build the Route.</h2>
-      <p class="section-text" data-aos="fade-up">Share your market, target price, and product requirements. We will turn them into a clear sourcing or development plan.</p>
+      <span class="section-label" data-aos="fade-up">{{ i18n "get_in_touch" }}</span>
+      <h2 class="section-title" data-aos="fade-up">{{ i18n "contact_title" }}</h2>
+      <p class="section-text" data-aos="fade-up">{{ i18n "contact_text" }}</p>
       <form class="contact-form" id="inquiryForm" action="{{ site.Params.contact_form_action }}" method="POST" data-aos="fade-up">
         <input type="hidden" name="subject" value="New B2B Inquiry — INT-ROCK Website">
         <div class="form-row">
-          <input type="text" name="name" placeholder="Your Name" autocomplete="name" required>
-          <input type="email" name="email" placeholder="Your Email" autocomplete="email" required>
+          <input type="text" name="name" placeholder="{{ i18n "your_name" }}" autocomplete="name" required>
+          <input type="email" name="email" placeholder="{{ i18n "your_email" }}" autocomplete="email" required>
         </div>
         <div class="form-row">
-          <input type="text" name="company" placeholder="Company" autocomplete="organization">
-          <input type="text" name="market" placeholder="Target Market / Country" autocomplete="country-name">
+          <input type="text" name="company" placeholder="{{ i18n "company" }}" autocomplete="organization">
+          <input type="text" name="market" placeholder="{{ i18n "target_market" }}" autocomplete="country-name">
         </div>
         <div class="form-row">
-          <select name="project_type" aria-label="Project Type" required>
-            <option value="" disabled selected>Project Type</option>
-            <option>Wholesale</option>
+          <select name="project_type" aria-label="{{ i18n "project_type" }}" required>
+            <option value="" disabled selected>{{ i18n "project_type" }}</option>
+            <option>{{ i18n "wholesale" }}</option>
             <option>OEM / ODM</option>
-            <option>Private Tooling</option>
-            <option>Packaging Customization</option>
-            <option>Other Cooperation</option>
+            <option>{{ i18n "private_tooling" }}</option>
+            <option>{{ i18n "packaging_customization" }}</option>
+            <option>{{ i18n "other_cooperation" }}</option>
           </select>
-          <input type="text" name="quantity" placeholder="Estimated Quantity">
+          <input type="text" name="quantity" placeholder="{{ i18n "estimated_quantity" }}">
         </div>
-        <textarea name="message" placeholder="Tell us about your product requirements, target price, or reference model..." rows="5" required></textarea>
-        <button type="submit" class="btn btn-primary btn-lg">Send Inquiry</button>
+        <textarea name="message" placeholder="{{ i18n "requirements_placeholder" }}" rows="5" required></textarea>
+        <button type="submit" class="btn btn-primary btn-lg">{{ i18n "send_inquiry" }}</button>
         <p class="form-status" id="formStatus" role="status" aria-live="polite" tabindex="-1"></p>
       </form>
-      <p class="contact-note">Your inquiry will be sent securely to our sales team.</p>
-      <p class="contact-direct">Or email us directly: <a href="mailto:sales@int-rock.com">sales@int-rock.com</a></p>
+      <p class="contact-note">{{ i18n "contact_note" }}</p>
+      <p class="contact-direct">{{ i18n "email_direct" }} <a href="mailto:sales@int-rock.com">sales@int-rock.com</a></p>
     </div>
   </section>
 

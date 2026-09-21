@@ -19,6 +19,7 @@ class Page(HTMLParser):
         self.buffer = ""
         self.schemas = []
         self.canonical = []
+        self.alternates = {}
         self.descriptions = []
         self.h1 = 0
         self.references = []
@@ -41,6 +42,8 @@ class Page(HTMLParser):
             self.descriptions.append(attrs.get("content", ""))
         if tag == "link" and attrs.get("rel") == "canonical":
             self.canonical.append(attrs["href"])
+        if tag == "link" and attrs.get("rel") == "alternate" and attrs.get("hreflang"):
+            self.alternates[attrs["hreflang"]] = attrs.get("href", "")
         if tag == "script" and attrs.get("type") == "application/ld+json":
             self.in_json = True
             self.buffer = ""
@@ -73,8 +76,19 @@ def require(condition, message):
 
 
 def main():
-    urls = [node.text for node in ET.parse(ROOT / "sitemap.xml").findall(
-        ".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
+    namespace = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
+
+    def read_sitemap(path):
+        document = ET.parse(path)
+        root = document.getroot()
+        if root.tag == f"{namespace}sitemapindex":
+            found = []
+            for node in root.findall(f"{namespace}sitemap/{namespace}loc"):
+                found.extend(read_sitemap(ROOT / urlsplit(node.text).path.lstrip("/")))
+            return found
+        return [node.text for node in root.findall(f"{namespace}url/{namespace}loc")]
+
+    urls = read_sitemap(ROOT / "sitemap.xml")
     pages = {}
     for url in urls:
         page = Page()
@@ -87,6 +101,14 @@ def main():
         require(len(page.descriptions) == 1 and page.descriptions[0], f"{url}: missing description")
         require(descriptions[page.descriptions[0]] == 1, f"{url}: duplicate description")
         require(page.canonical == [url], f"{url}: canonical mismatch")
+        require(set(page.alternates) == {"en-US", "es-ES", "pt-BR", "x-default"}, f"{url}: hreflang set mismatch")
+        require(page.alternates["x-default"] == page.alternates["en-US"], f"{url}: x-default must point to English")
+        require(page.alternates["x-default"] in pages, f"{url}: invalid x-default target")
+        require(all(target in pages for code, target in page.alternates.items() if code != "x-default"), f"{url}: invalid alternate target")
+        require(
+            all(pages[target].alternates == page.alternates for target in set(page.alternates.values())),
+            f"{url}: hreflang cluster is not reciprocal",
+        )
         require(page.h1 == 1, f"{url}: expected one H1")
         require(not page.missing_image_alt, f"{url}: missing image alt text {page.missing_image_alt}")
         image_bytes = 0
@@ -109,7 +131,7 @@ def main():
                     image_bytes += image_path.stat().st_size
         require(image_bytes <= 8_000_000, f"{url}: image payload exceeds 8 MB")
         crumbs = [item for item in page.schemas if item.get("@type") == "BreadcrumbList"]
-        if urlsplit(url).path != "/":
+        if urlsplit(url).path not in ("/", "/es/", "/pt/"):
             require(len(crumbs) == 1 and page.breadcrumbs == 1, f"{url}: breadcrumb count")
             items = crumbs[0]["itemListElement"]
             require(items[-1]["item"] == url, f"{url}: breadcrumb endpoint")
@@ -132,7 +154,7 @@ def main():
                 target_page = pages.get(target_url) or pages.get(target_url.rstrip("/") + "/")
                 if target_page:
                     require(unquote(target.fragment) in target_page.anchors, f"{url}: missing anchor {ref}")
-    print(f"PASS: {len(pages)} sitemap pages; unique metadata, H1, image alt text, canonicals, JSON-LD, breadcrumbs, collection links, local assets and anchors.")
+    print(f"PASS: {len(pages)} sitemap pages; unique metadata, H1, image alt text, canonicals, hreflang, JSON-LD, breadcrumbs, collection links, local assets and anchors.")
 
 
 if __name__ == "__main__":

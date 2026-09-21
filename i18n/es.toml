@@ -1,0 +1,128 @@
+[toggle_menu]
+other = "Abrir o cerrar menú"
+[controllers]
+other = "Controles"
+[accessories]
+other = "Accesorios"
+[view_all_products]
+other = "Ver todos los productos"
+[view_all_controllers]
+other = "Ver todos los controles"
+[view_all_accessories]
+other = "Ver todos los accesorios"
+[get_in_touch]
+other = "Contáctenos"
+[quick_links]
+other = "Enlaces rápidos"
+[legal]
+other = "Información legal"
+[connect]
+other = "Contacto"
+[home]
+other = "Inicio"
+[products]
+other = "Productos"
+[trust_experience]
+other = "Más de 11 años de experiencia en productos"
+[trust_moq]
+other = "MOQ desde 500 unidades"
+[trust_samples]
+other = "Muestras en 7–14 días"
+[trust_production]
+other = "Producción habitual en 30 días"
+[contact_title]
+other = "Comparta su proyecto. Nosotros definimos la solución."
+[contact_text]
+other = "Indíquenos su mercado, precio objetivo y requisitos del producto. Los convertiremos en un plan claro de abastecimiento o desarrollo."
+[your_name]
+other = "Nombre"
+[your_email]
+other = "Correo electrónico"
+[company]
+other = "Empresa"
+[target_market]
+other = "Mercado objetivo / País"
+[project_type]
+other = "Tipo de proyecto"
+[wholesale]
+other = "Venta al por mayor"
+[private_tooling]
+other = "Molde privado"
+[packaging_customization]
+other = "Personalización de empaque"
+[other_cooperation]
+other = "Otra colaboración"
+[estimated_quantity]
+other = "Cantidad estimada"
+[requirements_placeholder]
+other = "Cuéntenos los requisitos del producto, el precio objetivo o el modelo de referencia..."
+[send_inquiry]
+other = "Enviar consulta"
+[contact_note]
+other = "Su consulta se enviará de forma segura a nuestro equipo comercial."
+[email_direct]
+other = "También puede escribirnos a:"
+[sending]
+other = "Enviando..."
+[sending_inquiry]
+other = "Enviando su consulta..."
+[inquiry_success]
+other = "Gracias. Su consulta se envió a nuestro equipo comercial."
+[inquiry_error]
+other = "No se pudo enviar el formulario. Escriba directamente a"
+[catalog_default_tagline]
+other = "Controles y accesorios gaming para proyectos mayoristas, de marca privada y OEM/ODM"
+[wholesale_label]
+other = "Mayoristas · Marca privada · OEM/ODM"
+[product_range]
+other = "Gama de productos"
+[explore_catalog]
+other = "Explore controles y accesorios"
+[source_develop_title]
+other = "Díganos qué producto desea comprar o desarrollar"
+[source_develop_text]
+other = "Comparta su mercado objetivo, funciones, cantidad estimada y rango de precio."
+[discuss_project]
+other = "Hablemos de su proyecto"
+[b2b_sourcing]
+other = "Abastecimiento de productos B2B"
+[project_planning]
+other = "Planificación del proyecto"
+[planning_text]
+other = "Indíquenos el mercado objetivo, rango de precio, cantidad prevista y funciones esenciales. Organizaremos los requisitos y recomendaremos el siguiente paso."
+[no_products]
+other = "No se encontraron productos."
+[technical_specs]
+other = "Especificaciones técnicas"
+[product_view]
+other = "vista del producto"
+[b2b_label]
+other = "Para distribuidores, minoristas y marcas gaming"
+[b2b_title]
+other = "Soporte mayorista, OEM y de personalización"
+[b2b_text]
+other = "INT-ROCK ayuda a compradores B2B a evaluar productos, confirmar especificaciones, preparar muestras y coordinar la producción con socios especializados."
+[b2b_moq]
+other = "MOQ desde 500 unidades, según el modelo y la personalización"
+[b2b_customization]
+other = "Personalización de logotipo, color, empaque, firmware y funciones"
+[b2b_samples]
+other = "Preparación habitual de muestras en 7–14 días"
+[b2b_tooling]
+other = "Coordinación de moldes privados y desarrollo de nuevos productos"
+[more_from]
+other = "Más productos de INT-ROCK"
+[explore_more]
+other = "Explore más productos gaming"
+[not_found_title]
+other = "Esta página se movió o no existe."
+[not_found_text]
+other = "Explore nuestros controles y accesorios gaming o contacte a INT-ROCK para consultas de productos y venta al por mayor."
+[back_home]
+other = "Volver al inicio"
+[page_not_found]
+other = "Página no encontrada"
+[language]
+other = "Idioma"
+[footer_description]
+other = "INT-ROCK ayuda a distribuidores, minoristas y marcas gaming a seleccionar, personalizar y desarrollar controles y accesorios mediante socios especializados."

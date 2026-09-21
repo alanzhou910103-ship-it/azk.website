@@ -1,8 +1,8 @@
 {{- if and (not .IsHome) (ne .Kind "404") -}}
-{{- $crumbs := slice (dict "name" "Home" "url" site.Home.Permalink) -}}
+{{- $crumbs := slice (dict "name" (i18n "home") "url" site.Home.Permalink) -}}
 {{- if and .IsPage (eq .Section "products") -}}
   {{- with site.GetPage "/products" -}}
-    {{- $crumbs = $crumbs | append (dict "name" "Products" "url" .Permalink) -}}
+    {{- $crumbs = $crumbs | append (dict "name" (i18n "products") "url" .Permalink) -}}
   {{- end -}}
   {{- with partial "product-category.html" . -}}
     {{- with site.GetPage (printf "/%s" .) -}}
