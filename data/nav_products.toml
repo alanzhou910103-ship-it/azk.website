@@ -48,7 +48,7 @@ badge = "New"
 
 [[controllers]]
 name = "G8"
-tagline = "NS2 Pro Wireless"
+tagline = "Switch 2 Wireless"
 image = "images/cards/g8.webp"
 image_scale = 1.00
 url = "/products/g8/"
@@ -94,11 +94,11 @@ badge = "Custom"
 
 [[accessories]]
 name = "GA06P"
-tagline = "Joy-Con 2 Charging Grip + Paddles + Grips"
+tagline = "Joy-Con 2 Charging Grip + Back Buttons + Grip Kit"
 image = "images/cards/ga06p.webp"
 image_scale = 1.00
 url = "/products/ga06p/"
-badge = "Best Value"
+badge = "Accessory Kit"
 
 [[accessories]]
 name = "GC01"

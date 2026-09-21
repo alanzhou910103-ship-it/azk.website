@@ -23,6 +23,7 @@ class Page(HTMLParser):
         self.h1 = 0
         self.references = []
         self.images = []
+        self.missing_image_alt = []
         self.anchors = set()
         self.breadcrumbs = 0
 
@@ -48,6 +49,9 @@ class Page(HTMLParser):
             self.references.append(attrs[key])
         if tag == "img" and attrs.get("src"):
             self.images.append(attrs["src"])
+            classes = attrs.get("class", "").split()
+            if not (attrs.get("alt") or "").strip() and "product-card-img-hover" not in classes:
+                self.missing_image_alt.append(attrs["src"])
 
     def handle_data(self, data):
         if self.in_title:
@@ -84,6 +88,7 @@ def main():
         require(descriptions[page.descriptions[0]] == 1, f"{url}: duplicate description")
         require(page.canonical == [url], f"{url}: canonical mismatch")
         require(page.h1 == 1, f"{url}: expected one H1")
+        require(not page.missing_image_alt, f"{url}: missing image alt text {page.missing_image_alt}")
         image_bytes = 0
         image_identities = Counter()
         for ref in page.images:
@@ -127,7 +132,7 @@ def main():
                 target_page = pages.get(target_url) or pages.get(target_url.rstrip("/") + "/")
                 if target_page:
                     require(unquote(target.fragment) in target_page.anchors, f"{url}: missing anchor {ref}")
-    print(f"PASS: {len(pages)} sitemap pages; unique metadata, H1, canonicals, JSON-LD, breadcrumbs, collection links, local assets and anchors.")
+    print(f"PASS: {len(pages)} sitemap pages; unique metadata, H1, image alt text, canonicals, JSON-LD, breadcrumbs, collection links, local assets and anchors.")
 
 
 if __name__ == "__main__":

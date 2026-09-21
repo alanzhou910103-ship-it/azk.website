@@ -6,7 +6,7 @@
   <section class="hero" id="home">
     {{ with .image }}
     <div class="hero-bg">
-      <img src="{{ . | relURL }}" alt="" fetchpriority="high" decoding="async">
+      <img src="{{ . | relURL }}" alt="{{ $.Params.banner.image_alt | default "INT-ROCK gaming controllers and accessories" }}" fetchpriority="high" decoding="async">
     </div>
     {{ end }}
     <div class="hero-overlay"></div>

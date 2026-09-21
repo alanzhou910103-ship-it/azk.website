@@ -6,6 +6,7 @@ banner:
   eyebrow : "11+ Years in Gaming Peripherals"
   title : "Gaming Controllers & Accessories <br> for Wholesale & OEM/ODM"
   image : "images/hero/ga06l-custom-hero.webp"
+  image_alt : "Customized GA06L Joy-Con 2 charging grip with artwork and interchangeable back buttons"
   content : "INT-ROCK helps distributors, retailers, and gaming brands source proven controller platforms, customize colors, branding and packaging, and develop products for their target markets."
   categories:
     - "Wireless Controllers"
@@ -68,7 +69,7 @@ featured_controllers:
       link : "/products/g1/"
       badge : "New"
     - name : "G8"
-      tagline : "NS2 Pro Wireless Controller"
+      tagline : "Switch 2 Wireless Controller"
       image : "images/cards/g8.webp"
       image_scale : 1.00
       hover_image : "images/cards/g8.webp"
@@ -102,12 +103,12 @@ featured_accessories:
       link : "/products/ga06l/"
       badge : "Custom"
     - name : "GA06P"
-      tagline : "Joy-Con 2 Charging Grip + Paddles + Grips"
+      tagline : "Joy-Con 2 Charging Grip + Back Buttons + Grip Kit"
       image : "images/cards/ga06p.webp"
       image_scale : 1.00
       hover_image : "images/cards/ga06p.webp"
       link : "/products/ga06p/"
-      badge : "Best Value"
+      badge : "Accessory Kit"
     - name : "GC01"
       tagline : "Switch 2 Console Carrying Case"
       image : "images/cards/gc01.webp"
