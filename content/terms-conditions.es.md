@@ -1,6 +1,6 @@
 ---
 title: Términos y condiciones
-description: int-rock Condiciones - uso del sitio web y términos de negocio.
+description: Términos y condiciones de int-rock sobre el uso del sitio web y las relaciones comerciales.
 draft: false
 ---
 
@@ -8,79 +8,79 @@ draft: false
 
 ## Términos y condiciones
 
-**Fecha efectiva:** 10 de junio de 2026
+**Fecha de entrada en vigor:** 10 de junio de 2026
 
-Bienvenido al int-rock. Al acceder y utilizar [int-rock.com](https://int-rock.com), usted acepta estar obligado por los siguientes Términos y Condiciones. Si no está de acuerdo, por favor deje de utilizar este sitio web.
+Le damos la bienvenida a int-rock. Al acceder a [int-rock.com](https://int-rock.com) y utilizar este sitio web, acepta los siguientes Términos y condiciones. Si no está de acuerdo con ellos, deje de utilizar el sitio.
 
--...
+---
 
 ### 1. Uso del sitio web
 
-- El contenido de este sitio web se proporciona con fines generales de información y comerciales.
-- Usted puede navegar, ver y ponerse en contacto con nosotros a través de la página web para consultas de negocios legítimas.
-- Usted acepta no utilizar este sitio web con fines ilícitos o en violación de estos términos.
+- El contenido de este sitio web se ofrece con fines informativos y comerciales de carácter general.
+- Puede navegar por el sitio, consultar su contenido y ponerse en contacto con nosotros para realizar consultas comerciales legítimas.
+- Se compromete a no utilizar este sitio web con fines ilícitos ni de forma contraria a estos términos.
 
--...
+---
 
 ### 2. Propiedad intelectual
 
-- Todo el contenido de este sitio web —incluyendo texto, imágenes, descripciones de productos, logos y diseño del sitio web— es la propiedad exclusiva de int-rock a menos que se indique lo contrario.
-- Usted no puede reproducir, distribuir o utilizar ningún contenido de este sitio web sin previo permiso escrito de int-rock.
+- Todo el contenido de este sitio web —incluidos los textos, las imágenes, las descripciones de productos, los logotipos y el diseño— es propiedad exclusiva de int-rock, salvo que se indique lo contrario.
+- No puede reproducir, distribuir ni utilizar ningún contenido de este sitio web sin la autorización previa y por escrito de int-rock.
 
--...
+---
 
-### 3. Información sobre productos
+### 3. Información sobre los productos
 
-- Las especificaciones, imágenes y descripciones del producto en este sitio web se proporcionan para referencia. Los productos reales pueden variar ligeramente en apariencia o especificación.
-- Nos reservamos el derecho de modificar diseños y especificaciones de productos sin previo aviso.
+- Las especificaciones, imágenes y descripciones de los productos se ofrecen como referencia. Los productos reales pueden presentar pequeñas variaciones de aspecto o especificaciones.
+- Nos reservamos el derecho de modificar los diseños y las especificaciones de los productos sin previo aviso.
 - Todos los nombres de productos y números de modelo son marcas comerciales o marcas registradas de int-rock.
 
--...
+---
 
-### 4. Consultas y órdenes
+### 4. Consultas y pedidos
 
-- La presentación de un formulario de contacto o la investigación no constituye una orden o un contrato vinculante.
-- Todas las órdenes mayoristas, precios y asociaciones están sujetas a acuerdos escritos separados.
-- Los precios y la disponibilidad están sujetos a cambios sin previo aviso.
+- El envío de un formulario de contacto o de una consulta no constituye un pedido ni un contrato vinculante.
+- Los pedidos al por mayor, los precios y las colaboraciones están sujetos a acuerdos escritos independientes.
+- Los precios y la disponibilidad pueden cambiar sin previo aviso.
 
--...
+---
 
-### 5. Limitación de la responsabilidad
+### 5. Limitación de responsabilidad
 
-- int-rock no será responsable de ningún daño directo, indirecto, incidental o consecuencial resultante del uso o incapacidad para utilizar este sitio web.
-- No hacemos garantías, expresas o implícitas, respecto a la exactitud, integridad o fiabilidad del contenido del sitio web.
+- int-rock no será responsable de daños directos, indirectos, incidentales o consecuentes derivados del uso o de la imposibilidad de utilizar este sitio web.
+- No ofrecemos garantías, expresas ni implícitas, sobre la exactitud, integridad o fiabilidad del contenido del sitio web.
 
--...
+---
 
 ### 6. Enlaces externos
 
-- Este sitio web puede contener enlaces a sitios web externos (por ejemplo, redes sociales). No somos responsables del contenido o las prácticas de sitios de terceros.
-- Se permite vincular a int-rock.com siempre que no implica aprobación o tergiversación de la relación.
+- Este sitio web puede incluir enlaces a sitios externos, como redes sociales. No somos responsables del contenido ni de las prácticas de sitios de terceros.
+- Se permite enlazar a int-rock.com siempre que el enlace no sugiera una aprobación inexistente ni tergiverse la relación con int-rock.
 
--...
+---
 
 ### 7. Privacidad
 
-- Su uso de este sitio web también se rige por nuestra [Política de privacidad](/es/privacy-policy).
-- Manejamos toda la información personal de acuerdo con las normas de protección de datos aplicables.
+- El uso de este sitio web también se rige por nuestra [Política de privacidad](/es/privacy-policy/).
+- Tratamos la información personal de acuerdo con la normativa de protección de datos aplicable.
 
--...
+---
 
-### 8. Cambios en los Términos
+### 8. Cambios en estos términos
 
-- Nos reservamos el derecho de modificar estas Condiciones de Uso en cualquier momento. Los cambios tienen efecto inmediatamente al publicar esta página.
-- El uso continuado del sitio web después de los cambios constituye la aceptación de los términos revisados.
+- Nos reservamos el derecho de modificar estos Términos y condiciones en cualquier momento. Los cambios entrarán en vigor en el momento de su publicación en esta página.
+- El uso continuado del sitio web tras la publicación de los cambios implica la aceptación de los términos revisados.
 
--...
+---
 
-### 9. Derecho de gobierno
+### 9. Legislación aplicable
 
-Estos términos se rigen y se interpretan de acuerdo con las leyes de la República Popular China.
+Estos términos se rigen e interpretan de acuerdo con las leyes de la República Popular China.
 
--...
+---
 
 ### 10. Contacto
 
-Para preguntas sobre estas Condiciones:
+Si tiene alguna pregunta sobre estos Términos y condiciones:
 
-**Email:** [sales@int-rock.com](mailto:sales@int-rock.com)
+**Correo electrónico:** [sales@int-rock.com](mailto:sales@int-rock.com)

@@ -1,8 +1,8 @@
 ---
 title: Acessórios gamer
 seo_title: Acessórios para Switch 2 e gamer no atacado
-description: Explore acessórios para Switch 2 e gamer destinados a projetos de atacado e OEM, como grips Joy-Con 2, soluções de carregamento, estojos, carcaças protetoras e módulos de joystick.
-layout: category
+description: Explore acessórios para Switch 2 e gamer destinados a projetos de atacado e OEM, como grips Joy-Con 2, soluções de carregamento, estojos, carcaças protetoras e módulos de analógico.
+layout: "category"
 intro:
   title: Acessórios práticos para programas de varejo
   content:
@@ -24,4 +24,4 @@ Para proteção e transporte, compare o [estojo GC01](/pt/products/gc01/), a [ca
 
 ## Confirme a compatibilidade das peças de reposição
 
-O [módulo de joystick TMR GC06](/pt/products/gc06/) foi projetado para controles DualSense Edge compatíveis com PS5. Sempre confirme o modelo exato antes de pedir peças de reposição.
+O [módulo de analógico TMR GC06](/pt/products/gc06/) foi projetado para controles DualSense Edge compatíveis com PS5. Sempre confirme o modelo exato antes de pedir peças de reposição.

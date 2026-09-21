@@ -1,86 +1,86 @@
 ---
-title: Política de Privacidade
-description: int-rock Política de Privacidade — como coletamos, usamos e protegemos suas informações.
+title: Política de privacidade
+description: Política de privacidade da int-rock sobre a coleta, o uso e a proteção de suas informações.
 draft: false
 ---
 
-## Política de Privacidade
+> Esta tradução é fornecida para facilitar a leitura. Em caso de divergência, prevalece a versão em inglês.
 
-** Data efetiva:** 10 de junho de 2026
+## Política de privacidade
 
-int-rock ("nós", "nós", ou "nosso") está comprometido em proteger sua privacidade. Esta Política de Privacidade explica como coletamos, usamos e protegemos suas informações pessoais quando você visita nosso site [int-rock.com](https://int-rock.com) ou contate-nos sobre nossos produtos e serviços.
+**Data de vigência:** 10 de junho de 2026
+
+A int-rock ("nós", "nos" ou "nosso") tem o compromisso de proteger sua privacidade. Esta Política de privacidade explica como coletamos, usamos e protegemos suas informações pessoais quando você visita [int-rock.com](https://int-rock.com) ou entra em contato conosco sobre nossos produtos e serviços.
 
 ---
 
 ### 1. Informações que coletamos
 
-Podemos coletar os seguintes tipos de informações:
+Podemos coletar os seguintes tipos de informação:
 
-- ** Informação de contacto: ** Nome, endereço de e-mail, nome da empresa e número de telefone quando você enviar um formulário de contato ou solicitar um orçamento.
-- ** Registros de comunicação:** Conteúdo das mensagens que nos envia por e-mail ou formulários de contacto.
-- ** Dados de Utilização: ** Análise anônima de sites, incluindo páginas visualizadas, tempo gasto no site e tipo de navegador através de ferramentas de análise web padrão.
+- **Dados de contato:** nome, endereço de e-mail, nome da empresa e número de telefone quando você envia um formulário de contato ou solicita um orçamento.
+- **Registros de comunicação:** conteúdo das mensagens que você nos envia por e-mail ou pelos formulários de contato.
+- **Dados de uso:** dados analíticos anônimos, como páginas visitadas, tempo de permanência no site e tipo de navegador, coletados por ferramentas padrão de análise da web.
 
-Nós não ** coletamos informações de pagamento ou dados pessoais sensíveis através deste site.
+Não coletamos dados de pagamento nem dados pessoais sensíveis por meio deste site.
 
 ---
 
 ### 2. Como usamos suas informações
 
-Usamos as informações que coletamos para:
+Usamos as informações coletadas para:
 
-- Responda às suas perguntas e forneça suporte ao cliente
-- Processo no atacado e pedidos de parceria
-- Melhorar nosso site e experiência do usuário
-- Envie atualizações relevantes de produtos e negócios (somente se você optar por entrar)
-
----
-
-### 3. Partilha de Informações
-
-Nós não vendemos, trocamos ou alugamos suas informações pessoais para terceiros. Podemos compartilhar informações com provedores de serviços confiáveis que auxiliam na análise de sites ou entrega por e-mail, sujeitos a acordos de confidencialidade.
+- Responder às suas perguntas e oferecer suporte ao cliente.
+- Processar solicitações de venda no atacado e de parceria.
+- Melhorar nosso site e a experiência de uso.
+- Enviar novidades relevantes sobre produtos e a empresa, somente com o seu consentimento.
 
 ---
 
-### 4. Segurança de dados
+### 3. Compartilhamento de informações
 
-Implementamos medidas técnicas adequadas para proteger suas informações pessoais contra acesso, alteração ou destruição não autorizados. No entanto, nenhum método de transmissão através da Internet é 100% seguro.
+Não vendemos, trocamos nem alugamos suas informações pessoais a terceiros. Podemos compartilhar informações com prestadores de serviços confiáveis que nos auxiliam na análise da web ou no envio de e-mails, sempre sujeitos a acordos de confidencialidade.
+
+---
+
+### 4. Segurança dos dados
+
+Adotamos medidas técnicas adequadas para proteger suas informações pessoais contra acesso, alteração ou destruição não autorizados. No entanto, nenhum método de transmissão pela internet é totalmente seguro.
 
 ---
 
 ### 5. Cookies
 
-Nosso site pode usar cookies para melhorar sua experiência de navegação. Você pode desativar cookies em suas configurações do navegador, embora alguns recursos podem não funcionar corretamente.
+Nosso site pode usar cookies para melhorar sua experiência de navegação. Você pode desativá-los nas configurações do navegador, embora alguns recursos possam deixar de funcionar corretamente.
 
 ---
 
-### 6. Ligações de Terceiros
+### 6. Links de terceiros
 
-Nosso site pode conter links para sites de terceiros (por exemplo, plataformas de mídia social). Não somos responsáveis pelas práticas de privacidade desses sites.
-
----
-
-### 7. Seus Direitos
-
-Dependendo de sua jurisdição, você pode ter o direito de:
-
-- Acesse os dados pessoais que mantemos sobre você
-- Solicitar correção ou exclusão de seus dados
-- Opt fora de comunicações de marketing
-
-Para exercer qualquer um desses direitos, entre em contato conosco no [sales@int-rock.com](mailto:sales@int-rock.com).
+Nosso site pode conter links para sites de terceiros, como plataformas de redes sociais. Não somos responsáveis pelas práticas de privacidade desses sites.
 
 ---
 
-### 8. Alterações a esta política
+### 7. Seus direitos
 
-Podemos atualizar esta Política de Privacidade de tempos em tempos. As alterações serão postadas nesta página com uma data efetiva atualizada.
+Dependendo da sua jurisdição, você pode ter o direito de:
+
+- Acessar os dados pessoais que mantemos sobre você.
+- Solicitar a correção ou exclusão dos seus dados.
+- Cancelar o recebimento de comunicações de marketing.
+
+Para exercer qualquer um desses direitos, escreva para [sales@int-rock.com](mailto:sales@int-rock.com).
 
 ---
 
-> Esta tradução é fornecida para facilitar a leitura. Em caso de divergência, prevalece a versão em inglês.
+### 8. Alterações desta política
 
-### 9. Contacto
+Podemos atualizar esta Política de privacidade periodicamente. Publicaremos as alterações nesta página e indicaremos a nova data de vigência.
 
-Para perguntas sobre esta Política de Privacidade:
+---
 
-**Email:** [sales@int-rock.com](mailto:sales@int-rock.com)
+### 9. Contato
+
+Se tiver alguma dúvida sobre esta Política de privacidade:
+
+**E-mail:** [sales@int-rock.com](mailto:sales@int-rock.com)

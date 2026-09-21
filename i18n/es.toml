@@ -1,17 +1,17 @@
 [toggle_menu]
 other = "Abrir o cerrar menú"
 [controllers]
-other = "Controles"
+other = "Mandos"
 [accessories]
 other = "Accesorios"
 [view_all_products]
 other = "Ver todos los productos"
 [view_all_controllers]
-other = "Ver todos los controles"
+other = "Ver todos los mandos"
 [view_all_accessories]
 other = "Ver todos los accesorios"
 [get_in_touch]
-other = "Contáctenos"
+other = "Contacte con nosotros"
 [quick_links]
 other = "Enlaces rápidos"
 [legal]
@@ -49,7 +49,7 @@ other = "Venta al por mayor"
 [private_tooling]
 other = "Molde privado"
 [packaging_customization]
-other = "Personalización de empaque"
+other = "Personalización de embalaje"
 [other_cooperation]
 other = "Otra colaboración"
 [estimated_quantity]
@@ -71,17 +71,17 @@ other = "Gracias. Su consulta se envió a nuestro equipo comercial."
 [inquiry_error]
 other = "No se pudo enviar el formulario. Escriba directamente a"
 [catalog_default_tagline]
-other = "Controles y accesorios gaming para proyectos mayoristas, de marca privada y OEM/ODM"
+other = "Mandos y accesorios gaming para proyectos mayoristas, de marca privada y OEM/ODM"
 [wholesale_label]
 other = "Mayoristas · Marca privada · OEM/ODM"
 [product_range]
 other = "Gama de productos"
 [explore_catalog]
-other = "Explore controles y accesorios"
+other = "Explore mandos y accesorios"
 [source_develop_title]
 other = "Díganos qué producto desea comprar o desarrollar"
 [source_develop_text]
-other = "Comparta su mercado objetivo, funciones, cantidad estimada y rango de precio."
+other = "Comparta su mercado objetivo, funciones, cantidad estimada y intervalo de precios."
 [discuss_project]
 other = "Hablemos de su proyecto"
 [b2b_sourcing]
@@ -89,7 +89,7 @@ other = "Abastecimiento de productos B2B"
 [project_planning]
 other = "Planificación del proyecto"
 [planning_text]
-other = "Indíquenos el mercado objetivo, rango de precio, cantidad prevista y funciones esenciales. Organizaremos los requisitos y recomendaremos el siguiente paso."
+other = "Indíquenos el mercado objetivo, intervalo de precios, cantidad prevista y funciones esenciales. Organizaremos los requisitos y recomendaremos el siguiente paso."
 [no_products]
 other = "No se encontraron productos."
 [technical_specs]
@@ -99,13 +99,13 @@ other = "vista del producto"
 [b2b_label]
 other = "Para distribuidores, minoristas y marcas gaming"
 [b2b_title]
-other = "Soporte mayorista, OEM y de personalización"
+other = "Asistencia para mayoristas, OEM y de personalización"
 [b2b_text]
 other = "INT-ROCK ayuda a compradores B2B a evaluar productos, confirmar especificaciones, preparar muestras y coordinar la producción con socios especializados."
 [b2b_moq]
 other = "MOQ desde 500 unidades, según el modelo y la personalización"
 [b2b_customization]
-other = "Personalización de logotipo, color, empaque, firmware y funciones"
+other = "Personalización de logotipo, color, embalaje, firmware y funciones"
 [b2b_samples]
 other = "Preparación habitual de muestras en 7–14 días"
 [b2b_tooling]
@@ -117,7 +117,7 @@ other = "Explore más productos gaming"
 [not_found_title]
 other = "Esta página se movió o no existe."
 [not_found_text]
-other = "Explore nuestros controles y accesorios gaming o contacte a INT-ROCK para consultas de productos y venta al por mayor."
+other = "Explore nuestros mandos y accesorios gaming o contacte a INT-ROCK para consultas de productos y venta al por mayor."
 [back_home]
 other = "Volver al inicio"
 [page_not_found]
@@ -125,6 +125,6 @@ other = "Página no encontrada"
 [language]
 other = "Idioma"
 [footer_description]
-other = "INT-ROCK ayuda a distribuidores, minoristas y marcas gaming a seleccionar, personalizar y desarrollar controles y accesorios mediante socios especializados."
+other = "INT-ROCK ayuda a distribuidores, minoristas y marcas gaming a seleccionar, personalizar y desarrollar mandos y accesorios mediante socios especializados."
 [copyright]
 other = "© 2026 int-rock. Todos los derechos reservados."
