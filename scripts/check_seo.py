@@ -101,7 +101,7 @@ def main():
         require(len(page.descriptions) == 1 and page.descriptions[0], f"{url}: missing description")
         require(descriptions[page.descriptions[0]] == 1, f"{url}: duplicate description")
         require(page.canonical == [url], f"{url}: canonical mismatch")
-        require(set(page.alternates) == {"en-US", "es-ES", "pt-BR", "x-default"}, f"{url}: hreflang set mismatch")
+        require(set(page.alternates) == {"en-US", "es-ES", "pt-BR", "fr-FR", "x-default"}, f"{url}: hreflang set mismatch")
         require(page.alternates["x-default"] == page.alternates["en-US"], f"{url}: x-default must point to English")
         require(page.alternates["x-default"] in pages, f"{url}: invalid x-default target")
         require(all(target in pages for code, target in page.alternates.items() if code != "x-default"), f"{url}: invalid alternate target")
@@ -131,7 +131,7 @@ def main():
                     image_bytes += image_path.stat().st_size
         require(image_bytes <= 8_000_000, f"{url}: image payload exceeds 8 MB")
         crumbs = [item for item in page.schemas if item.get("@type") == "BreadcrumbList"]
-        if urlsplit(url).path not in ("/", "/es/", "/pt/"):
+        if urlsplit(url).path not in ("/", "/es/", "/pt/", "/fr/"):
             require(len(crumbs) == 1 and page.breadcrumbs == 1, f"{url}: breadcrumb count")
             items = crumbs[0]["itemListElement"]
             require(items[-1]["item"] == url, f"{url}: breadcrumb endpoint")

@@ -1,0 +1,130 @@
+[toggle_menu]
+other = "Ouvrir ou fermer le menu"
+[controllers]
+other = "Manettes"
+[accessories]
+other = "Accessoires"
+[view_all_products]
+other = "Voir tous les produits"
+[view_all_controllers]
+other = "Voir toutes les manettes"
+[view_all_accessories]
+other = "Voir tous les accessoires"
+[get_in_touch]
+other = "Nous contacter"
+[quick_links]
+other = "Liens rapides"
+[legal]
+other = "Informations légales"
+[connect]
+other = "Contact"
+[home]
+other = "Accueil"
+[products]
+other = "Produits"
+[trust_experience]
+other = "Plus de 11 ans d’expérience produit"
+[trust_moq]
+other = "MOQ à partir de 500 unités"
+[trust_samples]
+other = "Échantillons sous 7 à 14 jours"
+[trust_production]
+other = "Production habituelle sous 30 jours"
+[contact_title]
+other = "Présentez-nous votre projet. Nous définirons la solution."
+[contact_text]
+other = "Indiquez-nous votre marché, votre prix cible et vos exigences produit. Nous les convertirons en un plan clair de sourcing ou de développement."
+[your_name]
+other = "Nom"
+[your_email]
+other = "E-mail"
+[company]
+other = "Entreprise"
+[target_market]
+other = "Marché cible / Pays"
+[project_type]
+other = "Type de projet"
+[wholesale]
+other = "Vente en gros"
+[private_tooling]
+other = "Moules exclusifs"
+[packaging_customization]
+other = "Personnalisation de l’emballage"
+[other_cooperation]
+other = "Autre collaboration"
+[estimated_quantity]
+other = "Quantité estimée"
+[requirements_placeholder]
+other = "Décrivez vos exigences produit, votre prix cible ou votre modèle de référence…"
+[send_inquiry]
+other = "Envoyer la demande"
+[contact_note]
+other = "Votre demande sera transmise de manière sécurisée à notre équipe commerciale."
+[email_direct]
+other = "Vous pouvez également nous écrire à :"
+[sending]
+other = "Envoi en cours…"
+[sending_inquiry]
+other = "Envoi de votre demande…"
+[inquiry_success]
+other = "Merci. Votre demande a été transmise à notre équipe commerciale."
+[inquiry_error]
+other = "Le formulaire n’a pas pu être envoyé. Écrivez directement à"
+[catalog_default_tagline]
+other = "Manettes et accessoires gaming pour les projets de vente en gros, de marque blanche et OEM/ODM"
+[wholesale_label]
+other = "Vente en gros · Marque blanche · OEM/ODM"
+[product_range]
+other = "Gamme de produits"
+[explore_catalog]
+other = "Découvrir les manettes et accessoires"
+[source_develop_title]
+other = "Indiquez-nous le produit que vous souhaitez acheter ou développer"
+[source_develop_text]
+other = "Précisez le marché cible, les fonctions requises, la quantité estimée et la fourchette de prix."
+[discuss_project]
+other = "Parler de votre projet"
+[b2b_sourcing]
+other = "Sourcing de produits B2B"
+[project_planning]
+other = "Planification du projet"
+[planning_text]
+other = "Indiquez-nous le marché cible, la fourchette de prix, la quantité prévue et les fonctions indispensables. Nous organiserons les exigences et recommanderons la prochaine étape."
+[no_products]
+other = "Aucun produit trouvé."
+[technical_specs]
+other = "Caractéristiques techniques"
+[product_view]
+other = "vue du produit"
+[b2b_label]
+other = "Pour les distributeurs, détaillants et marques gaming"
+[b2b_title]
+other = "Accompagnement pour la vente en gros, l’OEM et la personnalisation"
+[b2b_text]
+other = "INT-ROCK aide les acheteurs B2B à évaluer les produits, confirmer les spécifications, préparer les échantillons et coordonner la production avec des partenaires spécialisés."
+[b2b_moq]
+other = "MOQ à partir de 500 unités, selon le modèle et la personnalisation"
+[b2b_customization]
+other = "Personnalisation du logo, des couleurs, de l’emballage, du firmware et des fonctions"
+[b2b_samples]
+other = "Préparation habituelle des échantillons sous 7 à 14 jours"
+[b2b_tooling]
+other = "Coordination des moules exclusifs et du développement de nouveaux produits"
+[more_from]
+other = "Plus de produits INT-ROCK"
+[explore_more]
+other = "Découvrir d’autres produits gaming"
+[not_found_title]
+other = "Cette page a été déplacée ou n’existe pas."
+[not_found_text]
+other = "Découvrez nos manettes et accessoires gaming ou contactez INT-ROCK pour vos demandes produit et de vente en gros."
+[back_home]
+other = "Retour à l’accueil"
+[page_not_found]
+other = "Page introuvable"
+[language]
+other = "Langue"
+[footer_description]
+other = "INT-ROCK aide les distributeurs, détaillants et marques gaming à sélectionner, personnaliser et développer des manettes et accessoires avec des partenaires spécialisés."
+[copyright]
+other = "© 2026 int-rock. Tous droits réservés."

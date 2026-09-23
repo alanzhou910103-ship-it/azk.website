@@ -1,0 +1,48 @@
+[[main]]
+name = "Accueil"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Produits"
+identifier = "products"
+url = "/products/"
+weight = 2
+
+[[main]]
+name = "À propos"
+url = "/#about"
+weight = 3
+
+[[main]]
+name = "Contact"
+url = "/#contact"
+weight = 4
+
+[[footer_left]]
+name = "Produits"
+url = "/products/"
+
+[[footer_left]]
+name = "À propos"
+url = "/#about"
+
+[[footer_left]]
+name = "Contact"
+url = "/#contact"
+
+[[footer_middle]]
+name = "Politique de confidentialité"
+url = "/privacy-policy"
+
+[[footer_middle]]
+name = "Conditions générales"
+url = "/terms-conditions"
+
+[[footer_right]]
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/alan-zhou-42b224415"
+
+[[footer_right]]
+name = "E-mail"
+url = "mailto:sales@int-rock.com"

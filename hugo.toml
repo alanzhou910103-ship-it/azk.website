@@ -20,6 +20,10 @@ disableKinds = ["taxonomy", "term"]
     label = "Português"
     locale = "pt-BR"
     weight = 3
+  [languages.fr]
+    label = "Français"
+    locale = "fr-FR"
+    weight = 4
 
 [markup]
   [markup.goldmark.renderer]
