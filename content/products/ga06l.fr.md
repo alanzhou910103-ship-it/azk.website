@@ -68,7 +68,7 @@ sections:
   content: 'Le panneau central et les jeux de touches arrière peuvent être remplacés sans outil. Cette conception facilite le changement de finition visuelle ou de forme des touches, ainsi que le rangement compact.
 
 
-    La coque profilée et texturée est conçue pour offrir un maintien sûr lors d''un utilisation quotidienne. Confirmez l’assemblage, la finition et la sensation du bouton lors de l’approbation de l’échantillon.'
+    La coque profilée et texturée est conçue pour offrir un maintien sûr lors d''une utilisation quotidienne. Confirmez l’assemblage, la finition et la sensation du bouton lors de l’approbation de l’échantillon.'
 specs:
 - label: Personnalisation graphique
   value: Illustration du panneau central, graphiques de la marque, logos et graphiques coordonnés des touches arrière

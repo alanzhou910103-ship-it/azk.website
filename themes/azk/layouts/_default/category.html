@@ -34,7 +34,7 @@
       {{ with $product }}<a href="{{ .RelPermalink }}" class="product-card" data-aos="fade-up">
         {{ with .Params.hero.badge }}<span class="product-card-badge">{{ . }}</span>{{ end }}
         <div class="product-card-image" style="--product-card-scale: {{ $item.image_scale | default 1 }};">
-          <img src="{{ .Params.card_image | relURL }}" alt="{{ .Title }} {{ .Params.tagline }}" class="product-card-img-main" loading="lazy" decoding="async">
+          <img src="{{ .Params.card_image | relURL }}" alt="{{ .Title }} {{ .Params.tagline }}" {{ partial "image-dimensions.html" .Params.card_image | safeHTMLAttr }} class="product-card-img-main" loading="lazy" decoding="async">
         </div>
         <div class="product-card-info">
           <h3 class="product-card-name">{{ .Title }}</h3>

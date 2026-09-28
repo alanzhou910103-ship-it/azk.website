@@ -1,0 +1,6 @@
+{{- $src := strings.TrimPrefix "/" . -}}
+{{- $path := printf "static/%s" $src -}}
+{{- if fileExists $path -}}
+  {{- $dimensions := images.Config $path -}}
+  width="{{ $dimensions.Width }}" height="{{ $dimensions.Height }}"
+{{- end -}}
