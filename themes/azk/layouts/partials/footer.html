@@ -93,6 +93,11 @@
   // Submit inquiries to Formspree without taking visitors away from the site.
   var inquiryForm = document.getElementById('inquiryForm');
   if (inquiryForm) {
+    var selectedProduct = new URLSearchParams(window.location.search).get('product');
+    if (selectedProduct && /^[A-Za-z0-9 +_-]{1,40}$/.test(selectedProduct)) {
+      document.getElementById('inquiryProduct').value = selectedProduct;
+      inquiryForm.elements.message.value = selectedProduct + ' — ';
+    }
     var inquiryButton = inquiryForm.querySelector('button[type="submit"]');
     var inquiryStatus = document.getElementById('formStatus');
 

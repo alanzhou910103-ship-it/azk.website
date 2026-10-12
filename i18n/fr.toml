@@ -128,3 +128,12 @@ other = "Langue"
 other = "INT-ROCK aide les distributeurs, détaillants et marques gaming à sélectionner, personnaliser et développer des manettes et accessoires avec des partenaires spécialisés."
 [copyright]
 other = "© 2026 int-rock. Tous droits réservés."
+
+[ga05_small_orders]
+other = "Petites commandes en gros acceptées pour le GA05. Demandez les couleurs et le stock disponibles."
+[ga06_order_note]
+other = "Demandez les tarifs de gros, des échantillons ou une proposition de personnalisation."
+[request_pricing]
+other = "Demander tarifs et échantillons"
+[email_direct_button]
+other = "Nous écrire"

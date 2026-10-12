@@ -48,21 +48,6 @@
     </div>
   </section>
 
-  <!-- Featured Controllers -->
-  {{ with .featured_controllers }}
-  {{ if .enable }}
-  <section class="featured-products section" id="featured">
-    <div class="container">
-      <span class="section-label">{{ i18n "controllers" }}</span>
-      <h2 class="section-title" data-aos="fade-up">{{ .title }}</h2>
-      <p class="section-text" data-aos="fade-up">{{ .description }}</p>
-      {{ partial "product-card-grid.html" .items }}
-      <div class="section-action"><a href="{{ relLangURL "/controllers/" }}" class="btn btn-dark-outline">{{ i18n "view_all_controllers" }}</a></div>
-    </div>
-  </section>
-  {{ end }}
-  {{ end }}
-
   <!-- Featured Accessories -->
   {{ with .featured_accessories }}
   {{ if .enable }}
@@ -73,6 +58,21 @@
       <p class="section-text" data-aos="fade-up">{{ .description }}</p>
       {{ partial "product-card-grid.html" .items }}
       <div class="section-action"><a href="{{ relLangURL "/accessories/" }}" class="btn btn-dark-outline">{{ i18n "view_all_accessories" }}</a></div>
+    </div>
+  </section>
+  {{ end }}
+  {{ end }}
+
+  <!-- Featured Controllers -->
+  {{ with .featured_controllers }}
+  {{ if .enable }}
+  <section class="featured-products section" id="featured">
+    <div class="container">
+      <span class="section-label">{{ i18n "controllers" }}</span>
+      <h2 class="section-title" data-aos="fade-up">{{ .title }}</h2>
+      <p class="section-text" data-aos="fade-up">{{ .description }}</p>
+      {{ partial "product-card-grid.html" .items }}
+      <div class="section-action"><a href="{{ relLangURL "/controllers/" }}" class="btn btn-dark-outline">{{ i18n "view_all_controllers" }}</a></div>
     </div>
   </section>
   {{ end }}
@@ -133,6 +133,7 @@
       <h2 class="section-title" data-aos="fade-up">{{ i18n "contact_title" }}</h2>
       <p class="section-text" data-aos="fade-up">{{ i18n "contact_text" }}</p>
       <form class="contact-form" id="inquiryForm" action="{{ site.Params.contact_form_action }}" method="POST" data-aos="fade-up">
+        <input type="hidden" name="product" id="inquiryProduct">
         <input type="hidden" name="subject" value="New B2B Inquiry — INT-ROCK Website">
         <div class="form-row">
           <input type="text" name="name" placeholder="{{ i18n "your_name" }}" autocomplete="name" required>

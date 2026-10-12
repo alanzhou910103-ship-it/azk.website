@@ -128,3 +128,12 @@ other = "Idioma"
 other = "A INT-ROCK ajuda distribuidores, varejistas e marcas gamer a selecionar, personalizar e desenvolver controles e acessórios com parceiros especializados."
 [copyright]
 other = "© 2026 int-rock. Todos os direitos reservados."
+
+[ga05_small_orders]
+other = "Aceitamos pequenos pedidos no atacado do GA05. Consulte as cores e o estoque disponível."
+[ga06_order_note]
+other = "Solicite preços de atacado, amostras ou uma proposta de personalização."
+[request_pricing]
+other = "Solicitar preços e amostras"
+[email_direct_button]
+other = "Enviar e-mail"

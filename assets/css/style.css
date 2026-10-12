@@ -563,3 +563,7 @@ a:hover { color: var(--accent-dim); }
 .category-guide { max-width: 850px; margin: 64px auto 0; }
 .category-guide h2 { font-size: clamp(1.4rem, 3vw, 2rem); margin: 32px 0 16px; }
 .category-guide p { margin-bottom: 16px; }
+
+.product-order-summary { padding: 28px 0; background: var(--bg-dark-card); border-bottom: 1px solid var(--bg-dark-border); }
+.product-order-summary p { color: var(--text-secondary); margin-bottom: 18px; }
+.product-order-summary .hero-actions { flex-wrap: wrap; }

@@ -128,3 +128,12 @@ other = "Language"
 other = "INT-ROCK helps distributors, retailers, and gaming brands source, customize, and develop gaming controllers and accessories through experienced manufacturing and solution partners."
 [copyright]
 other = "© 2026 int-rock. All rights reserved."
+
+[ga05_small_orders]
+other = "Small wholesale orders welcome for GA05. Ask for available colors and current stock."
+[ga06_order_note]
+other = "Request wholesale pricing, samples or a customization proposal."
+[request_pricing]
+other = "Request Pricing & Samples"
+[email_direct_button]
+other = "Email Us"

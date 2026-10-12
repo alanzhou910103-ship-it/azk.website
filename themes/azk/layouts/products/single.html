@@ -1,5 +1,7 @@
 {{ define "main" }}
 {{ $page := . }}
+{{ $inquiryURL := printf "%s?product=%s#contact" (relLangURL "/") ($page.Title | urlquery) }}
+{{ $isFocus := in (slice "GA05" "GA06L" "GA06P") $page.Title }}
 {{ with .Params }}
 
 <!-- Product Hero -->
@@ -16,6 +18,18 @@
     <p class="product-hero-tagline" data-aos="fade-up" data-aos-delay="150">{{ .tagline }}</p>
   </div>
 </section>
+
+{{ if $isFocus }}
+<section class="product-order-summary">
+  <div class="container">
+    <p>{{ if eq $page.Title "GA05" }}{{ i18n "ga05_small_orders" }}{{ else }}{{ i18n "ga06_order_note" }}{{ end }}</p>
+    <div class="hero-actions">
+      <a href="{{ $inquiryURL }}" class="btn btn-primary">{{ i18n "request_pricing" }}</a>
+      <a href="mailto:sales@int-rock.com?subject={{ printf "%s wholesale inquiry" $page.Title | urlquery }}" class="btn btn-dark-outline">{{ i18n "email_direct_button" }}</a>
+    </div>
+  </div>
+</section>
+{{ end }}
 
 <!-- Color Variants -->
 {{ with .colors }}
@@ -114,7 +128,7 @@
       <p>{{ i18n "b2b_text" }}</p>
     </div>
     <ul class="product-b2b-list">
-      <li><i class="fas fa-check"></i><span>{{ i18n "b2b_moq" }}</span></li>
+      <li><i class="fas fa-check"></i><span>{{ if and $isFocus (eq $page.Title "GA05") }}{{ i18n "ga05_small_orders" }}{{ else }}{{ i18n "b2b_moq" }}{{ end }}</span></li>
       <li><i class="fas fa-check"></i><span>{{ i18n "b2b_customization" }}</span></li>
       <li><i class="fas fa-check"></i><span>{{ i18n "b2b_samples" }}</span></li>
       <li><i class="fas fa-check"></i><span>{{ i18n "b2b_tooling" }}</span></li>
@@ -164,7 +178,7 @@
   <div class="container">
     <div class="cta-card" data-aos="fade-up">
       <h2>{{ .title }}</h2>
-      <a href="{{ relLangURL "/#contact" }}" class="btn btn-primary btn-lg">{{ .button_label }}</a>
+      <a href="{{ $inquiryURL }}" class="btn btn-primary btn-lg">{{ .button_label }}</a>
     </div>
   </div>
 </section>
