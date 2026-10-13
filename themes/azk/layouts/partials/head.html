@@ -21,6 +21,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 {{ with site.Params.favicon }}<link rel="icon" href="{{ . | relURL }}" type="image/png">{{ end }}
 
+{{ partial "analytics.html" . }}
+
 <!-- SEO Meta -->
 <meta name="description" content="{{ $description }}">
 <meta name="keywords" content="{{ delimit site.Params.metadata.keywords ", " }}">

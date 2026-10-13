@@ -19,7 +19,7 @@ buyer_needs:
 
 ## Build a Switch 2 accessory range
 
-Browse [GA05 ergonomic Joy-Con 2 grips](/products/ga05/), the [GA06L charging grip with interchangeable back buttons](/products/ga06l/) and the [GA06P grip kit](/products/ga06p/). Compare the included parts on each product page to choose the right package for your customers.
+Browse [GA05 ergonomic Joy-Con 2 grips](/products/ga05/), the [GA06L charging grip with interchangeable back buttons](/products/ga06l/) and the [GA06P grip kit](/products/ga06p/). Use our [GA05 vs GA06L vs GA06P comparison guide](/switch-2-grip-comparison/) to compare charging, included parts and wholesale options.
 
 For console protection and transport, compare the [GC01 carrying case](/products/gc01/), [GC02 protective back shell](/products/gc02/) and [GC03 protective faceplate](/products/gc03/). These are separate products with different coverage and use cases.
 
