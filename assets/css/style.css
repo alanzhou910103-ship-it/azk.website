@@ -567,3 +567,12 @@ a:hover { color: var(--accent-dim); }
 .product-order-summary { padding: 28px 0; background: var(--bg-dark-card); border-bottom: 1px solid var(--bg-dark-border); }
 .product-order-summary p { color: var(--text-secondary); margin-bottom: 18px; }
 .product-order-summary .hero-actions { flex-wrap: wrap; }
+
+/* Accessible, horizontally scrollable buyer comparison on smaller screens. */
+.grip-comparison { max-width: 100%; overflow-x: auto; margin: 24px 0; }
+.grip-comparison:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.grip-comparison table { width: 100%; min-width: 680px; border-collapse: collapse; font-size: .95rem; line-height: 1.6; }
+.grip-comparison caption { text-align: left; font-weight: 600; color: var(--text-primary); padding-bottom: 12px; }
+.grip-comparison th, .grip-comparison td { padding: 14px 12px; border-bottom: 1px solid var(--border-color, #d7dce3); text-align: left; vertical-align: top; }
+.grip-comparison th { color: var(--text-primary); }
+.grip-comparison thead th { background: var(--bg-card, #f4f6f8); }
