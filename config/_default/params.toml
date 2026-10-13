@@ -9,6 +9,7 @@ logo_text = "int-rock"
 mainSections = []
 contact_form_action = "https://formspree.io/f/mqpkyzjb"
 google_tag_manager = ""
+google_analytics_id = "G-NS0SL71FGV"
 custom_script = ""
 theme_copyright = false
 footer_description = "INT-ROCK helps distributors, retailers, and gaming brands source, customize, and develop gaming controllers and accessories through experienced manufacturing and solution partners."
