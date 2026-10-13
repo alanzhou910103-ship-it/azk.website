@@ -104,7 +104,17 @@ def main():
         require(len(page.descriptions) == 1 and page.descriptions[0], f"{url}: missing description")
         require(descriptions[page.descriptions[0]] == 1, f"{url}: duplicate description")
         require(page.canonical == [url], f"{url}: canonical mismatch")
-        require(set(page.alternates) == {"en-US", "es-ES", "pt-BR", "fr-FR", "x-default"}, f"{url}: hreflang set mismatch")
+        # Require alternates only for language versions that actually exist.
+        locales = {"": "en-US", "/es": "es-ES", "/pt": "pt-BR", "/fr": "fr-FR"}
+        page_path = urlsplit(url).path
+        for prefix in ("/es/", "/pt/", "/fr/"):
+            if page_path.startswith(prefix):
+                page_path = page_path[len(prefix) - 1:]
+                break
+        base = urlsplit(url)._replace(path="/", query="", fragment="").geturl().rstrip("/")
+        expected_codes = {locale for prefix, locale in locales.items() if base + prefix + page_path in pages}
+        expected_codes.add("x-default")
+        require(set(page.alternates) == expected_codes, f"{url}: hreflang set mismatch")
         require(page.alternates["x-default"] == page.alternates["en-US"], f"{url}: x-default must point to English")
         require(page.alternates["x-default"] in pages, f"{url}: invalid x-default target")
         require(all(target in pages for code, target in page.alternates.items() if code != "x-default"), f"{url}: invalid alternate target")
