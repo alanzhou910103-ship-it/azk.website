@@ -90,9 +90,42 @@
     header.classList.toggle('scrolled', window.scrollY > 50);
   });
 
+
+    // Keep campaign context across product-to-contact navigation.
+    // These fields accompany the inquiry; they do not send analytics requests.
+    var attributionKeys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content'];
+    var attribution = {};
+    try {
+      attribution = JSON.parse(sessionStorage.getItem('introck_attribution') || '{}');
+      if (!attribution || typeof attribution !== 'object' || Array.isArray(attribution)) attribution = {};
+    } catch (error) { attribution = {}; }
+    var landingParams = new URLSearchParams(window.location.search);
+    var hasCampaign = attributionKeys.some(function(key) { return landingParams.has(key); });
+    if (hasCampaign) attribution = {};
+    attributionKeys.forEach(function(key) {
+      if (landingParams.has(key)) attribution[key] = landingParams.get(key).slice(0, 160);
+    });
+    if (!attribution.landing_page) attribution.landing_page = window.location.pathname.slice(0, 300);
+    if (!attribution.referrer_origin && document.referrer) {
+      try {
+        var referrerOrigin = new URL(document.referrer).origin;
+        if (referrerOrigin !== window.location.origin) attribution.referrer_origin = referrerOrigin;
+      } catch (error) {}
+    }
+    try { sessionStorage.setItem('introck_attribution', JSON.stringify(attribution)); } catch (error) {}
+
+
   // Submit inquiries to Formspree without taking visitors away from the site.
   var inquiryForm = document.getElementById('inquiryForm');
   if (inquiryForm) {
+    attributionKeys.concat(['landing_page', 'referrer_origin']).forEach(function(key) {
+      if (typeof attribution[key] !== 'string' || !attribution[key]) return;
+      var sourceField = document.createElement('input');
+      sourceField.type = 'hidden';
+      sourceField.name = key;
+      sourceField.value = attribution[key].slice(0, 300);
+      inquiryForm.appendChild(sourceField);
+    });
     var selectedProduct = new URLSearchParams(window.location.search).get('product');
     if (selectedProduct && /^[A-Za-z0-9 +_-]{1,40}$/.test(selectedProduct)) {
       document.getElementById('inquiryProduct').value = selectedProduct;
