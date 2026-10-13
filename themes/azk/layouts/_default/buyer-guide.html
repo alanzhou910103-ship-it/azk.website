@@ -1,0 +1,9 @@
+{{ define "main" }}
+<section class="page section">
+  <div class="container">
+    {{ partial "breadcrumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+    <div class="page-content">{{ .Content }}</div>
+  </div>
+</section>
+{{ end }}
