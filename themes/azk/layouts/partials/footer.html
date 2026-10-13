@@ -115,6 +115,27 @@
     try { sessionStorage.setItem('introck_attribution', JSON.stringify(attribution)); } catch (error) {}
 
 
+
+  // Product and contact events use fixed labels, never form text or email addresses.
+  var productPath = window.location.pathname.match(/\/products\/([a-z0-9-]+)\/?$/i);
+  var currentProduct = productPath ? productPath[1].toUpperCase() : '';
+  if (currentProduct && typeof window.introckTrack === 'function') {
+    window.introckTrack('view_item', { items: [{ item_id: currentProduct, item_name: currentProduct }] });
+  }
+  document.addEventListener('click', function(event) {
+    var link = event.target.closest ? event.target.closest('a[href]') : null;
+    if (!link || typeof window.introckTrack !== 'function') return;
+    var href = link.getAttribute('href') || '';
+    var method = href.indexOf('mailto:') === 0 ? 'email' : '';
+    if (!method) {
+      try {
+        var destination = new URL(href, window.location.href);
+        if (destination.origin === window.location.origin && destination.hash === '#contact') method = 'inquiry_form';
+      } catch (error) {}
+    }
+    if (method) window.introckTrack('contact_click', { contact_method: method, product_model: currentProduct || 'unspecified' });
+  });
+
   // Submit inquiries to Formspree without taking visitors away from the site.
   var inquiryForm = document.getElementById('inquiryForm');
   if (inquiryForm) {
@@ -153,6 +174,12 @@
 
         if (!response.ok) throw new Error('Submission failed');
 
+        var leadProduct = document.getElementById('inquiryProduct').value;
+        var knownModels = ['GA05','GA06L','GA06P','GC01','GC02','GC03','GC06','G1','G2','G3','G6-PRO','G7','G8','G9','G11','G12','G17'];
+        var leadModels = knownModels.filter(function(model) { return leadProduct.toUpperCase().split(/[ ,]+/).indexOf(model) !== -1; });
+        if (typeof window.introckTrack === 'function') {
+          window.introckTrack('generate_lead', { form_id: 'website_inquiry', product_model: leadModels.join(',') || 'unspecified' });
+        }
         inquiryForm.reset();
         inquiryStatus.textContent = {{ i18n "inquiry_success" | jsonify | safeJS }};
         inquiryStatus.className = 'form-status is-success';
