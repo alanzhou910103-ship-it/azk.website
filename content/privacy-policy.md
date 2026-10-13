@@ -6,7 +6,7 @@ draft: false
 
 ## Privacy Policy
 
-**Effective Date:** June 10, 2026
+**Effective Date:** October 13, 2026
 
 int-rock ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our website [int-rock.com](https://int-rock.com) or contact us regarding our products and services.
 
@@ -18,7 +18,8 @@ We may collect the following types of information:
 
 - **Contact Information:** Name, email address, company name, and phone number when you submit a contact form or request a quote.
 - **Communication Records:** Contents of messages you send to us via email or contact forms.
-- **Usage Data:** Anonymous website analytics including pages viewed, time spent on site, and browser type via standard web analytics tools.
+- **Usage Data:** We use Google Analytics 4 to measure page visits, product views, contact-link clicks and successfully submitted inquiries. Google Analytics may process device, browser, approximate location and cookie-based identifiers. We do not send inquiry names, email addresses, company names or message text as analytics event parameters.
+- **Inquiry Sources:** Contact forms can include campaign labels, the landing-page path and the referring website origin so we can understand which channels bring inquiries. These source details may be retained in browser session storage during your visit.
 
 We do **not** collect payment information or sensitive personal data through this website.
 
