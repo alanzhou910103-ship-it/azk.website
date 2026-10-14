@@ -27,6 +27,7 @@
       <a href="{{ $inquiryURL }}" class="btn btn-primary">{{ i18n "request_pricing" }}</a>
       <a href="mailto:sales@int-rock.com?subject={{ printf "%s wholesale inquiry" $page.Title | urlquery }}" class="btn btn-dark-outline">{{ i18n "email_direct_button" }}</a>
     </div>
+    {{ with .buying }}<p><a href="#wholesale">Wholesale details &amp; buyer questions</a> · <a href="/switch-2-grip-comparison/">Compare the three grips</a></p>{{ end }}
   </div>
 </section>
 {{ end }}
@@ -119,6 +120,37 @@
 </section>
 {{ end }}
 
+<!-- Product-specific purchasing information -->
+{{ with .buying }}
+<section class="product-buying section" id="wholesale">
+  <div class="container">
+    <h2 class="section-title">{{ .title }}</h2>
+    <p class="buying-intro">{{ .intro }}</p>
+    <div class="specs-table">
+      {{ range .items }}
+      <div class="specs-row"><span class="specs-label">{{ .label }}</span><span class="specs-value">{{ .value }}</span></div>
+      {{ end }}
+    </div>
+    {{ with .steps }}
+    <div class="buying-process">
+      <h3>From Artwork to Approved Sample</h3>
+      <ol>{{ range . }}<li>{{ . }}</li>{{ end }}</ol>
+    </div>
+    {{ end }}
+    <div class="buying-faq">
+      <h3>Buyer Questions</h3>
+      {{ range .faq }}
+      <details><summary>{{ .question }}</summary><p>{{ .answer }}</p></details>
+      {{ end }}
+    </div>
+    <p class="buying-intro">Send the model, estimated quantity, destination country, branding or packaging requirements and required delivery date.</p>
+    <div class="hero-actions">
+      <a href="{{ $inquiryURL }}" class="btn btn-primary">Request Pricing or a Sample</a>
+      <a href="/switch-2-grip-comparison/" class="btn btn-dark-outline">Compare GA05, GA06L &amp; GA06P</a>
+    </div>
+  </div>
+</section>
+{{ else }}
 <!-- B2B Support -->
 <section class="product-b2b section">
   <div class="container product-b2b-grid">
@@ -135,6 +167,8 @@
     </ul>
   </div>
 </section>
+
+{{ end }}
 
 <!-- Internal product discovery -->
 {{ $category := partial "product-category.html" $page }}
