@@ -6,6 +6,7 @@ tagline: "Customizable Joy-Con 2 Charging Grip + Back Buttons"
 card_image: "images/cards/ga06l.webp"
 layout: "product"
 date: 2026-06-23
+lastmod: 2026-10-14
 
 hero:
   image: "images/hero/ga06l-custom-hero.webp"
@@ -91,4 +92,37 @@ specs:
 cta:
   title: "Ready to create your own GA06L edition?"
   button_label: "Request a Customization Proposal"
+buying:
+  title: GA06L Wholesale & Customization Planning
+  intro: Plan a branded charging-grip edition with coordinated center-bridge and back-button graphics. Final artwork,
+    decoration process and order terms are confirmed through the sample proposal.
+  items:
+  - label: Order quantity & MOQ
+    value: Send your estimated quantity and whether you need a standard or customized edition. Minimum quantity
+      is confirmed for the selected finish, artwork and packaging.
+  - label: Custom graphics
+    value: Center-bridge artwork, logos and coordinated GL/GR back-button graphics. Waterslide decals or water transfer
+      printing are evaluated against the design and approved sample.
+  - label: Samples
+    value: Request a sample proposal for the selected color and configuration. Sample cost and preparation time
+      will be confirmed before ordering.
+  - label: Packaging
+    value: Confirm the standard package or send your retail-box, artwork and language requirements for review.
+  - label: Lead time
+    value: Request current availability and a project-specific production schedule based on quantity, finish and
+      packaging.
+  steps:
+  - Send your logo or original artwork, desired placement, estimated quantity and target market.
+  - Review the proposed decoration process, packaging, quotation and sample schedule.
+  - Approve a physical sample for artwork, finish, fit, charging and back-button operation.
+  - Confirm the final order specification and agreed production schedule.
+  faq:
+  - question: Does GA06L charge without a cable?
+    answer: No. The USB-C input requires wired external power. The charging grip is not a power bank.
+  - question: Can it be used while Joy-Con 2 controllers are attached to the console?
+    answer: The charging grip holds detached Joy-Con 2 controllers for tabletop or TV-mode play. It is not a handheld
+      charging attachment for the console.
+  - question: What should I check in a customized sample?
+    answer: Check artwork placement and color, surface finish, controller fit, charging with the intended power
+      source, and GL/GR button operation in compatible console settings.
 ---

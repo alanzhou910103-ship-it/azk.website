@@ -6,6 +6,7 @@ tagline: "Joy-Con 2 Charging Grip + Back Buttons + Grip Kit"
 card_image: "images/cards/ga06p.webp"
 layout: "product"
 date: 2026-06-23
+lastmod: 2026-10-14
 
 hero:
   image: "images/ga06p/hero.jpg"
@@ -82,4 +83,33 @@ specs:
 cta:
   title: "Want GA06P in your lineup?"
   button_label: "Contact Us for Wholesale"
+buying:
+  title: GA06P Wholesale & Kit Planning
+  intro: Combine the GA06L charging grip and GA05 individual grips in one retail kit. Confirm the selected finish,
+    box contents and packaging layout before ordering.
+  items:
+  - label: Order quantity & MOQ
+    value: Send the expected kit quantity and selected configuration. Minimum quantity and availability are confirmed
+      with the quotation.
+  - label: Coordinated branding
+    value: Ask for a coordinated product and packaging proposal. Decoration options, finish and minimum quantity
+      are subject to design review and sample approval.
+  - label: Samples
+    value: Request a sample proposal for the selected color and configuration. Sample cost and preparation time
+      will be confirmed before ordering.
+  - label: Packaging
+    value: Confirm the standard package or send your retail-box, artwork and language requirements for review.
+  - label: Lead time
+    value: Request current availability and a project-specific production schedule based on quantity, finish and
+      packaging.
+  faq:
+  - question: What is included in the kit?
+    answer: One charging grip, three interchangeable GL/GR back-button sets, one pair of individual Joy-Con 2 grips
+      and one USB-C cable. Confirm final package contents in the order specification; Joy-Con 2 controllers are
+      not included.
+  - question: How are the parts used across play modes?
+    answer: Use the individual grips for handheld play and the charging grip with detached Joy-Con 2 controllers
+      for tabletop or TV-mode play.
+  - question: Does the charging grip contain a backup battery?
+    answer: The charging grip requires wired external power through USB-C; it is not a power bank.
 ---
