@@ -2,6 +2,8 @@
 {{ $page := . }}
 {{ $inquiryURL := printf "%s?product=%s#contact" (relLangURL "/") ($page.Title | urlquery) }}
 {{ $isFocus := in (slice "GA05" "GA06L" "GA06P") $page.Title }}
+{{ $category := partial "product-category.html" $page }}
+{{ $unbrandedSample := or (eq $category "accessories") (in (slice "G17" "G9" "G3") $page.Title) }}
 {{ with .Params }}
 
 <!-- Product Hero -->
@@ -18,6 +20,31 @@
     <p class="product-hero-tagline" data-aos="fade-up" data-aos-delay="150">{{ .tagline }}</p>
   </div>
 </section>
+
+{{ with .specs }}
+{{ $quickSpecs := slice }}
+{{ range . }}
+  {{ $label := lower .label }}
+  {{ if and (lt (len $quickSpecs) 3) (not (in (slice "model" "modelo" "modèle" "product name" "nombre del producto" "nom du produit" "nome do produto") $label)) }}
+    {{ $quickSpecs = $quickSpecs | append . }}
+  {{ end }}
+{{ end }}
+<section class="product-quick-specs" aria-label="{{ i18n "key_specifications" }}">
+  <div class="container">
+    <h2>{{ i18n "key_specifications" }}</h2>
+    <dl class="product-quick-specs-grid">
+      {{ range $quickSpecs }}
+      <div><dt>{{ .label }}</dt><dd>{{ .value }}</dd></div>
+      {{ end }}
+    </dl>
+    <div class="product-quick-specs-actions">
+      <a href="#specs">{{ i18n "view_full_specs" }}</a>
+      {{ if not $isFocus }}<a href="{{ $inquiryURL }}">{{ i18n "request_pricing" }}</a>{{ end }}
+    </div>
+    <p class="product-sample-note"><strong>{{ i18n "sample_options" }}</strong> {{ if $unbrandedSample }}{{ i18n "unbranded_sample_available" }}{{ else }}{{ i18n "branded_sample_bulk_private_label" }}{{ end }}</p>
+  </div>
+</section>
+{{ end }}
 
 {{ if $isFocus }}
 <section class="product-order-summary">
@@ -171,7 +198,6 @@
 {{ end }}
 
 <!-- Internal product discovery -->
-{{ $category := partial "product-category.html" $page }}
 {{ $candidates := slice }}
 {{ with $category }}
   {{ range index hugo.Data.nav_products . }}

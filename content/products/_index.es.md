@@ -27,13 +27,17 @@ faq:
   title: Información básica para proyectos mayoristas y OEM
   items:
   - question: ¿Cuál es la cantidad típica del pedido mínimo?
-    answer: La cantidad mínima de pedido parte de 500 unidades para proyectos seleccionados, mientras que muchos pedidos personalizados se planifican normalmente a partir de 1.000 unidades. La cantidad exacta depende del modelo y el alcance de la personalización.
+    answer: El MOQ depende del modelo, el método de marca y el embalaje. Indíquenos la cantidad prevista para recibir una cotización específica.
   - question: ¿Cuánto tarda la preparación de la muestra?
-    answer: Los productos existentes o las muestras personalizadas se preparan normalmente en 7–14 días después de que se confirmen las especificaciones y los archivos gráficos.
+    answer: La disponibilidad, el precio y el plazo de preparación de las muestras dependen del modelo y del stock actual. Se confirman en la cotización de la muestra.
   - question: ¿Cuál es el tiempo de producción típico?
-    answer: El ciclo de producción habitual es de aproximadamente 30 días después de la aprobación de la muestra y la confirmación del pedido, dependiendo de materiales, cantidad y personalización.
+    answer: El plazo depende de los materiales, la cantidad y la personalización. Confirmamos el calendario después de acordar el producto y los detalles del pedido.
   - question: ¿Pueden ayudar con la documentación de conformidad?
-    answer: Podemos coordinar la documentación CE, RoHS y FCC para productos y requisitos de proyecto adecuados.
+    answer: Hay documentación CE, RoHS y FCC para muchos modelos. Consúltenos por el informe exacto del modelo, la versión y el mercado de destino elegidos.
+  - question: ¿Qué productos tienen muestras sin marca?
+    answer: Actualmente hay muestras sin marca de accesorios, G17, G9 y G3. Las muestras de los otros mandos llevan la marca existente; la producción sin marca o con su marca se puede estudiar para pedidos al por mayor.
+  - question: ¿Puedo imprimir mi logotipo en una muestra?
+    answer: Las muestras no admiten serigrafía ni grabado láser personalizados. Estas opciones se pueden estudiar para la producción en volumen. El embalaje estándar es una caja a color; el personalizado depende del volumen del pedido.
 ---
 
 

@@ -25,11 +25,11 @@ other = "Productos"
 [trust_experience]
 other = "Más de 11 años de experiencia en productos"
 [trust_moq]
-other = "MOQ desde 500 unidades"
+other = "MOQ según el modelo"
 [trust_samples]
-other = "Muestras en 7–14 días"
+other = "Muestras bajo consulta"
 [trust_production]
-other = "Producción habitual en 30 días"
+other = "Plazos según el proyecto"
 [contact_title]
 other = "Comparta su proyecto. Nosotros definimos la solución."
 [contact_text]
@@ -94,6 +94,16 @@ other = "Indíquenos el mercado objetivo, intervalo de precios, cantidad previst
 other = "No se encontraron productos."
 [technical_specs]
 other = "Especificaciones técnicas"
+[key_specifications]
+other = "Especificaciones clave"
+[view_full_specs]
+other = "Ver todas las especificaciones"
+[sample_options]
+other = "Opciones de muestra:"
+[unbranded_sample_available]
+other = "Puede solicitar muestras sin marca; confirme la disponibilidad y configuración actuales."
+[branded_sample_bulk_private_label]
+other = "Las muestras de evaluación llevan la marca existente. Las versiones sin marca o con su marca están disponibles para pedidos al por mayor, según el modelo y los detalles del pedido."
 [product_view]
 other = "vista del producto"
 [b2b_label]
@@ -103,11 +113,11 @@ other = "Asistencia para mayoristas, OEM y de personalización"
 [b2b_text]
 other = "INT-ROCK ayuda a compradores B2B a evaluar productos, confirmar especificaciones, preparar muestras y coordinar la producción con socios especializados."
 [b2b_moq]
-other = "MOQ desde 500 unidades, según el modelo y la personalización"
+other = "MOQ confirmado según el modelo y la personalización"
 [b2b_customization]
-other = "Personalización de logotipo, color, embalaje, firmware y funciones"
+other = "Logotipo y embalaje personalizados para pedidos al por mayor; opciones según el modelo"
 [b2b_samples]
-other = "Preparación habitual de muestras en 7–14 días"
+other = "Disponibilidad y plazo de muestras según el modelo"
 [b2b_tooling]
 other = "Coordinación de moldes privados y desarrollo de nuevos productos"
 [more_from]

@@ -27,13 +27,17 @@ faq:
   title: Informações básicas para projetos de atacado e OEM
   items:
   - question: Qual é a quantidade mínima de pedido típica?
-    answer: A quantidade mínima de pedido começa em 500 unidades para projetos selecionados, enquanto muitas pedidos personalizadas são normalmente planejadas a partir de 1.000 unidades. A quantidade exata depende do modelo e do escopo de personalização.
+    answer: O MOQ depende do modelo, do método de personalização e da embalagem. Informe a quantidade desejada para receber uma cotação específica.
   - question: Quanto tempo demora a preparação da amostra?
-    answer: Amostras existentes ou personalizadas são normalmente preparadas em 7-14 dias após as especificações e arquivos gráficos serem confirmadas.
+    answer: A disponibilidade, o preço e o prazo de preparação das amostras dependem do modelo e do estoque atual. Esses detalhes são confirmados na cotação da amostra.
   - question: Qual é o prazo típico de produção?
-    answer: O ciclo de produção habitual é de cerca de 30 dias após a aprovação da amostra e confirmação do pedido, dependendo dos materiais, quantidade e personalização.
+    answer: O prazo depende dos materiais, da quantidade e da personalização. Confirmamos o cronograma depois de definir o produto e os detalhes do pedido.
   - question: Você pode oferecer documentação de conformidade?
-    answer: A documentação CE, RoHS e FCC pode ser coordenada para produtos e requisitos de projeto adequados.
+    answer: Há documentação CE, RoHS e FCC para muitos modelos. Solicite o relatório correspondente ao modelo, à versão e ao mercado de destino escolhidos.
+  - question: Quais produtos têm amostras sem marca?
+    answer: Atualmente, há amostras sem marca para acessórios, G17, G9 e G3. As amostras dos demais controles levam a marca existente; a produção sem marca ou com a sua marca pode ser avaliada para pedidos em volume.
+  - question: Posso imprimir meu logotipo em uma amostra?
+    answer: As amostras não podem receber serigrafia ou gravação a laser personalizadas. Essas opções podem ser avaliadas para produção em volume. A embalagem padrão é uma caixa colorida; a embalagem personalizada depende do volume do pedido.
 ---
 
 

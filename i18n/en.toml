@@ -25,11 +25,11 @@ other = "Products"
 [trust_experience]
 other = "11+ Years of Product Experience"
 [trust_moq]
-other = "MOQ from 500 Units"
+other = "MOQ Quoted by Model"
 [trust_samples]
-other = "Samples in 7–14 Days"
+other = "Samples Available on Request"
 [trust_production]
-other = "Typical Production in 30 Days"
+other = "Project-Based Lead Times"
 [contact_title]
 other = "Bring Us the Brief. We'll Build the Route."
 [contact_text]
@@ -94,6 +94,16 @@ other = "Send us your target market, price range, expected quantity, and must-ha
 other = "No products found."
 [technical_specs]
 other = "Technical Specifications"
+[key_specifications]
+other = "Key specifications"
+[view_full_specs]
+other = "View all specifications"
+[sample_options]
+other = "Sample options:"
+[unbranded_sample_available]
+other = "Unbranded samples can be requested; confirm current availability and configuration."
+[branded_sample_bulk_private_label]
+other = "Evaluation samples carry the existing brand. Unbranded or your-brand versions are available for bulk orders, subject to model and order details."
 [product_view]
 other = "product view"
 [b2b_label]
@@ -103,11 +113,11 @@ other = "Wholesale, OEM & Customization Support"
 [b2b_text]
 other = "INT-ROCK helps B2B buyers evaluate products, confirm specifications, prepare samples, and coordinate production through experienced manufacturing and solution partners."
 [b2b_moq]
-other = "MOQ from 500 units, depending on the model and customization"
+other = "MOQ confirmed for the model and customization scope"
 [b2b_customization]
-other = "Logo, color, packaging, firmware, and feature customization"
+other = "Logo and packaging customization for bulk orders; confirm model-specific options"
 [b2b_samples]
-other = "Typical sample preparation in 7–14 days"
+other = "Sample availability and timing confirmed by model"
 [b2b_tooling]
 other = "Private tooling and new product development coordination"
 [more_from]

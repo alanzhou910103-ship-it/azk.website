@@ -25,11 +25,11 @@ other = "Produits"
 [trust_experience]
 other = "Plus de 11 ans d’expérience produit"
 [trust_moq]
-other = "MOQ à partir de 500 unités"
+other = "MOQ selon le modèle"
 [trust_samples]
-other = "Échantillons sous 7 à 14 jours"
+other = "Échantillons sur demande"
 [trust_production]
-other = "Production habituelle sous 30 jours"
+other = "Délais selon le projet"
 [contact_title]
 other = "Présentez-nous votre projet. Nous définirons la solution."
 [contact_text]
@@ -94,6 +94,16 @@ other = "Indiquez-nous le marché cible, la fourchette de prix, la quantité pr�
 other = "Aucun produit trouvé."
 [technical_specs]
 other = "Caractéristiques techniques"
+[key_specifications]
+other = "Caractéristiques principales"
+[view_full_specs]
+other = "Voir toutes les caractéristiques"
+[sample_options]
+other = "Options d’échantillons :"
+[unbranded_sample_available]
+other = "Des échantillons sans marque peuvent être demandés ; confirmez la disponibilité et la configuration actuelles."
+[branded_sample_bulk_private_label]
+other = "Les échantillons d’évaluation portent la marque existante. Les versions sans marque ou à votre marque sont disponibles pour les commandes en volume, selon le modèle et les modalités de la commande."
 [product_view]
 other = "vue du produit"
 [b2b_label]
@@ -103,11 +113,11 @@ other = "Accompagnement pour la vente en gros, l’OEM et la personnalisation"
 [b2b_text]
 other = "INT-ROCK aide les acheteurs B2B à évaluer les produits, confirmer les spécifications, préparer les échantillons et coordonner la production avec des partenaires spécialisés."
 [b2b_moq]
-other = "MOQ à partir de 500 unités, selon le modèle et la personnalisation"
+other = "MOQ confirmé selon le modèle et la personnalisation"
 [b2b_customization]
-other = "Personnalisation du logo, des couleurs, de l’emballage, du firmware et des fonctions"
+other = "Logo et emballage personnalisés pour les commandes en volume ; options à confirmer selon le modèle"
 [b2b_samples]
-other = "Préparation habituelle des échantillons sous 7 à 14 jours"
+other = "Disponibilité et délai des échantillons à confirmer selon le modèle"
 [b2b_tooling]
 other = "Coordination des moules exclusifs et du développement de nouveaux produits"
 [more_from]

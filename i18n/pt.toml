@@ -25,11 +25,11 @@ other = "Produtos"
 [trust_experience]
 other = "Mais de 11 anos de experiência em produtos"
 [trust_moq]
-other = "MOQ a partir de 500 unidades"
+other = "MOQ conforme o modelo"
 [trust_samples]
-other = "Amostras em 7–14 dias"
+other = "Amostras sob consulta"
 [trust_production]
-other = "Produção habitual em 30 dias"
+other = "Prazos conforme o projeto"
 [contact_title]
 other = "Envie o briefing. Nós definimos a solução."
 [contact_text]
@@ -94,6 +94,16 @@ other = "Informe o mercado-alvo, faixa de preço, quantidade prevista e funçõe
 other = "Nenhum produto encontrado."
 [technical_specs]
 other = "Especificações técnicas"
+[key_specifications]
+other = "Especificações principais"
+[view_full_specs]
+other = "Ver todas as especificações"
+[sample_options]
+other = "Opções de amostra:"
+[unbranded_sample_available]
+other = "É possível solicitar amostras sem marca; confirme a disponibilidade e a configuração atuais."
+[branded_sample_bulk_private_label]
+other = "As amostras de avaliação vêm com a marca existente. Versões sem marca ou com a sua marca estão disponíveis para pedidos em volume, conforme o modelo e os detalhes do pedido."
 [product_view]
 other = "vista do produto"
 [b2b_label]
@@ -103,11 +113,11 @@ other = "Suporte para atacado, OEM e personalização"
 [b2b_text]
 other = "A INT-ROCK ajuda compradores B2B a avaliar produtos, confirmar especificações, preparar amostras e coordenar a produção com parceiros especializados."
 [b2b_moq]
-other = "MOQ a partir de 500 unidades, conforme o modelo e a personalização"
+other = "MOQ confirmado conforme o modelo e a personalização"
 [b2b_customization]
-other = "Personalização de logotipo, cor, embalagem, firmware e funções"
+other = "Logotipo e embalagem personalizados para pedidos em volume; opções conforme o modelo"
 [b2b_samples]
-other = "Preparação habitual de amostras em 7–14 dias"
+other = "Disponibilidade e prazo de amostras conforme o modelo"
 [b2b_tooling]
 other = "Coordenação de moldes exclusivos e desenvolvimento de novos produtos"
 [more_from]

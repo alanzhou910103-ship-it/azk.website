@@ -48,78 +48,56 @@
     </div>
   </section>
 
-  <!-- Featured Accessories -->
-  {{ with .featured_accessories }}
-  {{ if .enable }}
-  <section class="featured-products section section-alt" id="accessories">
-    <div class="container">
-      <span class="section-label">{{ i18n "accessories" }}</span>
-      <h2 class="section-title" data-aos="fade-up">{{ .title }}</h2>
-      <p class="section-text" data-aos="fade-up">{{ .description }}</p>
-      {{ partial "product-card-grid.html" .items }}
-      <div class="section-action"><a href="{{ relLangURL "/accessories/" }}" class="btn btn-dark-outline">{{ i18n "view_all_accessories" }}</a></div>
-    </div>
-  </section>
-  {{ end }}
-  {{ end }}
-
   <!-- Featured Controllers -->
   {{ with .featured_controllers }}
   {{ if .enable }}
-  <section class="featured-products section" id="featured">
+  <section class="featured-products section section-alt" id="featured">
     <div class="container">
       <span class="section-label">{{ i18n "controllers" }}</span>
       <h2 class="section-title" data-aos="fade-up">{{ .title }}</h2>
-      <p class="section-text" data-aos="fade-up">{{ .description }}</p>
-      {{ partial "product-card-grid.html" .items }}
+      {{ $featuredControllers := slice }}
+      {{ range slice "G17" "G1" "G2" "G6 Pro" "G7" }}
+        {{ $name := . }}
+        {{ range where $.Params.featured_controllers.items "name" $name }}
+          {{ $featuredControllers = $featuredControllers | append . }}
+        {{ end }}
+      {{ end }}
+      {{ partial "product-card-grid.html" $featuredControllers }}
       <div class="section-action"><a href="{{ relLangURL "/controllers/" }}" class="btn btn-dark-outline">{{ i18n "view_all_controllers" }}</a></div>
     </div>
   </section>
   {{ end }}
   {{ end }}
 
-  <!-- Feature Grid -->
-  {{ with .feature }}
+  <!-- Featured Accessories -->
+  {{ with .featured_accessories }}
   {{ if .enable }}
-  <section class="features section section-alt" id="features">
+  <section class="featured-products section" id="accessories">
     <div class="container">
+      <span class="section-label">{{ i18n "accessories" }}</span>
       <h2 class="section-title" data-aos="fade-up">{{ .title }}</h2>
-      <div class="features-grid">
-        {{ range .feature_item }}
-        <div class="feature-card" data-aos="fade-up">
-          <div class="feature-icon"><i class="{{ .icon }}"></i></div>
-          <h3>{{ .name }}</h3>
-          <p>{{ .content }}</p>
-        </div>
-        {{ end }}
-      </div>
+      {{ partial "product-card-grid.html" (first 3 .items) }}
+      <div class="section-action"><a href="{{ relLangURL "/accessories/" }}" class="btn btn-dark-outline">{{ i18n "view_all_accessories" }}</a></div>
     </div>
   </section>
   {{ end }}
   {{ end }}
 
-  <!-- About -->
+  <!-- Concise company introduction -->
   {{ with .about }}
   {{ if .enable }}
-  <section class="about section" id="about">
-    <div class="container">
-      <div class="about-content" data-aos="fade-up">
+  <section class="about about-compact section" id="about">
+    <div class="container about-compact-grid">
+      <div class="about-compact-heading">
         <span class="section-label">{{ .label }}</span>
         <h2 class="section-title">{{ .title }}</h2>
-        <div class="about-copy">
-          {{ range split .content "\n\n" }}{{ with strings.TrimSpace . }}<p>{{ . }}</p>{{ end }}{{ end }}
+      </div>
+      <div class="about-compact-copy">
+        <p>{{ index (split .content "\n\n") 0 }}</p>
+        <div class="about-compact-actions">
+          <a href="{{ relLangURL "/products/" }}">{{ i18n "view_all_products" }}</a>
+          <a href="#contact">{{ i18n "discuss_project" }}</a>
         </div>
-        {{ with .stats }}
-        <div class="about-stats">
-          {{ range . }}
-          <div class="stat">
-            {{ with .icon }}<div class="stat-icon"><i class="{{ . }}"></i></div>{{ end }}
-            {{ with .number }}<span class="stat-number">{{ . | safeHTML }}</span>{{ end }}
-            <span class="stat-label">{{ .label }}</span>
-          </div>
-          {{ end }}
-        </div>
-        {{ end }}
       </div>
     </div>
   </section>
