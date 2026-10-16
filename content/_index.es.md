@@ -22,6 +22,14 @@ featured_controllers:
   enable: true
   title: Plataformas de control preparadas para competir
   description: Plataformas orientadas al rendimiento para distribuidores, minoristas y marcas gaming, con opciones de diferenciación.
+  spotlight:
+    label: G17 · COMPATIBLE CON PS5
+    title: Un mando compatible con PS5 para su catálogo
+    description: Joysticks Hall Effect, cuatro botones posteriores programables y audio integrado en un mismo modelo.
+    action: Ver G17
+    image: images/g17/hero.webp
+    alt: Mando inalámbrico G17 blanco compatible con PS5 visto de frente
+    link: /products/g17/
   items:
   - name: G17
     tagline: Mando inalámbrico Hall Effect compatible con PS5

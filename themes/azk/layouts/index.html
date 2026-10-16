@@ -55,8 +55,21 @@
     <div class="container">
       <span class="section-label">{{ i18n "controllers" }}</span>
       <h2 class="section-title" data-aos="fade-up">{{ .title }}</h2>
+      {{ with .spotlight }}
+      <a class="controller-spotlight" href="{{ relLangURL .link }}">
+        <div class="controller-spotlight-content">
+          <span class="controller-spotlight-label">{{ .label }}</span>
+          <h3>{{ .title }}</h3>
+          <p>{{ .description }}</p>
+          <span class="controller-spotlight-action">{{ .action }} <span aria-hidden="true">→</span></span>
+        </div>
+        <div class="controller-spotlight-visual">
+          <img src="{{ .image | relURL }}" alt="{{ .alt }}" {{ partial "image-dimensions.html" .image | safeHTMLAttr }} loading="lazy" decoding="async">
+        </div>
+      </a>
+      {{ end }}
       {{ $featuredControllers := slice }}
-      {{ range slice "G17" "G1" "G2" "G6 Pro" "G7" }}
+      {{ range slice "G1" "G2" "G6 Pro" "G7" }}
         {{ $name := . }}
         {{ range where $.Params.featured_controllers.items "name" $name }}
           {{ $featuredControllers = $featuredControllers | append . }}

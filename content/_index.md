@@ -25,6 +25,14 @@ featured_controllers:
   enable : true
   title : "Controller Platforms, Ready to Compete"
   description : "Performance-focused platforms selected for distributors, retailers, and gaming brands — with room for differentiation."
+  spotlight:
+    label: "G17 · PS5-COMPATIBLE"
+    title: "A PS5-compatible controller for your lineup"
+    description: "Hall Effect joysticks, four programmable back buttons and integrated audio in one platform."
+    action: "Explore G17"
+    image: "images/g17/hero.webp"
+    alt: "White G17 PS5-compatible wireless controller shown from the front"
+    link: "/products/g17/"
   items:
     - name : "G17"
       tagline : "Hall Effect PS5-Compatible Wireless Controller"

@@ -22,6 +22,14 @@ featured_controllers:
   enable: true
   title: Plateformes de manettes, prêtes à rivaliser
   description: Plateformes axées sur la performance sélectionnées pour les distributeurs, les détaillants et les marques gaming – avec une marge de différenciation.
+  spotlight:
+    label: G17 · COMPATIBLE PS5
+    title: Une manette compatible PS5 pour votre gamme
+    description: Joysticks Hall Effect, quatre touches arrière programmables et audio intégré dans un même modèle.
+    action: Découvrir la G17
+    image: images/g17/hero.webp
+    alt: Manette sans fil G17 blanche compatible PS5 vue de face
+    link: /products/g17/
   items:
   - name: G17
     tagline: Manette sans fil Hall Effect compatible avec PS5

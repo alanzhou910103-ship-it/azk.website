@@ -22,6 +22,14 @@ featured_controllers:
   enable: true
   title: Plataformas de controle prontas para competir
   description: Plataformas voltadas ao desempenho para distribuidores, varejistas e marcas gamer, com opções de diferenciação.
+  spotlight:
+    label: G17 · COMPATÍVEL COM PS5
+    title: Um controle compatível com PS5 para seu catálogo
+    description: Joysticks Hall Effect, quatro botões traseiros programáveis e áudio integrado em um só modelo.
+    action: Conheça o G17
+    image: images/g17/hero.webp
+    alt: Controle sem fio G17 branco compatível com PS5 visto de frente
+    link: /products/g17/
   items:
   - name: G17
     tagline: Controle sem fio com Hall Effect compatível com PS5
