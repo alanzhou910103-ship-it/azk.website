@@ -1,8 +1,8 @@
 ---
 title: G6 Pro
 seo_title: G6 Pro Mando trimodo con Hall Effect
-description: Mando inalámbrico G6 Pro con joysticks y gatillos Hall Effect, conectividad trimodo, botones posteriores programables y control de movimiento. Consulte las especificaciones y opciones mayoristas.
-tagline: Mando trimodo con Hall Effect
+description: Mando multiplataforma G6 Pro con joysticks y gatillos Hall Effect, conexión trimodo, botones posteriores y control de movimiento. Consulte las plataformas compatibles y las opciones mayoristas.
+tagline: Hall Effect multiplataforma · trimodo
 card_image: "images/g6-pro/hero.webp"
 layout: "product"
 date: 2026-07-23

@@ -38,28 +38,28 @@ featured_controllers:
     link: "/products/g9/"
     badge: Nuevo
   - name: G7
-    tagline: Mando gaming trimodo de 1000 Hz
+    tagline: 1000 Hz por cable/2,4 GHz · ABXY de microinterruptor
     image: "images/g7/hero.webp"
     image_scale: 1.0
     hover_image: images/g7/details.webp
     link: "/products/g7/"
     badge: Nuevo
   - name: G6 Pro
-    tagline: Mando trimodo con Hall Effect
+    tagline: Hall Effect multiplataforma · trimodo
     image: "images/g6-pro/hero.webp"
     image_scale: 1.0
     hover_image: images/g6-pro/hero.webp
     link: "/products/g6-pro/"
     badge: Nuevo
   - name: G2
-    tagline: Mando inalámbrico TMR personalizable
+    tagline: TMR prémium · pantalla de batería · disposición conmutable
     image: "images/cards/g2.webp"
     image_scale: 1.0
     hover_image: images/cards/g2.webp
     link: "/products/g2/"
     badge: Nuevo
   - name: G1
-    tagline: Mando inalámbrico trimodo TMR
+    tagline: TMR · gatillos de doble modo · ABXY de microinterruptor
     image: "images/cards/g1.webp"
     image_scale: 1.0
     hover_image: images/cards/g1.webp

@@ -1,8 +1,8 @@
 ---
 title: "G6 Pro"
 seo_title: "G6 Pro Hall Effect Wireless Gaming Controller"
-description: "G6 Pro Hall Effect wireless controller with tri-mode connectivity, programmable rear buttons and motion control. Explore specifications and wholesale options."
-tagline: "Hall Effect Tri-Mode Controller"
+description: "G6 Pro multi-platform controller with Hall Effect sticks and triggers, tri-mode connectivity, rear buttons and motion control. Review supported platforms and wholesale options."
+tagline: "Multi-Platform Hall Effect · Tri-Mode"
 card_image: "images/g6-pro/hero.webp"
 layout: "product"
 date: 2026-07-23

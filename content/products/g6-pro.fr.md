@@ -1,8 +1,8 @@
 ---
 title: G6 Pro
 seo_title: Manette de jeu sans fil G6 Pro Hall Effect
-description: Manette sans fil G6 Pro Hall Effect avec connectivité tri-mode, touches arrière programmables et contrôle de mouvement. Explorez les spécifications et les options de vente en gros.
-tagline: Manette trimode Hall Effect
+description: Manette multiplateforme G6 Pro avec joysticks et gâchettes Hall Effect, connexion trimode, touches arrière et contrôle de mouvement. Vérifiez les plateformes compatibles et les options de vente en gros.
+tagline: Hall Effect multiplateforme · trimode
 card_image: images/g6-pro/hero.webp
 layout: product
 date: 2026-07-23

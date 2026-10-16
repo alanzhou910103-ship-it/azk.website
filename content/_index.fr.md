@@ -38,28 +38,28 @@ featured_controllers:
     link: /products/g9/
     badge: Nouveau
   - name: G7
-    tagline: Manette de jeu trimode 1 000 Hz
+    tagline: 1 000 Hz en filaire/2,4 GHz · touches ABXY à microcontacts
     image: images/g7/hero.webp
     image_scale: 1.0
     hover_image: images/g7/details.webp
     link: /products/g7/
     badge: Nouveau
   - name: G6 Pro
-    tagline: Manette trimode Hall Effect
+    tagline: Hall Effect multiplateforme · trimode
     image: images/g6-pro/hero.webp
     image_scale: 1.0
     hover_image: images/g6-pro/hero.webp
     link: /products/g6-pro/
     badge: Nouveau
   - name: G2
-    tagline: Manette sans fil TMR personnalisable
+    tagline: TMR haut de gamme · affichage de batterie · disposition commutable
     image: images/cards/g2.webp
     image_scale: 1.0
     hover_image: images/cards/g2.webp
     link: /products/g2/
     badge: Nouveau
   - name: G1
-    tagline: Manette sans fil trimode TMR
+    tagline: TMR · gâchettes double mode · touches ABXY à microcontacts
     image: images/cards/g1.webp
     image_scale: 1.0
     hover_image: images/cards/g1.webp

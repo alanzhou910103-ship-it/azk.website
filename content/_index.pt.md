@@ -38,28 +38,28 @@ featured_controllers:
     link: "/products/g9/"
     badge: Novo
   - name: G7
-    tagline: Controle gamer trimodo de 1000 Hz
+    tagline: 1000 Hz com cabo/2,4 GHz · botões ABXY de microinterruptor
     image: "images/g7/hero.webp"
     image_scale: 1.0
     hover_image: images/g7/details.webp
     link: "/products/g7/"
     badge: Novo
   - name: G6 Pro
-    tagline: Controle trimodo com Hall Effect
+    tagline: Hall Effect multiplataforma · trimodo
     image: "images/g6-pro/hero.webp"
     image_scale: 1.0
     hover_image: images/g6-pro/hero.webp
     link: "/products/g6-pro/"
     badge: Novo
   - name: G2
-    tagline: Controle sem fio TMR personalizável
+    tagline: TMR premium · visor de bateria · layout alternável
     image: "images/cards/g2.webp"
     image_scale: 1.0
     hover_image: images/cards/g2.webp
     link: "/products/g2/"
     badge: Novo
   - name: G1
-    tagline: Controle sem fio trimodo TMR
+    tagline: TMR · gatilhos de dois modos · ABXY de microinterruptor
     image: "images/cards/g1.webp"
     image_scale: 1.0
     hover_image: images/cards/g1.webp
