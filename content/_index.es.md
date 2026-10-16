@@ -81,8 +81,16 @@ featured_controllers:
     badge: Nuevo
 featured_accessories:
   enable: true
-  title: Accesorios con potencial comercial
+  title: Accesorios para Switch 2
   description: Accesorios para consolas seleccionados por su utilidad, presentación y posibilidades de personalización.
+  spotlight:
+    label: GA06L · GRÁFICOS PERSONALIZADOS
+    title: Un grip de carga con la identidad de su marca
+    description: Gráficos personalizados para pedidos al por mayor, carga USB-C y tres juegos de botones posteriores intercambiables.
+    action: Ver GA06L
+    image: images/hero/ga06l-custom-hero.webp
+    alt: Grip de carga GA06L para Joy-Con 2 con diseño personalizado y botones posteriores
+    link: /products/ga06l/
   items:
   - name: GA05
     tagline: Grip ergonómico para Joy-Con 2

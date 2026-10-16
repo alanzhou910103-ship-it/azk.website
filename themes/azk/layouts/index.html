@@ -76,7 +76,25 @@
     <div class="container">
       <span class="section-label">{{ i18n "accessories" }}</span>
       <h2 class="section-title" data-aos="fade-up">{{ .title }}</h2>
-      {{ partial "product-card-grid.html" (first 3 .items) }}
+      {{ with .spotlight }}
+      <a class="accessory-spotlight" href="{{ relLangURL .link }}">
+        <img src="{{ .image | relURL }}" alt="{{ .alt }}" {{ partial "image-dimensions.html" .image | safeHTMLAttr }} loading="lazy" decoding="async">
+        <div class="accessory-spotlight-content">
+          <span class="accessory-spotlight-label">{{ .label }}</span>
+          <h3>{{ .title }}</h3>
+          <p>{{ .description }}</p>
+          <span class="accessory-spotlight-action">{{ .action }} <span aria-hidden="true">→</span></span>
+        </div>
+      </a>
+      {{ end }}
+      {{ $accessoryCards := slice }}
+      {{ range slice "GA05" "GA06P" "GC01" }}
+        {{ $name := . }}
+        {{ range where $.Params.featured_accessories.items "name" $name }}
+          {{ $accessoryCards = $accessoryCards | append . }}
+        {{ end }}
+      {{ end }}
+      {{ partial "product-card-grid.html" $accessoryCards }}
       <div class="section-action"><a href="{{ relLangURL "/accessories/" }}" class="btn btn-dark-outline">{{ i18n "view_all_accessories" }}</a></div>
     </div>
   </section>

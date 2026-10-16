@@ -85,8 +85,16 @@ featured_controllers:
 ##################### Featured Accessories ##########################
 featured_accessories:
   enable : true
-  title : "Accessories with Retail Potential"
+  title : "Accessories for Switch 2"
   description : "Focused console accessories chosen for clear consumer value, strong presentation, and customization potential."
+  spotlight:
+    label: "GA06L · CUSTOM GRAPHICS"
+    title: "A charging grip with your brand on it"
+    description: "Custom artwork for volume orders, USB-C charging and three interchangeable back-button sets."
+    action: "Explore GA06L"
+    image: "images/hero/ga06l-custom-hero.webp"
+    alt: "GA06L Joy-Con 2 charging grip shown with custom artwork and back buttons"
+    link: "/products/ga06l/"
   items:
     - name : "GA05"
       tagline : "Joy-Con 2 Ergonomic Grip"

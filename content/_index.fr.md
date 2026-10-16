@@ -81,8 +81,16 @@ featured_controllers:
     badge: Nouveau
 featured_accessories:
   enable: true
-  title: Accessoires avec potentiel de vente au détail
+  title: Accessoires pour Switch 2
   description: Accessoires de console ciblés, choisis pour leur valeur claire pour le consommateur, leur présentation solide et leur potentiel de personnalisation.
+  spotlight:
+    label: GA06L · VISUELS PERSONNALISÉS
+    title: Un support de recharge aux couleurs de votre marque
+    description: Visuels personnalisés pour les commandes en volume, recharge USB-C et trois paires de touches arrière interchangeables.
+    action: Découvrir le GA06L
+    image: images/hero/ga06l-custom-hero.webp
+    alt: Support de recharge GA06L pour Joy-Con 2 avec visuels personnalisés et touches arrière
+    link: /products/ga06l/
   items:
   - name: GA05
     tagline: Grip ergonomique pour Joy-Con 2
