@@ -18,6 +18,10 @@
     {{ with .hero.badge }}<span class="badge">{{ . }}</span>{{ end }}
     <h1 class="product-hero-title" data-aos="fade-up">{{ .title }}</h1>
     <p class="product-hero-tagline" data-aos="fade-up" data-aos-delay="150">{{ .tagline }}</p>
+    <div class="product-hero-actions">
+      <a href="{{ $inquiryURL }}" class="btn btn-primary">{{ i18n "request_pricing" }}</a>
+      <a href="#specs" class="btn btn-dark-outline">{{ i18n "view_full_specs" }}</a>
+    </div>
   </div>
 </section>
 
@@ -54,7 +58,7 @@
       <a href="{{ $inquiryURL }}" class="btn btn-primary">{{ i18n "request_pricing" }}</a>
       <a href="mailto:sales@int-rock.com?subject={{ printf "%s wholesale inquiry" $page.Title | urlquery }}" class="btn btn-dark-outline">{{ i18n "email_direct_button" }}</a>
     </div>
-    {{ with .buying }}<p><a href="#wholesale">Wholesale details &amp; buyer questions</a> · <a href="/switch-2-grip-comparison/">Compare the three grips</a></p>{{ end }}
+    <p>{{ with .buying }}<a href="#wholesale">{{ i18n "wholesale_details" }}</a> · {{ end }}<a href="{{ relLangURL "/switch-2-grip-comparison/" }}">{{ i18n "compare_three_grips" }}</a></p>
   </div>
 </section>
 {{ end }}
@@ -160,20 +164,20 @@
     </div>
     {{ with .steps }}
     <div class="buying-process">
-      <h3>From Artwork to Approved Sample</h3>
+      <h3>{{ i18n "artwork_to_sample" }}</h3>
       <ol>{{ range . }}<li>{{ . }}</li>{{ end }}</ol>
     </div>
     {{ end }}
     <div class="buying-faq">
-      <h3>Buyer Questions</h3>
+      <h3>{{ i18n "buyer_questions" }}</h3>
       {{ range .faq }}
       <details><summary>{{ .question }}</summary><p>{{ .answer }}</p></details>
       {{ end }}
     </div>
-    <p class="buying-intro">Send the model, estimated quantity, destination country, branding or packaging requirements and required delivery date.</p>
+    <p class="buying-intro">{{ i18n "quote_brief_prompt" }}</p>
     <div class="hero-actions">
-      <a href="{{ $inquiryURL }}" class="btn btn-primary">Request Pricing or a Sample</a>
-      <a href="/switch-2-grip-comparison/" class="btn btn-dark-outline">Compare GA05, GA06L &amp; GA06P</a>
+      <a href="{{ $inquiryURL }}" class="btn btn-primary">{{ i18n "request_pricing" }}</a>
+      <a href="{{ relLangURL "/switch-2-grip-comparison/" }}" class="btn btn-dark-outline">{{ i18n "compare_three_grips" }}</a>
     </div>
   </div>
 </section>

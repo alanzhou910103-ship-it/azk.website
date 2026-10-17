@@ -31,9 +31,9 @@ other = "Muestras bajo consulta"
 [trust_production]
 other = "Plazos según el proyecto"
 [contact_title]
-other = "Comparta su proyecto. Nosotros definimos la solución."
+other = "Solicite precios y muestras"
 [contact_text]
-other = "Indíquenos su mercado, precio objetivo y requisitos del producto. Los convertiremos en un plan claro de abastecimiento o desarrollo."
+other = "Indique el modelo, la cantidad estimada, el mercado de destino y sus necesidades de personalización. Confirmaremos las opciones de muestra y prepararemos un presupuesto para su proyecto."
 [your_name]
 other = "Nombre"
 [your_email]
@@ -147,3 +147,15 @@ other = "Solicite precios al por mayor, muestras o una propuesta de personalizac
 other = "Solicitar precios y muestras"
 [email_direct_button]
 other = "Enviar un correo"
+[selected_product]
+other = "Consulta sobre:"
+[wholesale_details]
+other = "Condiciones de compra y preguntas frecuentes"
+[compare_three_grips]
+other = "Comparar GA05, GA06L y GA06P"
+[artwork_to_sample]
+other = "Del diseño a la muestra aprobada"
+[buyer_questions]
+other = "Preguntas de los compradores"
+[quote_brief_prompt]
+other = "Para solicitar un presupuesto, indique el modelo, la cantidad estimada, el país de destino, los requisitos de marca o embalaje y la fecha de entrega deseada."

@@ -31,9 +31,9 @@ other = "Échantillons sur demande"
 [trust_production]
 other = "Délais selon le projet"
 [contact_title]
-other = "Présentez-nous votre projet. Nous définirons la solution."
+other = "Demandez tarifs et échantillons"
 [contact_text]
-other = "Indiquez-nous votre marché, votre prix cible et vos exigences produit. Nous les convertirons en un plan clair de sourcing ou de développement."
+other = "Indiquez le modèle, la quantité estimée, le marché visé et vos besoins de personnalisation. Nous confirmerons les possibilités d’échantillons et préparerons un devis adapté à votre projet."
 [your_name]
 other = "Nom"
 [your_email]
@@ -147,3 +147,15 @@ other = "Demandez les tarifs de gros, des échantillons ou une proposition de pe
 other = "Demander tarifs et échantillons"
 [email_direct_button]
 other = "Nous écrire"
+[selected_product]
+other = "Votre demande concerne :"
+[wholesale_details]
+other = "Informations de gros et questions fréquentes"
+[compare_three_grips]
+other = "Comparer GA05, GA06L et GA06P"
+[artwork_to_sample]
+other = "Du visuel à l’échantillon approuvé"
+[buyer_questions]
+other = "Questions des acheteurs"
+[quote_brief_prompt]
+other = "Pour obtenir un devis, indiquez le modèle, la quantité estimée, le pays de destination, vos besoins en marquage ou emballage et la date de livraison souhaitée."

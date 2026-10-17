@@ -31,9 +31,9 @@ other = "Samples Available on Request"
 [trust_production]
 other = "Project-Based Lead Times"
 [contact_title]
-other = "Bring Us the Brief. We'll Build the Route."
+other = "Request Product Pricing & Samples"
 [contact_text]
-other = "Share your market, target price, and product requirements. We will turn them into a clear sourcing or development plan."
+other = "Tell us the model, estimated quantity, target market and customization needs. We will confirm sample options and prepare a quotation for your project."
 [your_name]
 other = "Your Name"
 [your_email]
@@ -147,3 +147,15 @@ other = "Request wholesale pricing, samples or a customization proposal."
 other = "Request Pricing & Samples"
 [email_direct_button]
 other = "Email Us"
+[selected_product]
+other = "Your inquiry is about:"
+[wholesale_details]
+other = "Wholesale details & buyer questions"
+[compare_three_grips]
+other = "Compare GA05, GA06L & GA06P"
+[artwork_to_sample]
+other = "From artwork to approved sample"
+[buyer_questions]
+other = "Buyer questions"
+[quote_brief_prompt]
+other = "For a quotation, send the model, estimated quantity, destination country, branding or packaging requirements, and required delivery date."

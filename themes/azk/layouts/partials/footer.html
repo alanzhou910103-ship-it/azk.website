@@ -150,7 +150,8 @@
     var selectedProduct = new URLSearchParams(window.location.search).get('product');
     if (selectedProduct && /^[A-Za-z0-9 +_-]{1,40}$/.test(selectedProduct)) {
       document.getElementById('inquiryProduct').value = selectedProduct;
-      inquiryForm.elements.message.value = selectedProduct + ' — ';
+      document.getElementById('inquiryProductName').textContent = selectedProduct;
+      document.getElementById('inquiryProductContext').hidden = false;
     }
     var inquiryButton = inquiryForm.querySelector('button[type="submit"]');
     var inquiryStatus = document.getElementById('formStatus');
@@ -181,6 +182,8 @@
           window.introckTrack('generate_lead', { form_id: 'website_inquiry', product_model: leadModels.join(',') || 'unspecified' });
         }
         inquiryForm.reset();
+        document.getElementById('inquiryProductContext').hidden = true;
+        document.getElementById('inquiryProductName').textContent = '';
         inquiryStatus.textContent = {{ i18n "inquiry_success" | jsonify | safeJS }};
         inquiryStatus.className = 'form-status is-success';
       } catch (error) {

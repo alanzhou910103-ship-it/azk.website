@@ -31,9 +31,9 @@ other = "Amostras sob consulta"
 [trust_production]
 other = "Prazos conforme o projeto"
 [contact_title]
-other = "Envie o briefing. Nós definimos a solução."
+other = "Solicite preços e amostras"
 [contact_text]
-other = "Informe seu mercado, preço-alvo e requisitos do produto. Transformaremos esses dados em um plano claro de fornecimento ou desenvolvimento."
+other = "Informe o modelo, a quantidade estimada, o mercado de destino e as necessidades de personalização. Confirmaremos as opções de amostra e prepararemos uma cotação para seu projeto."
 [your_name]
 other = "Nome"
 [your_email]
@@ -147,3 +147,15 @@ other = "Solicite preços de atacado, amostras ou uma proposta de personalizaç�
 other = "Solicitar preços e amostras"
 [email_direct_button]
 other = "Enviar e-mail"
+[selected_product]
+other = "Sua consulta é sobre:"
+[wholesale_details]
+other = "Condições de atacado e dúvidas de compradores"
+[compare_three_grips]
+other = "Comparar GA05, GA06L e GA06P"
+[artwork_to_sample]
+other = "Da arte à amostra aprovada"
+[buyer_questions]
+other = "Dúvidas de compradores"
+[quote_brief_prompt]
+other = "Para solicitar uma cotação, informe o modelo, a quantidade estimada, o país de destino, os requisitos de marca ou embalagem e a data de entrega desejada."

@@ -1,10 +1,10 @@
 ---
-title: "GA05 vs GA06L vs GA06P: Switch 2 Grip Comparison"
+title: "Compare Switch 2 Grips"
 seo_title: "Switch 2 Grips Wholesale: GA05 vs GA06L vs GA06P"
 description: "Compare GA05 ergonomic Joy-Con 2 grips, the GA06L USB-C charging grip with back buttons, and the GA06P kit for wholesale and private-label projects."
 layout: "buyer-guide"
 date: 2026-10-13
-lastmod: 2026-10-13
+lastmod: 2026-10-17
 ---
 
 Choose the right Joy-Con 2 accessory for your product range. GA05 adds individual grip support, GA06L combines a charging bridge with back controls, and GA06P brings both products into one kit.
@@ -44,9 +44,9 @@ Choose [GA06P](/products/ga06p/) when your retail program needs the GA05 grip pa
 
 ## Wholesale and customization planning
 
-Stock orders and customized production orders have different requirements. GA05 small wholesale availability depends on current stock. Selected customization projects start from 500 units; the final minimum depends on the product, artwork, color and packaging scope.
+Stock orders and customized production orders have different requirements. GA05 small wholesale availability depends on current stock. Ask us to confirm the minimum order quantity for the exact model, artwork, color and packaging scope.
 
-Typical sample preparation is 7–14 days after specifications and artwork are confirmed. A typical production cycle is around 30 days after sample approval and order confirmation. Request a project-specific schedule before planning your launch.
+Sample preparation and production timing depend on the confirmed specification, artwork, order quantity and current production schedule. Request a project-specific timeline before planning your launch.
 
 For a useful quotation, send:
 
