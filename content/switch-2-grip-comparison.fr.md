@@ -3,6 +3,8 @@ title: "Comparatif des grips Joy-Con 2"
 seo_title: "Grips Joy-Con 2 en gros : GA05, GA06L et GA06P"
 description: "Comparez les grips ergonomiques GA05, le grip de charge GA06L et le kit GA06P pour choisir les références adaptées à votre gamme."
 layout: "buyer-guide"
+guide_image: "images/hero/ga06l-custom-hero.webp"
+guide_image_alt: "Grip de charge GA06L avec visuel personnalisé et boutons arrière interchangeables"
 date: 2026-10-13
 lastmod: 2026-10-17
 ---

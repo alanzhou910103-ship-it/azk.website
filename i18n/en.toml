@@ -159,3 +159,23 @@ other = "From artwork to approved sample"
 other = "Buyer questions"
 [quote_brief_prompt]
 other = "For a quotation, send the model, estimated quantity, destination country, branding or packaging requirements, and required delivery date."
+[buyer_guides]
+other = "Buyer Guides"
+[read_guide]
+other = "Read guide"
+[all_buyer_guides]
+other = "All buyer guides"
+[guides_home_title]
+other = "Choose with a clearer brief"
+[guides_home_text]
+other = "Compare controller platforms, understand sample options and plan a customization request before you inquire."
+[explore_guides]
+other = "Explore buyer guides"
+[guides_cta_title]
+other = "Know your target product?"
+[guides_cta_text]
+other = "Send the model, target market and estimated quantity for a project-specific quotation."
+[compare_controllers]
+other = "Compare controller models"
+[sample_customization_guide]
+other = "Sample & branding guide"

@@ -159,3 +159,23 @@ other = "Du visuel à l’échantillon approuvé"
 other = "Questions des acheteurs"
 [quote_brief_prompt]
 other = "Pour obtenir un devis, indiquez le modèle, la quantité estimée, le pays de destination, vos besoins en marquage ou emballage et la date de livraison souhaitée."
+[buyer_guides]
+other = "Guides d’achat"
+[read_guide]
+other = "Lire le guide"
+[all_buyer_guides]
+other = "Tous les guides"
+[guides_home_title]
+other = "Choisissez avec des critères clairs"
+[guides_home_text]
+other = "Comparez les manettes, découvrez les possibilités d’échantillonnage et préparez votre demande de personnalisation."
+[explore_guides]
+other = "Voir les guides d’achat"
+[guides_cta_title]
+other = "Vous connaissez déjà votre produit cible ?"
+[guides_cta_text]
+other = "Indiquez le modèle, le marché visé et la quantité estimée pour obtenir un devis adapté."
+[compare_controllers]
+other = "Comparer les modèles de manettes"
+[sample_customization_guide]
+other = "Guide échantillons et marquage"

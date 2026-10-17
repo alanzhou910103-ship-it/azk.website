@@ -114,6 +114,18 @@
   {{ end }}
   {{ end }}
 
+  <!-- Practical B2B buying guides -->
+  <section class="buyer-guides-teaser section">
+    <div class="container buyer-guides-teaser-inner">
+      <div>
+        <span class="section-label">{{ i18n "buyer_guides" }}</span>
+        <h2>{{ i18n "guides_home_title" }}</h2>
+        <p>{{ i18n "guides_home_text" }}</p>
+      </div>
+      <a class="btn btn-dark-outline" href="{{ relLangURL "/buyer-guides/" }}">{{ i18n "explore_guides" }}</a>
+    </div>
+  </section>
+
   <!-- Concise company introduction -->
   {{ with .about }}
   {{ if .enable }}

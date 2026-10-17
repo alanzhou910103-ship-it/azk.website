@@ -159,3 +159,23 @@ other = "Da arte à amostra aprovada"
 other = "Dúvidas de compradores"
 [quote_brief_prompt]
 other = "Para solicitar uma cotação, informe o modelo, a quantidade estimada, o país de destino, os requisitos de marca ou embalagem e a data de entrega desejada."
+[buyer_guides]
+other = "Guias de compra"
+[read_guide]
+other = "Ler guia"
+[all_buyer_guides]
+other = "Todos os guias"
+[guides_home_title]
+other = "Escolha com critérios claros"
+[guides_home_text]
+other = "Compare controles, conheça as opções de amostra e prepare sua consulta de personalização."
+[explore_guides]
+other = "Ver guias de compra"
+[guides_cta_title]
+other = "Já sabe qual produto procura?"
+[guides_cta_text]
+other = "Envie o modelo, o mercado de destino e a quantidade estimada para uma cotação específica."
+[compare_controllers]
+other = "Comparar modelos de controles"
+[sample_customization_guide]
+other = "Guia de amostras e marca"

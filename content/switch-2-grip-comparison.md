@@ -3,6 +3,8 @@ title: "Compare Switch 2 Grips"
 seo_title: "Switch 2 Grips Wholesale: GA05 vs GA06L vs GA06P"
 description: "Compare GA05 ergonomic Joy-Con 2 grips, the GA06L USB-C charging grip with back buttons, and the GA06P kit for wholesale and private-label projects."
 layout: "buyer-guide"
+guide_image: "images/hero/ga06l-custom-hero.webp"
+guide_image_alt: "GA06L charging grip with custom artwork and interchangeable back buttons"
 date: 2026-10-13
 lastmod: 2026-10-17
 ---

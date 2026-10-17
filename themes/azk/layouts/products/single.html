@@ -2,6 +2,7 @@
 {{ $page := . }}
 {{ $inquiryURL := printf "%s?product=%s#contact" (relLangURL "/") ($page.Title | urlquery) }}
 {{ $isFocus := in (slice "GA05" "GA06L" "GA06P") $page.Title }}
+{{ $isControllerFocus := in (slice "G17" "G1" "G2" "G6 Pro" "G7") $page.Title }}
 {{ $category := partial "product-category.html" $page }}
 {{ $unbrandedSample := or (eq $category "accessories") (in (slice "G17" "G9" "G3") $page.Title) }}
 {{ with .Params }}
@@ -44,8 +45,9 @@
     <div class="product-quick-specs-actions">
       <a href="#specs">{{ i18n "view_full_specs" }}</a>
       {{ if not $isFocus }}<a href="{{ $inquiryURL }}">{{ i18n "request_pricing" }}</a>{{ end }}
+      {{ if $isControllerFocus }}<a href="{{ relLangURL "/buyer-guides/controller-selection/" }}">{{ i18n "compare_controllers" }}</a>{{ end }}
     </div>
-    <p class="product-sample-note"><strong>{{ i18n "sample_options" }}</strong> {{ if $unbrandedSample }}{{ i18n "unbranded_sample_available" }}{{ else }}{{ i18n "branded_sample_bulk_private_label" }}{{ end }}</p>
+    <p class="product-sample-note"><strong>{{ i18n "sample_options" }}</strong> {{ if $unbrandedSample }}{{ i18n "unbranded_sample_available" }}{{ else }}{{ i18n "branded_sample_bulk_private_label" }}{{ end }} <a href="{{ relLangURL "/buyer-guides/samples-customization/" }}">{{ i18n "sample_customization_guide" }} →</a></p>
   </div>
 </section>
 {{ end }}

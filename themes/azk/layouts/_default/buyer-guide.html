@@ -1,7 +1,12 @@
 {{ define "main" }}
+{{ $page := . }}
 <section class="page section buyer-guide-page">
   <div class="container">
+    <a class="buyer-guide-back" href="{{ relLangURL "/buyer-guides/" }}">← {{ i18n "all_buyer_guides" }}</a>
     <h1>{{ .Title }}</h1>
+    {{ with .Params.guide_image }}
+    <div class="buyer-guide-cover"><img src="{{ . | relURL }}" alt="{{ $page.Params.guide_image_alt }}" {{ partial "image-dimensions.html" . | safeHTMLAttr }} loading="lazy" decoding="async"></div>
+    {{ end }}
     <div class="page-content">{{ .Content }}</div>
   </div>
 </section>

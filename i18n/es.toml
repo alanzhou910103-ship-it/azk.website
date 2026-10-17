@@ -159,3 +159,23 @@ other = "Del diseño a la muestra aprobada"
 other = "Preguntas de los compradores"
 [quote_brief_prompt]
 other = "Para solicitar un presupuesto, indique el modelo, la cantidad estimada, el país de destino, los requisitos de marca o embalaje y la fecha de entrega deseada."
+[buyer_guides]
+other = "Guías de compra"
+[read_guide]
+other = "Leer guía"
+[all_buyer_guides]
+other = "Todas las guías"
+[guides_home_title]
+other = "Elija con criterios claros"
+[guides_home_text]
+other = "Compare mandos, conozca las opciones de muestra y prepare su consulta de personalización."
+[explore_guides]
+other = "Ver guías de compra"
+[guides_cta_title]
+other = "¿Ya sabe qué producto necesita?"
+[guides_cta_text]
+other = "Envíe el modelo, mercado de destino y cantidad estimada para recibir un presupuesto específico."
+[compare_controllers]
+other = "Comparar modelos de mandos"
+[sample_customization_guide]
+other = "Guía de muestras y marca"

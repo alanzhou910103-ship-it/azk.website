@@ -10,18 +10,27 @@ url = "/products/"
 weight = 2
 
 [[main]]
+name = "Guías de compra"
+url = "/buyer-guides/"
+weight = 3
+
+[[main]]
 name = "Nosotros"
 url = "/#about"
-weight = 3
+weight = 4
 
 [[main]]
 name = "Contacto"
 url = "/#contact"
-weight = 4
+weight = 5
 
 [[footer_left]]
 name = "Productos"
 url = "/products/"
+
+[[footer_left]]
+name = "Guías de compra"
+url = "/buyer-guides/"
 
 [[footer_left]]
 name = "Nosotros"

@@ -1,0 +1,33 @@
+{{ define "main" }}
+<section class="buyer-guides-hub section">
+  <div class="container">
+    <div class="buyer-guides-heading">
+      <span class="section-label">{{ i18n "buyer_guides" }}</span>
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Params.intro }}</p>
+    </div>
+    <div class="buyer-guides-grid">
+      {{ range .Params.guides }}
+      <a class="buyer-guide-card" href="{{ relLangURL .url }}">
+        <div class="buyer-guide-card-image">
+          <img src="{{ .image | relURL }}" alt="{{ .image_alt }}" {{ partial "image-dimensions.html" .image | safeHTMLAttr }} loading="lazy" decoding="async">
+        </div>
+        <div class="buyer-guide-card-copy">
+          <span>{{ .label }}</span>
+          <h2>{{ .title }}</h2>
+          <p>{{ .summary }}</p>
+          <strong>{{ i18n "read_guide" }} <span aria-hidden="true">→</span></strong>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+    <div class="buyer-guides-footer-cta">
+      <div>
+        <h2>{{ i18n "guides_cta_title" }}</h2>
+        <p>{{ i18n "guides_cta_text" }}</p>
+      </div>
+      <a class="btn btn-primary" href="{{ relLangURL "/#contact" }}">{{ i18n "request_pricing" }}</a>
+    </div>
+  </div>
+</section>
+{{ end }}
