@@ -179,3 +179,15 @@ other = "Envíe el modelo, mercado de destino y cantidad estimada para recibir u
 other = "Comparar modelos de mandos"
 [sample_customization_guide]
 other = "Guía de muestras y marca"
+[cookie_settings]
+other = "Preferencias de cookies"
+[cookie_title]
+other = "Su elección sobre estadísticas"
+[cookie_notice]
+other = "¿Podemos usar Google Analytics para saber qué páginas de producto resultan útiles? Su elección no afecta a la navegación ni al envío de consultas."
+[cookie_policy]
+other = "Política de privacidad"
+[cookie_reject]
+other = "Rechazar estadísticas"
+[cookie_accept]
+other = "Aceptar estadísticas"

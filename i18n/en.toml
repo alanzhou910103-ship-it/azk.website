@@ -179,3 +179,15 @@ other = "Send the model, target market and estimated quantity for a project-spec
 other = "Compare controller models"
 [sample_customization_guide]
 other = "Sample & branding guide"
+[cookie_settings]
+other = "Cookie settings"
+[cookie_title]
+other = "Your analytics choice"
+[cookie_notice]
+other = "May we use Google Analytics to understand which product pages help visitors? Your choice does not affect browsing or inquiries."
+[cookie_policy]
+other = "Privacy policy"
+[cookie_reject]
+other = "Reject analytics"
+[cookie_accept]
+other = "Allow analytics"

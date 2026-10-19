@@ -1,28 +1,87 @@
 {{ with site.Params.google_analytics_id }}
-<!-- Google Analytics: page and B2B inquiry measurement -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<!-- Load Google Analytics only after the visitor opts in to optional analytics. -->
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  // Only allow campaign fields in the measured URL; never send inquiry fields.
-  var analyticsPage = new URL(window.location.href);
-  var analyticsParams = new URLSearchParams();
-  ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'].forEach(function(key) {
-    if (analyticsPage.searchParams.has(key)) analyticsParams.set(key, analyticsPage.searchParams.get(key).slice(0, 100));
-  });
-  analyticsPage.search = analyticsParams.toString();
-  analyticsPage.hash = '';
-  var analyticsReferrer = '';
-  try { if (document.referrer) analyticsReferrer = new URL(document.referrer).origin; } catch (error) {}
-  gtag('config', {{ . | jsonify | safeJS }}, {
-    page_location: analyticsPage.href,
-    page_referrer: analyticsReferrer,
-    allow_google_signals: false,
-    allow_ad_personalization_signals: false
-  });
-  window.introckTrack = function(name, parameters) {
-    try { gtag('event', name, parameters || {}); } catch (error) {}
-  };
+  (function() {
+    var storageKey = 'introck_analytics_consent_v1';
+    var measurementId = {{ . | jsonify | safeJS }};
+    var choice = '';
+    try {
+      var savedChoice = JSON.parse(localStorage.getItem(storageKey) || 'null');
+      if (savedChoice && savedChoice.expires > Date.now() &&
+          (savedChoice.value === 'accepted' || savedChoice.value === 'rejected')) {
+        choice = savedChoice.value;
+      }
+    } catch (error) {}
+    window.introckAnalyticsChoice = choice;
+
+    function startAnalytics() {
+      if (window.introckAnalyticsStarted) return;
+      window.introckAnalyticsStarted = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function() { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+
+      // Only allow campaign fields in the measured URL; never send inquiry fields.
+      var analyticsPage = new URL(window.location.href);
+      var analyticsParams = new URLSearchParams();
+      ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'].forEach(function(key) {
+        if (analyticsPage.searchParams.has(key)) analyticsParams.set(key, analyticsPage.searchParams.get(key).slice(0, 100));
+      });
+      analyticsPage.search = analyticsParams.toString();
+      analyticsPage.hash = '';
+      var analyticsReferrer = '';
+      try { if (document.referrer) analyticsReferrer = new URL(document.referrer).origin; } catch (error) {}
+      window.gtag('config', measurementId, {
+        page_location: analyticsPage.href,
+        page_referrer: analyticsReferrer,
+        allow_google_signals: false,
+        allow_ad_personalization_signals: false
+      });
+      window.introckTrack = function(name, parameters) {
+        window.gtag('event', name, parameters || {});
+      };
+      var productPath = window.location.pathname.match(/\/products\/([a-z0-9-]+)\/?$/i);
+      if (productPath) {
+        var product = productPath[1].toUpperCase();
+        window.introckTrack('view_item', { items: [{ item_id: product, item_name: product }] });
+      }
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(measurementId);
+      document.head.appendChild(script);
+    }
+
+    function clearAnalyticsCookies() {
+      document.cookie.split(';').forEach(function(cookie) {
+        var name = cookie.split('=')[0].trim();
+        if (!/^_ga(?:_|$)/.test(name)) return;
+        document.cookie = name + '=; Max-Age=0; Path=/; SameSite=Lax';
+        document.cookie = name + '=; Max-Age=0; Path=/; Domain=.' + window.location.hostname + '; SameSite=Lax';
+        var rootDomain = window.location.hostname.replace(/^www\./, '');
+        if (rootDomain !== window.location.hostname) {
+          document.cookie = name + '=; Max-Age=0; Path=/; Domain=.' + rootDomain + '; SameSite=Lax';
+        }
+      });
+    }
+
+    window.introckSetAnalyticsChoice = function(nextChoice) {
+      if (nextChoice !== 'accepted' && nextChoice !== 'rejected') return;
+      var wasRunning = !!window.introckAnalyticsStarted;
+      window.introckAnalyticsChoice = nextChoice;
+      var expiry = new Date();
+      expiry.setMonth(expiry.getMonth() + 6);
+      try { localStorage.setItem(storageKey, JSON.stringify({ value: nextChoice, expires: expiry.getTime() })); } catch (error) {}
+      if (nextChoice === 'accepted') {
+        startAnalytics();
+      } else {
+        window.introckTrack = undefined;
+        clearAnalyticsCookies();
+        // A reload removes the already-loaded Google script after consent is withdrawn.
+        if (wasRunning) window.location.reload();
+      }
+    };
+
+    if (choice === 'accepted') startAnalytics();
+  })();
 </script>
 {{ end }}

@@ -31,6 +31,7 @@
           {{ range site.Menus.footer_middle }}
           <li><a href="{{ relLangURL .URL }}">{{ .Name }}</a></li>
           {{ end }}
+          {{ with site.Params.google_analytics_id }}<li><button type="button" class="footer-text-button" id="cookieSettingsButton">{{ i18n "cookie_settings" }}</button></li>{{ end }}
         </ul>
       </div>
 
@@ -51,7 +52,35 @@
   </div>
 </footer>
 
+{{ with site.Params.google_analytics_id }}<section class="cookie-consent" id="cookieConsent" aria-label="{{ i18n "cookie_settings" }}" tabindex="-1" hidden>
+  <div class="cookie-consent-copy">
+    <strong>{{ i18n "cookie_title" }}</strong>
+    <p>{{ i18n "cookie_notice" }} <a href="{{ relLangURL "/privacy-policy/" }}">{{ i18n "cookie_policy" }}</a></p>
+  </div>
+  <div class="cookie-consent-actions">
+    <button type="button" class="cookie-consent-button" data-analytics-choice="rejected">{{ i18n "cookie_reject" }}</button>
+    <button type="button" class="cookie-consent-button" data-analytics-choice="accepted">{{ i18n "cookie_accept" }}</button>
+  </div>
+</section>{{ end }}
+
 <script>
+  var cookieConsent = document.getElementById('cookieConsent');
+  var cookieSettingsButton = document.getElementById('cookieSettingsButton');
+  if (cookieConsent && typeof window.introckSetAnalyticsChoice === 'function') {
+    cookieConsent.hidden = !!window.introckAnalyticsChoice;
+    cookieSettingsButton.addEventListener('click', function() {
+      cookieConsent.hidden = false;
+      cookieConsent.focus();
+    });
+    cookieConsent.querySelectorAll('[data-analytics-choice]').forEach(function(button) {
+      button.addEventListener('click', function() {
+        window.introckSetAnalyticsChoice(button.getAttribute('data-analytics-choice'));
+        cookieConsent.hidden = true;
+        cookieSettingsButton.focus();
+      });
+    });
+  }
+
   // Mobile nav toggle
   document.getElementById('navToggle').addEventListener('click', function() {
     this.classList.toggle('active');
@@ -119,9 +148,6 @@
   // Product and contact events use fixed labels, never form text or email addresses.
   var productPath = window.location.pathname.match(/\/products\/([a-z0-9-]+)\/?$/i);
   var currentProduct = productPath ? productPath[1].toUpperCase() : '';
-  if (currentProduct && typeof window.introckTrack === 'function') {
-    window.introckTrack('view_item', { items: [{ item_id: currentProduct, item_name: currentProduct }] });
-  }
   document.addEventListener('click', function(event) {
     var link = event.target.closest ? event.target.closest('a[href]') : null;
     if (!link || typeof window.introckTrack !== 'function') return;

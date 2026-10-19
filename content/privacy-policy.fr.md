@@ -8,7 +8,7 @@ draft: false
 
 ## Politique de confidentialité
 
-**Date d’entrée en vigueur :** 10 juin 2026
+**Date d’entrée en vigueur :** 19 octobre 2026
 
 int-rock (« nous » ou « notre ») s’engage à protéger votre vie privée. Cette Politique de confidentialité explique comment nous collectons, utilisons et protégeons vos informations personnelles lorsque vous consultez [int-rock.com](https://int-rock.com) ou nous contactez au sujet de nos produits et services.
 
@@ -20,7 +20,7 @@ Nous pouvons collecter les catégories d’informations suivantes :
 
 - **Coordonnées :** nom, adresse e-mail, nom de l’entreprise et numéro de téléphone lorsque vous envoyez un formulaire de contact ou demandez un devis.
 - **Historique des échanges :** contenu des messages que vous nous envoyez par e-mail ou au moyen des formulaires de contact.
-- **Données d’utilisation :** données analytiques anonymes, telles que les pages consultées, le temps passé sur le site et le type de navigateur, recueillies au moyen d’outils standards d’analyse web.
+- **Données d’utilisation :** si vous acceptez les statistiques facultatives, nous utilisons Google Analytics 4 pour mesurer les visites, les pages produits consultées, les clics de contact et les demandes envoyées avec succès. Google Analytics peut traiter des données relatives à l’appareil, au navigateur, à la localisation approximative et aux identifiants de cookies. Nous ne transmettons ni les noms, ni les adresses e-mail, ni les entreprises, ni le contenu des demandes comme paramètres d’événements.
 
 Nous ne collectons aucune donnée de paiement ni donnée personnelle sensible par l’intermédiaire de ce site web.
 
@@ -51,7 +51,7 @@ Nous mettons en œuvre des mesures techniques appropriées pour protéger vos in
 
 ### 5. Cookies
 
-Notre site web peut utiliser des cookies afin d’améliorer votre expérience de navigation. Vous pouvez les désactiver dans les paramètres de votre navigateur, mais certaines fonctionnalités pourraient alors ne pas fonctionner correctement.
+Google Analytics est facultatif : nous ne chargeons pas son script avant votre accord. Vous pouvez accepter ou refuser sans que cela affecte la navigation ou l’envoi de demandes. Nous enregistrons votre choix pendant six mois dans le stockage local du navigateur pour éviter de vous solliciter à chaque visite. Vous pouvez le modifier à tout moment via **Préférences de cookies**, dans le pied de page. Si vous retirez votre accord, nous cessons de charger Google Analytics sur les pages suivantes et supprimons ses cookies de ce site lorsque cela est techniquement possible. Si vous effacez les données du navigateur, votre choix pourra vous être redemandé.
 
 ---
 

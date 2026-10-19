@@ -8,7 +8,7 @@ draft: false
 
 ## Política de privacidad
 
-**Fecha de entrada en vigor:** 10 de junio de 2026
+**Fecha de entrada en vigor:** 19 de octubre de 2026
 
 En int-rock («nosotros» o «nuestro») nos comprometemos a proteger su privacidad. Esta Política de privacidad explica cómo recopilamos, utilizamos y protegemos su información personal cuando visita [int-rock.com](https://int-rock.com) o se pone en contacto con nosotros en relación con nuestros productos y servicios.
 
@@ -20,7 +20,7 @@ Podemos recopilar los siguientes tipos de información:
 
 - **Datos de contacto:** nombre, dirección de correo electrónico, nombre de la empresa y número de teléfono cuando envía un formulario de contacto o solicita un presupuesto.
 - **Registros de comunicaciones:** contenido de los mensajes que nos envía por correo electrónico o mediante los formularios de contacto.
-- **Datos de uso:** datos analíticos anónimos, como las páginas visitadas, el tiempo de permanencia en el sitio y el tipo de navegador, recopilados mediante herramientas estándar de análisis web.
+- **Datos de uso:** si permite el análisis opcional, usamos Google Analytics 4 para medir visitas, páginas de producto consultadas, clics de contacto y consultas enviadas correctamente. Google Analytics puede tratar datos del dispositivo, navegador, ubicación aproximada e identificadores de cookies. No enviamos nombres, direcciones de correo, empresas ni el contenido de las consultas como parámetros de eventos.
 
 No recopilamos datos de pago ni datos personales sensibles a través de este sitio web.
 
@@ -51,7 +51,7 @@ Aplicamos medidas técnicas adecuadas para proteger su información personal fre
 
 ### 5. Cookies
 
-Nuestro sitio web puede utilizar cookies para mejorar su experiencia de navegación. Puede desactivarlas en la configuración de su navegador, aunque algunas funciones podrían no funcionar correctamente.
+Google Analytics es opcional: no cargamos su script antes de que lo permita. Puede aceptarlo o rechazarlo sin que eso afecte a la navegación ni al envío de consultas. Guardamos su elección durante seis meses en el almacenamiento local del navegador para no preguntarle en cada visita. Puede cambiarla en cualquier momento mediante **Preferencias de cookies**, en el pie de página. Si retira su consentimiento, dejamos de cargar Google Analytics en las páginas siguientes y eliminamos sus cookies de este sitio cuando sea técnicamente posible. Si borra los datos del navegador, es posible que volvamos a pedirle su elección.
 
 ---
 

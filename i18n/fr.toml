@@ -179,3 +179,15 @@ other = "Indiquez le modèle, le marché visé et la quantité estimée pour obt
 other = "Comparer les modèles de manettes"
 [sample_customization_guide]
 other = "Guide échantillons et marquage"
+[cookie_settings]
+other = "Préférences de cookies"
+[cookie_title]
+other = "Votre choix concernant les statistiques"
+[cookie_notice]
+other = "Acceptez-vous l’utilisation de Google Analytics pour savoir quelles pages produits sont utiles ? Votre choix n’affecte ni la navigation ni l’envoi de demandes."
+[cookie_policy]
+other = "Politique de confidentialité"
+[cookie_reject]
+other = "Refuser les statistiques"
+[cookie_accept]
+other = "Accepter les statistiques"

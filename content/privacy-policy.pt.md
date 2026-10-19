@@ -8,7 +8,7 @@ draft: false
 
 ## Política de privacidade
 
-**Data de vigência:** 10 de junho de 2026
+**Data de vigência:** 19 de outubro de 2026
 
 A int-rock ("nós", "nos" ou "nosso") tem o compromisso de proteger sua privacidade. Esta Política de privacidade explica como coletamos, usamos e protegemos suas informações pessoais quando você visita [int-rock.com](https://int-rock.com) ou entra em contato conosco sobre nossos produtos e serviços.
 
@@ -20,7 +20,7 @@ Podemos coletar os seguintes tipos de informação:
 
 - **Dados de contato:** nome, endereço de e-mail, nome da empresa e número de telefone quando você envia um formulário de contato ou solicita um orçamento.
 - **Registros de comunicação:** conteúdo das mensagens que você nos envia por e-mail ou pelos formulários de contato.
-- **Dados de uso:** dados analíticos anônimos, como páginas visitadas, tempo de permanência no site e tipo de navegador, coletados por ferramentas padrão de análise da web.
+- **Dados de uso:** se você permitir as análises opcionais, usamos o Google Analytics 4 para medir visitas, visualizações de páginas de produtos, cliques de contato e consultas enviadas com sucesso. O Google Analytics pode tratar dados do dispositivo, navegador, localização aproximada e identificadores de cookies. Não enviamos nomes, endereços de e-mail, empresas ou o conteúdo das consultas como parâmetros de eventos.
 
 Não coletamos dados de pagamento nem dados pessoais sensíveis por meio deste site.
 
@@ -51,7 +51,7 @@ Adotamos medidas técnicas adequadas para proteger suas informações pessoais c
 
 ### 5. Cookies
 
-Nosso site pode usar cookies para melhorar sua experiência de navegação. Você pode desativá-los nas configurações do navegador, embora alguns recursos possam deixar de funcionar corretamente.
+O Google Analytics é opcional: não carregamos seu script antes de você permitir as análises. Você pode aceitar ou recusar sem prejudicar a navegação ou o envio de consultas. Guardamos sua escolha por seis meses no armazenamento local do navegador para não perguntar a cada visita. Você pode alterá-la a qualquer momento em **Preferências de cookies**, no rodapé. Se retirar o consentimento, deixaremos de carregar o Google Analytics nas próximas páginas e apagaremos os cookies dele deste site quando tecnicamente possível. Ao limpar os dados do navegador, talvez seja necessário escolher novamente.
 
 ---
 
