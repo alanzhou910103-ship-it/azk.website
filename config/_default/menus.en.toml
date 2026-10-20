@@ -1,5 +1,15 @@
 # main menu
 [[main]]
+name = "Shop"
+identifier = "shop"
+url = "https://shop.int-rock.com/"
+weight = 6
+
+[[footer_left]]
+name = "Shop"
+url = "https://shop.int-rock.com/"
+
+[[main]]
 name = "Home"
 url = "/"
 weight = 1

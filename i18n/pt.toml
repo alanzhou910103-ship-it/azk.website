@@ -191,3 +191,7 @@ other = "Política de privacidade"
 other = "Recusar estatísticas"
 [cookie_accept]
 other = "Permitir estatísticas"
+[buy_online]
+other = "Comprar online"
+[retail_store_note]
+other = "Para compras individuais, visite nossa loja online. Para projetos de atacado ou OEM/ODM, solicite uma cotação."

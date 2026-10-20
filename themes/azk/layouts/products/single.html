@@ -1,5 +1,6 @@
 {{ define "main" }}
 {{ $page := . }}
+{{ $retailURL := index hugo.Data.shopify.products $page.Title }}
 {{ $inquiryURL := printf "%s?product=%s#contact" (relLangURL "/") ($page.Title | urlquery) }}
 {{ $isFocus := in (slice "GA05" "GA06L" "GA06P") $page.Title }}
 {{ $isControllerFocus := in (slice "G17" "G1" "G2" "G6 Pro" "G7") $page.Title }}
@@ -21,10 +22,12 @@
     <p class="product-hero-tagline" data-aos="fade-up" data-aos-delay="150">{{ .tagline }}</p>
     <div class="product-hero-actions">
       <a href="{{ $inquiryURL }}" class="btn btn-primary">{{ i18n "request_pricing" }}</a>
+      {{ with $retailURL }}<a href="{{ . }}" class="btn btn-dark-outline product-buy-online">{{ i18n "buy_online" }}</a>{{ end }}
       <a href="#specs" class="btn btn-dark-outline">{{ i18n "view_full_specs" }}</a>
     </div>
   </div>
 </section>
+{{ with $retailURL }}<div class="container product-retail-note"><p>{{ i18n "retail_store_note" }}</p></div>{{ end }}
 
 {{ with .specs }}
 {{ $quickSpecs := slice }}

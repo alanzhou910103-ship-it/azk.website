@@ -1,0 +1,8 @@
+base_url = "https://shop.int-rock.com/"
+
+[products]
+GA05 = "https://shop.int-rock.com/products/int-rock-ga05-ergonomic-grips-for-joy-con-2"
+GA06L = "https://shop.int-rock.com/products/int-rock-ga06l-usb-c-charging-grip-for-joy-con-2"
+GA06P = "https://shop.int-rock.com/products/int-rock-ga06p-joy-con-2-charging-grip-ergonomic-grip-kit"
+G1 = "https://shop.int-rock.com/products/int-rock-g1-tmr-tri-mode-wireless-game-controller"
+G2 = "https://shop.int-rock.com/products/int-rock-g2-tmr-wireless-game-controller-with-battery-display"

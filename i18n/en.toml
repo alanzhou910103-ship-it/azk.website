@@ -191,3 +191,7 @@ other = "Privacy policy"
 other = "Reject analytics"
 [cookie_accept]
 other = "Allow analytics"
+[buy_online]
+other = "Buy online"
+[retail_store_note]
+other = "For individual purchases, visit our online store. For wholesale or OEM/ODM projects, request a quotation."

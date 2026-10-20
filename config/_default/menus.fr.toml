@@ -1,4 +1,14 @@
 [[main]]
+name = "Boutique"
+identifier = "shop"
+url = "https://shop.int-rock.com/"
+weight = 6
+
+[[footer_left]]
+name = "Boutique"
+url = "https://shop.int-rock.com/"
+
+[[main]]
 name = "Accueil"
 url = "/"
 weight = 1
