@@ -20,7 +20,7 @@
         <h4>{{ i18n "quick_links" }}</h4>
         <ul>
           {{ range site.Menus.footer_left }}
-          <li><a href="{{ if hasPrefix .URL "http" }}{{ .URL }}{{ else }}{{ relLangURL .URL }}{{ end }}">{{ .Name }}</a></li>
+          <li><a href="{{ if hasPrefix .URL "http" }}{{ .URL }}{{ else }}{{ relLangURL .URL }}{{ end }}">{{ .Name }}</a>{{ if eq .Identifier "retail-shop" }}<small class="footer-retail-note">{{ i18n "retail_footer_note" }}</small>{{ end }}</li>
           {{ end }}
         </ul>
       </div>

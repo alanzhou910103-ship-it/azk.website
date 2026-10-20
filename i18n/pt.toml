@@ -192,6 +192,10 @@ other = "Recusar estatísticas"
 [cookie_accept]
 other = "Permitir estatísticas"
 [buy_online]
-other = "Comprar online"
+other = "Visitar loja de varejo"
 [retail_store_note]
-other = "Para compras individuais, visite nossa loja online. Para projetos de atacado ou OEM/ODM, solicite uma cotação."
+other = "Os preços de varejo se aplicam a compras individuais. Para preços de atacado, quantidades mínimas e opções OEM/ODM, solicite uma cotação para seu projeto."
+[retail_purchase_title]
+other = "Comprando para uso pessoal?"
+[retail_footer_note]
+other = "Para compras individuais. As condições de atacado são cotadas separadamente."

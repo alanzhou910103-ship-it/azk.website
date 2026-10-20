@@ -192,6 +192,10 @@ other = "Refuser les statistiques"
 [cookie_accept]
 other = "Accepter les statistiques"
 [buy_online]
-other = "Acheter en ligne"
+other = "Visiter la boutique particuliers"
 [retail_store_note]
-other = "Pour un achat individuel, rendez-vous dans notre boutique en ligne. Pour les projets de vente en gros ou OEM/ODM, demandez un devis."
+other = "Les prix de détail concernent les achats individuels. Pour les tarifs de gros, les quantités minimales et les options OEM/ODM, demandez un devis adapté à votre projet."
+[retail_purchase_title]
+other = "Vous achetez pour vous-même ?"
+[retail_footer_note]
+other = "Pour les achats individuels. Les conditions de gros font l’objet d’un devis séparé."

@@ -192,6 +192,10 @@ other = "Reject analytics"
 [cookie_accept]
 other = "Allow analytics"
 [buy_online]
-other = "Buy online"
+other = "Visit retail store"
 [retail_store_note]
-other = "For individual purchases, visit our online store. For wholesale or OEM/ODM projects, request a quotation."
+other = "Retail prices apply to individual purchases. For wholesale pricing, MOQ and OEM/ODM options, please request a project-specific quotation."
+[retail_purchase_title]
+other = "Shopping for yourself?"
+[retail_footer_note]
+other = "For individual purchases. Wholesale terms are quoted separately."

@@ -1,11 +1,6 @@
-[[main]]
-name = "Loja"
-identifier = "shop"
-url = "https://shop.int-rock.com/"
-weight = 6
-
 [[footer_left]]
-name = "Loja"
+name = "Loja de varejo"
+identifier = "retail-shop"
 url = "https://shop.int-rock.com/"
 
 [[main]]

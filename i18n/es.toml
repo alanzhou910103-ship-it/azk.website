@@ -192,6 +192,10 @@ other = "Rechazar estadísticas"
 [cookie_accept]
 other = "Aceptar estadísticas"
 [buy_online]
-other = "Comprar en línea"
+other = "Visitar tienda minorista"
 [retail_store_note]
-other = "Para compras individuales, visite nuestra tienda en línea. Para proyectos mayoristas u OEM/ODM, solicite una cotización."
+other = "Los precios minoristas se aplican a compras individuales. Para precios mayoristas, cantidades mínimas y opciones OEM/ODM, solicite una cotización para su proyecto."
+[retail_purchase_title]
+other = "¿Compra para uso personal?"
+[retail_footer_note]
+other = "Para compras individuales. Las condiciones mayoristas se cotizan por separado."
