@@ -27,7 +27,7 @@ faq:
   title: Información básica para proyectos mayoristas y OEM
   items:
   - question: ¿Cuál es la cantidad típica del pedido mínimo?
-    answer: El MOQ depende del modelo, el método de marca y el embalaje. Indíquenos la cantidad prevista para recibir una cotización específica.
+    answer: "Aceptamos pedidos mayoristas de 5 o 10 unidades con logotipo y embalaje de la marca de fábrica. La marca propia está disponible desde 500 unidades por modelo. Confirme la disponibilidad y la configuración en el presupuesto."
   - question: ¿Cuánto tarda la preparación de la muestra?
     answer: La disponibilidad, el precio y el plazo de preparación de las muestras dependen del modelo y del stock actual. Se confirman en la cotización de la muestra.
   - question: ¿Cuál es el tiempo de producción típico?
@@ -37,7 +37,7 @@ faq:
   - question: ¿Qué productos tienen muestras sin marca?
     answer: Actualmente hay muestras sin marca de accesorios, G17, G9 y G3. Las muestras de los otros mandos llevan la marca existente; la producción sin marca o con su marca se puede estudiar para pedidos al por mayor.
   - question: ¿Puedo imprimir mi logotipo en una muestra?
-    answer: Las muestras no admiten serigrafía ni grabado láser personalizados. Estas opciones se pueden estudiar para la producción en volumen. El embalaje estándar es una caja a color; el personalizado depende del volumen del pedido.
+    answer: "Las muestras no admiten serigrafía ni grabado láser personalizados. Los pedidos pequeños llevan logotipo y embalaje de fábrica. Productos y embalaje con su marca desde 500 unidades por modelo; confirme diseño, método de marcado y costes antes de producir."
 ---
 
 
