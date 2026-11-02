@@ -53,7 +53,7 @@ other = "Personalización de embalaje"
 [other_cooperation]
 other = "Otra colaboración"
 [estimated_quantity]
-other = "Cantidad estimada"
+other = "Cantidad estimada por modelo"
 [requirements_placeholder]
 other = "Cuéntenos los requisitos del producto, el precio objetivo o el modelo de referencia..."
 [send_inquiry]
@@ -201,3 +201,21 @@ other = "¿Compra para uso personal?"
 other = "Para compras individuales. Las condiciones mayoristas se cotizan por separado."
 [ordering_faq]
 other = "Preguntas sobre pedidos y envíos"
+
+[purchase_type]
+other = "Tipo de compra"
+
+[small_wholesale]
+other = "Pedido pequeño — Marca de fábrica"
+
+[private_label_order]
+other = "Marca propia — Desde 500 unidades por modelo"
+
+[delivery_postcode]
+other = "Código postal de entrega (opcional)"
+
+[purchase_policy]
+other = "Pedidos mayoristas de 5 o 10 unidades con logotipo y embalaje de fábrica. Productos y embalaje con su marca desde 500 unidades por modelo. Confirme disponibilidad y detalles."
+
+[form_purchase_policy]
+other = "Los pedidos pequeños llevan marca y embalaje de fábrica; marca propia desde 500 unidades por modelo. Actualmente no ofrecemos dropshipping en Estados Unidos ni gestión automática de dropshipping con Shopify."
