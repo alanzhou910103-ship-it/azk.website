@@ -27,7 +27,7 @@ faq:
   title: Informações básicas para projetos de atacado e OEM
   items:
   - question: Qual é a quantidade mínima de pedido típica?
-    answer: O MOQ depende do modelo, do método de personalização e da embalagem. Informe a quantidade desejada para receber uma cotação específica.
+    answer: "Aceitamos pedidos no atacado de 5 ou 10 unidades com logotipo e embalagem da marca de fábrica. Marca própria a partir de 500 unidades por modelo. Confirme disponibilidade e configuração na cotação."
   - question: Quanto tempo demora a preparação da amostra?
     answer: A disponibilidade, o preço e o prazo de preparação das amostras dependem do modelo e do estoque atual. Esses detalhes são confirmados na cotação da amostra.
   - question: Qual é o prazo típico de produção?
@@ -37,7 +37,7 @@ faq:
   - question: Quais produtos têm amostras sem marca?
     answer: Atualmente, há amostras sem marca para acessórios, G17, G9 e G3. As amostras dos demais controles levam a marca existente; a produção sem marca ou com a sua marca pode ser avaliada para pedidos em volume.
   - question: Posso imprimir meu logotipo em uma amostra?
-    answer: As amostras não podem receber serigrafia ou gravação a laser personalizadas. Essas opções podem ser avaliadas para produção em volume. A embalagem padrão é uma caixa colorida; a embalagem personalizada depende do volume do pedido.
+    answer: "Amostras não podem receber serigrafia ou gravação a laser personalizadas. Pedidos pequenos usam logotipo e embalagem de fábrica. Produtos e embalagem com sua marca a partir de 500 unidades por modelo; confirme arte, método de marcação e custos antes da produção."
 ---
 
 
