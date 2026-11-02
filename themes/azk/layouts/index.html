@@ -167,9 +167,10 @@
           <input type="text" name="market" placeholder="{{ i18n "target_market" }}" autocomplete="country-name">
         </div>
         <div class="form-row">
-          <select name="project_type" aria-label="{{ i18n "project_type" }}" required>
-            <option value="" disabled selected>{{ i18n "project_type" }}</option>
-            <option>{{ i18n "wholesale" }}</option>
+          <select name="project_type" aria-label="{{ i18n "purchase_type" }}" required>
+            <option value="" disabled selected>{{ i18n "purchase_type" }}</option>
+            <option value="small_wholesale">{{ i18n "small_wholesale" }}</option>
+            <option value="private_label">{{ i18n "private_label_order" }}</option>
             <option>OEM / ODM</option>
             <option>{{ i18n "private_tooling" }}</option>
             <option>{{ i18n "packaging_customization" }}</option>
@@ -177,6 +178,8 @@
           </select>
           <input type="text" name="quantity" placeholder="{{ i18n "estimated_quantity" }}">
         </div>
+        <input type="text" name="delivery_postcode" placeholder="{{ i18n "delivery_postcode" }}" aria-label="{{ i18n "delivery_postcode" }}" autocomplete="postal-code">
+        <p class="contact-note">{{ i18n "form_purchase_policy" }} <a href="{{ relLangURL "/buyer-guides/samples-customization/" }}#ordering-faq">{{ i18n "ordering_faq" }} →</a></p>
         <textarea name="message" placeholder="{{ i18n "requirements_placeholder" }}" rows="5" required></textarea>
         <button type="submit" class="btn btn-primary btn-lg">{{ i18n "send_inquiry" }}</button>
         <p class="form-status" id="formStatus" role="status" aria-live="polite" tabindex="-1"></p>
