@@ -9,7 +9,7 @@
 {{ with .Params }}
 
 <!-- Product Hero -->
-<section class="product-hero">
+<section class="product-hero{{ if eq $page.Title "G2" }} product-hero-g2{{ end }}">
   {{ with .hero.image }}
   <div class="product-hero-bg">
     <img src="{{ . | relURL }}" alt="{{ $page.Title }} {{ $page.Params.tagline }}" {{ partial "image-dimensions.html" . | safeHTMLAttr }} fetchpriority="high" decoding="async">
@@ -124,7 +124,7 @@
 <section class="product-details section">
   <div class="container">
     {{ range $index, $section := . }}
-    <div class="product-row {{ if eq $section.image_side "left" }}product-row-reverse{{ end }}" data-aos="fade-up">
+    <div class="product-row {{ if eq $section.image_side "left" }}product-row-reverse{{ end }}{{ if eq $page.Title "G2" }} product-row-wide{{ end }}" data-aos="fade-up">
       <div class="product-image">
         <img src="{{ $section.image | relURL }}" alt="{{ $section.title }}" {{ partial "image-dimensions.html" $section.image | safeHTMLAttr }} loading="lazy" decoding="async">
       </div>
