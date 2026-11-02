@@ -4,11 +4,29 @@ seo_title: "Guia B2B de controles G17, G1, G2, G6 Pro e G7"
 description: "Escolha entre os controles G17, G1, G2, G6 Pro e G7 da INT-ROCK de acordo com a plataforma, as funções e o posicionamento da sua linha."
 layout: "buyer-guide"
 date: 2026-10-17
+lastmod: 2026-11-02
 guide_image: "images/g17/hero.webp"
 guide_image_alt: "Controle sem fio G17 visto de frente"
 ---
 
 O controle ideal depende da plataforma, do público e do posicionamento da sua linha. Esses cinco modelos atendem a necessidades diferentes. Consulte a página de cada produto para a configuração completa e confirme a versão escolhida antes de anunciá-la ou fazer o pedido.
+
+## Comparação rápida para sua seleção
+
+No celular, deslize a tabela na horizontal. Abra cada modelo para consultar a ficha completa.
+
+<div class="grip-comparison" role="region" aria-label="Comparação rápida para sua seleção" tabindex="0">
+<table>
+<caption>Comparação rápida para sua seleção</caption>
+<thead><tr><th scope="col">Modelo</th><th scope="col">Principal diferencial</th><th scope="col">Confirmar antes do pedido</th></tr></thead>
+<tbody>
+<tr><th scope="row"><a href="/pt/products/g17/">G17</a></th><td>Joysticks Hall Effect; quatro botões traseiros programáveis; áudio integrado</td><td>Funções necessárias em cada plataforma</td></tr>
+<tr><th scope="row"><a href="/pt/products/g1/">G1</a></th><td>Joysticks TMR; ABXY com microinterruptores; gatilhos de dois modos</td><td>Modos de conexão e conteúdo final</td></tr>
+<tr><th scope="row"><a href="/pt/products/g2/">G2</a></th><td>Joysticks TMR; visor de bateria; layout de botões alternável</td><td>Base de carregamento opcional, não incluída como padrão</td></tr>
+<tr><th scope="row"><a href="/pt/products/g6-pro/">G6 Pro</a></th><td>Joysticks Hall Effect; Bluetooth, 2,4 GHz e cabo</td><td>Receptor opcional; não desperta o Switch 2</td></tr>
+<tr><th scope="row"><a href="/pt/products/g7/">G7</a></th><td>ABXY com microinterruptores; até 1000 Hz por cabo / 2,4 GHz</td><td>1000 Hz não se aplica ao Bluetooth; confirmar receptor</td></tr>
+</tbody></table>
+</div>
 
 ## Comece pelo uso pretendido
 
@@ -36,4 +54,4 @@ O [G7](/pt/products/g7/) atende compradores que procuram botões ABXY com microi
 
 Envie os modelos a comparar, mercado de destino, quantidade estimada, faixa de preço desejada e requisitos de marca ou embalagem. Confirmaremos as opções de amostra, a configuração exata, a quantidade mínima e o prazo para seu projeto. Consulte também o [guia de amostras e personalização](/pt/buyer-guides/samples-customization/).
 
-[Solicitar preços e amostras](/pt/#contact) ou ver [todos os controles](/pt/controllers/).
+[Solicitar preços e amostras](/pt/?product=G17%20G1%20G2%20G6-PRO%20G7#contact) ou ver [todos os controles](/pt/controllers/).
