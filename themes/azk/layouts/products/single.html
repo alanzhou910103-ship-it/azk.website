@@ -48,6 +48,7 @@
       {{ if not $isFocus }}<a href="{{ $inquiryURL }}">{{ i18n "request_pricing" }}</a>{{ end }}
       {{ if $isControllerFocus }}<a href="{{ relLangURL "/buyer-guides/controller-selection/" }}">{{ i18n "compare_controllers" }}</a>{{ end }}
     </div>
+    <p class="product-sample-note">{{ i18n "purchase_policy" }} <a href="{{ relLangURL "/buyer-guides/samples-customization/" }}#ordering-faq">{{ i18n "ordering_faq" }} →</a></p>
     <p class="product-sample-note"><strong>{{ i18n "sample_options" }}</strong> {{ if $unbrandedSample }}{{ i18n "unbranded_sample_available" }}{{ else }}{{ i18n "branded_sample_bulk_private_label" }}{{ end }} <a href="{{ relLangURL "/buyer-guides/samples-customization/" }}">{{ i18n "sample_customization_guide" }} →</a></p>
   </div>
 </section>
