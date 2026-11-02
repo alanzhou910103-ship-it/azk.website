@@ -4,11 +4,40 @@ seo_title: "Guia B2B de amostras e marca própria para controles"
 description: "Saiba quais produtos da INT-ROCK podem ter amostras sem marca, quando consultar opções de personalização e o que enviar para solicitar cotação."
 layout: "buyer-guide"
 date: 2026-10-17
+lastmod: 2026-11-02
 guide_image: "images/cards/g2.webp"
 guide_image_alt: "Controle sem fio G2 como exemplo de seleção de produto"
 ---
 
 Uma primeira cotação útil começa pelo modelo exato e pelo tipo de amostra de que você precisa. Amostras de avaliação, amostras sem marca e produção com marca própria são pedidos diferentes.
+
+<h2 id="ordering-faq">Perguntas sobre pedidos e envios</h2>
+
+Pedidos pequenos no atacado, marca própria e dropshipping são serviços diferentes. Confira as opções antes de solicitar uma cotação.
+
+### Posso começar com 5 ou 10 unidades?
+
+Sim. Aceitamos pequenos pedidos no atacado de 5 ou 10 unidades. Os produtos levam o logotipo e a embalagem da marca de fábrica, sem personalização. Confirme o modelo e a disponibilidade ao solicitar a cotação.
+
+### Vocês enviam cada pedido diretamente aos meus clientes nos Estados Unidos?
+
+Atualmente não oferecemos dropshipping para consumidores nos Estados Unidos. Em pequenas compras no atacado, você organiza as entregas aos seus clientes. Podemos avaliar esse serviço se estabelecermos um armazém local, mas não há previsão confirmada.
+
+### Minha loja Shopify pode enviar pedidos automaticamente para vocês despacharem?
+
+Atualmente não oferecemos integração com Shopify para atendimento automático de pedidos de dropshipping. Essa opção seria avaliada junto com um futuro armazém nos Estados Unidos; o serviço não está disponível hoje.
+
+### Posso colocar minha marca nos produtos e na embalagem?
+
+A personalização de marca está disponível a partir de 500 unidades por modelo. Confirme a posição do logotipo, a arte, as especificações da embalagem e os custos antes da produção. A quantidade é por modelo, não a soma de modelos diferentes.
+
+### Há embalagem neutra para pedidos pequenos?
+
+Pequenos pedidos no atacado são enviados na embalagem da marca de fábrica. Embalagem neutra ou com sua marca não é a opção padrão para pedidos de 5 ou 10 unidades. Amostras de avaliação sem logotipo de modelos selecionados são uma opção separada; veja os detalhes abaixo.
+
+### Quanto custa o envio aos Estados Unidos e qual é o prazo?
+
+Para entregas no atacado ao seu endereço de recebimento, o frete marítimo pode ser mais econômico; o expresso geralmente custa mais. Podemos consultar serviços adequados, incluindo 4PX quando aplicável. Envie modelo, quantidade e CEP para receber cotação e prazo estimado. Os valores e prazos dependem da remessa e da rota; não há tarifa fixa para todo o catálogo.
 
 ## Quais amostras podem vir sem marca?
 
