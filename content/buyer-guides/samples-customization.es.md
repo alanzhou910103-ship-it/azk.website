@@ -4,11 +4,40 @@ seo_title: "Guía B2B de muestras y marca propia para mandos"
 description: "Conozca qué productos de INT-ROCK pueden tener muestras sin marca, cuándo consultar la personalización y qué datos enviar para solicitar presupuesto."
 layout: "buyer-guide"
 date: 2026-10-17
+lastmod: 2026-11-02
 guide_image: "images/cards/g2.webp"
 guide_image_alt: "Mando inalámbrico G2 como ejemplo de selección de producto"
 ---
 
 Un primer presupuesto útil empieza por el modelo exacto y el tipo de muestra que necesita. Una muestra de evaluación, una muestra sin marca y una producción con marca propia son solicitudes distintas.
+
+<h2 id="ordering-faq">Preguntas sobre pedidos y envíos</h2>
+
+Los pedidos mayoristas pequeños, la marca propia y el dropshipping son servicios distintos. Revise las opciones antes de solicitar presupuesto.
+
+### ¿Puedo empezar con 5 o 10 unidades?
+
+Sí. Aceptamos pedidos mayoristas pequeños de 5 o 10 unidades. Llevan el logotipo y el embalaje de la marca de fábrica, sin personalización. Confirme el modelo y la disponibilidad al solicitar presupuesto.
+
+### ¿Pueden enviar cada pedido directamente a mis clientes en Estados Unidos?
+
+Actualmente no ofrecemos dropshipping a consumidores en Estados Unidos. En las compras mayoristas pequeñas, usted gestiona las entregas a sus clientes. Podríamos estudiar este servicio si establecemos un almacén local, pero no hay un calendario confirmado.
+
+### ¿Puede mi tienda Shopify enviarles pedidos automáticamente para su preparación?
+
+Actualmente no ofrecemos una integración de Shopify para gestionar automáticamente pedidos de dropshipping. La evaluaríamos junto con un futuro almacén en Estados Unidos; no es un servicio disponible hoy.
+
+### ¿Puedo utilizar mi marca en los productos y el embalaje?
+
+La personalización de marca está disponible a partir de 500 unidades por modelo. Confirme la ubicación del logotipo, el diseño, las especificaciones del embalaje y los costes antes de producir. Son 500 unidades de cada modelo, no una suma de modelos diferentes.
+
+### ¿Hay embalaje neutro para pedidos pequeños?
+
+Los pedidos mayoristas pequeños se entregan con el embalaje de la marca de fábrica. El embalaje neutro o con su marca no es la opción estándar para pedidos de 5 o 10 unidades. Las muestras de evaluación sin logotipo de determinados modelos son una opción distinta; consulte los detalles de muestras más abajo.
+
+### ¿Cuánto cuesta el envío a Estados Unidos y cuánto tarda?
+
+Para pedidos mayoristas a su dirección de recepción, el transporte marítimo puede ser más económico; el envío exprés suele costar más. Podemos consultar servicios adecuados, incluido 4PX cuando corresponda. Envíe modelo, cantidad y código postal para obtener presupuesto y plazo estimado. Dependen del envío y la ruta; no existe una tarifa fija para todo el catálogo.
 
 ## ¿Qué muestras pueden venir sin marca?
 
