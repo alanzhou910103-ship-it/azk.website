@@ -27,7 +27,7 @@ faq:
   title: "Wholesale & OEM Project Basics"
   items:
     - question: "What is the typical minimum order quantity?"
-      answer: "MOQ depends on the model, branding method and packaging. Send your target quantity for a model-specific quotation."
+      answer: "Small wholesale orders of 5 or 10 units are welcome with the factory logo and factory-branded packaging. Custom branding starts at 500 units per model. Confirm current availability and the selected configuration in your quotation."
     - question: "How long does sample preparation take?"
       answer: "Sample availability, price and preparation time depend on the model and current stock. We confirm them in the sample quotation."
     - question: "What is the typical production lead time?"
@@ -37,5 +37,5 @@ faq:
     - question: "Which products have unbranded samples?"
       answer: "Unbranded samples are currently available for accessories, G17, G9 and G3. Other controller samples carry the existing brand; unbranded or your-brand production can be discussed for bulk orders."
     - question: "Can samples be printed with my logo?"
-      answer: "Samples are not available with custom silk-screen printing or laser engraving. These marking options can be discussed for bulk production. Standard products use color-box packaging; custom packaging depends on order volume."
+      answer: "Samples cannot be custom silk-screen printed or laser engraved. Small wholesale orders use the factory logo and branded packaging. Your-brand products and packaging are available from 500 units per model; confirm artwork, marking method and costs before production."
 ---
