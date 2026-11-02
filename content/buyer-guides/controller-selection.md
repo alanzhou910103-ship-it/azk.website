@@ -4,11 +4,29 @@ seo_title: "G17 vs G1 vs G2 vs G6 Pro vs G7 Controller Buying Guide"
 description: "A B2B guide to selecting INT-ROCK's G17, G1, G2, G6 Pro and G7 controller platforms by target use, features and product positioning."
 layout: "buyer-guide"
 date: 2026-10-17
+lastmod: 2026-11-02
 guide_image: "images/g17/hero.webp"
 guide_image_alt: "G17 wireless controller shown from the front"
 ---
 
 The right controller is the one that matches your target platform, customer and retail positioning. These five models serve different briefs; use their product pages for the full configuration and confirm the selected version before listing or ordering.
+
+## Quick comparison for your shortlist
+
+On a phone, swipe the table sideways to compare. Open a model for its full specification.
+
+<div class="grip-comparison" role="region" aria-label="Quick comparison for your shortlist" tabindex="0">
+<table>
+<caption>Quick comparison for your shortlist</caption>
+<thead><tr><th scope="col">Model</th><th scope="col">Main distinction</th><th scope="col">Confirm before ordering</th></tr></thead>
+<tbody>
+<tr><th scope="row"><a href="/products/g17/">G17</a></th><td>Hall Effect sticks; four programmable back buttons; integrated audio</td><td>Required functions on each target platform</td></tr>
+<tr><th scope="row"><a href="/products/g1/">G1</a></th><td>TMR sticks; micro-switch ABXY; dual-mode triggers</td><td>Connection modes and final bundle</td></tr>
+<tr><th scope="row"><a href="/products/g2/">G2</a></th><td>TMR sticks; battery display; switchable button layout</td><td>Charging dock is optional, not standard</td></tr>
+<tr><th scope="row"><a href="/products/g6-pro/">G6 Pro</a></th><td>Hall Effect sticks; Bluetooth, 2.4GHz and wired modes</td><td>Receiver optional; no Switch 2 wake-up</td></tr>
+<tr><th scope="row"><a href="/products/g7/">G7</a></th><td>Micro-switch ABXY; up to 1000Hz wired / 2.4GHz</td><td>1000Hz does not apply to Bluetooth; confirm receiver bundle</td></tr>
+</tbody></table>
+</div>
 
 ## Start with your customer's use case
 
@@ -36,4 +54,4 @@ Choose [G17](/products/g17/) if your range needs a PS5-compatible controller. It
 
 Send us the models you want to compare, your destination market, estimated quantity, target price range and any branding or packaging requirements. We will confirm sample options, the exact configuration, minimum order quantity and project-specific lead time. For current sample-branding rules, read our [samples and customization guide](/buyer-guides/samples-customization/).
 
-[Request pricing and samples](/#contact) or browse the [full controller range](/controllers/).
+[Request pricing and samples](/?product=G17%20G1%20G2%20G6-PRO%20G7#contact) or browse the [full controller range](/controllers/).
