@@ -168,7 +168,7 @@ other = "Todas las guías"
 [guides_home_title]
 other = "Elija con criterios claros"
 [guides_home_text]
-other = "Compare mandos, conozca las opciones de muestra y prepare su consulta de personalización."
+other = "Pedidos mayoristas de 5 o 10 unidades con marca de fábrica. Marca propia desde 500 unidades por modelo. Consulte las opciones de pedidos y envíos."
 [explore_guides]
 other = "Ver guías de compra"
 [guides_cta_title]
@@ -199,3 +199,5 @@ other = "Los precios minoristas se aplican a compras individuales. Para precios 
 other = "¿Compra para uso personal?"
 [retail_footer_note]
 other = "Para compras individuales. Las condiciones mayoristas se cotizan por separado."
+[ordering_faq]
+other = "Preguntas sobre pedidos y envíos"
