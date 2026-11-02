@@ -168,7 +168,7 @@ other = "All buyer guides"
 [guides_home_title]
 other = "Choose with a clearer brief"
 [guides_home_text]
-other = "Compare controller platforms, understand sample options and plan a customization request before you inquire."
+other = "Small wholesale orders of 5 or 10 units use factory branding. Own-brand orders start at 500 units per model. Check ordering and shipping options before you inquire."
 [explore_guides]
 other = "Explore buyer guides"
 [guides_cta_title]
@@ -199,3 +199,5 @@ other = "Retail prices apply to individual purchases. For wholesale pricing, MOQ
 other = "Shopping for yourself?"
 [retail_footer_note]
 other = "For individual purchases. Wholesale terms are quoted separately."
+[ordering_faq]
+other = "Ordering & shipping FAQ"
