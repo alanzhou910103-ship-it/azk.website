@@ -4,11 +4,40 @@ seo_title: "Gaming Controller Samples and Private-Label Buying Guide"
 description: "Learn which INT-ROCK products can be sampled unbranded, when logo and packaging customization can be discussed, and what B2B buyers should send for a quotation."
 layout: "buyer-guide"
 date: 2026-10-17
+lastmod: 2026-11-02
 guide_image: "images/cards/g2.webp"
 guide_image_alt: "G2 wireless controller used to illustrate controller sourcing"
 ---
 
 A useful first quotation starts with the exact model and the type of sample you need. Evaluation samples, unbranded samples and custom-branded production are different requests.
+
+<h2 id="ordering-faq">Ordering & Shipping FAQ</h2>
+
+Small wholesale orders, custom branding and dropshipping are different services. Check the options below before requesting a quotation.
+
+### Can I start with 5 or 10 units?
+
+Yes. Small wholesale orders of 5 or 10 units are welcome. These orders use the factory’s existing logo and factory-branded packaging, without custom branding. Confirm the model and current availability when requesting a quote.
+
+### Can you ship each order directly to my U.S. customers?
+
+We do not currently offer dropshipping to individual U.S. customers. For small wholesale purchases, you arrange fulfillment to your customers. We may consider U.S. dropshipping if we establish a local warehouse, but there is no confirmed timeline.
+
+### Can my Shopify store automatically send orders to you for fulfillment?
+
+We do not currently provide a Shopify integration for automated dropshipping fulfillment. We would evaluate this alongside future U.S. warehousing; it is not a service available today.
+
+### Can I use my own brand on the products and packaging?
+
+Custom branding is available from 500 units per model. Confirm the logo placement, artwork, packaging specification and costs before production. This quantity is per model, not a combined total across different models.
+
+### Is neutral packaging available for small orders?
+
+Small wholesale orders come with the factory’s existing branded packaging. Neutral packaging and your-brand packaging are not the standard options for 5- or 10-unit orders. Unbranded evaluation samples for selected models are a separate arrangement; see the sample details below.
+
+### What are the shipping costs and delivery times to the United States?
+
+For wholesale deliveries to your receiving address, sea freight can be a lower-cost option, while express shipping generally costs more. We can check suitable services, including 4PX where applicable. Send the model, quantity and delivery ZIP code for a quotation with estimated transit time. Rates and timing depend on the shipment and route; there is no fixed website-wide rate.
 
 ## Which samples can be unbranded?
 
