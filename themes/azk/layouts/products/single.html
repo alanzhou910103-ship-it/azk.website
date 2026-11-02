@@ -4,13 +4,13 @@
 {{ $inquiryURL := printf "%s?product=%s#contact" (relLangURL "/") ($page.Title | urlquery) }}
 {{ $isFocus := in (slice "GA05" "GA06L" "GA06P") $page.Title }}
 {{ $isControllerFocus := in (slice "G17" "G1" "G2" "G6 Pro" "G7") $page.Title }}
-{{ $isVisualStory := in (slice "G2" "GA06L") $page.Title }}
+{{ $isVisualStory := in (slice "G2" "GA06L" "GA05") $page.Title }}
 {{ $category := partial "product-category.html" $page }}
 {{ $unbrandedSample := or (eq $category "accessories") (in (slice "G17" "G9" "G3") $page.Title) }}
 {{ with .Params }}
 
 <!-- Product Hero -->
-<section class="product-hero{{ if $isVisualStory }} product-hero-visual{{ end }}{{ if eq $page.Title "GA06L" }} product-hero-accessory{{ end }}">
+<section class="product-hero{{ if $isVisualStory }} product-hero-visual{{ end }}{{ if in (slice "GA06L" "GA05") $page.Title }} product-hero-accessory{{ end }}">
   {{ with .hero.image }}
   <div class="product-hero-bg">
     <img src="{{ . | relURL }}" alt="{{ $page.Title }} {{ $page.Params.tagline }}" {{ partial "image-dimensions.html" . | safeHTMLAttr }} fetchpriority="high" decoding="async">
