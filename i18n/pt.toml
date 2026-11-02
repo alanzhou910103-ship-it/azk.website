@@ -53,7 +53,7 @@ other = "Personalização de embalagem"
 [other_cooperation]
 other = "Outra parceria"
 [estimated_quantity]
-other = "Quantidade estimada"
+other = "Quantidade estimada por modelo"
 [requirements_placeholder]
 other = "Conte os requisitos do produto, o preço-alvo ou o modelo de referência..."
 [send_inquiry]
@@ -201,3 +201,21 @@ other = "Comprando para uso pessoal?"
 other = "Para compras individuais. As condições de atacado são cotadas separadamente."
 [ordering_faq]
 other = "Perguntas sobre pedidos e envios"
+
+[purchase_type]
+other = "Tipo de compra"
+
+[small_wholesale]
+other = "Pedido pequeno — Marca de fábrica"
+
+[private_label_order]
+other = "Marca própria — A partir de 500 unidades por modelo"
+
+[delivery_postcode]
+other = "CEP de entrega (opcional)"
+
+[purchase_policy]
+other = "Atacado de 5 ou 10 unidades com logotipo e embalagem de fábrica. Produtos e embalagem com sua marca a partir de 500 unidades por modelo. Confirme disponibilidade e detalhes."
+
+[form_purchase_policy]
+other = "Pedidos pequenos usam marca e embalagem de fábrica; marca própria a partir de 500 unidades por modelo. Atualmente não oferecemos dropshipping nos Estados Unidos nem atendimento automático de dropshipping com Shopify."
