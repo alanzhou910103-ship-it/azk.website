@@ -168,7 +168,7 @@ other = "Todos os guias"
 [guides_home_title]
 other = "Escolha com critérios claros"
 [guides_home_text]
-other = "Compare controles, conheça as opções de amostra e prepare sua consulta de personalização."
+other = "Pedidos no atacado de 5 ou 10 unidades usam a marca de fábrica. Marca própria a partir de 500 unidades por modelo. Confira as opções de pedidos e envios."
 [explore_guides]
 other = "Ver guias de compra"
 [guides_cta_title]
@@ -199,3 +199,5 @@ other = "Os preços de varejo se aplicam a compras individuais. Para preços de 
 other = "Comprando para uso pessoal?"
 [retail_footer_note]
 other = "Para compras individuais. As condições de atacado são cotadas separadamente."
+[ordering_faq]
+other = "Perguntas sobre pedidos e envios"
