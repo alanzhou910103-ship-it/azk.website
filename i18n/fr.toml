@@ -53,7 +53,7 @@ other = "Personnalisation de l’emballage"
 [other_cooperation]
 other = "Autre collaboration"
 [estimated_quantity]
-other = "Quantité estimée"
+other = "Quantité estimée par modèle"
 [requirements_placeholder]
 other = "Décrivez vos exigences produit, votre prix cible ou votre modèle de référence…"
 [send_inquiry]
@@ -201,3 +201,21 @@ other = "Vous achetez pour vous-même ?"
 other = "Pour les achats individuels. Les conditions de gros font l’objet d’un devis séparé."
 [ordering_faq]
 other = "Questions sur les commandes et expéditions"
+
+[purchase_type]
+other = "Type d’achat"
+
+[small_wholesale]
+other = "Petite commande — Marque d’usine"
+
+[private_label_order]
+other = "Marque propre — Dès 500 unités par modèle"
+
+[delivery_postcode]
+other = "Code postal de livraison (facultatif)"
+
+[purchase_policy]
+other = "Commandes en gros de 5 ou 10 unités avec logo et emballage d’usine. Produits et emballage à votre marque dès 500 unités par modèle. Confirmez disponibilité et détails."
+
+[form_purchase_policy]
+other = "Les petites commandes utilisent la marque et l’emballage d’usine ; marque propre dès 500 unités par modèle. Nous ne proposons actuellement ni dropshipping aux États-Unis ni traitement automatique de dropshipping via Shopify."
