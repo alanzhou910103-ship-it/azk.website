@@ -168,7 +168,7 @@ other = "Tous les guides"
 [guides_home_title]
 other = "Choisissez avec des critères clairs"
 [guides_home_text]
-other = "Comparez les manettes, découvrez les possibilités d’échantillonnage et préparez votre demande de personnalisation."
+other = "Petites commandes en gros de 5 ou 10 unités avec marque d’usine. Marque propre dès 500 unités par modèle. Consultez les modalités de commande et d’expédition."
 [explore_guides]
 other = "Voir les guides d’achat"
 [guides_cta_title]
@@ -199,3 +199,5 @@ other = "Les prix de détail concernent les achats individuels. Pour les tarifs 
 other = "Vous achetez pour vous-même ?"
 [retail_footer_note]
 other = "Pour les achats individuels. Les conditions de gros font l’objet d’un devis séparé."
+[ordering_faq]
+other = "Questions sur les commandes et expéditions"
