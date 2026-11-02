@@ -27,7 +27,7 @@ faq:
   title: "Principes de base des projets de vente en gros et OEM"
   items:
     - question: "Quelle est la quantité minimale de commande habituelle ?"
-      answer: "Le MOQ dépend du modèle, du marquage et de l’emballage. Indiquez-nous la quantité envisagée pour recevoir un devis adapté au modèle."
+      answer: "Nous acceptons les commandes en gros de 5 ou 10 unités avec logo et emballage de la marque d’usine. La marque propre est disponible dès 500 unités par modèle. Confirmez la disponibilité et la configuration dans le devis."
     - question: "Quel est le délai de préparation des échantillons ?"
       answer: "La disponibilité, le prix et le délai de préparation des échantillons dépendent du modèle et du stock actuel. Ils sont confirmés dans le devis d’échantillon."
     - question: "Quel est le délai de production habituel ?"
@@ -37,5 +37,5 @@ faq:
     - question: "Quels produits sont disponibles en échantillon sans marque ?"
       answer: "Des échantillons sans marque sont actuellement disponibles pour les accessoires, G17, G9 et G3. Les autres échantillons de manettes portent la marque existante ; une production sans marque ou à votre marque peut être étudiée pour les commandes en volume."
     - question: "Puis-je faire imprimer mon logo sur un échantillon ?"
-      answer: "La sérigraphie et la gravure laser personnalisées ne sont pas possibles sur les échantillons. Ces marquages peuvent être étudiés pour la production en volume. Les produits standard sont livrés en boîte couleur ; l’emballage personnalisé dépend du volume commandé."
+      answer: "La sérigraphie et la gravure laser personnalisées ne sont pas possibles sur les échantillons. Les petites commandes portent le logo et utilisent l’emballage d’usine. Produits et emballage à votre marque dès 500 unités par modèle ; confirmez le visuel, le marquage et les coûts avant production."
 ---
