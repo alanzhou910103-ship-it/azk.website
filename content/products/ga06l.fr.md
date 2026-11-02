@@ -6,15 +6,11 @@ tagline: Support de recharge Joy-Con 2 personnalisable + touches arrière
 card_image: images/cards/ga06l.webp
 layout: product
 date: 2026-06-23
+lastmod: 2026-11-02
 hero:
-  image: images/hero/ga06l-custom-hero.webp
+  image: images/ga06l/hero-v2.webp
   badge: Personnalisable
-views:
-  title: Vues du produit
-  images:
-  - image: images/ga06l/hero.jpg
-  - image: images/ga06l/detail4.jpg
-  - image: images/ga06l/detail3.jpg
+  note: "Manettes Joy-Con 2 présentées en démonstration ; non incluses."
 highlights:
 - icon: fas fa-palette
   title: Illustrations personnalisées et graphiques de marque
@@ -35,40 +31,43 @@ highlights:
   title: Conception détachable sans outil
   description: Le panneau central et les jeux de touches arrière peuvent être remplacés sans outil, ce qui facilite la configuration et le rangement.
 sections:
-- title: Votre visuel. Votre support de recharge.
-  image: images/ga06l/custom-artwork.webp
-  image_side: right
-  content: 'Créez une édition GA06L qui appartient à votre marque. Le panneau central peut contenir des illustrations personnalisées, des graphiques de campagne ou des conceptions de logos à l''aide de décalcomanies à l''eau ou d''une impression par transfert d''eau.
-
-    Le traitement visuel peut également s''étendre aux touches arrière interchangeables GL et GR pour un design recto-verso coordonné. Envoyez-nous votre illustration ou l''orientation de votre marque et nous préparerons une proposition de personnalisation pour approbation de l''échantillon.'
-- title: Support de recharge avec touches arrière
-  image: images/ga06l/main.jpg
-  image_side: right
-  content: 'Le support de recharge GA06L est conçu pour les manettes Joy-Con 2. Il associe trois jeux de touches arrière interchangeables avec une entrée d''alimentation USB-C pour le chargement lors d''une utilisation sur table et en mode téléviseur prise en charge.
-
-
-    Des rails moulés maintiennent les manettes en position, tandis que les touches arrière peuvent être attribuées via les paramètres de console compatibles. Les manettes Joy-Con 2 et une source d''alimentation externe ne sont pas incluses, sauf indication contraire dans la commande.'
 - title: Trois styles de touches arrière
-  image: images/ga06l/detail3.jpg
+  image: images/ga06l/back-buttons-v2.webp
   image_side: left
   content: 'Le GA06L comprend trois styles de touches arrière interchangeables GL/GR : style gâchette, style palette et pression directe. Les acheteurs peuvent sélectionner la forme qui convient le mieux à leur clientèle cible et au positionnement de leur produit.
 
 
     Les capuchons des boutons peuvent également porter des graphiques coordonnés pour les éditions de marque. L’attribution des touches dépend des paramètres de la console et de la configuration du produit sélectionné.'
+
 - title: Chargez pendant que vous jouez
-  image: images/ga06l/detail1.jpg
+  image: images/ga06l/charging-v2.webp
   image_side: right
   content: 'L''entrée USB-C fournit une alimentation externe pour charger les manettes Joy-Con 2 installées pendant l''utilisation prise en charge. Une source d''alimentation externe et un câble sont nécessaires.
 
 
     Le support de recharge est destiné aux modes sur table et téléviseur. Le fonctionnement de la recharge doit être confirmé avec l’échantillon final et la source d’alimentation prévue.'
+
 - title: Personnalisation sans outil
-  image: images/ga06l/detail2.jpg
+  image: images/ga06l/modular-v2.webp
   image_side: left
   content: 'Le panneau central et les jeux de touches arrière peuvent être remplacés sans outil. Cette conception facilite le changement de finition visuelle ou de forme des touches, ainsi que le rangement compact.
 
 
     La coque profilée et texturée est conçue pour offrir un maintien sûr lors d''une utilisation quotidienne. Confirmez l’assemblage, la finition et la sensation du bouton lors de l’approbation de l’échantillon.'
+
+- title: Votre visuel. Votre support de recharge.
+  image: images/ga06l/custom-artwork-v2.webp
+  image_side: right
+  content: 'Créez une édition GA06L qui appartient à votre marque. Le panneau central peut contenir des illustrations personnalisées, des graphiques de campagne ou des conceptions de logos à l''aide de décalcomanies à l''eau ou d''une impression par transfert d''eau.
+
+    Le traitement visuel peut également s''étendre aux touches arrière interchangeables GL et GR pour un design recto-verso coordonné. Envoyez-nous votre illustration ou l''orientation de votre marque et nous préparerons une proposition de personnalisation pour approbation de l''échantillon.'
+  caption: "Les motifs géométriques coordonnés sont des concepts illustratifs, et non la finition standard. Le visuel, le procédé de décoration et les conditions de commande sont confirmés lors de l’approbation de l’échantillon."
+
+- title: "Contenu du coffret et utilisation prévue"
+  image: "images/ga06l/package-contents-v2.webp"
+  image_side: right
+  content: "Le coffret standard comprend un support de recharge GA06L, trois jeux de touches GL/GR, un câble USB-C et un manuel. Les manettes Joy-Con 2 et la source d’alimentation externe ne sont pas incluses.\n\nUtilisez le support avec des manettes Joy-Con 2 détachées pour jouer sur table ou sur téléviseur. Ce produit n’est ni une batterie externe ni un accessoire de recharge fixé à la console en mode portable. Confirmez la configuration finale avant de commander."
+
 specs:
 - label: Personnalisation graphique
   value: Illustration du panneau central, graphiques de la marque, logos et graphiques coordonnés des touches arrière

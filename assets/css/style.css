@@ -456,23 +456,28 @@ a:hover { color: var(--accent-dim); }
 .product-info p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1.05rem; line-height: 1.8; }
 .product-info p:last-child { margin-bottom: 0; }
 
-/* G2: give each feature photograph room for hardware details and labels. */
+/* Product visual stories: room for hardware details and labels. */
 .product-row-wide { grid-template-columns: minmax(0, 1fr); gap: 28px; }
 .product-row-wide .product-image { order: 0; }
 .product-row-wide .product-info { order: 1; max-width: 880px; }
-.product-hero-g2 { min-height: 0; padding: 0; }
-.product-hero-g2 .product-hero-bg { position: relative; }
-.product-hero-g2 .product-hero-bg img { display: block; width: 100%; height: auto; opacity: 1; transform: none; }
-.product-hero-g2 .product-hero-overlay { background: linear-gradient(to bottom, rgba(5,8,11,0.08), transparent 60%, var(--bg-dark)); }
-.product-hero-g2 .product-hero-content { position: absolute; top: 0; left: 0; right: 0; max-width: none; padding: clamp(20px, 4vw, 64px) 24px 0; }
-.product-hero-g2 .product-hero-actions { margin-top: 18px; }
+.product-hero-visual { min-height: 0; padding: 0; }
+.product-hero-visual .product-hero-bg { position: relative; }
+.product-hero-visual .product-hero-bg img { display: block; width: 100%; height: auto; opacity: 1; transform: none; }
+.product-hero-visual .product-hero-overlay { background: linear-gradient(to bottom, rgba(5,8,11,0.08), transparent 60%, var(--bg-dark)); }
+.product-hero-visual .product-hero-content { position: absolute; top: 0; left: 0; right: 0; max-width: none; padding: clamp(20px, 4vw, 64px) 24px 0; }
+.product-hero-visual .product-hero-actions { margin-top: 18px; }
+.product-hero-note { margin: 12px auto 0; color: var(--text-secondary); font-size: 0.9rem; line-height: 1.5; }
+.product-hero-accessory .product-hero-title { font-size: clamp(2.25rem, 4vw, 4rem); }
+.product-hero-accessory .product-hero-bg { padding-top: 80px; background: #07111e; }
 @media (max-width: 768px) {
-  .product-hero-g2 .product-hero-bg { padding-top: 185px; background: #07111e; }
-  .product-hero-g2 .product-hero-content { padding-top: 24px; }
-  .product-hero-g2 .product-hero-title { font-size: 2.25rem; margin-bottom: 8px; }
-  .product-hero-g2 .product-hero-tagline { font-size: 0.88rem; }
-  .product-hero-g2 .product-hero-actions { margin-top: 14px; }
+  .product-hero-visual .product-hero-bg { padding-top: 185px; background: #07111e; }
+  .product-hero-visual .product-hero-content { padding-top: 24px; }
+  .product-hero-visual .product-hero-title { font-size: 2.25rem; margin-bottom: 8px; }
+  .product-hero-visual .product-hero-tagline { font-size: 0.88rem; }
+  .product-hero-visual .product-hero-actions { margin-top: 14px; }
   .product-row-wide .product-image { order: 0; }
+  .product-hero-accessory .product-hero-bg { padding-top: 280px; }
+  .product-hero-accessory .product-hero-note { font-size: 0.8rem; max-width: 340px; }
 }
 
 /* --- Specs Table --- */

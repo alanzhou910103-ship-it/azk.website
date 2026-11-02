@@ -6,15 +6,11 @@ tagline: Grip de carga personalizable para Joy-Con 2 + botones posteriores
 card_image: "images/cards/ga06l.webp"
 layout: "product"
 date: 2026-06-23
+lastmod: 2026-11-02
 hero:
-  image: "images/hero/ga06l-custom-hero.webp"
+  image: "images/ga06l/hero-v2.webp"
   badge: Personalizable
-views:
-  title: Vistas del producto
-  images:
-  - image: "images/ga06l/hero.jpg"
-  - image: "images/ga06l/detail4.jpg"
-  - image: "images/ga06l/detail3.jpg"
+  note: "Mandos Joy-Con 2 mostrados como demostración; no incluidos."
 highlights:
 - icon: "fas fa-palette"
   title: Arte personalizado y gráficos de marca
@@ -35,40 +31,43 @@ highlights:
   title: Diseño desmontable sin herramientas
   description: El panel central y los botones posteriores se pueden cambiar sin herramientas para facilitar la configuración y el almacenamiento.
 sections:
-- title: Su diseño. Su grip de carga.
-  image: "images/ga06l/custom-artwork.webp"
-  image_side: right
-  content: 'Cree una edición GA06L propia de su marca. El puente central puede incorporar ilustraciones, gráficos de campaña o diseños basados en su logotipo mediante calcomanías al agua o impresión por transferencia de agua.
-
-    El diseño también puede extenderse a los botones intercambiables GL y GR para coordinar la parte frontal y posterior. Envíenos sus archivos gráficos o directrices de marca y prepararemos una propuesta de personalización para aprobar la muestra.'
-- title: Grip de carga con botones posteriores
-  image: "images/ga06l/main.jpg"
-  image_side: right
-  content: 'El grip de carga GA06L está diseñado para mandos Joy-Con 2. Combina tres juegos de botones posteriores intercambiables con una entrada de alimentación USB-C para cargar durante el uso en modo sobremesa o televisor.
-
-
-    Los rieles moldeados mantienen los mandos en su sitio, mientras que los botones posteriores pueden configurarse mediante los ajustes compatibles de la consola. Los mandos Joy-Con 2 y la fuente de alimentación externa no están incluidos, salvo que se especifique en el pedido.'
 - title: Tres estilos de botones posteriores
-  image: "images/ga06l/detail3.jpg"
+  image: "images/ga06l/back-buttons-v2.webp"
   image_side: left
   content: 'El GA06L incluye tres estilos de botón posterior GL/GR intercambiables: tipo gatillo, tipo palanca y presión directa. Los compradores pueden seleccionar la forma que mejor se adapte a su cliente objetivo y posicionamiento del producto.
 
 
     Los botones también pueden incorporar gráficos coordinados para ediciones de marca. Su asignación depende de los ajustes de la consola y de la configuración seleccionada del producto.'
+
 - title: Carga mientras juega
-  image: "images/ga06l/detail1.jpg"
+  image: "images/ga06l/charging-v2.webp"
   image_side: right
   content: 'La entrada USB-C suministra energía externa para cargar los mandos Joy-Con 2 instalados durante los modos de uso compatibles. Se requiere una fuente de alimentación externa y un cable.
 
 
     El grip de carga está destinado al juego en modo sobremesa y televisor. El funcionamiento de la carga debe confirmarse con la muestra final y la fuente de alimentación prevista.'
+
 - title: Personalización sin herramientas
-  image: "images/ga06l/detail2.jpg"
+  image: "images/ga06l/modular-v2.webp"
   image_side: left
   content: 'El panel central y los botones posteriores se pueden cambiar sin herramientas. Esto admite diferentes tratamientos visuales, formas de botones y almacenamiento más compacto.
 
 
     La carcasa contorneada y texturizada está diseñada para ofrecer una sujeción segura durante el uso habitual. Confirme el montaje, el acabado y la sensación de los botones durante la aprobación de la muestra.'
+
+- title: Su diseño. Su grip de carga.
+  image: "images/ga06l/custom-artwork-v2.webp"
+  image_side: right
+  content: 'Cree una edición GA06L propia de su marca. El puente central puede incorporar ilustraciones, gráficos de campaña o diseños basados en su logotipo mediante calcomanías al agua o impresión por transferencia de agua.
+
+    El diseño también puede extenderse a los botones intercambiables GL y GR para coordinar la parte frontal y posterior. Envíenos sus archivos gráficos o directrices de marca y prepararemos una propuesta de personalización para aprobar la muestra.'
+  caption: "Los gráficos geométricos coordinados son conceptos ilustrativos, no el acabado estándar. El diseño, el proceso de decoración y las condiciones de pedido se confirman al aprobar la muestra."
+
+- title: "Contenido del paquete y uso previsto"
+  image: "images/ga06l/package-contents-v2.webp"
+  image_side: right
+  content: "El paquete estándar incluye un grip de carga GA06L, tres juegos de botones GL/GR, un cable USB-C y un manual de usuario. Los mandos Joy-Con 2 y la fuente de alimentación externa no están incluidos.\n\nUtilice el grip con mandos Joy-Con 2 separados para jugar en modo sobremesa o televisor. No es una batería externa ni un accesorio de carga acoplado a la consola en modo portátil. Confirme la configuración final antes de realizar el pedido."
+
 specs:
 - label: Personalización gráfica
   value: Diseño del puente central, gráficos de marca, logotipos y gráficos coordinados para los botones posteriores

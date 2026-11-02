@@ -6,18 +6,12 @@ tagline: "Customizable Joy-Con 2 Charging Grip + Back Buttons"
 card_image: "images/cards/ga06l.webp"
 layout: "product"
 date: 2026-06-23
-lastmod: 2026-10-14
+lastmod: 2026-11-02
 
 hero:
-  image: "images/hero/ga06l-custom-hero.webp"
+  image: "images/ga06l/hero-v2.webp"
   badge: "Customizable"
-
-views:
-  title: "Product Views"
-  images:
-    - image: "images/ga06l/hero.jpg"
-    - image: "images/ga06l/detail4.jpg"
-    - image: "images/ga06l/detail3.jpg"
+  note: "Joy-Con 2 controllers shown for demonstration; not included."
 
 highlights:
   - icon: "fas fa-palette"
@@ -40,32 +34,33 @@ highlights:
     description: "The center panel and back button sets can be changed without tools for configuration and storage."
 
 sections:
-  - title: "Your Artwork. Your Charging Bridge."
-    image: "images/ga06l/custom-artwork.webp"
-    image_side: "right"
-    content: "Create a GA06L edition that belongs to your brand. The center bridge can carry custom artwork, campaign graphics, or logo-led designs using waterslide decals or water transfer printing.
-
-The visual treatment can also extend to the interchangeable GL and GR back buttons for a coordinated front-and-back design. Send us your artwork or brand direction and we will prepare a customization proposal for sample approval."
-
-  - title: "Charging Grip with Back Controls"
-    image: "images/ga06l/main.jpg"
-    image_side: "right"
-    content: "The GA06L charging grip is designed for Joy-Con 2 controllers. It combines three interchangeable back button sets with USB-C power input for charging during supported tabletop and TV-mode use.\n\nMolded rails hold the controllers in position, while the back controls can be mapped through compatible console settings. Joy-Con 2 controllers and an external power source are not included unless specified in the order."
-
   - title: "Three Back Button Styles"
-    image: "images/ga06l/detail3.jpg"
+    image: "images/ga06l/back-buttons-v2.webp"
     image_side: "left"
     content: "The GA06L includes three interchangeable GL/GR back button styles: trigger-style, paddle-style, and direct-press. Buyers can select the shape that best suits their target customer and product positioning.\n\nThe button caps can also carry coordinated graphics for branded editions. Mapping behavior depends on the console settings and selected product configuration."
 
   - title: "Charge While You Play"
-    image: "images/ga06l/detail1.jpg"
+    image: "images/ga06l/charging-v2.webp"
     image_side: "right"
     content: "The USB-C input supplies external power for charging the installed Joy-Con 2 controllers during supported use. An external power source and cable are required.\n\nThe charging grip is intended for tabletop and TV-mode play. Charging behavior should be confirmed with the final sample and intended power source."
 
   - title: "Tool-Free Customization"
-    image: "images/ga06l/detail2.jpg"
+    image: "images/ga06l/modular-v2.webp"
     image_side: "left"
     content: "The center panel and back button sets can be changed without tools. This supports different visual treatments, button shapes, and more compact storage.\n\nThe contoured, textured shell is designed to provide a secure hold during regular play. Confirm assembly, finish, and button feel during sample approval."
+
+  - title: "Your Artwork. Your Charging Bridge."
+    image: "images/ga06l/custom-artwork-v2.webp"
+    image_side: "right"
+    content: "Create a GA06L edition that belongs to your brand. The center bridge can carry custom artwork, campaign graphics, or logo-led designs using waterslide decals or water transfer printing.
+
+The visual treatment can also extend to the interchangeable GL and GR back buttons for a coordinated front-and-back design. Send us your artwork or brand direction and we will prepare a customization proposal for sample approval."
+    caption: "The coordinated geometric graphics are illustrative design concepts, not the standard finish. Final artwork, decoration process and order requirements are confirmed through sample approval."
+
+  - title: "Package Contents & Intended Use"
+    image: "images/ga06l/package-contents-v2.webp"
+    image_side: right
+    content: "The standard package includes one GA06L charging grip, three GL/GR back-button sets, one USB-C cable and one user manual. Joy-Con 2 controllers and an external power source are not included.\n\nUse the grip with detached Joy-Con 2 controllers for tabletop or TV-mode play. It is not a power bank or a console-mounted handheld charging attachment. Confirm the final configuration before ordering."
 
 specs:
   - label: "Graphic Customization"

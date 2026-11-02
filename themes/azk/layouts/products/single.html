@@ -4,12 +4,13 @@
 {{ $inquiryURL := printf "%s?product=%s#contact" (relLangURL "/") ($page.Title | urlquery) }}
 {{ $isFocus := in (slice "GA05" "GA06L" "GA06P") $page.Title }}
 {{ $isControllerFocus := in (slice "G17" "G1" "G2" "G6 Pro" "G7") $page.Title }}
+{{ $isVisualStory := in (slice "G2" "GA06L") $page.Title }}
 {{ $category := partial "product-category.html" $page }}
 {{ $unbrandedSample := or (eq $category "accessories") (in (slice "G17" "G9" "G3") $page.Title) }}
 {{ with .Params }}
 
 <!-- Product Hero -->
-<section class="product-hero{{ if eq $page.Title "G2" }} product-hero-g2{{ end }}">
+<section class="product-hero{{ if $isVisualStory }} product-hero-visual{{ end }}{{ if eq $page.Title "GA06L" }} product-hero-accessory{{ end }}">
   {{ with .hero.image }}
   <div class="product-hero-bg">
     <img src="{{ . | relURL }}" alt="{{ $page.Title }} {{ $page.Params.tagline }}" {{ partial "image-dimensions.html" . | safeHTMLAttr }} fetchpriority="high" decoding="async">
@@ -20,6 +21,7 @@
     {{ with .hero.badge }}<span class="badge">{{ . }}</span>{{ end }}
     <h1 class="product-hero-title" data-aos="fade-up">{{ .title }}</h1>
     <p class="product-hero-tagline" data-aos="fade-up" data-aos-delay="150">{{ .tagline }}</p>
+    {{ with .hero.note }}<p class="product-hero-note">{{ . }}</p>{{ end }}
     <div class="product-hero-actions">
       <a href="{{ $inquiryURL }}" class="btn btn-primary">{{ i18n "request_pricing" }}</a>
       <a href="#specs" class="btn btn-dark-outline">{{ i18n "view_full_specs" }}</a>
@@ -124,13 +126,14 @@
 <section class="product-details section">
   <div class="container">
     {{ range $index, $section := . }}
-    <div class="product-row {{ if eq $section.image_side "left" }}product-row-reverse{{ end }}{{ if eq $page.Title "G2" }} product-row-wide{{ end }}" data-aos="fade-up">
+    <div class="product-row {{ if eq $section.image_side "left" }}product-row-reverse{{ end }}{{ if $isVisualStory }} product-row-wide{{ end }}" data-aos="fade-up">
       <div class="product-image">
         <img src="{{ $section.image | relURL }}" alt="{{ $section.title }}" {{ partial "image-dimensions.html" $section.image | safeHTMLAttr }} loading="lazy" decoding="async">
       </div>
       <div class="product-info">
         <h2 class="product-title">{{ $section.title }}</h2>
         {{ range split $section.content "\n\n" }}{{ with strings.TrimSpace . }}<p>{{ . }}</p>{{ end }}{{ end }}
+        {{ with $section.caption }}<p class="product-sample-note">{{ . }}</p>{{ end }}
       </div>
     </div>
     {{ end }}
