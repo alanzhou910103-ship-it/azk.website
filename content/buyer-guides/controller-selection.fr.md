@@ -4,11 +4,29 @@ seo_title: "Guide B2B des manettes G17, G1, G2, G6 Pro et G7"
 description: "Choisissez parmi les manettes G17, G1, G2, G6 Pro et G7 d’INT-ROCK selon la plateforme, les fonctions et le positionnement de votre gamme."
 layout: "buyer-guide"
 date: 2026-10-17
+lastmod: 2026-11-02
 guide_image: "images/g17/hero.webp"
 guide_image_alt: "Manette sans fil G17 vue de face"
 ---
 
 La bonne manette dépend de la plateforme, du public et du positionnement de votre gamme. Ces cinq modèles répondent à des besoins distincts. Consultez la fiche de chacun pour la configuration complète et confirmez la version retenue avant de la présenter ou de la commander.
+
+## Comparaison rapide pour votre sélection
+
+Sur mobile, faites défiler le tableau horizontalement. Ouvrez chaque modèle pour consulter sa fiche complète.
+
+<div class="grip-comparison" role="region" aria-label="Comparaison rapide pour votre sélection" tabindex="0">
+<table>
+<caption>Comparaison rapide pour votre sélection</caption>
+<thead><tr><th scope="col">Modèle</th><th scope="col">Différence principale</th><th scope="col">À confirmer avant commande</th></tr></thead>
+<tbody>
+<tr><th scope="row"><a href="/fr/products/g17/">G17</a></th><td>Joysticks à effet Hall ; quatre boutons arrière programmables ; audio intégré</td><td>Fonctions requises sur chaque plateforme</td></tr>
+<tr><th scope="row"><a href="/fr/products/g1/">G1</a></th><td>Joysticks TMR ; ABXY à micro-interrupteur ; gâchettes à deux modes</td><td>Modes de connexion et contenu final</td></tr>
+<tr><th scope="row"><a href="/fr/products/g2/">G2</a></th><td>Joysticks TMR ; affichage de batterie ; disposition des boutons permutable</td><td>Station de charge en option, non incluse de série</td></tr>
+<tr><th scope="row"><a href="/fr/products/g6-pro/">G6 Pro</a></th><td>Joysticks à effet Hall ; Bluetooth, 2,4 GHz et filaire</td><td>Récepteur en option ; pas de sortie de veille de la Switch 2</td></tr>
+<tr><th scope="row"><a href="/fr/products/g7/">G7</a></th><td>ABXY à micro-interrupteur ; jusqu’à 1000 Hz en filaire / 2,4 GHz</td><td>1000 Hz ne concerne pas le Bluetooth ; confirmer le récepteur</td></tr>
+</tbody></table>
+</div>
 
 ## Partez de l’usage de vos clients
 
@@ -36,4 +54,4 @@ La [G7](/fr/products/g7/) s’adresse aux acheteurs recherchant des boutons ABXY
 
 Indiquez les modèles à comparer, le marché visé, la quantité estimée, votre fourchette de prix cible et vos besoins de marquage ou d’emballage. Nous confirmerons les possibilités d’échantillonnage, la configuration exacte, la quantité minimale et le délai pour votre projet. Consultez aussi le [guide des échantillons et de la personnalisation](/fr/buyer-guides/samples-customization/).
 
-[Demander tarifs et échantillons](/fr/#contact) ou voir [toutes les manettes](/fr/controllers/).
+[Demander tarifs et échantillons](/fr/?product=G17%20G1%20G2%20G6-PRO%20G7#contact) ou voir [toutes les manettes](/fr/controllers/).
