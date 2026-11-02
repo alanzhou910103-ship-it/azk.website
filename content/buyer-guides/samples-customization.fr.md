@@ -4,11 +4,40 @@ seo_title: "Guide B2B des échantillons et de la marque privée"
 description: "Découvrez quels produits INT-ROCK peuvent être échantillonnés sans marque, quand envisager la personnalisation et quelles informations fournir pour un devis."
 layout: "buyer-guide"
 date: 2026-10-17
+lastmod: 2026-11-02
 guide_image: "images/cards/g2.webp"
 guide_image_alt: "Manette sans fil G2 illustrant la sélection d’un produit"
 ---
 
 Pour obtenir un premier devis utile, précisez le modèle exact et le type d’échantillon souhaité. Un échantillon d’évaluation, un échantillon sans marque et une production à votre marque correspondent à trois demandes distinctes.
+
+<h2 id="ordering-faq">Questions sur les commandes et les expéditions</h2>
+
+Les petites commandes en gros, la marque propre et le dropshipping correspondent à des services différents. Consultez les options avant de demander un devis.
+
+### Puis-je commencer avec 5 ou 10 unités ?
+
+Oui. Nous acceptons les petites commandes en gros de 5 ou 10 unités. Les produits portent le logo et sont fournis dans l’emballage de la marque d’usine, sans personnalisation. Confirmez le modèle et la disponibilité lors de votre demande de devis.
+
+### Pouvez-vous expédier chaque commande directement à mes clients aux États-Unis ?
+
+Nous ne proposons actuellement pas de dropshipping aux particuliers aux États-Unis. Pour les petites commandes en gros, vous organisez les livraisons à vos clients. Nous pourrions envisager ce service avec un futur entrepôt local, mais aucun calendrier n’est confirmé.
+
+### Ma boutique Shopify peut-elle vous transmettre automatiquement les commandes à expédier ?
+
+Nous ne proposons actuellement pas d’intégration Shopify pour le traitement automatique des commandes de dropshipping. Cette option serait étudiée avec un futur entrepôt aux États-Unis ; elle n’est pas disponible aujourd’hui.
+
+### Puis-je apposer ma marque sur les produits et l’emballage ?
+
+La personnalisation de marque est disponible à partir de 500 unités par modèle. Confirmez l’emplacement du logo, le visuel, les spécifications d’emballage et les coûts avant la production. Cette quantité s’applique à chaque modèle, et non au total de plusieurs modèles.
+
+### Un emballage neutre est-il disponible pour les petites commandes ?
+
+Les petites commandes en gros sont fournies dans l’emballage de la marque d’usine. L’emballage neutre ou à votre marque n’est pas l’option standard pour 5 ou 10 unités. Les échantillons d’évaluation sans logo de certains modèles relèvent d’un accord distinct ; consultez les détails ci-dessous.
+
+### Quels sont les frais et délais d’expédition vers les États-Unis ?
+
+Pour les commandes en gros livrées à votre adresse de réception, le fret maritime peut être plus économique ; l’express coûte généralement plus cher. Nous pouvons consulter les services adaptés, dont 4PX le cas échéant. Envoyez le modèle, la quantité et le code postal pour un devis avec délai estimé. Les coûts et délais dépendent de l’envoi et de l’itinéraire ; aucun tarif unique ne s’applique à tout le catalogue.
 
 ## Quels échantillons peuvent être sans marque ?
 
