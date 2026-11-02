@@ -53,7 +53,7 @@ other = "Packaging Customization"
 [other_cooperation]
 other = "Other Cooperation"
 [estimated_quantity]
-other = "Estimated Quantity"
+other = "Estimated Quantity per Model"
 [requirements_placeholder]
 other = "Tell us about your product requirements, target price, or reference model..."
 [send_inquiry]
@@ -201,3 +201,21 @@ other = "Shopping for yourself?"
 other = "For individual purchases. Wholesale terms are quoted separately."
 [ordering_faq]
 other = "Ordering & shipping FAQ"
+
+[purchase_type]
+other = "Purchase Type"
+
+[small_wholesale]
+other = "Small Wholesale — Factory Brand"
+
+[private_label_order]
+other = "Own Brand — 500+ Units per Model"
+
+[delivery_postcode]
+other = "Delivery ZIP / Postal Code (Optional)"
+
+[purchase_policy]
+other = "Small wholesale: 5 or 10 units with factory logo and packaging. Own-brand products and packaging: from 500 units per model. Confirm availability and project details."
+
+[form_purchase_policy]
+other = "Small orders use factory branding and packaging; own-brand orders start at 500 units per model. We do not currently offer U.S. dropshipping or automated Shopify dropshipping fulfillment."
