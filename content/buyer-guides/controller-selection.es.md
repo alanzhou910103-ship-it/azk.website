@@ -4,11 +4,29 @@ seo_title: "Guía B2B de mandos G17, G1, G2, G6 Pro y G7"
 description: "Elija entre los mandos G17, G1, G2, G6 Pro y G7 de INT-ROCK según la plataforma, las funciones y el posicionamiento de su catálogo."
 layout: "buyer-guide"
 date: 2026-10-17
+lastmod: 2026-11-02
 guide_image: "images/g17/hero.webp"
 guide_image_alt: "Mando inalámbrico G17 visto de frente"
 ---
 
 El mando adecuado depende de la plataforma, el cliente y el posicionamiento de su gama. Estos cinco modelos responden a necesidades distintas. Consulte la ficha de cada uno para ver la configuración completa y confirme la versión elegida antes de publicarla o pedirla.
+
+## Comparación rápida para su selección
+
+En el móvil, deslice la tabla horizontalmente. Abra cada modelo para consultar su ficha completa.
+
+<div class="grip-comparison" role="region" aria-label="Comparación rápida para su selección" tabindex="0">
+<table>
+<caption>Comparación rápida para su selección</caption>
+<thead><tr><th scope="col">Modelo</th><th scope="col">Diferencia principal</th><th scope="col">Confirmar antes del pedido</th></tr></thead>
+<tbody>
+<tr><th scope="row"><a href="/es/products/g17/">G17</a></th><td>Joysticks Hall Effect; cuatro botones traseros programables; audio integrado</td><td>Funciones necesarias en cada plataforma</td></tr>
+<tr><th scope="row"><a href="/es/products/g1/">G1</a></th><td>Joysticks TMR; ABXY de microinterruptor; gatillos de doble modo</td><td>Modos de conexión y contenido final</td></tr>
+<tr><th scope="row"><a href="/es/products/g2/">G2</a></th><td>Joysticks TMR; pantalla de batería; disposición de botones intercambiable</td><td>Base de carga opcional, no incluida de serie</td></tr>
+<tr><th scope="row"><a href="/es/products/g6-pro/">G6 Pro</a></th><td>Joysticks Hall Effect; Bluetooth, 2,4 GHz y cable</td><td>Receptor opcional; sin activación de Switch 2</td></tr>
+<tr><th scope="row"><a href="/es/products/g7/">G7</a></th><td>ABXY de microinterruptor; hasta 1000 Hz por cable / 2,4 GHz</td><td>1000 Hz no se aplica a Bluetooth; confirmar receptor</td></tr>
+</tbody></table>
+</div>
 
 ## Empiece por el uso previsto
 
@@ -36,4 +54,4 @@ Elija [G17](/es/products/g17/) si necesita un mando compatible con PS5. Su ficha
 
 Envíe los modelos que desea comparar, el mercado de destino, la cantidad estimada, su rango de precio objetivo y los requisitos de marca o embalaje. Confirmaremos las opciones de muestra, la configuración exacta, la cantidad mínima y el plazo para su proyecto. Consulte también la [guía de muestras y personalización](/es/buyer-guides/samples-customization/).
 
-[Solicitar precios y muestras](/es/#contact) o ver [todos los mandos](/es/controllers/).
+[Solicitar precios y muestras](/es/?product=G17%20G1%20G2%20G6-PRO%20G7#contact) o ver [todos los mandos](/es/controllers/).
