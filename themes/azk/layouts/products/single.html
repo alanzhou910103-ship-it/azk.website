@@ -74,7 +74,7 @@
 <section class="colors section" id="colors">
   <div class="container">
     <h2 class="section-title" data-aos="fade-up">{{ .title }}</h2>
-    <div class="colors-grid">
+    <div class="colors-grid{{ if eq (len .variants) 4 }} colors-grid-four{{ end }}">
       {{ range .variants }}
       <div class="color-card" data-aos="fade-up">
         <div class="color-image">

@@ -441,6 +441,7 @@ a:hover { color: var(--accent-dim); }
 .color-image img { width: 100%; height: 100%; object-fit: contain; padding: 20px; }
 .color-card:hover .color-image { border-color: var(--accent); }
 .color-name { margin-top: 16px; font-size: 1rem; }
+.colors-grid-four { grid-template-columns: repeat(4, minmax(0, 1fr)); max-width: 1200px; }
 
 /* --- Highlights (same grid as features) --- */
 .highlights { text-align: center; }
@@ -633,6 +634,8 @@ a:hover { color: var(--accent-dim); }
   .trust-item { font-size: 0.8rem; }
   .features-grid { grid-template-columns: 1fr; }
   .colors-grid { grid-template-columns: 1fr; max-width: 300px; }
+  .colors-grid-four { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: none; gap: 24px 16px; }
+  .colors-grid-four .color-image img { padding: 8px; }
   .product-quick-specs-grid { grid-template-columns: 1fr; gap: 14px; }
   .product-quick-specs-grid > div { padding: 0 0 14px; border-right: 0; border-bottom: 1px solid var(--bg-dark-border); }
   .product-quick-specs-grid > div:last-child { padding-bottom: 0; border-bottom: 0; }
