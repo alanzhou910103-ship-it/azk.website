@@ -29,6 +29,20 @@
   </div>
 </section>
 
+
+{{ with .order_notice }}
+<section class="product-quick-specs" aria-labelledby="product-order-notice-title">
+  <div class="container">
+    <h2 id="product-order-notice-title">{{ .title }}</h2>
+    <p class="product-sample-note"><strong>{{ .text }}</strong></p>
+    <p class="product-sample-note">{{ .alternative }}</p>
+    <div class="product-quick-specs-actions">
+      <a href="{{ printf "%s?product=G3#contact" (relLangURL "/") }}">{{ .button }} →</a>
+    </div>
+  </div>
+</section>
+{{ end }}
+
 {{ with .specs }}
 {{ $quickSpecs := slice }}
 {{ range . }}
@@ -50,8 +64,10 @@
       {{ if not $isFocus }}<a href="{{ $inquiryURL }}">{{ i18n "request_pricing" }}</a>{{ end }}
       {{ if $isControllerFocus }}<a href="{{ relLangURL "/buyer-guides/controller-selection/" }}">{{ i18n "compare_controllers" }}</a>{{ end }}
     </div>
+    {{ if not $page.Params.order_notice }}
     <p class="product-sample-note">{{ i18n "purchase_policy" }} <a href="{{ relLangURL "/buyer-guides/samples-customization/" }}#ordering-faq">{{ i18n "ordering_faq" }} →</a></p>
     <p class="product-sample-note"><strong>{{ i18n "sample_options" }}</strong> {{ if $unbrandedSample }}{{ i18n "unbranded_sample_available" }}{{ else }}{{ i18n "branded_sample_bulk_private_label" }}{{ end }} <a href="{{ relLangURL "/buyer-guides/samples-customization/" }}">{{ i18n "sample_customization_guide" }} →</a></p>
+    {{ end }}
   </div>
 </section>
 {{ end }}
@@ -198,9 +214,9 @@
       <p>{{ i18n "b2b_text" }}</p>
     </div>
     <ul class="product-b2b-list">
-      <li><i class="fas fa-check"></i><span>{{ if and $isFocus (eq $page.Title "GA05") }}{{ i18n "ga05_small_orders" }}{{ else }}{{ i18n "b2b_moq" }}{{ end }}</span></li>
+      <li><i class="fas fa-check"></i><span>{{ if and $isFocus (eq $page.Title "GA05") }}{{ i18n "ga05_small_orders" }}{{ else if $page.Params.order_notice }}{{ $page.Params.order_notice.text }}{{ else }}{{ i18n "b2b_moq" }}{{ end }}</span></li>
       <li><i class="fas fa-check"></i><span>{{ i18n "b2b_customization" }}</span></li>
-      <li><i class="fas fa-check"></i><span>{{ i18n "b2b_samples" }}</span></li>
+      {{ if not $page.Params.order_notice }}<li><i class="fas fa-check"></i><span>{{ i18n "b2b_samples" }}</span></li>{{ end }}
       <li><i class="fas fa-check"></i><span>{{ i18n "b2b_tooling" }}</span></li>
     </ul>
   </div>
@@ -249,6 +265,7 @@
   <div class="container">
     <div class="cta-card" data-aos="fade-up">
       <h2>{{ .title }}</h2>
+      {{ with $page.Params.order_notice }}<p>{{ .text }}</p>{{ end }}
       <a href="{{ $inquiryURL }}" class="btn btn-primary btn-lg">{{ .button_label }}</a>
     </div>
   </div>
