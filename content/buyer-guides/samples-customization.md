@@ -29,7 +29,7 @@ We do not currently provide a Shopify integration for automated dropshipping ful
 
 ### Can I use my own brand on the products and packaging?
 
-Custom branding is available from 500 units per model. Confirm the logo placement, artwork, packaging specification and costs before production. This quantity is per model, not a combined total across different models.
+Custom branding is available from 500 units per model. Confirm the logo placement, artwork, packaging specification and costs before production. This quantity is per model, not a combined total across different models. G1, G2, G6 Pro and G7 all use the same minimum of **500 units per model** for own-brand customization.
 
 ### Is neutral packaging available for small orders?
 
@@ -51,6 +51,14 @@ Please include:
 If you use a freight forwarder in mainland China, we can send the samples to that forwarder. Provide the forwarder's mainland China receiving address, contact details and any required shipment reference; your overseas delivery address is not needed for this domestic shipment.
 
 Sample availability and order requirements depend on the model. Confirm the sample price, shipping cost and dispatch timing when requesting a quotation.
+
+## When will evaluation samples be dispatched?
+
+Evaluation samples of **G1, G2, G6 Pro and G7 are usually dispatched within 2 days after payment**. This is the time before shipment, not the delivery time to your address. Confirm availability and the shipping arrangement with your quotation.
+
+<h2 id="controller-warranty">Warranty and replacement support</h2>
+
+**G1, G2, G6 Pro and G7 have a 12-month warranty starting from the date you receive the products.** For a quality issue, provide a clear video showing the fault so we can review it. Once the quality issue is confirmed, we arrange replacement shipment. This replacement process applies to both evaluation samples and bulk orders.
 
 ## Which samples can be unbranded?
 

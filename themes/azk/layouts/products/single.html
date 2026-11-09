@@ -214,10 +214,16 @@
       <p>{{ i18n "b2b_text" }}</p>
     </div>
     <ul class="product-b2b-list">
+      {{ if in (slice "G1" "G2" "G6 Pro" "G7") $page.Title }}
+      <li><i class="fas fa-check"></i><span>{{ i18n "confirmed_sample_dispatch" }}</span></li>
+      <li><i class="fas fa-check"></i><span>{{ i18n "confirmed_brand_moq" }}</span></li>
+      <li><i class="fas fa-check"></i><span>{{ i18n "confirmed_warranty" }} <a href="{{ relLangURL "/buyer-guides/samples-customization/" }}#controller-warranty">{{ i18n "warranty_details" }} →</a></span></li>
+      {{ else }}
       <li><i class="fas fa-check"></i><span>{{ if and $isFocus (eq $page.Title "GA05") }}{{ i18n "ga05_small_orders" }}{{ else if $page.Params.order_notice }}{{ $page.Params.order_notice.text }}{{ else }}{{ i18n "b2b_moq" }}{{ end }}</span></li>
       <li><i class="fas fa-check"></i><span>{{ i18n "b2b_customization" }}</span></li>
       {{ if not $page.Params.order_notice }}<li><i class="fas fa-check"></i><span>{{ i18n "b2b_samples" }}</span></li>{{ end }}
       <li><i class="fas fa-check"></i><span>{{ i18n "b2b_tooling" }}</span></li>
+      {{ end }}
     </ul>
   </div>
 </section>

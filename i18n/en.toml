@@ -219,3 +219,12 @@ other = "Small wholesale: 5 or 10 units with factory logo and packaging. Own-bra
 
 [form_purchase_policy]
 other = "Small orders use factory branding and packaging; own-brand orders start at 500 units per model. We do not currently offer U.S. dropshipping or automated Shopify dropshipping fulfillment."
+
+[confirmed_sample_dispatch]
+other = "Samples usually dispatched within 2 days after payment; transit time is additional."
+[confirmed_brand_moq]
+other = "Own-brand customization for G1, G2, G6 Pro and G7: from 500 units per model."
+[confirmed_warranty]
+other = "12-month warranty from receipt; provide a clear fault video for replacement review."
+[warranty_details]
+other = "Warranty details"

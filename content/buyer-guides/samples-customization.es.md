@@ -29,7 +29,7 @@ Actualmente no ofrecemos una integración de Shopify para gestionar automáticam
 
 ### ¿Puedo utilizar mi marca en los productos y el embalaje?
 
-La personalización de marca está disponible a partir de 500 unidades por modelo. Confirme la ubicación del logotipo, el diseño, las especificaciones del embalaje y los costes antes de producir. Son 500 unidades de cada modelo, no una suma de modelos diferentes.
+La personalización de marca está disponible a partir de 500 unidades por modelo. Confirme la ubicación del logotipo, el diseño, las especificaciones del embalaje y los costes antes de producir. Son 500 unidades de cada modelo, no una suma de modelos diferentes. G1, G2, G6 Pro y G7 comparten el mismo mínimo de **500 unidades por modelo** para personalización de marca.
 
 ### ¿Hay embalaje neutro para pedidos pequeños?
 
@@ -51,6 +51,14 @@ Incluya estos datos:
 Si trabaja con un transitario en China continental, podemos enviarle las muestras directamente. Facilite la dirección de recepción en China continental, los datos de contacto y cualquier referencia que solicite el transitario; no necesitamos su dirección en el extranjero para este envío nacional.
 
 La disponibilidad de muestras y las condiciones del pedido dependen del modelo. Confirme el precio de las muestras, el coste del envío y el plazo de expedición al solicitar presupuesto.
+
+## ¿Cuándo se expiden las muestras de evaluación?
+
+Las muestras de evaluación de **G1, G2, G6 Pro y G7 suelen expedirse en un plazo de 2 días tras el pago**. Es el plazo de preparación antes del envío, no el tiempo de entrega a su dirección. Confirme la disponibilidad y el transporte al solicitar presupuesto.
+
+<h2 id="controller-warranty">Garantía y sustitución</h2>
+
+**G1, G2, G6 Pro y G7 tienen una garantía de 12 meses desde la fecha de recepción de los productos.** Si detecta un problema de calidad, facilite un vídeo claro que muestre el fallo para que podamos revisarlo. Una vez confirmado el problema de calidad, organizamos el envío de sustitución. Este proceso se aplica tanto a muestras de evaluación como a pedidos en volumen.
 
 ## ¿Qué muestras pueden venir sin marca?
 

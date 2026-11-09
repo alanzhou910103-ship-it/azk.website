@@ -29,7 +29,7 @@ Atualmente não oferecemos integração com Shopify para atendimento automático
 
 ### Posso colocar minha marca nos produtos e na embalagem?
 
-A personalização de marca está disponível a partir de 500 unidades por modelo. Confirme a posição do logotipo, a arte, as especificações da embalagem e os custos antes da produção. A quantidade é por modelo, não a soma de modelos diferentes.
+A personalização de marca está disponível a partir de 500 unidades por modelo. Confirme a posição do logotipo, a arte, as especificações da embalagem e os custos antes da produção. A quantidade é por modelo, não a soma de modelos diferentes. G1, G2, G6 Pro e G7 têm o mesmo mínimo de **500 unidades por modelo** para personalização de marca.
 
 ### Há embalagem neutra para pedidos pequenos?
 
@@ -51,6 +51,14 @@ Informe:
 Se você utiliza um agente de cargas na China continental, podemos enviar as amostras diretamente para ele. Informe o endereço de recebimento na China continental, os dados de contato e qualquer referência exigida pelo agente; seu endereço no exterior não é necessário para esse envio doméstico.
 
 A disponibilidade de amostras e as condições do pedido dependem do modelo. Confirme o preço das amostras, o frete e o prazo de despacho ao solicitar a cotação.
+
+## Quando as amostras para avaliação são despachadas?
+
+As amostras para avaliação de **G1, G2, G6 Pro e G7 geralmente são despachadas em até 2 dias após o pagamento**. Esse é o prazo de preparação antes do envio, não o prazo de entrega ao seu endereço. Confirme a disponibilidade e o transporte ao solicitar a cotação.
+
+<h2 id="controller-warranty">Garantia e reposição</h2>
+
+**G1, G2, G6 Pro e G7 têm garantia de 12 meses a partir da data de recebimento dos produtos.** Em caso de problema de qualidade, envie um vídeo claro mostrando o defeito para análise. Após a confirmação do problema de qualidade, organizamos o envio de reposição. Esse processo se aplica tanto às amostras para avaliação quanto aos pedidos em volume.
 
 ## Quais amostras podem vir sem marca?
 

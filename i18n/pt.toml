@@ -219,3 +219,12 @@ other = "Atacado de 5 ou 10 unidades com logotipo e embalagem de fábrica. Produ
 
 [form_purchase_policy]
 other = "Pedidos pequenos usam marca e embalagem de fábrica; marca própria a partir de 500 unidades por modelo. Atualmente não oferecemos dropshipping nos Estados Unidos nem atendimento automático de dropshipping com Shopify."
+
+[confirmed_sample_dispatch]
+other = "As amostras geralmente são despachadas em até 2 dias após o pagamento; o transporte leva tempo adicional."
+[confirmed_brand_moq]
+other = "Personalização de marca para G1, G2, G6 Pro e G7: a partir de 500 unidades por modelo."
+[confirmed_warranty]
+other = "Garantia de 12 meses a partir do recebimento; envie um vídeo claro do defeito para análise da reposição."
+[warranty_details]
+other = "Detalhes da garantia"

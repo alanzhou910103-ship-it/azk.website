@@ -29,7 +29,7 @@ Nous ne proposons actuellement pas d’intégration Shopify pour le traitement a
 
 ### Puis-je apposer ma marque sur les produits et l’emballage ?
 
-La personnalisation de marque est disponible à partir de 500 unités par modèle. Confirmez l’emplacement du logo, le visuel, les spécifications d’emballage et les coûts avant la production. Cette quantité s’applique à chaque modèle, et non au total de plusieurs modèles.
+La personnalisation de marque est disponible à partir de 500 unités par modèle. Confirmez l’emplacement du logo, le visuel, les spécifications d’emballage et les coûts avant la production. Cette quantité s’applique à chaque modèle, et non au total de plusieurs modèles. Les G1, G2, G6 Pro et G7 ont tous un minimum de **500 unités par modèle** pour la personnalisation de marque.
 
 ### Un emballage neutre est-il disponible pour les petites commandes ?
 
@@ -51,6 +51,14 @@ Veuillez préciser :
 Si vous travaillez avec un transitaire en Chine continentale, nous pouvons lui envoyer directement les échantillons. Indiquez son adresse de réception en Chine continentale, ses coordonnées et toute référence demandée ; votre adresse à l’étranger n’est pas nécessaire pour cet envoi intérieur.
 
 La disponibilité des échantillons et les conditions de commande dépendent du modèle. Confirmez le prix des échantillons, les frais de transport et le délai d’expédition lors de votre demande de devis.
+
+## Quand les échantillons d’évaluation sont-ils expédiés ?
+
+Les échantillons d’évaluation des **G1, G2, G6 Pro et G7 sont généralement expédiés sous 2 jours après paiement**. Il s’agit du délai de préparation avant expédition, et non du délai de livraison à votre adresse. Confirmez la disponibilité et le transport lors de votre demande de devis.
+
+<h2 id="controller-warranty">Garantie et remplacement</h2>
+
+**Les G1, G2, G6 Pro et G7 bénéficient d’une garantie de 12 mois à compter de la date de réception des produits.** En cas de problème de qualité, fournissez une vidéo claire montrant le défaut afin que nous puissions l’examiner. Après confirmation du problème de qualité, nous organisons l’envoi d’un remplacement. Cette procédure s’applique aux échantillons d’évaluation comme aux commandes en volume.
 
 ## Quels échantillons peuvent être sans marque ?
 
