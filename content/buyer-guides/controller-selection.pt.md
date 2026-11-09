@@ -11,6 +11,8 @@ guide_image_alt: "Controle sem fio G17 visto de frente"
 
 O controle ideal depende da plataforma, do público e do posicionamento da sua linha. Esses cinco modelos atendem a necessidades diferentes. Consulte a página de cada produto para a configuração completa e confirme a versão escolhida antes de anunciá-la ou fazer o pedido.
 
+G1, G2, G6 Pro e G7 são compatíveis com Switch 2, Switch, PC, dispositivos móveis e Steam Deck. Os quatro se conectam ao Steam Deck por Bluetooth. G1 e G2 também permitem despertar o Switch 2 do modo de repouso.
+
 ## Comparação rápida para sua seleção
 
 No celular, deslize a tabela na horizontal. Abra cada modelo para consultar a ficha completa.

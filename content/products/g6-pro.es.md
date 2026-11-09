@@ -46,7 +46,7 @@ sections:
 - title: Conectividad trimodo y multiplataforma
   image: "images/g6-pro/hero.webp"
   image_side: left
-  content: 'Conéctelo mediante Bluetooth 5.3, 2,4 GHz inalámbricos o USB-C con cable a dispositivos compatibles con Switch 2, Switch, PC, iOS, Android y Steam Deck. El receptor inalámbrico opcional no está incluido como estándar.
+  content: 'Conéctelo mediante Bluetooth 5.3, 2,4 GHz inalámbricos o USB-C con cable a dispositivos compatibles con Switch 2, Switch, PC, iOS, Android y Steam Deck (Bluetooth). El receptor inalámbrico opcional no está incluido como estándar.
 
 
     El G6 Pro es compatible con el juego Switch 2 pero no activa la consola Switch 2. Las funciones pueden variar por plataforma, juego y modo de conexión.'
@@ -74,7 +74,7 @@ specs:
 - label: Conectividad
   value: Bluetooth 5.3 / 2,4 GHz inalámbrico / USB-C cableado
 - label: Plataformas compatibles
-  value: Switch 2 / Switch / PC / Android / iOS / Steam Deck
+  value: Switch 2 / Switch / PC / Android / iOS / Steam Deck (Bluetooth)
 - label: Nota sobre Switch 2
   value: Compatible para el juego; no activa la consola
 - label: Botones traseros

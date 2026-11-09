@@ -11,6 +11,8 @@ guide_image_alt: "Manette sans fil G17 vue de face"
 
 La bonne manette dépend de la plateforme, du public et du positionnement de votre gamme. Ces cinq modèles répondent à des besoins distincts. Consultez la fiche de chacun pour la configuration complète et confirmez la version retenue avant de la présenter ou de la commander.
 
+Les G1, G2, G6 Pro et G7 sont compatibles avec Switch 2, Switch, PC, les appareils mobiles et Steam Deck. Ces quatre modèles se connectent au Steam Deck en Bluetooth. Les G1 et G2 permettent également de sortir la console Switch 2 de veille.
+
 ## Comparaison rapide pour votre sélection
 
 Sur mobile, faites défiler le tableau horizontalement. Ouvrez chaque modèle pour consulter sa fiche complète.

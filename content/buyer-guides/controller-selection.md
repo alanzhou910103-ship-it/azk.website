@@ -11,6 +11,8 @@ guide_image_alt: "G17 wireless controller shown from the front"
 
 The right controller is the one that matches your target platform, customer and retail positioning. These five models serve different briefs; use their product pages for the full configuration and confirm the selected version before listing or ordering.
 
+G1, G2, G6 Pro and G7 support Switch 2, Switch, PC, mobile devices and Steam Deck. These four models connect to Steam Deck via Bluetooth. G1 and G2 also support waking the Switch 2 console.
+
 ## Quick comparison for your shortlist
 
 On a phone, swipe the table sideways to compare. Open a model for its full specification.

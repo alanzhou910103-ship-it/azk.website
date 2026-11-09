@@ -11,6 +11,8 @@ guide_image_alt: "Mando inalámbrico G17 visto de frente"
 
 El mando adecuado depende de la plataforma, el cliente y el posicionamiento de su gama. Estos cinco modelos responden a necesidades distintas. Consulte la ficha de cada uno para ver la configuración completa y confirme la versión elegida antes de publicarla o pedirla.
 
+G1, G2, G6 Pro y G7 son compatibles con Switch 2, Switch, PC, dispositivos móviles y Steam Deck. Los cuatro se conectan a Steam Deck mediante Bluetooth. G1 y G2 también permiten activar la consola Switch 2 desde el modo de espera.
+
 ## Comparación rápida para su selección
 
 En el móvil, deslice la tabla horizontalmente. Abra cada modelo para consultar su ficha completa.
