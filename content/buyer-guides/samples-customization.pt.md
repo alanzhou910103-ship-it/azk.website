@@ -56,6 +56,12 @@ A disponibilidade de amostras e as condições do pedido dependem do modelo. Con
 
 As amostras para avaliação de **G1, G2, G6 Pro e G7 geralmente são despachadas em até 2 dias após o pagamento**. Esse é o prazo de preparação antes do envio, não o prazo de entrega ao seu endereço. Confirme a disponibilidade e o transporte ao solicitar a cotação.
 
+<h2 id="b2b-returns">Devoluções B2B de produtos sem defeito</h2>
+
+Em compras empresariais para revenda ou uso comercial, não aceitamos devoluções por arrependimento de produtos sem defeito. Vendas lentas, estoque não vendido, excesso de estoque ou mudanças nos planos de compra não são motivos para devolução. Devoluções internacionais envolvem procedimentos de importação complexos; confirme o modelo, as especificações e a quantidade antes de comprar.
+
+Defeitos de qualidade são tratados pelo processo de garantia e reposição descrito abaixo. Esta política B2B não limita direitos obrigatórios previstos na legislação aplicável.
+
 <h2 id="controller-warranty">Garantia e reposição</h2>
 
 **G1, G2, G6 Pro e G7 têm garantia de 12 meses a partir da data de recebimento dos produtos.** Envie um vídeo claro mostrando o defeito de qualidade para análise. Após a confirmação, não é necessário devolver o produto defeituoso. Nós arcamos com a reposição e seu frete, e **enviamos a reposição junto com seu próximo pedido**. Não há envio separado imediato. Esse procedimento vale para amostras de avaliação e pedidos em volume.

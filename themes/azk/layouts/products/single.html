@@ -220,6 +220,7 @@
       <li><i class="fas fa-check"></i><span>{{ i18n "confirmed_production_lead" }}</span></li>
       <li><i class="fas fa-check"></i><span>{{ i18n "confirmed_bulk_payment" }}</span></li>
       <li><i class="fas fa-check"></i><span>{{ i18n "confirmed_warranty" }} <a href="{{ relLangURL "/buyer-guides/samples-customization/" }}#controller-warranty">{{ i18n "warranty_details" }} →</a></span></li>
+      <li><i class="fas fa-info-circle"></i><span>{{ i18n "b2b_returns_note" }} <a href="{{ relLangURL "/buyer-guides/samples-customization/" }}#b2b-returns">{{ i18n "return_policy_details" }} →</a></span></li>
       {{ else }}
       <li><i class="fas fa-check"></i><span>{{ if and $isFocus (eq $page.Title "GA05") }}{{ i18n "ga05_small_orders" }}{{ else if $page.Params.order_notice }}{{ $page.Params.order_notice.text }}{{ else }}{{ i18n "b2b_moq" }}{{ end }}</span></li>
       <li><i class="fas fa-check"></i><span>{{ i18n "b2b_customization" }}</span></li>

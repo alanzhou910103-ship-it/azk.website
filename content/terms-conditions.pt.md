@@ -1,6 +1,7 @@
 ---
 title: Termos e condições
 description: Termos e condições da int-rock sobre o uso do site e as relações comerciais.
+lastmod: 2026-11-09
 draft: false
 ---
 
@@ -8,7 +9,7 @@ draft: false
 
 ## Termos e condições
 
-**Data de vigência:** 10 de junho de 2026
+**Data de vigência:** 9 de novembro de 2026
 
 Boas-vindas à int-rock. Ao acessar e usar [int-rock.com](https://int-rock.com), você concorda com estes Termos e condições. Caso não concorde, deixe de usar o site.
 
@@ -42,6 +43,12 @@ Boas-vindas à int-rock. Ao acessar e usar [int-rock.com](https://int-rock.com),
 - O envio de um formulário de contato ou de uma consulta não constitui um pedido nem um contrato vinculante.
 - Os pedidos no atacado, os preços e as parcerias estão sujeitos a acordos escritos separados.
 - Os preços e a disponibilidade podem mudar sem aviso prévio.
+
+### 4.1 Devoluções B2B de produtos sem defeito
+
+Em compras empresariais para revenda ou uso comercial, não aceitamos devoluções por arrependimento de produtos sem defeito. Vendas lentas, estoque não vendido, excesso de estoque ou mudanças nos planos de compra não são motivos para devolução. Devoluções internacionais envolvem procedimentos de importação complexos; confirme o modelo, as especificações e a quantidade antes de comprar.
+
+Para problemas de qualidade, consulte o [processo de garantia e reposição](/pt/buyer-guides/samples-customization/#controller-warranty). Esta política B2B não limita direitos obrigatórios previstos na legislação aplicável.
 
 ---
 

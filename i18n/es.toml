@@ -234,3 +234,9 @@ other = "Producción personalizada: normalmente 30–35 días tras el anticipo y
 
 [confirmed_bulk_payment]
 other = "Pago en volumen: 30 % de anticipo; 70 % tras la inspección y antes del envío."
+
+[b2b_returns_note]
+other = "Pedidos B2B: no se aceptan devoluciones de productos sin defectos por ventas lentas, existencias sin vender o cambio de opinión."
+
+[return_policy_details]
+other = "Política de devoluciones B2B"

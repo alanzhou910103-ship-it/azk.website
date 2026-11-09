@@ -56,6 +56,12 @@ La disponibilité des échantillons et les conditions de commande dépendent du 
 
 Les échantillons d’évaluation des **G1, G2, G6 Pro et G7 sont généralement expédiés sous 2 jours après paiement**. Il s’agit du délai de préparation avant expédition, et non du délai de livraison à votre adresse. Confirmez la disponibilité et le transport lors de votre demande de devis.
 
+<h2 id="b2b-returns">Retours B2B de produits sans défaut</h2>
+
+Pour les achats professionnels destinés à la revente ou à un usage commercial, nous n’acceptons pas les retours de produits sans défaut pour changement d’avis. Des ventes insuffisantes, des invendus, un excédent de stock ou un changement de projet d’achat ne justifient pas un retour. Les retours internationaux impliquent des formalités d’importation complexes ; confirmez le modèle, les spécifications et la quantité avant de commander.
+
+Les défauts de qualité sont traités selon la procédure de garantie et de remplacement décrite ci-dessous. Cette politique B2B ne limite pas les droits impératifs prévus par la législation applicable.
+
 <h2 id="controller-warranty">Garantie et remplacement</h2>
 
 **Les G1, G2, G6 Pro et G7 bénéficient d’une garantie de 12 mois à compter de la réception des produits.** Fournissez une vidéo claire montrant le défaut de qualité pour examen. Une fois le défaut confirmé, le retour du produit défectueux n’est pas nécessaire. Nous prenons en charge le remplacement et son transport, et **expédions le remplacement avec votre prochaine commande**. Il n’y a pas d’expédition séparée immédiate. Cette procédure s’applique aux échantillons d’évaluation et aux commandes en volume.

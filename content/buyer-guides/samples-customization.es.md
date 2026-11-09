@@ -56,6 +56,12 @@ La disponibilidad de muestras y las condiciones del pedido dependen del modelo. 
 
 Las muestras de evaluación de **G1, G2, G6 Pro y G7 suelen expedirse en un plazo de 2 días tras el pago**. Es el plazo de preparación antes del envío, no el tiempo de entrega a su dirección. Confirme la disponibilidad y el transporte al solicitar presupuesto.
 
+<h2 id="b2b-returns">Devoluciones B2B de productos sin defectos</h2>
+
+En compras empresariales para reventa o uso comercial, no aceptamos devoluciones por cambio de opinión de productos sin defectos. Las ventas lentas, las existencias sin vender, el exceso de inventario o un cambio en los planes de compra no son motivos de devolución. Las devoluciones internacionales implican trámites de importación complejos; confirme el modelo, las especificaciones y la cantidad antes de pedir.
+
+Los fallos de calidad se tramitan mediante el procedimiento de garantía y sustitución que se describe a continuación. Esta política B2B no limita los derechos imperativos establecidos por la legislación aplicable.
+
 <h2 id="controller-warranty">Garantía y sustitución</h2>
 
 **G1, G2, G6 Pro y G7 tienen una garantía de 12 meses desde la fecha de recepción de los productos.** Facilite un vídeo claro que muestre el fallo de calidad para su revisión. Una vez confirmado, no es necesario devolver el producto defectuoso. Asumimos el coste de la sustitución y su envío, y **enviamos la reposición junto con su próximo pedido**. No se realiza un envío separado inmediato. Este procedimiento se aplica a muestras de evaluación y pedidos en volumen.

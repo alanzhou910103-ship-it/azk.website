@@ -234,3 +234,9 @@ other = "Produção personalizada: geralmente 30–35 dias após a entrada e a a
 
 [confirmed_bulk_payment]
 other = "Pagamento em volume: 30% de entrada; 70% após a inspeção e antes do embarque."
+
+[b2b_returns_note]
+other = "Pedidos B2B: não aceitamos devoluções de produtos sem defeito por vendas lentas, estoque não vendido ou arrependimento."
+
+[return_policy_details]
+other = "Política de devoluções B2B"

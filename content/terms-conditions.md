@@ -1,12 +1,13 @@
 ---
 title: "Terms & Conditions"
 description: "int-rock Terms & Conditions — website usage and business terms."
+lastmod: 2026-11-09
 draft: false
 ---
 
 ## Terms & Conditions
 
-**Effective Date:** June 10, 2026
+**Effective Date:** November 9, 2026
 
 Welcome to int-rock. By accessing and using [int-rock.com](https://int-rock.com), you agree to be bound by the following Terms & Conditions. If you do not agree, please discontinue use of this website.
 
@@ -40,6 +41,12 @@ Welcome to int-rock. By accessing and using [int-rock.com](https://int-rock.com)
 - Submitting a contact form or inquiry does not constitute a binding order or contract.
 - All wholesale orders, pricing, and partnerships are subject to separate written agreements.
 - Pricing and availability are subject to change without notice.
+
+### 4.1 B2B returns of non-defective goods
+
+For business purchases for resale or commercial use, we do not accept change-of-mind returns of non-defective goods. Slow sales, unsold stock, excess inventory or a change in purchasing plans are not grounds for a return. Cross-border returns involve complex import procedures, so please confirm the model, specifications and quantity before ordering.
+
+For quality issues, see our [warranty and replacement process](/buyer-guides/samples-customization/#controller-warranty). This B2B policy does not limit mandatory rights under applicable law.
 
 ---
 

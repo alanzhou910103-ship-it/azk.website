@@ -234,3 +234,9 @@ other = "Production personnalisée : généralement 30–35 jours après acompte
 
 [confirmed_bulk_payment]
 other = "Paiement en volume : acompte de 30 % ; solde de 70 % après inspection et avant expédition."
+
+[b2b_returns_note]
+other = "Commandes B2B : aucun retour de produits sans défaut pour ventes insuffisantes, invendus ou changement d’avis."
+
+[return_policy_details]
+other = "Politique de retour B2B"

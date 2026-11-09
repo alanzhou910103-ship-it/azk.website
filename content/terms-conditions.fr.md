@@ -1,6 +1,7 @@
 ---
 title: Conditions générales
 description: Conditions générales d’int-rock relatives à l’utilisation du site web et aux relations commerciales.
+lastmod: 2026-11-09
 draft: false
 ---
 
@@ -8,7 +9,7 @@ draft: false
 
 ## Conditions générales
 
-**Date d’entrée en vigueur :** 10 juin 2026
+**Date d’entrée en vigueur :** 9 novembre 2026
 
 Bienvenue sur le site d’int-rock. En accédant à [int-rock.com](https://int-rock.com) et en utilisant ce site, vous acceptez les présentes Conditions générales. Si vous ne les acceptez pas, veuillez cesser d’utiliser le site.
 
@@ -42,6 +43,12 @@ Bienvenue sur le site d’int-rock. En accédant à [int-rock.com](https://int-r
 - L’envoi d’un formulaire de contact ou d’une demande ne constitue ni une commande ni un contrat contraignant.
 - Les commandes en gros, les prix et les partenariats font l’objet d’accords écrits distincts.
 - Les prix et la disponibilité peuvent être modifiés sans préavis.
+
+### 4.1 Retours B2B de produits sans défaut
+
+Pour les achats professionnels destinés à la revente ou à un usage commercial, nous n’acceptons pas les retours de produits sans défaut pour changement d’avis. Des ventes insuffisantes, des invendus, un excédent de stock ou un changement de projet d’achat ne justifient pas un retour. Les retours internationaux impliquent des formalités d’importation complexes ; confirmez le modèle, les spécifications et la quantité avant de commander.
+
+Pour les problèmes de qualité, consultez notre [procédure de garantie et de remplacement](/fr/buyer-guides/samples-customization/#controller-warranty). Cette politique B2B ne limite pas les droits impératifs prévus par la législation applicable.
 
 ---
 

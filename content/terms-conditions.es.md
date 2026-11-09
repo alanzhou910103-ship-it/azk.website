@@ -1,6 +1,7 @@
 ---
 title: Términos y condiciones
 description: Términos y condiciones de int-rock sobre el uso del sitio web y las relaciones comerciales.
+lastmod: 2026-11-09
 draft: false
 ---
 
@@ -8,7 +9,7 @@ draft: false
 
 ## Términos y condiciones
 
-**Fecha de entrada en vigor:** 10 de junio de 2026
+**Fecha de entrada en vigor:** 9 de noviembre de 2026
 
 Le damos la bienvenida a int-rock. Al acceder a [int-rock.com](https://int-rock.com) y utilizar este sitio web, acepta los siguientes Términos y condiciones. Si no está de acuerdo con ellos, deje de utilizar el sitio.
 
@@ -42,6 +43,12 @@ Le damos la bienvenida a int-rock. Al acceder a [int-rock.com](https://int-rock.
 - El envío de un formulario de contacto o de una consulta no constituye un pedido ni un contrato vinculante.
 - Los pedidos al por mayor, los precios y las colaboraciones están sujetos a acuerdos escritos independientes.
 - Los precios y la disponibilidad pueden cambiar sin previo aviso.
+
+### 4.1 Devoluciones B2B de productos sin defectos
+
+En compras empresariales para reventa o uso comercial, no aceptamos devoluciones por cambio de opinión de productos sin defectos. Las ventas lentas, las existencias sin vender, el exceso de inventario o un cambio en los planes de compra no son motivos de devolución. Las devoluciones internacionales implican trámites de importación complejos; confirme el modelo, las especificaciones y la cantidad antes de pedir.
+
+Para problemas de calidad, consulte el [procedimiento de garantía y sustitución](/es/buyer-guides/samples-customization/#controller-warranty). Esta política B2B no limita los derechos imperativos establecidos por la legislación aplicable.
 
 ---
 

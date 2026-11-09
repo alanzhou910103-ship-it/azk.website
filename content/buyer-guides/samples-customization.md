@@ -56,6 +56,12 @@ Sample availability and order requirements depend on the model. Confirm the samp
 
 Evaluation samples of **G1, G2, G6 Pro and G7 are usually dispatched within 2 days after payment**. This is the time before shipment, not the delivery time to your address. Confirm availability and the shipping arrangement with your quotation.
 
+<h2 id="b2b-returns">B2B returns of non-defective goods</h2>
+
+For business purchases for resale or commercial use, we do not accept change-of-mind returns of non-defective goods. Slow sales, unsold stock, excess inventory or a change in purchasing plans are not grounds for a return. Cross-border returns involve complex import procedures, so please confirm the model, specifications and quantity before ordering.
+
+Quality faults are handled through the warranty and replacement process described below. This B2B policy does not limit mandatory rights under applicable law.
+
 <h2 id="controller-warranty">Warranty and replacement support</h2>
 
 **G1, G2, G6 Pro and G7 have a 12-month warranty from the date you receive the products.** Provide a clear video showing any quality fault for review. Once the quality issue is confirmed, the faulty product does not need to be returned. We cover the cost of replacement and its shipping, and **send the replacement together with your next order**. Replacements are not dispatched separately immediately. This process applies to evaluation samples and bulk orders.

@@ -692,6 +692,7 @@ a:hover { color: var(--accent-dim); }
 
 /* Accessible, horizontally scrollable buyer comparison on smaller screens. */
 .buyer-guide-page { padding-top: 54px; }
+.buyer-guide-page h2[id], .buyer-guide-page h3[id] { scroll-margin-top: 100px; }
 .buyer-guide-back { display: inline-block; margin-bottom: 22px; font-size: .88rem; font-weight: 700; }
 .buyer-guide-cover { display: flex; align-items: center; justify-content: center; max-width: 900px; height: clamp(220px, 36vw, 400px); margin: 28px 0 8px; overflow: hidden; border: 1px solid var(--bg-dark-border); border-radius: var(--radius-lg); background: radial-gradient(circle at 50% 48%, #1e3440, #0a1016 72%); }
 .buyer-guide-cover img { width: 100%; height: 100%; object-fit: contain; }

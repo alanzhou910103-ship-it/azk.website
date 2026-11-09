@@ -234,3 +234,9 @@ other = "Custom production: usually 30–35 days after deposit and sample/artwor
 
 [confirmed_bulk_payment]
 other = "Bulk payment: 30% deposit; 70% after inspection and before shipment."
+
+[b2b_returns_note]
+other = "B2B orders: no returns of non-defective goods for slow sales, unsold stock or a change of mind."
+
+[return_policy_details]
+other = "B2B return policy"
