@@ -223,7 +223,7 @@ other = "Les petites commandes utilisent la marque et l’emballage d’usine ; 
 [confirmed_sample_dispatch]
 other = "Les échantillons sont généralement expédiés sous 2 jours après paiement ; le transport prend un délai supplémentaire."
 [confirmed_brand_moq]
-other = "Logo, boîte et manuel personnalisés : 500 unités par modèle en noir/blanc standard ; couleurs de coque personnalisées : 1 000 unités par couleur."
+other = "Logo sérigraphié : 500 unités par modèle et couleur standard ; noir et blanc non cumulables. Couleurs de coque personnalisées : 1 000 unités par couleur."
 [confirmed_warranty]
 other = "Garantie de 12 mois dès réception ; défauts de qualité confirmés par vidéo : remplacement à nos frais avec votre prochaine commande."
 [warranty_details]

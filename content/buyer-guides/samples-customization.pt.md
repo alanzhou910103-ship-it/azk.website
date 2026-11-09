@@ -29,7 +29,7 @@ Atualmente não oferecemos integração com Shopify para atendimento automático
 
 ### Posso colocar minha marca nos produtos e na embalagem?
 
-Para **G1, G2, G6 Pro e G7**, logotipo por serigrafia, caixas coloridas e manuais personalizados estão disponíveis a partir de **500 unidades por modelo**, nos acabamentos padrão preto ou branco. Cores de carcaça personalizadas exigem **pelo menos 1.000 unidades por cor**. Modelos diferentes não podem ser somados para atingir o mínimo por modelo. Confirme artes, especificações e custos antes da produção.
+Para **G1, G2, G6 Pro e G7**, o logotipo por serigrafia nos controles em preto ou branco padrão exige **500 unidades por modelo e por cor**. Preto e branco não podem ser somados: 250 unidades pretas e 250 brancas não atingem o mínimo da serigrafia. Caixas coloridas e manuais personalizados estão disponíveis a partir de 500 unidades por modelo. Cores de carcaça personalizadas exigem **pelo menos 1.000 unidades por cor**. Confirme artes, especificações e custos antes da produção.
 
 ### Há embalagem neutra para pedidos pequenos?
 
@@ -74,13 +74,27 @@ Se a ausência de logotipo for essencial para avaliar o produto, diga isso na pr
 
 ## Quando é possível adicionar logotipo ou embalagem personalizada?
 
-Amostras não podem receber serigrafia ou gravação a laser personalizada. **Serigrafia e gravação a laser podem ser avaliadas para produção em volume**, conforme o modelo, a posição da marca e os detalhes do pedido. Os produtos padrão vêm em caixa colorida impressa; a embalagem personalizada depende do volume do pedido.
+Amostras padrão de avaliação não recebem serigrafia nem gravação a laser personalizada. Para um pedido personalizado em volume, preparamos amostras do logotipo e da caixa colorida para aprovação antes da produção, geralmente em cerca de **7 dias**. Normalmente não produzimos uma amostra física do manual, mas podemos providenciá-la se solicitado. Essa fase de aprovação é separada do despacho habitual em 2 dias das amostras padrão. Serigrafia e gravação a laser em pedidos em volume dependem do modelo, da posição do marcado e dos detalhes do pedido.
 
 Em projetos gráficos como o [grip de carregamento GA06L](/pt/products/ga06l/), a arte, o processo e o acabamento final precisam ser aprovados em amostra. Uma imagem conceitual no site não equivale a uma especificação de produção aprovada.
 
 ## E os documentos CE, RoHS e FCC?
 
-Para G1, G2, G6 Pro e G7, podemos fornecer manuais em inglês, imagens de produto em alta resolução e documentos CE, RoHS e FCC. Você pode usar os manuais e as imagens fornecidos no seu próprio site. Antes de usar a documentação de certificação, confira o modelo exato, a versão comercial e as exigências do destino.
+Para G1, G2, G6 Pro e G7, podemos fornecer manuais em inglês, imagens de produto em alta resolução e documentos CE, RoHS e FCC. Você pode usar os manuais e as imagens fornecidos no seu próprio site. Antes de usar a documentação de certificação, confira o modelo exato, a versão comercial e as exigências do destino. Também dispomos de documentos para transporte de baterias, incluindo UN38.3 e MSDS. Solicite os documentos da bateria e da versão exata do produto para verificar as condições do transporte.
+
+<h2 id="inspection-consistency">Inspeção e consistência com a amostra aprovada</h2>
+
+Você pode contratar uma inspeção de terceiros na fábrica antes do embarque. Se não puder organizar a inspeção, podemos fornecer vídeos do lote real, testes de funcionamento e fotos da embalagem.
+
+A produção em volume mantém a configuração da amostra aprovada. Se a falta de um chip exigir sua substituição, avisaremos com antecedência.
+
+<h2 id="firmware-support">Atualizações de firmware</h2>
+
+As atualizações normalmente são feitas por computador. Fornecemos o pacote de instalação correspondente ao modelo. Informe o modelo e o problema apresentado para receber as orientações adequadas.
+
+<h2 id="business-documents">Localização e documentos do pedido</h2>
+
+A INT-ROCK é uma empresa comercial sediada em Shenzhen, China, que trabalha com fábricas na China continental. Podemos fornecer uma fatura pro forma (PI) e uma fatura comercial (CI) para o seu pedido.
 
 <h2 id="production-terms">Custo das amostras, pagamento e prazo de produção</h2>
 

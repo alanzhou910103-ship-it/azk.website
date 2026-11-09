@@ -174,7 +174,7 @@ about:
   enable: true
   label: À propos d’int-rock
   title: Une expertise produit derrière chaque détail
-  content: "INT-ROCK est une société de commerce spécialisée dans les manettes de jeu et les accessoires gaming. Nous travaillons avec des usines en Chine continentale et aidons les fabricants disposant de bons produits à atteindre les acheteurs internationaux grâce à la présentation des produits et à l’accompagnement commercial.\n\nAvec plus de 11 ans d’expérience dans les périphériques gaming, nous aidons distributeurs, détaillants et marques à choisir des produits, confirmer les spécifications, préparer les échantillons et coordonner la personnalisation avec nos fabricants partenaires. Nous préparons également des supports produit en anglais pour faciliter l’évaluation et la vente."
+  content: "INT-ROCK est une société de commerce basée à Shenzhen, en Chine, spécialisée dans les manettes de jeu et les accessoires gaming. Nous travaillons avec des usines en Chine continentale et aidons les fabricants disposant de bons produits à atteindre les acheteurs internationaux grâce à la présentation des produits et à l’accompagnement commercial.\n\nAvec plus de 11 ans d’expérience dans les périphériques gaming, nous aidons distributeurs, détaillants et marques à choisir des produits, confirmer les spécifications, préparer les échantillons et coordonner la personnalisation avec nos fabricants partenaires. Nous préparons également des supports produit en anglais pour faciliter l’évaluation et la vente."
   stats:
   - icon: fa-solid fa-gamepad
     number: 11+

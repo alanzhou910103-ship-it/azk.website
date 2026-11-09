@@ -182,7 +182,7 @@ about:
   enable : true
   label : "About int-rock"
   title : "Product Expertise Behind Every Detail"
-  content: "INT-ROCK is a trading company specializing in game controllers and gaming accessories. We partner with factories in mainland China, helping manufacturers with strong products reach overseas buyers through international product presentation and sales support.\n\nWith over 11 years in gaming peripherals, we help distributors, retailers and gaming brands select products, confirm specifications, prepare samples and coordinate customization with our manufacturing partners. We also organize English product materials to support evaluation and sales."
+  content: "INT-ROCK is a trading company based in Shenzhen, China, specializing in game controllers and gaming accessories. We partner with factories in mainland China, helping manufacturers with strong products reach overseas buyers through international product presentation and sales support.\n\nWith over 11 years in gaming peripherals, we help distributors, retailers and gaming brands select products, confirm specifications, prepare samples and coordinate customization with our manufacturing partners. We also organize English product materials to support evaluation and sales."
   stats:
     - icon : "fa-solid fa-gamepad"
       number : "11+"

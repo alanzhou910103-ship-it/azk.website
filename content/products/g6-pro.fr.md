@@ -101,6 +101,11 @@ specs:
   value: CE / RoHS / FCC
 - label: Emballage
   value: Boîte de couleur imprimée standard
+- label: "Mises à jour du firmware"
+  value: "Sur ordinateur ; programme de mise à jour propre au modèle fourni"
+- label: "Documents de transport des batteries"
+  value: "UN38.3 / MSDS disponibles"
+
 cta:
   title: Vous souhaitez ajouter le G6 Pro à votre catalogue ?
   button_label: Demander nos conditions de vente en gros

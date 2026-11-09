@@ -29,7 +29,7 @@ We do not currently provide a Shopify integration for automated dropshipping ful
 
 ### Can I use my own brand on the products and packaging?
 
-For **G1, G2, G6 Pro and G7**, silk-screen logo printing, custom color boxes and custom manuals are available from **500 units per model** using the standard black or white finishes. Custom shell colors require **at least 1,000 units per color**. Quantities for different models cannot be combined to meet the per-model minimum. Confirm artwork, specifications and costs before production.
+For **G1, G2, G6 Pro and G7**, silk-screen logo printing on standard black or white controllers requires **500 units per model, per color**. Black and white quantities cannot be combined: 250 black plus 250 white does not meet the logo-printing minimum. Custom color boxes and manuals are available from 500 units per model. Custom shell colors require **at least 1,000 units per color**. Confirm artwork, specifications and costs before production.
 
 ### Is neutral packaging available for small orders?
 
@@ -74,13 +74,27 @@ If the absence of a logo is essential to your evaluation, state that in the firs
 
 ## When can a logo or custom packaging be added?
 
-Samples cannot be custom silk-screen printed or laser engraved. **Silk-screen printing and laser engraving are options to discuss for bulk production**, depending on the model, marking position and order details. Standard products come in a printed color box; custom packaging can be discussed when the order volume supports it.
+Standard evaluation samples cannot be custom silk-screen printed or laser engraved. For a custom bulk order, we prepare logo and color-box samples for your approval before production, usually taking around **7 days**. A physical manual sample is not normally prepared, but can be arranged if requested. This pre-production approval stage is separate from the usual 2-day dispatch of standard evaluation samples. Silk-screen printing and laser engraving for bulk orders depend on the model, marking position and order details.
 
 For graphic projects such as the [GA06L charging grip](/products/ga06l/), artwork, process and final finish need sample approval. The proposed artwork shown on a page is not automatically an approved production specification.
 
 ## What about CE, RoHS and FCC documents?
 
-For G1, G2, G6 Pro and G7, we can provide English manuals, high-resolution product images and CE, RoHS and FCC documents. You may use the supplied manuals and product images on your own website. Certification documents must be checked against the exact model, sales version and destination requirements before use.
+For G1, G2, G6 Pro and G7, we can provide English manuals, high-resolution product images and CE, RoHS and FCC documents. You may use the supplied manuals and product images on your own website. Certification documents must be checked against the exact model, sales version and destination requirements before use. Battery transport documents, including UN38.3 and MSDS, are also available. Request the documents for the exact battery and product version so the shipping arrangement can be checked.
+
+<h2 id="inspection-consistency">Inspection and consistency with approved samples</h2>
+
+You may appoint a third-party inspector to visit the factory before shipment. If you cannot arrange inspection, we can provide videos of the actual batch, function tests and packaging photos.
+
+Bulk production follows the approved sample configuration. If a chip shortage requires a chip change, we will notify you in advance.
+
+<h2 id="firmware-support">Firmware updates</h2>
+
+Firmware upgrades are normally performed using a computer. We provide the update installation package for the relevant model. Contact us with your model and the issue you are experiencing for the appropriate update guidance.
+
+<h2 id="business-documents">Location and order documents</h2>
+
+INT-ROCK is a trading business based in Shenzhen, China, working with factories in mainland China. We can provide a pro forma invoice (PI) and commercial invoice (CI) for your order.
 
 <h2 id="production-terms">Sample fees, payment and production timing</h2>
 

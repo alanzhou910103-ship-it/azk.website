@@ -29,7 +29,7 @@ Actualmente no ofrecemos una integración de Shopify para gestionar automáticam
 
 ### ¿Puedo utilizar mi marca en los productos y el embalaje?
 
-Para **G1, G2, G6 Pro y G7**, la serigrafía del logotipo, las cajas de color y los manuales personalizados están disponibles desde **500 unidades por modelo**, con los acabados estándar negro o blanco. Los colores de carcasa personalizados requieren **al menos 1.000 unidades por color**. No se pueden sumar modelos diferentes para alcanzar el mínimo por modelo. Confirme diseños, especificaciones y costes antes de producir.
+Para **G1, G2, G6 Pro y G7**, la serigrafía del logotipo en mandos negros o blancos estándar requiere **500 unidades por modelo y por color**. No se pueden sumar negro y blanco: 250 unidades negras y 250 blancas no alcanzan el mínimo de serigrafía. Las cajas de color y los manuales personalizados están disponibles desde 500 unidades por modelo. Los colores de carcasa personalizados requieren **al menos 1.000 unidades por color**. Confirme diseños, especificaciones y costes antes de producir.
 
 ### ¿Hay embalaje neutro para pedidos pequeños?
 
@@ -74,13 +74,27 @@ Si no debe aparecer ningún logotipo en la muestra, indíquelo desde el primer m
 
 ## ¿Cuándo se puede añadir un logotipo o embalaje personalizado?
 
-No se pueden personalizar las muestras mediante serigrafía o grabado láser. **La serigrafía y el grabado láser pueden estudiarse para producción en volumen**, según el modelo, la posición del marcado y los detalles del pedido. Los productos estándar se entregan en caja de color impresa; el embalaje personalizado depende del volumen del pedido.
+Las muestras estándar de evaluación no admiten serigrafía ni grabado láser personalizados. Para un pedido personalizado en volumen, preparamos muestras del logotipo y la caja de color para su aprobación antes de producir, normalmente en unos **7 días**. No solemos preparar una muestra física del manual, pero podemos hacerlo si se solicita. Esta fase de aprobación es distinta de la expedición habitual en 2 días de las muestras estándar. La serigrafía y el grabado láser en pedidos en volumen dependen del modelo, la ubicación del marcado y los detalles del pedido.
 
 En proyectos gráficos como el [grip de carga GA06L](/es/products/ga06l/), el diseño, el proceso y el acabado final requieren aprobación sobre muestra. Un diseño ilustrativo en la web no equivale a una especificación de producción aprobada.
 
 ## ¿Y los documentos CE, RoHS y FCC?
 
-Para G1, G2, G6 Pro y G7 podemos facilitar manuales en inglés, imágenes de producto en alta resolución y documentos CE, RoHS y FCC. Puede utilizar los manuales y las imágenes facilitados en su propia web. Antes de utilizar la documentación de certificación, compruebe el modelo exacto, la versión comercial y los requisitos del destino.
+Para G1, G2, G6 Pro y G7 podemos facilitar manuales en inglés, imágenes de producto en alta resolución y documentos CE, RoHS y FCC. Puede utilizar los manuales y las imágenes facilitados en su propia web. Antes de utilizar la documentación de certificación, compruebe el modelo exacto, la versión comercial y los requisitos del destino. También disponemos de documentos de transporte de baterías, incluidos UN38.3 y MSDS. Solicite los correspondientes a la batería y la versión exacta del producto para comprobar las condiciones del envío.
+
+<h2 id="inspection-consistency">Inspección y coherencia con la muestra aprobada</h2>
+
+Puede contratar una inspección de terceros en la fábrica antes del envío. Si no puede organizarla, podemos facilitar vídeos del lote real, pruebas de funcionamiento y fotos del embalaje.
+
+La producción en volumen mantiene la configuración de la muestra aprobada. Si la falta de un chip obliga a cambiarlo, se lo comunicaremos con antelación.
+
+<h2 id="firmware-support">Actualizaciones de firmware</h2>
+
+Las actualizaciones suelen realizarse con un ordenador. Facilitamos el paquete de instalación correspondiente al modelo. Indique el modelo y el problema que presenta para recibir las instrucciones adecuadas.
+
+<h2 id="business-documents">Ubicación y documentos del pedido</h2>
+
+INT-ROCK es una empresa comercial situada en Shenzhen, China, que colabora con fábricas de China continental. Podemos facilitar una factura proforma (PI) y una factura comercial (CI) para su pedido.
 
 <h2 id="production-terms">Coste de muestras, pago y plazo de producción</h2>
 

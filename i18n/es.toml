@@ -223,7 +223,7 @@ other = "Los pedidos pequeños llevan marca y embalaje de fábrica; marca propia
 [confirmed_sample_dispatch]
 other = "Las muestras suelen expedirse en un plazo de 2 días tras el pago; el transporte requiere tiempo adicional."
 [confirmed_brand_moq]
-other = "Logotipo, caja y manual personalizados: 500 unidades por modelo en negro/blanco estándar; colores de carcasa personalizados: 1.000 unidades por color."
+other = "Logotipo por serigrafía: 500 unidades por modelo y color estándar; no se suman negro y blanco. Colores de carcasa personalizados: 1.000 unidades por color."
 [confirmed_warranty]
 other = "Garantía de 12 meses desde la recepción; fallos de calidad confirmados por vídeo: reposición con su próximo pedido a nuestro cargo."
 [warranty_details]

@@ -29,7 +29,7 @@ Nous ne proposons actuellement pas d’intégration Shopify pour le traitement a
 
 ### Puis-je apposer ma marque sur les produits et l’emballage ?
 
-Pour les **G1, G2, G6 Pro et G7**, le logo sérigraphié, la boîte couleur et le manuel personnalisés sont disponibles à partir de **500 unités par modèle**, dans les finitions standard noire ou blanche. Les couleurs de coque personnalisées nécessitent **au moins 1 000 unités par couleur**. Les quantités de modèles différents ne peuvent pas être cumulées pour atteindre le minimum par modèle. Confirmez les visuels, les spécifications et les coûts avant production.
+Pour les **G1, G2, G6 Pro et G7**, le logo sérigraphié sur les manettes noires ou blanches standard nécessite **500 unités par modèle et par couleur**. Les quantités noires et blanches ne peuvent pas être cumulées : 250 noires et 250 blanches ne remplissent pas le minimum de sérigraphie. Les boîtes couleur et les manuels personnalisés sont disponibles à partir de 500 unités par modèle. Les couleurs de coque personnalisées nécessitent **au moins 1 000 unités par couleur**. Confirmez les visuels, les spécifications et les coûts avant production.
 
 ### Un emballage neutre est-il disponible pour les petites commandes ?
 
@@ -74,13 +74,27 @@ Si l’absence de logo est indispensable à votre évaluation, précisez-le dès
 
 ## Quand ajouter un logo ou un emballage personnalisé ?
 
-Les échantillons ne peuvent pas recevoir de sérigraphie ni de gravure laser personnalisée. **La sérigraphie et la gravure laser peuvent être étudiées pour une production en volume**, selon le modèle, l’emplacement du marquage et les détails de la commande. Les produits standard sont fournis en boîte imprimée en couleur ; un emballage personnalisé dépend du volume commandé.
+Les échantillons standard d’évaluation ne reçoivent pas de sérigraphie ni de gravure laser personnalisée. Pour une commande personnalisée en volume, nous préparons des échantillons du logo et de la boîte couleur pour validation avant production, généralement en **7 jours environ**. Un exemplaire physique du manuel n’est normalement pas réalisé, mais peut être préparé sur demande. Cette phase de validation est distincte du délai habituel d’expédition de 2 jours des échantillons standard. La sérigraphie et la gravure laser en volume dépendent du modèle, de l’emplacement du marquage et des détails de la commande.
 
 Pour un projet graphique comme le [grip de charge GA06L](/fr/products/ga06l/), le visuel, le procédé et la finition finale doivent être validés sur échantillon. Une illustration sur le site ne constitue pas à elle seule une spécification de production approuvée.
 
 ## Qu’en est-il des documents CE, RoHS et FCC ?
 
-Pour les G1, G2, G6 Pro et G7, nous pouvons fournir des manuels en anglais, des images produit en haute résolution et des documents CE, RoHS et FCC. Vous pouvez utiliser les manuels et les images fournis sur votre propre site. Avant d’utiliser les documents de certification, vérifiez le modèle exact, la version commercialisée et les exigences de destination.
+Pour les G1, G2, G6 Pro et G7, nous pouvons fournir des manuels en anglais, des images produit en haute résolution et des documents CE, RoHS et FCC. Vous pouvez utiliser les manuels et les images fournis sur votre propre site. Avant d’utiliser les documents de certification, vérifiez le modèle exact, la version commercialisée et les exigences de destination. Nous disposons également de documents de transport des batteries, notamment UN38.3 et MSDS. Demandez ceux correspondant à la batterie et à la version exacte du produit pour vérifier les conditions du transport.
+
+<h2 id="inspection-consistency">Inspection et conformité à l’échantillon validé</h2>
+
+Vous pouvez mandater un organisme tiers pour une inspection à l’usine avant expédition. Si vous ne pouvez pas organiser cette inspection, nous pouvons fournir des vidéos du lot réel, des tests de fonctionnement et des photos de l’emballage.
+
+La production en volume conserve la configuration de l’échantillon validé. Si une pénurie impose un changement de puce, nous vous en informerons à l’avance.
+
+<h2 id="firmware-support">Mises à jour du firmware</h2>
+
+Les mises à jour s’effectuent généralement sur ordinateur. Nous fournissons le programme d’installation correspondant au modèle. Indiquez le modèle et le problème rencontré pour obtenir les instructions adaptées.
+
+<h2 id="business-documents">Localisation et documents de commande</h2>
+
+INT-ROCK est une société de commerce basée à Shenzhen, en Chine, qui travaille avec des usines en Chine continentale. Nous pouvons fournir une facture pro forma (PI) et une facture commerciale (CI) pour votre commande.
 
 <h2 id="production-terms">Échantillons, paiement et délai de production</h2>
 

@@ -98,6 +98,11 @@ specs:
   - label: "Packaging"
     value: "Standard printed color box"
 
+  - label: "Firmware Updates"
+    value: "Via computer; model-specific update package provided"
+  - label: "Battery Transport Documents"
+    value: "UN38.3 / MSDS available"
+
 cta:
   title: "Want the G6 Pro in your lineup?"
   button_label: "Contact Us for Wholesale"

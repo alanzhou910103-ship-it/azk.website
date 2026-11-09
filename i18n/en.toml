@@ -223,7 +223,7 @@ other = "Small orders use factory branding and packaging; own-brand orders start
 [confirmed_sample_dispatch]
 other = "Samples usually dispatched within 2 days after payment; transit time is additional."
 [confirmed_brand_moq]
-other = "Logo, box and manual customization: 500 units per model in standard black/white; custom shell colors: 1,000 units per color."
+other = "Silk-screen logo: 500 units per model per standard color; black/white cannot be combined. Custom shell colors: 1,000 units per color."
 [confirmed_warranty]
 other = "12-month warranty from receipt; video-confirmed quality faults replaced with your next order at our expense."
 [warranty_details]

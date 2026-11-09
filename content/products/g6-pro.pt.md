@@ -101,6 +101,11 @@ specs:
   value: CE / RoHS / FCC
 - label: Embalagem
   value: Caixa colorida impressa padrão
+- label: "Atualizações de firmware"
+  value: "Por computador; pacote específico do modelo fornecido"
+- label: "Documentos para transporte de baterias"
+  value: "UN38.3 / MSDS disponíveis"
+
 cta:
   title: Quer incluir o G6 Pro no seu catálogo?
   button_label: Solicitar informações para atacado
