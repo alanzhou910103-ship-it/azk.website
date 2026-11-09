@@ -29,7 +29,7 @@ Atualmente não oferecemos integração com Shopify para atendimento automático
 
 ### Posso colocar minha marca nos produtos e na embalagem?
 
-A personalização de marca está disponível a partir de 500 unidades por modelo. Confirme a posição do logotipo, a arte, as especificações da embalagem e os custos antes da produção. A quantidade é por modelo, não a soma de modelos diferentes. G1, G2, G6 Pro e G7 têm o mesmo mínimo de **500 unidades por modelo** para personalização de marca.
+Para **G1, G2, G6 Pro e G7**, logotipo por serigrafia, caixas coloridas e manuais personalizados estão disponíveis a partir de **500 unidades por modelo**, nos acabamentos padrão preto ou branco. Cores de carcaça personalizadas exigem **pelo menos 1.000 unidades por cor**. Modelos diferentes não podem ser somados para atingir o mínimo por modelo. Confirme artes, especificações e custos antes da produção.
 
 ### Há embalagem neutra para pedidos pequenos?
 
@@ -58,7 +58,7 @@ As amostras para avaliação de **G1, G2, G6 Pro e G7 geralmente são despachada
 
 <h2 id="controller-warranty">Garantia e reposição</h2>
 
-**G1, G2, G6 Pro e G7 têm garantia de 12 meses a partir da data de recebimento dos produtos.** Em caso de problema de qualidade, envie um vídeo claro mostrando o defeito para análise. Após a confirmação do problema de qualidade, organizamos o envio de reposição. Esse processo se aplica tanto às amostras para avaliação quanto aos pedidos em volume.
+**G1, G2, G6 Pro e G7 têm garantia de 12 meses a partir da data de recebimento dos produtos.** Envie um vídeo claro mostrando o defeito de qualidade para análise. Após a confirmação, não é necessário devolver o produto defeituoso. Nós arcamos com a reposição e seu frete, e **enviamos a reposição junto com seu próximo pedido**. Não há envio separado imediato. Esse procedimento vale para amostras de avaliação e pedidos em volume.
 
 ## Quais amostras podem vir sem marca?
 
@@ -74,7 +74,18 @@ Em projetos gráficos como o [grip de carregamento GA06L](/pt/products/ga06l/), 
 
 ## E os documentos CE, RoHS e FCC?
 
-Há documentação disponível para muitos modelos, mas é preciso conferir se o relatório corresponde ao **modelo, à versão e ao mercado de destino específicos**. Informe os documentos exigidos pelo seu canal. Não presuma que um relatório de uma versão cubra todos os conjuntos.
+Para G1, G2, G6 Pro e G7, podemos fornecer manuais em inglês, imagens de produto em alta resolução e documentos CE, RoHS e FCC. Você pode usar os manuais e as imagens fornecidos no seu próprio site. Antes de usar a documentação de certificação, confira o modelo exato, a versão comercial e as exigências do destino.
+
+<h2 id="production-terms">Custo das amostras, pagamento e prazo de produção</h2>
+
+- **Amostras:** pagamento integral antes do despacho. O valor das amostras pode ser abatido de um pedido posterior em volume.
+- **Pagamento em volume:** 30% de entrada; os 70% restantes são pagos após a inspeção e antes do embarque.
+- **Produção personalizada:** geralmente 30–35 dias após o recebimento da entrada e a aprovação da amostra e das artes. Esse é o prazo de produção, sem transporte. Confirme o prazo dos pedidos com marca de fábrica na cotação.
+
+<h2 id="shipping-options">Transporte internacional e entrega com impostos incluídos</h2>
+
+Podemos organizar envio expresso internacional, transporte aéreo e marítimo, ou entregar ao seu agente de cargas na China continental. Conforme o destino e a remessa, podemos cotar entrega porta a porta com impostos incluídos. Informe endereço e código postal para receber uma cotação específica; o frete é calculado caso a caso.
+
 
 ## Dados para uma cotação precisa
 

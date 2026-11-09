@@ -223,8 +223,14 @@ other = "Pedidos pequenos usam marca e embalagem de fábrica; marca própria a p
 [confirmed_sample_dispatch]
 other = "As amostras geralmente são despachadas em até 2 dias após o pagamento; o transporte leva tempo adicional."
 [confirmed_brand_moq]
-other = "Personalização de marca para G1, G2, G6 Pro e G7: a partir de 500 unidades por modelo."
+other = "Logotipo, caixa e manual personalizados: 500 unidades por modelo em preto/branco padrão; cores de carcaça personalizadas: 1.000 unidades por cor."
 [confirmed_warranty]
-other = "Garantia de 12 meses a partir do recebimento; envie um vídeo claro do defeito para análise da reposição."
+other = "Garantia de 12 meses a partir do recebimento; defeitos de qualidade confirmados por vídeo: reposição com seu próximo pedido por nossa conta."
 [warranty_details]
 other = "Detalhes da garantia"
+
+[confirmed_production_lead]
+other = "Produção personalizada: geralmente 30–35 dias após a entrada e a aprovação da amostra e das artes."
+
+[confirmed_bulk_payment]
+other = "Pagamento em volume: 30% de entrada; 70% após a inspeção e antes do embarque."

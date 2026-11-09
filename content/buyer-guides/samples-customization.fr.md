@@ -29,7 +29,7 @@ Nous ne proposons actuellement pas d’intégration Shopify pour le traitement a
 
 ### Puis-je apposer ma marque sur les produits et l’emballage ?
 
-La personnalisation de marque est disponible à partir de 500 unités par modèle. Confirmez l’emplacement du logo, le visuel, les spécifications d’emballage et les coûts avant la production. Cette quantité s’applique à chaque modèle, et non au total de plusieurs modèles. Les G1, G2, G6 Pro et G7 ont tous un minimum de **500 unités par modèle** pour la personnalisation de marque.
+Pour les **G1, G2, G6 Pro et G7**, le logo sérigraphié, la boîte couleur et le manuel personnalisés sont disponibles à partir de **500 unités par modèle**, dans les finitions standard noire ou blanche. Les couleurs de coque personnalisées nécessitent **au moins 1 000 unités par couleur**. Les quantités de modèles différents ne peuvent pas être cumulées pour atteindre le minimum par modèle. Confirmez les visuels, les spécifications et les coûts avant production.
 
 ### Un emballage neutre est-il disponible pour les petites commandes ?
 
@@ -58,7 +58,7 @@ Les échantillons d’évaluation des **G1, G2, G6 Pro et G7 sont généralement
 
 <h2 id="controller-warranty">Garantie et remplacement</h2>
 
-**Les G1, G2, G6 Pro et G7 bénéficient d’une garantie de 12 mois à compter de la date de réception des produits.** En cas de problème de qualité, fournissez une vidéo claire montrant le défaut afin que nous puissions l’examiner. Après confirmation du problème de qualité, nous organisons l’envoi d’un remplacement. Cette procédure s’applique aux échantillons d’évaluation comme aux commandes en volume.
+**Les G1, G2, G6 Pro et G7 bénéficient d’une garantie de 12 mois à compter de la réception des produits.** Fournissez une vidéo claire montrant le défaut de qualité pour examen. Une fois le défaut confirmé, le retour du produit défectueux n’est pas nécessaire. Nous prenons en charge le remplacement et son transport, et **expédions le remplacement avec votre prochaine commande**. Il n’y a pas d’expédition séparée immédiate. Cette procédure s’applique aux échantillons d’évaluation et aux commandes en volume.
 
 ## Quels échantillons peuvent être sans marque ?
 
@@ -74,7 +74,18 @@ Pour un projet graphique comme le [grip de charge GA06L](/fr/products/ga06l/), l
 
 ## Qu’en est-il des documents CE, RoHS et FCC ?
 
-Des documents existent pour de nombreux modèles, mais le rapport pertinent doit être vérifié pour le **modèle, la version et le marché de destination exacts**. Indiquez les documents exigés par votre canal. Ne supposez pas qu’un rapport concernant une version couvre toutes les configurations.
+Pour les G1, G2, G6 Pro et G7, nous pouvons fournir des manuels en anglais, des images produit en haute résolution et des documents CE, RoHS et FCC. Vous pouvez utiliser les manuels et les images fournis sur votre propre site. Avant d’utiliser les documents de certification, vérifiez le modèle exact, la version commercialisée et les exigences de destination.
+
+<h2 id="production-terms">Échantillons, paiement et délai de production</h2>
+
+- **Échantillons :** paiement intégral avant expédition. Leur coût peut être déduit d’une commande ultérieure en volume.
+- **Paiement en volume :** acompte de 30 % ; solde de 70 % après inspection et avant expédition.
+- **Production personnalisée :** généralement 30–35 jours après réception de l’acompte et validation de l’échantillon et des visuels. Ce délai concerne la production, hors transport. Confirmez le délai des commandes sous marque d’usine lors du devis.
+
+<h2 id="shipping-options">Transport international et livraison taxes comprises</h2>
+
+Nous pouvons organiser le transport express international, aérien ou maritime, ou livrer à votre transitaire en Chine continentale. Selon la destination et l’envoi, nous pouvons proposer un devis porte à porte taxes comprises. Fournissez l’adresse et le code postal pour un devis spécifique ; le transport est chiffré au cas par cas.
+
 
 ## Les informations utiles pour un devis précis
 

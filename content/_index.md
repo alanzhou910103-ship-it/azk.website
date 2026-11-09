@@ -182,7 +182,7 @@ about:
   enable : true
   label : "About int-rock"
   title : "Product Expertise Behind Every Detail"
-  content : "INT-ROCK is a game controller and gaming accessories trading and product development company serving distributors, retailers, and gaming brands worldwide.\n\nOur strength lies in product expertise, customer communication, and resource coordination. With over 11 years of experience in gaming peripherals, we understand both the technical details of the product and the commercial requirements of the customer.\n\nWe work with a strong network of manufacturing partners, electronic solution providers, tooling suppliers, and packaging resources. This allows us to provide flexible solutions - from existing product sourcing and OEM/ODM customization to private tooling and new product development.\n\nWe also help organize product specifications, refine selling points, and present each product clearly, making it easier for customers to evaluate, market, and sell."
+  content: "INT-ROCK is a trading company specializing in game controllers and gaming accessories. We partner with factories in mainland China, helping manufacturers with strong products reach overseas buyers through international product presentation and sales support.\n\nWith over 11 years in gaming peripherals, we help distributors, retailers and gaming brands select products, confirm specifications, prepare samples and coordinate customization with our manufacturing partners. We also organize English product materials to support evaluation and sales."
   stats:
     - icon : "fa-solid fa-gamepad"
       number : "11+"

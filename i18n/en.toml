@@ -223,8 +223,14 @@ other = "Small orders use factory branding and packaging; own-brand orders start
 [confirmed_sample_dispatch]
 other = "Samples usually dispatched within 2 days after payment; transit time is additional."
 [confirmed_brand_moq]
-other = "Own-brand customization for G1, G2, G6 Pro and G7: from 500 units per model."
+other = "Logo, box and manual customization: 500 units per model in standard black/white; custom shell colors: 1,000 units per color."
 [confirmed_warranty]
-other = "12-month warranty from receipt; provide a clear fault video for replacement review."
+other = "12-month warranty from receipt; video-confirmed quality faults replaced with your next order at our expense."
 [warranty_details]
 other = "Warranty details"
+
+[confirmed_production_lead]
+other = "Custom production: usually 30–35 days after deposit and sample/artwork approval."
+
+[confirmed_bulk_payment]
+other = "Bulk payment: 30% deposit; 70% after inspection and before shipment."

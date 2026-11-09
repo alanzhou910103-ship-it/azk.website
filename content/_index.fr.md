@@ -174,16 +174,7 @@ about:
   enable: true
   label: À propos d’int-rock
   title: Une expertise produit derrière chaque détail
-  content: 'INT-ROCK est une société de commerce et de développement de produits de manettes de jeu et d''accessoires de jeu au service des distributeurs, des détaillants et des marques gaming dans le monde entier.
-
-
-    Notre force réside dans l’expertise produit, la communication client et la coordination des ressources. Avec plus de 11 ans d''expérience dans les périphériques gaming, nous comprenons à la fois les détails techniques du produit et les exigences commerciales du client.
-
-
-    Nous travaillons avec un solide réseau de partenaires de fabrication, de fournisseurs de solutions électroniques, de fournisseurs d''outillage et de ressources d''emballage. Cela nous permet de fournir des solutions flexibles - depuis le sourcing de produits existants et la personnalisation OEM/ODM jusqu’aux moules exclusifs et le développement de nouveaux produits.
-
-
-    Nous aidons également à organiser les spécifications des produits, à affiner les arguments de vente et à présenter chaque produit clairement, ce qui facilite l''évaluation, la commercialisation et la vente des clients.'
+  content: "INT-ROCK est une société de commerce spécialisée dans les manettes de jeu et les accessoires gaming. Nous travaillons avec des usines en Chine continentale et aidons les fabricants disposant de bons produits à atteindre les acheteurs internationaux grâce à la présentation des produits et à l’accompagnement commercial.\n\nAvec plus de 11 ans d’expérience dans les périphériques gaming, nous aidons distributeurs, détaillants et marques à choisir des produits, confirmer les spécifications, préparer les échantillons et coordonner la personnalisation avec nos fabricants partenaires. Nous préparons également des supports produit en anglais pour faciliter l’évaluation et la vente."
   stats:
   - icon: fa-solid fa-gamepad
     number: 11+

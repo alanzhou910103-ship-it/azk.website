@@ -29,7 +29,7 @@ We do not currently provide a Shopify integration for automated dropshipping ful
 
 ### Can I use my own brand on the products and packaging?
 
-Custom branding is available from 500 units per model. Confirm the logo placement, artwork, packaging specification and costs before production. This quantity is per model, not a combined total across different models. G1, G2, G6 Pro and G7 all use the same minimum of **500 units per model** for own-brand customization.
+For **G1, G2, G6 Pro and G7**, silk-screen logo printing, custom color boxes and custom manuals are available from **500 units per model** using the standard black or white finishes. Custom shell colors require **at least 1,000 units per color**. Quantities for different models cannot be combined to meet the per-model minimum. Confirm artwork, specifications and costs before production.
 
 ### Is neutral packaging available for small orders?
 
@@ -58,7 +58,7 @@ Evaluation samples of **G1, G2, G6 Pro and G7 are usually dispatched within 2 da
 
 <h2 id="controller-warranty">Warranty and replacement support</h2>
 
-**G1, G2, G6 Pro and G7 have a 12-month warranty starting from the date you receive the products.** For a quality issue, provide a clear video showing the fault so we can review it. Once the quality issue is confirmed, we arrange replacement shipment. This replacement process applies to both evaluation samples and bulk orders.
+**G1, G2, G6 Pro and G7 have a 12-month warranty from the date you receive the products.** Provide a clear video showing any quality fault for review. Once the quality issue is confirmed, the faulty product does not need to be returned. We cover the cost of replacement and its shipping, and **send the replacement together with your next order**. Replacements are not dispatched separately immediately. This process applies to evaluation samples and bulk orders.
 
 ## Which samples can be unbranded?
 
@@ -74,7 +74,18 @@ For graphic projects such as the [GA06L charging grip](/products/ga06l/), artwor
 
 ## What about CE, RoHS and FCC documents?
 
-Documentation is available for many models, but the relevant report must be checked against the **exact model, version and destination market**. Tell us what documents your channel requires. Do not assume a report for one version covers every bundle or configuration.
+For G1, G2, G6 Pro and G7, we can provide English manuals, high-resolution product images and CE, RoHS and FCC documents. You may use the supplied manuals and product images on your own website. Certification documents must be checked against the exact model, sales version and destination requirements before use.
+
+<h2 id="production-terms">Sample fees, payment and production timing</h2>
+
+- **Samples:** paid in full before dispatch. The sample fee can be credited against a subsequent bulk order.
+- **Bulk payment:** 30% deposit; the remaining 70% is payable after inspection and before shipment.
+- **Custom production:** usually 30–35 days after we receive the deposit and you approve the sample and artwork. This is production time, not shipping time. Confirm timing for existing-brand orders with your quotation.
+
+<h2 id="shipping-options">International shipping and tax-inclusive delivery</h2>
+
+We can arrange international express, air freight and sea freight, or deliver to your freight forwarder in mainland China. Tax-inclusive door-to-door quotations are available depending on the destination and shipment. Send the delivery address and postal code for a shipment-specific quotation; freight is quoted case by case.
+
 
 ## Send a brief we can quote accurately
 

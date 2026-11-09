@@ -174,16 +174,7 @@ about:
   enable: true
   label: Acerca de INT-ROCK
   title: Experiencia de producto en cada detalle
-  content: 'INT-ROCK es una empresa especializada en la comercialización y el desarrollo de mandos gaming y accesorios que trabaja con distribuidores, minoristas y marcas de todo el mundo.
-
-
-    Nuestra fortaleza está en el conocimiento del producto, la comunicación con el cliente y la coordinación de recursos. Con más de 11 años de experiencia, entendemos tanto los detalles técnicos como las necesidades comerciales.
-
-
-    Trabajamos con fabricantes, proveedores de soluciones electrónicas, talleres de moldes y recursos de empaque. Esto nos permite ofrecer desde productos existentes y personalización OEM/ODM hasta moldes exclusivos y nuevos desarrollos.
-
-
-    También organizamos especificaciones, mejoramos los argumentos de venta y presentamos cada producto de forma clara para facilitar su evaluación y comercialización.'
+  content: "INT-ROCK es una empresa comercial especializada en mandos gaming y accesorios. Colaboramos con fábricas de China continental y ayudamos a fabricantes con buenos productos a llegar a compradores internacionales mediante presentación de producto y apoyo comercial.\n\nCon más de 11 años de experiencia en periféricos gaming, ayudamos a distribuidores, minoristas y marcas a seleccionar productos, confirmar especificaciones, preparar muestras y coordinar la personalización con nuestros fabricantes asociados. También organizamos materiales de producto en inglés para facilitar su evaluación y venta."
   stats:
   - icon: "fa-solid fa-gamepad"
     number: 11+
