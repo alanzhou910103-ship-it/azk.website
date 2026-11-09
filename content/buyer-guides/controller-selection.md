@@ -4,7 +4,7 @@ seo_title: "G17 vs G1 vs G2 vs G6 Pro vs G7 Controller Buying Guide"
 description: "A B2B guide to selecting INT-ROCK's G17, G1, G2, G6 Pro and G7 controller platforms by target use, features and product positioning."
 layout: "buyer-guide"
 date: 2026-10-17
-lastmod: 2026-11-02
+lastmod: 2026-11-09
 guide_image: "images/g17/hero.webp"
 guide_image_alt: "G17 wireless controller shown from the front"
 ---
@@ -24,7 +24,7 @@ On a phone, swipe the table sideways to compare. Open a model for its full speci
 <tr><th scope="row"><a href="/products/g1/">G1</a></th><td>TMR sticks; micro-switch ABXY; dual-mode triggers</td><td>Connection modes and final bundle</td></tr>
 <tr><th scope="row"><a href="/products/g2/">G2</a></th><td>TMR sticks; battery display; switchable button layout</td><td>Charging dock is optional, not standard</td></tr>
 <tr><th scope="row"><a href="/products/g6-pro/">G6 Pro</a></th><td>Hall Effect sticks; Bluetooth, 2.4GHz and wired modes</td><td>Receiver optional; no Switch 2 wake-up</td></tr>
-<tr><th scope="row"><a href="/products/g7/">G7</a></th><td>Micro-switch ABXY; up to 1000Hz wired / 2.4GHz</td><td>1000Hz does not apply to Bluetooth; confirm receiver bundle</td></tr>
+<tr><th scope="row"><a href="/products/g7/">G7</a></th><td>Micro-switch ABXY; up to 1000Hz (PC) wired / 2.4GHz</td><td>1000Hz does not apply to Bluetooth; confirm receiver bundle</td></tr>
 </tbody></table>
 </div>
 
@@ -48,7 +48,7 @@ Choose [G17](/products/g17/) if your range needs a PS5-compatible controller. It
 
 ### G7 — fast input and tactile face buttons
 
-[G7](/products/g7/) is a fit for buyers looking for micro-switch ABXY buttons and a polling rate of up to 1000Hz in wired and 2.4GHz modes. Polling rate is mode-dependent; do not apply that figure to Bluetooth operation. Confirm the receiver and the final bundle before publishing a listing.
+[G7](/products/g7/) is a fit for buyers looking for micro-switch ABXY buttons and a polling rate of up to 1000Hz (PC) in wired and 2.4GHz modes. Polling rate is mode-dependent; do not apply that figure to Bluetooth operation. Confirm the receiver and the final bundle before publishing a listing.
 
 ## Turn the shortlist into a quotation
 

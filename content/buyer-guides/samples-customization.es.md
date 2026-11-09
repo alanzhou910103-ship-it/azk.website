@@ -4,7 +4,7 @@ seo_title: "Guía B2B de muestras y marca propia para mandos"
 description: "Conozca qué productos de INT-ROCK pueden tener muestras sin marca, cuándo consultar la personalización y qué datos enviar para solicitar presupuesto."
 layout: "buyer-guide"
 date: 2026-10-17
-lastmod: 2026-11-02
+lastmod: 2026-11-09
 guide_image: "images/cards/g2.webp"
 guide_image_alt: "Mando inalámbrico G2 como ejemplo de selección de producto"
 ---
@@ -38,6 +38,19 @@ Los pedidos mayoristas pequeños se entregan con el embalaje de la marca de fáb
 ### ¿Cuánto cuesta el envío a Estados Unidos y cuánto tarda?
 
 Para pedidos mayoristas a su dirección de recepción, el transporte marítimo puede ser más económico; el envío exprés suele costar más. Podemos consultar servicios adecuados, incluido 4PX cuando corresponda. Envíe modelo, cantidad y código postal para obtener presupuesto y plazo estimado. Dependen del envío y la ruta; no existe una tarifa fija para todo el catálogo.
+
+## ¿Cómo solicito 1–2 muestras de evaluación?
+
+Incluya estos datos:
+
+- Modelo y color deseado.
+- Cantidad de muestras: 1–2 unidades.
+- Nombre y datos de contacto del destinatario.
+- País de destino, dirección completa y código postal. La dirección y el código postal son esenciales para calcular el coste del envío internacional.
+
+Si trabaja con un transitario en China continental, podemos enviarle las muestras directamente. Facilite la dirección de recepción en China continental, los datos de contacto y cualquier referencia que solicite el transitario; no necesitamos su dirección en el extranjero para este envío nacional.
+
+La disponibilidad de muestras y las condiciones del pedido dependen del modelo. Confirme el precio de las muestras, el coste del envío y el plazo de expedición al solicitar presupuesto.
 
 ## ¿Qué muestras pueden venir sin marca?
 

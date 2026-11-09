@@ -49,7 +49,7 @@ featured_controllers:
       link : "/products/g9/"
       badge : "New"
     - name : "G7"
-      tagline : "1000Hz Wired/2.4GHz · Micro-Switch ABXY"
+      tagline : "PC 1000Hz Wired/2.4GHz · Micro-Switch ABXY"
       image : "images/g7/hero.webp"
       image_scale : 1.00
       hover_image : "images/g7/details.webp"

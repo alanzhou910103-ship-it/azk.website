@@ -16,7 +16,7 @@ badge = "New"
 
 [[controllers]]
 name = "G7"
-tagline = "1000Hz Tri-Mode Gaming"
+tagline = "PC 1000Hz · Tri-Mode"
 image = "images/g7/hero.webp"
 image_scale = 1.00
 url = "/products/g7/"

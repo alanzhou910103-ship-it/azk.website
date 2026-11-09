@@ -20,7 +20,7 @@ buyer_needs:
 
 Compare [mandos inalámbricos TMR como el G1](/es/products/g1/) con [modelos Hall Effect como el G9](/es/products/g9/). Revise los modos de conexión, la distribución de botones y la compatibilidad antes de solicitar una muestra.
 
-Para una gama orientada al rendimiento, el [G7 trimodo](/es/products/g7/) admite una tasa de sondeo de hasta 1000 Hz en los modos por cable y 2,4 GHz. El [G9](/es/products/g9/) admite hasta 1000 Hz en modo 2,4 GHz. Los receptores inalámbricos son opcionales en ambos modelos; confirme el paquete necesario al enviar su consulta.
+Para una gama orientada al rendimiento, el [G7 trimodo](/es/products/g7/) admite una tasa de sondeo de hasta 1000 Hz (PC) en los modos por cable y 2,4 GHz. El [G9](/es/products/g9/) admite hasta 1000 Hz en modo 2,4 GHz. Los receptores inalámbricos son opcionales en ambos modelos; confirme el paquete necesario al enviar su consulta.
 
 ## Confirme la compatibilidad antes de comprar
 

@@ -4,7 +4,7 @@ seo_title: "Guia B2B de controles G17, G1, G2, G6 Pro e G7"
 description: "Escolha entre os controles G17, G1, G2, G6 Pro e G7 da INT-ROCK de acordo com a plataforma, as funções e o posicionamento da sua linha."
 layout: "buyer-guide"
 date: 2026-10-17
-lastmod: 2026-11-02
+lastmod: 2026-11-09
 guide_image: "images/g17/hero.webp"
 guide_image_alt: "Controle sem fio G17 visto de frente"
 ---
@@ -24,7 +24,7 @@ No celular, deslize a tabela na horizontal. Abra cada modelo para consultar a fi
 <tr><th scope="row"><a href="/pt/products/g1/">G1</a></th><td>Joysticks TMR; ABXY com microinterruptores; gatilhos de dois modos</td><td>Modos de conexão e conteúdo final</td></tr>
 <tr><th scope="row"><a href="/pt/products/g2/">G2</a></th><td>Joysticks TMR; visor de bateria; layout de botões alternável</td><td>Base de carregamento opcional, não incluída como padrão</td></tr>
 <tr><th scope="row"><a href="/pt/products/g6-pro/">G6 Pro</a></th><td>Joysticks Hall Effect; Bluetooth, 2,4 GHz e cabo</td><td>Receptor opcional; não desperta o Switch 2</td></tr>
-<tr><th scope="row"><a href="/pt/products/g7/">G7</a></th><td>ABXY com microinterruptores; até 1000 Hz por cabo / 2,4 GHz</td><td>1000 Hz não se aplica ao Bluetooth; confirmar receptor</td></tr>
+<tr><th scope="row"><a href="/pt/products/g7/">G7</a></th><td>ABXY com microinterruptores; até 1000 Hz (PC) por cabo / 2,4 GHz</td><td>1000 Hz não se aplica ao Bluetooth; confirmar receptor</td></tr>
 </tbody></table>
 </div>
 
@@ -48,7 +48,7 @@ O [G6 Pro](/pt/products/g6-pro/) reúne compatibilidade com várias plataformas 
 
 ### G7 — resposta rápida e botões táteis
 
-O [G7](/pt/products/g7/) atende compradores que procuram botões ABXY com microinterruptores e taxa de resposta de até 1000 Hz nos modos com cabo e 2,4 GHz. Esse valor depende do modo e não se aplica ao Bluetooth. Confirme o receptor e o conteúdo final antes de publicar o anúncio.
+O [G7](/pt/products/g7/) atende compradores que procuram botões ABXY com microinterruptores e taxa de resposta de até 1000 Hz (PC) nos modos com cabo e 2,4 GHz. Esse valor depende do modo e não se aplica ao Bluetooth. Confirme o receptor e o conteúdo final antes de publicar o anúncio.
 
 ## Transforme a seleção em uma cotação
 

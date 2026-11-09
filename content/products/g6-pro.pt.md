@@ -6,6 +6,7 @@ tagline: Hall Effect multiplataforma · trimodo
 card_image: "images/g6-pro/hero.webp"
 layout: "product"
 date: 2026-07-23
+lastmod: 2026-11-09
 hero:
   image: "images/g6-pro/hero.webp"
   badge: Novo
@@ -45,7 +46,7 @@ sections:
 - title: Conectividade trimodo e multiplataforma
   image: "images/g6-pro/hero.webp"
   image_side: left
-  content: 'Conecte-se através de Bluetooth 5.3, 2,4 GHz sem fio, ou USB-C com fio em dispositivos compatíveis com Switch 2, Switch, PC, iOS e Android. O receptor sem fio opcional não está incluído como padrão.
+  content: 'Conecte-se através de Bluetooth 5.3, 2,4 GHz sem fio, ou USB-C com fio em dispositivos compatíveis com Switch 2, Switch, PC, iOS, Android e Steam Deck. O receptor sem fio opcional não está incluído como padrão.
 
 
     O G6 Pro é compatível com a jogabilidade Switch 2, mas não desperta o console Switch 2. Funções podem variar de acordo com o modo de plataforma, jogo e conexão.'
@@ -73,7 +74,7 @@ specs:
 - label: Conectividade
   value: Bluetooth 5.3 / 2,4 GHz sem fio / USB-C
 - label: Plataformas compatíveis
-  value: Switch 2 / Switch / PC / iOS / Android
+  value: Switch 2 / Switch / PC / Android / iOS / Steam Deck
 - label: Observação sobre Switch 2
   value: Compatível para jogabilidade; não ativa o console
 - label: Botões traseiros

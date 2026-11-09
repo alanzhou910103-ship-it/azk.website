@@ -46,7 +46,7 @@ featured_controllers:
     link: /products/g9/
     badge: Nouveau
   - name: G7
-    tagline: 1 000 Hz en filaire/2,4 GHz · touches ABXY à microcontacts
+    tagline: 1 000 Hz (PC) en filaire/2,4 GHz · touches ABXY à microcontacts
     image: images/g7/hero.webp
     image_scale: 1.0
     hover_image: images/g7/details.webp

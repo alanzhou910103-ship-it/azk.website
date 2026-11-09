@@ -4,7 +4,7 @@ seo_title: "Guía B2B de mandos G17, G1, G2, G6 Pro y G7"
 description: "Elija entre los mandos G17, G1, G2, G6 Pro y G7 de INT-ROCK según la plataforma, las funciones y el posicionamiento de su catálogo."
 layout: "buyer-guide"
 date: 2026-10-17
-lastmod: 2026-11-02
+lastmod: 2026-11-09
 guide_image: "images/g17/hero.webp"
 guide_image_alt: "Mando inalámbrico G17 visto de frente"
 ---
@@ -24,7 +24,7 @@ En el móvil, deslice la tabla horizontalmente. Abra cada modelo para consultar 
 <tr><th scope="row"><a href="/es/products/g1/">G1</a></th><td>Joysticks TMR; ABXY de microinterruptor; gatillos de doble modo</td><td>Modos de conexión y contenido final</td></tr>
 <tr><th scope="row"><a href="/es/products/g2/">G2</a></th><td>Joysticks TMR; pantalla de batería; disposición de botones intercambiable</td><td>Base de carga opcional, no incluida de serie</td></tr>
 <tr><th scope="row"><a href="/es/products/g6-pro/">G6 Pro</a></th><td>Joysticks Hall Effect; Bluetooth, 2,4 GHz y cable</td><td>Receptor opcional; sin activación de Switch 2</td></tr>
-<tr><th scope="row"><a href="/es/products/g7/">G7</a></th><td>ABXY de microinterruptor; hasta 1000 Hz por cable / 2,4 GHz</td><td>1000 Hz no se aplica a Bluetooth; confirmar receptor</td></tr>
+<tr><th scope="row"><a href="/es/products/g7/">G7</a></th><td>ABXY de microinterruptor; hasta 1000 Hz (PC) por cable / 2,4 GHz</td><td>1000 Hz no se aplica a Bluetooth; confirmar receptor</td></tr>
 </tbody></table>
 </div>
 
@@ -48,7 +48,7 @@ Elija [G17](/es/products/g17/) si necesita un mando compatible con PS5. Su ficha
 
 ### G7 — respuesta rápida y botones táctiles
 
-[G7](/es/products/g7/) interesa a quienes buscan botones ABXY de microinterruptor y una frecuencia de sondeo de hasta 1000 Hz por cable y en modo 2,4 GHz. Ese valor depende del modo; no se aplica a Bluetooth. Confirme el receptor y el contenido final antes de publicar una ficha comercial.
+[G7](/es/products/g7/) interesa a quienes buscan botones ABXY de microinterruptor y una frecuencia de sondeo de hasta 1000 Hz (PC) por cable y en modo 2,4 GHz. Ese valor depende del modo; no se aplica a Bluetooth. Confirme el receptor y el contenido final antes de publicar una ficha comercial.
 
 ## Convierta la selección en un presupuesto
 

@@ -46,7 +46,7 @@ featured_controllers:
     link: "/products/g9/"
     badge: Novo
   - name: G7
-    tagline: 1000 Hz com cabo/2,4 GHz · botões ABXY de microinterruptor
+    tagline: 1000 Hz (PC) com cabo/2,4 GHz · botões ABXY de microinterruptor
     image: "images/g7/hero.webp"
     image_scale: 1.0
     hover_image: images/g7/details.webp

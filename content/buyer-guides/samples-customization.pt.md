@@ -4,7 +4,7 @@ seo_title: "Guia B2B de amostras e marca própria para controles"
 description: "Saiba quais produtos da INT-ROCK podem ter amostras sem marca, quando consultar opções de personalização e o que enviar para solicitar cotação."
 layout: "buyer-guide"
 date: 2026-10-17
-lastmod: 2026-11-02
+lastmod: 2026-11-09
 guide_image: "images/cards/g2.webp"
 guide_image_alt: "Controle sem fio G2 como exemplo de seleção de produto"
 ---
@@ -38,6 +38,19 @@ Pequenos pedidos no atacado são enviados na embalagem da marca de fábrica. Emb
 ### Quanto custa o envio aos Estados Unidos e qual é o prazo?
 
 Para entregas no atacado ao seu endereço de recebimento, o frete marítimo pode ser mais econômico; o expresso geralmente custa mais. Podemos consultar serviços adequados, incluindo 4PX quando aplicável. Envie modelo, quantidade e CEP para receber cotação e prazo estimado. Os valores e prazos dependem da remessa e da rota; não há tarifa fixa para todo o catálogo.
+
+## Como solicitar 1–2 amostras para avaliação?
+
+Informe:
+
+- Modelo e cor desejada.
+- Quantidade de amostras: 1–2 unidades.
+- Nome e dados de contato do destinatário.
+- País de destino, endereço completo e código postal (CEP). O endereço e o código postal são essenciais para calcular o frete internacional.
+
+Se você utiliza um agente de cargas na China continental, podemos enviar as amostras diretamente para ele. Informe o endereço de recebimento na China continental, os dados de contato e qualquer referência exigida pelo agente; seu endereço no exterior não é necessário para esse envio doméstico.
+
+A disponibilidade de amostras e as condições do pedido dependem do modelo. Confirme o preço das amostras, o frete e o prazo de despacho ao solicitar a cotação.
 
 ## Quais amostras podem vir sem marca?
 

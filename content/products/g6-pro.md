@@ -6,6 +6,7 @@ tagline: "Multi-Platform Hall Effect · Tri-Mode"
 card_image: "images/g6-pro/hero.webp"
 layout: "product"
 date: 2026-07-23
+lastmod: 2026-11-09
 
 hero:
   image: "images/g6-pro/hero.webp"
@@ -47,7 +48,7 @@ sections:
   - title: "Tri-Mode, Multi-Platform Play"
     image: "images/g6-pro/hero.webp"
     image_side: "left"
-    content: "Connect through Bluetooth 5.3, 2.4GHz wireless, or USB-C wired mode across compatible Switch 2, Switch, PC, iOS, and Android devices. The optional wireless receiver is not included as standard.\n\nG6 Pro is compatible with Switch 2 gameplay, but it does not wake the Switch 2 console. Functions may vary by platform, game, and connection mode."
+    content: "Connect through Bluetooth 5.3, 2.4GHz wireless, or USB-C wired mode across compatible Switch 2, Switch, PC, iOS, Android, and Steam Deck devices. The optional wireless receiver is not included as standard.\n\nG6 Pro is compatible with Switch 2 gameplay, but it does not wake the Switch 2 console. Functions may vary by platform, game, and connection mode."
 
   - title: "Programmable Back Controls and Turbo"
     image: "images/g6-pro/macro-buttons.webp"
@@ -69,7 +70,7 @@ specs:
   - label: "Connectivity"
     value: "Bluetooth 5.3 / 2.4GHz wireless / USB-C wired"
   - label: "Compatible Platforms"
-    value: "Switch 2 / Switch / PC / iOS / Android"
+    value: "Switch 2 / Switch / PC / Android / iOS / Steam Deck"
   - label: "Switch 2 Note"
     value: "Compatible for gameplay; does not wake the console"
   - label: "Rear Buttons"

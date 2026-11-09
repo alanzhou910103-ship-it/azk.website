@@ -4,7 +4,7 @@ seo_title: "Gaming Controller Samples and Private-Label Buying Guide"
 description: "Learn which INT-ROCK products can be sampled unbranded, when logo and packaging customization can be discussed, and what B2B buyers should send for a quotation."
 layout: "buyer-guide"
 date: 2026-10-17
-lastmod: 2026-11-02
+lastmod: 2026-11-09
 guide_image: "images/cards/g2.webp"
 guide_image_alt: "G2 wireless controller used to illustrate controller sourcing"
 ---
@@ -38,6 +38,19 @@ Small wholesale orders come with the factory’s existing branded packaging. Neu
 ### What are the shipping costs and delivery times to the United States?
 
 For wholesale deliveries to your receiving address, sea freight can be a lower-cost option, while express shipping generally costs more. We can check suitable services, including 4PX where applicable. Send the model, quantity and delivery ZIP code for a quotation with estimated transit time. Rates and timing depend on the shipment and route; there is no fixed website-wide rate.
+
+## How do I request 1–2 evaluation samples?
+
+Please include:
+
+- Model and preferred color.
+- Sample quantity: 1–2 units.
+- Recipient name and contact details.
+- Destination country, full delivery address and postal code. The address and postal code are essential for calculating international shipping costs.
+
+If you use a freight forwarder in mainland China, we can send the samples to that forwarder. Provide the forwarder's mainland China receiving address, contact details and any required shipment reference; your overseas delivery address is not needed for this domestic shipment.
+
+Sample availability and order requirements depend on the model. Confirm the sample price, shipping cost and dispatch timing when requesting a quotation.
 
 ## Which samples can be unbranded?
 

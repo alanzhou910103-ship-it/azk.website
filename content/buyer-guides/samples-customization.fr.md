@@ -4,7 +4,7 @@ seo_title: "Guide B2B des échantillons et de la marque privée"
 description: "Découvrez quels produits INT-ROCK peuvent être échantillonnés sans marque, quand envisager la personnalisation et quelles informations fournir pour un devis."
 layout: "buyer-guide"
 date: 2026-10-17
-lastmod: 2026-11-02
+lastmod: 2026-11-09
 guide_image: "images/cards/g2.webp"
 guide_image_alt: "Manette sans fil G2 illustrant la sélection d’un produit"
 ---
@@ -38,6 +38,19 @@ Les petites commandes en gros sont fournies dans l’emballage de la marque d’
 ### Quels sont les frais et délais d’expédition vers les États-Unis ?
 
 Pour les commandes en gros livrées à votre adresse de réception, le fret maritime peut être plus économique ; l’express coûte généralement plus cher. Nous pouvons consulter les services adaptés, dont 4PX le cas échéant. Envoyez le modèle, la quantité et le code postal pour un devis avec délai estimé. Les coûts et délais dépendent de l’envoi et de l’itinéraire ; aucun tarif unique ne s’applique à tout le catalogue.
+
+## Comment demander 1 à 2 échantillons d’évaluation ?
+
+Veuillez préciser :
+
+- Le modèle et la couleur souhaitée.
+- La quantité d’échantillons : 1 à 2 unités.
+- Le nom et les coordonnées du destinataire.
+- Le pays de destination, l’adresse complète et le code postal. L’adresse et le code postal sont indispensables au calcul des frais de transport international.
+
+Si vous travaillez avec un transitaire en Chine continentale, nous pouvons lui envoyer directement les échantillons. Indiquez son adresse de réception en Chine continentale, ses coordonnées et toute référence demandée ; votre adresse à l’étranger n’est pas nécessaire pour cet envoi intérieur.
+
+La disponibilité des échantillons et les conditions de commande dépendent du modèle. Confirmez le prix des échantillons, les frais de transport et le délai d’expédition lors de votre demande de devis.
 
 ## Quels échantillons peuvent être sans marque ?
 

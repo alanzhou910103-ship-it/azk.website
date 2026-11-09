@@ -4,7 +4,7 @@ seo_title: "Guide B2B des manettes G17, G1, G2, G6 Pro et G7"
 description: "Choisissez parmi les manettes G17, G1, G2, G6 Pro et G7 d’INT-ROCK selon la plateforme, les fonctions et le positionnement de votre gamme."
 layout: "buyer-guide"
 date: 2026-10-17
-lastmod: 2026-11-02
+lastmod: 2026-11-09
 guide_image: "images/g17/hero.webp"
 guide_image_alt: "Manette sans fil G17 vue de face"
 ---
@@ -24,7 +24,7 @@ Sur mobile, faites défiler le tableau horizontalement. Ouvrez chaque modèle po
 <tr><th scope="row"><a href="/fr/products/g1/">G1</a></th><td>Joysticks TMR ; ABXY à micro-interrupteur ; gâchettes à deux modes</td><td>Modes de connexion et contenu final</td></tr>
 <tr><th scope="row"><a href="/fr/products/g2/">G2</a></th><td>Joysticks TMR ; affichage de batterie ; disposition des boutons permutable</td><td>Station de charge en option, non incluse de série</td></tr>
 <tr><th scope="row"><a href="/fr/products/g6-pro/">G6 Pro</a></th><td>Joysticks à effet Hall ; Bluetooth, 2,4 GHz et filaire</td><td>Récepteur en option ; pas de sortie de veille de la Switch 2</td></tr>
-<tr><th scope="row"><a href="/fr/products/g7/">G7</a></th><td>ABXY à micro-interrupteur ; jusqu’à 1000 Hz en filaire / 2,4 GHz</td><td>1000 Hz ne concerne pas le Bluetooth ; confirmer le récepteur</td></tr>
+<tr><th scope="row"><a href="/fr/products/g7/">G7</a></th><td>ABXY à micro-interrupteur ; jusqu’à 1000 Hz (PC) en filaire / 2,4 GHz</td><td>1000 Hz ne concerne pas le Bluetooth ; confirmer le récepteur</td></tr>
 </tbody></table>
 </div>
 
@@ -48,7 +48,7 @@ La [G6 Pro](/fr/products/g6-pro/) vise plusieurs plateformes avec des fonctions 
 
 ### G7 — réactivité et boutons à micro-interrupteur
 
-La [G7](/fr/products/g7/) s’adresse aux acheteurs recherchant des boutons ABXY à micro-interrupteur et un taux d’interrogation allant jusqu’à 1000 Hz en mode filaire et 2,4 GHz. Ce chiffre dépend du mode et ne s’applique pas au Bluetooth. Confirmez le récepteur et le contenu final avant publication.
+La [G7](/fr/products/g7/) s’adresse aux acheteurs recherchant des boutons ABXY à micro-interrupteur et un taux d’interrogation allant jusqu’à 1000 Hz (PC) en mode filaire et 2,4 GHz. Ce chiffre dépend du mode et ne s’applique pas au Bluetooth. Confirmez le récepteur et le contenu final avant publication.
 
 ## Passez de la sélection au devis
 
