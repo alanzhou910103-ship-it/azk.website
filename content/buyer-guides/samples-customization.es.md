@@ -78,6 +78,14 @@ Las muestras estándar de evaluación no admiten serigrafía ni grabado láser p
 
 En proyectos gráficos como el [grip de carga GA06L](/es/products/ga06l/), el diseño, el proceso y el acabado final requieren aprobación sobre muestra. Un diseño ilustrativo en la web no equivale a una especificación de producción aprobada.
 
+<h2 id="custom-sampling-fees">Costes de muestras personalizadas y preparación</h2>
+
+- **Muestras de logotipo serigrafiado básico y caja de color estándar:** sin coste adicional de preparación de muestras.
+- **Calcomanías al agua o impresión por transferencia de agua:** se aplica un coste de preparación de planchas o del diseño para impresión.
+- **Cajas de color personalizadas de gama alta:** puede aplicarse un coste adicional de muestra.
+
+El importe exacto depende del diseño, el proceso decorativo y el embalaje, y se confirma en el presupuesto del proyecto. Estos costes de preparación son distintos de las muestras de evaluación de pago descritas anteriormente.
+
 ## ¿Y los documentos CE, RoHS y FCC?
 
 Para G1, G2, G6 Pro y G7 podemos facilitar manuales en inglés, imágenes de producto en alta resolución y documentos CE, RoHS y FCC. Puede utilizar los manuales y las imágenes facilitados en su propia web. Antes de utilizar la documentación de certificación, compruebe el modelo exacto, la versión comercial y los requisitos del destino. También disponemos de documentos de transporte de baterías, incluidos UN38.3 y MSDS. Solicite los correspondientes a la batería y la versión exacta del producto para comprobar las condiciones del envío.

@@ -78,6 +78,14 @@ Amostras padrão de avaliação não recebem serigrafia nem gravação a laser p
 
 Em projetos gráficos como o [grip de carregamento GA06L](/pt/products/ga06l/), a arte, o processo e o acabamento final precisam ser aprovados em amostra. Uma imagem conceitual no site não equivale a uma especificação de produção aprovada.
 
+<h2 id="custom-sampling-fees">Custos de amostras personalizadas e preparação</h2>
+
+- **Amostras de logotipo por serigrafia simples e caixa colorida padrão:** sem taxa adicional de preparação de amostras.
+- **Decalques à base de água ou impressão por transferência de água:** há uma taxa de preparação de matriz ou da arte para impressão.
+- **Caixas coloridas personalizadas de padrão superior:** pode haver uma taxa adicional de amostra.
+
+O valor exato depende da arte, do processo de decoração e da embalagem, e é confirmado na cotação do projeto. Essas taxas de preparação são separadas das amostras de avaliação pagas descritas acima.
+
 ## E os documentos CE, RoHS e FCC?
 
 Para G1, G2, G6 Pro e G7, podemos fornecer manuais em inglês, imagens de produto em alta resolução e documentos CE, RoHS e FCC. Você pode usar os manuais e as imagens fornecidos no seu próprio site. Antes de usar a documentação de certificação, confira o modelo exato, a versão comercial e as exigências do destino. Também dispomos de documentos para transporte de baterias, incluindo UN38.3 e MSDS. Solicite os documentos da bateria e da versão exata do produto para verificar as condições do transporte.

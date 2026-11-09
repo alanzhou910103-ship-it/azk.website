@@ -6,7 +6,7 @@ tagline: Support de recharge Joy-Con 2 personnalisable + touches arrière
 card_image: images/cards/ga06l.webp
 layout: product
 date: 2026-06-23
-lastmod: 2026-11-02
+lastmod: 2026-11-09
 hero:
   image: images/ga06l/hero-v2.webp
   badge: Personnalisable
@@ -89,6 +89,9 @@ specs:
   value: Rails de manette moulés ; ajustement confirmé lors de l'échantillonnage
 - label: Contenu de l’emballage
   value: 1 × support de recharge, 3 × jeux de touches arrière GL/GR, 1 × câble USB-C, 1 × manuel d'utilisation ; manettes Joy-Con 2 non incluses
+- label: "Frais de préparation des visuels personnalisés"
+  value: "Les décalcomanies à l’eau et le transfert à l’eau nécessitent des frais de préparation. Les boîtes haut de gamme peuvent entraîner des frais d’échantillonnage ; devis par projet."
+
 cta:
   title: Prêt à créer votre propre édition GA06L ?
   button_label: Demander une proposition de personnalisation

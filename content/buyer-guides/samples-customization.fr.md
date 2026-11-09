@@ -78,6 +78,14 @@ Les échantillons standard d’évaluation ne reçoivent pas de sérigraphie ni 
 
 Pour un projet graphique comme le [grip de charge GA06L](/fr/products/ga06l/), le visuel, le procédé et la finition finale doivent être validés sur échantillon. Une illustration sur le site ne constitue pas à elle seule une spécification de production approuvée.
 
+<h2 id="custom-sampling-fees">Frais d’échantillonnage personnalisé et de préparation</h2>
+
+- **Échantillons de logo sérigraphié simple et de boîte couleur standard :** aucun frais d’échantillonnage supplémentaire.
+- **Décalcomanies à l’eau ou impression par transfert à l’eau :** des frais de préparation des plaques ou du visuel d’impression s’appliquent.
+- **Boîtes couleur personnalisées haut de gamme :** des frais d’échantillonnage supplémentaires peuvent s’appliquer.
+
+Le montant exact dépend du visuel, du procédé de décoration et de l’emballage ; il est confirmé dans le devis du projet. Ces frais de préparation sont distincts du prix des échantillons d’évaluation payants décrits plus haut.
+
 ## Qu’en est-il des documents CE, RoHS et FCC ?
 
 Pour les G1, G2, G6 Pro et G7, nous pouvons fournir des manuels en anglais, des images produit en haute résolution et des documents CE, RoHS et FCC. Vous pouvez utiliser les manuels et les images fournis sur votre propre site. Avant d’utiliser les documents de certification, vérifiez le modèle exact, la version commercialisée et les exigences de destination. Nous disposons également de documents de transport des batteries, notamment UN38.3 et MSDS. Demandez ceux correspondant à la batterie et à la version exacte du produit pour vérifier les conditions du transport.

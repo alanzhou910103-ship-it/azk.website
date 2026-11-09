@@ -6,7 +6,7 @@ tagline: Grip de carregamento personalizável para Joy-Con 2 + botões traseiros
 card_image: "images/cards/ga06l.webp"
 layout: "product"
 date: 2026-06-23
-lastmod: 2026-11-02
+lastmod: 2026-11-09
 hero:
   image: "images/ga06l/hero-v2.webp"
   badge: Personalizável
@@ -89,6 +89,9 @@ specs:
   value: Trilhos moldados para os controles; encaixe confirmado durante a avaliação da amostra
 - label: Conteúdo da embalagem
   value: 1 × grip de carregamento, 3 × conjuntos de botões traseiros GL/GR, 1 × cabo USB-C e 1 × manual do usuário; controles Joy-Con 2 não incluídos
+- label: "Taxas de preparação de artes personalizadas"
+  value: "Decalques à base de água e transferência de água exigem taxa de preparação. Caixas de padrão superior podem ter taxa de amostra; cotação por projeto."
+
 cta:
   title: Pronto para criar sua própria edição GA06L?
   button_label: Solicitar uma proposta de personalização

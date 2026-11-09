@@ -78,6 +78,14 @@ Standard evaluation samples cannot be custom silk-screen printed or laser engrav
 
 For graphic projects such as the [GA06L charging grip](/products/ga06l/), artwork, process and final finish need sample approval. The proposed artwork shown on a page is not automatically an approved production specification.
 
+<h2 id="custom-sampling-fees">Custom sampling and setup fees</h2>
+
+- **Basic silk-screen logo and standard color-box proofs:** no additional sampling fee.
+- **Waterslide decals or water-transfer printing:** a plate-making / artwork setup fee applies.
+- **Premium custom color boxes:** an additional sampling fee may apply.
+
+The exact charge depends on the artwork, decoration process and packaging requirements and is confirmed in the project quotation. These customization proofing fees are separate from the paid evaluation samples described above.
+
 ## What about CE, RoHS and FCC documents?
 
 For G1, G2, G6 Pro and G7, we can provide English manuals, high-resolution product images and CE, RoHS and FCC documents. You may use the supplied manuals and product images on your own website. Certification documents must be checked against the exact model, sales version and destination requirements before use. Battery transport documents, including UN38.3 and MSDS, are also available. Request the documents for the exact battery and product version so the shipping arrangement can be checked.

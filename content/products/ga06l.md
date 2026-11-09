@@ -6,7 +6,7 @@ tagline: "Customizable Joy-Con 2 Charging Grip + Back Buttons"
 card_image: "images/cards/ga06l.webp"
 layout: "product"
 date: 2026-06-23
-lastmod: 2026-11-02
+lastmod: 2026-11-09
 
 hero:
   image: "images/ga06l/hero-v2.webp"
@@ -83,6 +83,9 @@ specs:
     value: "Molded controller rails; fit confirmed during sampling"
   - label: "Package Contents"
     value: "1× Charging Grip, 3× GL/GR Back Button Sets, 1× USB-C Cable, 1× User Manual; Joy-Con 2 controllers not included"
+
+  - label: "Custom Graphics Setup Fees"
+    value: "Waterslide decals / water-transfer printing require a setup fee. Premium custom boxes may also incur a sampling fee; quoted per project."
 
 cta:
   title: "Ready to create your own GA06L edition?"
