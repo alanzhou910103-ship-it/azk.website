@@ -168,7 +168,7 @@ other = "All buyer guides"
 [guides_home_title]
 other = "Choose with a clearer brief"
 [guides_home_text]
-other = "Small wholesale orders of 5 or 10 units use factory branding. Own-brand orders start at 500 units per model. Check ordering and shipping options before you inquire."
+other = "Small wholesale orders of 5 or 10 units use factory branding. Own-brand minimums depend on model, color and customization. Check ordering and shipping options before you inquire."
 [explore_guides]
 other = "Explore buyer guides"
 [guides_cta_title]
@@ -209,16 +209,16 @@ other = "Purchase Type"
 other = "Small Wholesale — Factory Brand"
 
 [private_label_order]
-other = "Own Brand — 500+ Units per Model"
+other = "Own-brand order"
 
 [delivery_postcode]
 other = "Delivery ZIP / Postal Code (Optional)"
 
 [purchase_policy]
-other = "Small wholesale: 5 or 10 units with factory logo and packaging. Own-brand products and packaging: from 500 units per model. Confirm availability and project details."
+other = "Small wholesale: 5 or 10 units with factory logo and packaging. Own-brand minimums depend on model, color and customization. Check the ordering guide for the exact requirements."
 
 [form_purchase_policy]
-other = "Small orders use factory branding and packaging; own-brand orders start at 500 units per model. We do not currently offer U.S. dropshipping or automated Shopify dropshipping fulfillment."
+other = "Small orders use factory branding and packaging. Own-brand minimums depend on model and color; see the ordering guide. We do not currently offer U.S. dropshipping or automated Shopify dropshipping fulfillment."
 
 [confirmed_sample_dispatch]
 other = "Samples usually dispatched within 2 days after payment; transit time is additional."

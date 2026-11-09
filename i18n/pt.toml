@@ -168,7 +168,7 @@ other = "Todos os guias"
 [guides_home_title]
 other = "Escolha com critérios claros"
 [guides_home_text]
-other = "Pedidos no atacado de 5 ou 10 unidades usam a marca de fábrica. Marca própria a partir de 500 unidades por modelo. Confira as opções de pedidos e envios."
+other = "Pedidos pequenos no atacado de 5 ou 10 unidades usam a marca de fábrica. Os mínimos de marca própria dependem do modelo, da cor e da personalização. Confira as opções de pedidos e envio antes de solicitar uma cotação."
 [explore_guides]
 other = "Ver guias de compra"
 [guides_cta_title]
@@ -209,16 +209,16 @@ other = "Tipo de compra"
 other = "Pedido pequeno — Marca de fábrica"
 
 [private_label_order]
-other = "Marca própria — A partir de 500 unidades por modelo"
+other = "Pedido com marca própria"
 
 [delivery_postcode]
 other = "CEP de entrega (opcional)"
 
 [purchase_policy]
-other = "Atacado de 5 ou 10 unidades com logotipo e embalagem de fábrica. Produtos e embalagem com sua marca a partir de 500 unidades por modelo. Confirme disponibilidade e detalhes."
+other = "Atacado de 5 ou 10 unidades com logotipo e embalagem de fábrica. Os mínimos de marca própria dependem do modelo, da cor e da personalização. Consulte os requisitos no guia de pedidos."
 
 [form_purchase_policy]
-other = "Pedidos pequenos usam marca e embalagem de fábrica; marca própria a partir de 500 unidades por modelo. Atualmente não oferecemos dropshipping nos Estados Unidos nem atendimento automático de dropshipping com Shopify."
+other = "Pedidos pequenos usam marca e embalagem de fábrica. Os mínimos de marca própria dependem do modelo e da cor; consulte o guia de pedidos. Atualmente não oferecemos dropshipping nos Estados Unidos nem atendimento automático de dropshipping com Shopify."
 
 [confirmed_sample_dispatch]
 other = "As amostras geralmente são despachadas em até 2 dias após o pagamento; o transporte leva tempo adicional."

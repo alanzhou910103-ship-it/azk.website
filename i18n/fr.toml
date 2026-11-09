@@ -168,7 +168,7 @@ other = "Tous les guides"
 [guides_home_title]
 other = "Choisissez avec des critères clairs"
 [guides_home_text]
-other = "Petites commandes en gros de 5 ou 10 unités avec marque d’usine. Marque propre dès 500 unités par modèle. Consultez les modalités de commande et d’expédition."
+other = "Les petites commandes en gros de 5 ou 10 unités utilisent la marque d’usine. Les minimums pour votre marque dépendent du modèle, de la couleur et de la personnalisation. Consultez les options de commande et d’expédition avant votre demande."
 [explore_guides]
 other = "Voir les guides d’achat"
 [guides_cta_title]
@@ -209,16 +209,16 @@ other = "Type d’achat"
 other = "Petite commande — Marque d’usine"
 
 [private_label_order]
-other = "Marque propre — Dès 500 unités par modèle"
+other = "Commande à votre marque"
 
 [delivery_postcode]
 other = "Code postal de livraison (facultatif)"
 
 [purchase_policy]
-other = "Commandes en gros de 5 ou 10 unités avec logo et emballage d’usine. Produits et emballage à votre marque dès 500 unités par modèle. Confirmez disponibilité et détails."
+other = "Commandes en gros de 5 ou 10 unités avec logo et emballage d’usine. Les minimums pour votre marque dépendent du modèle, de la couleur et de la personnalisation. Consultez le guide de commande pour les exigences précises."
 
 [form_purchase_policy]
-other = "Les petites commandes utilisent la marque et l’emballage d’usine ; marque propre dès 500 unités par modèle. Nous ne proposons actuellement ni dropshipping aux États-Unis ni traitement automatique de dropshipping via Shopify."
+other = "Les petites commandes utilisent la marque et l’emballage d’usine. Les minimums pour votre marque dépendent du modèle et de la couleur ; consultez le guide de commande. Nous ne proposons actuellement ni dropshipping aux États-Unis ni traitement automatique de dropshipping via Shopify."
 
 [confirmed_sample_dispatch]
 other = "Les échantillons sont généralement expédiés sous 2 jours après paiement ; le transport prend un délai supplémentaire."
