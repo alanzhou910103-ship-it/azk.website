@@ -13,6 +13,8 @@ The right controller is the one that matches your target platform, customer and 
 
 G1, G2, G6 Pro and G7 support Switch 2, Switch, PC, mobile devices and Steam Deck. These four models connect to Steam Deck via Bluetooth. G1 and G2 also support waking the Switch 2 console.
 
+G1, G2, G6 Pro and G7 all include a 2.4GHz receiver as standard. On Switch 2, G1 and G2 support six-axis motion and standard vibration, but not HD Rumble or NFC; neither has a headphone jack. The optional G2 dock bundle adds only the charging dock to the standard package, and the G2 dock cannot be used with G1.
+
 ## Quick comparison for your shortlist
 
 On a phone, swipe the table sideways to compare. Open a model for its full specification.
@@ -25,8 +27,8 @@ On a phone, swipe the table sideways to compare. Open a model for its full speci
 <tr><th scope="row"><a href="/products/g17/">G17</a></th><td>Hall Effect sticks; four programmable back buttons; integrated audio</td><td>Required functions on each target platform</td></tr>
 <tr><th scope="row"><a href="/products/g1/">G1</a></th><td>TMR sticks; micro-switch ABXY; dual-mode triggers</td><td>Connection modes and final bundle</td></tr>
 <tr><th scope="row"><a href="/products/g2/">G2</a></th><td>TMR sticks; battery display; switchable button layout</td><td>Charging dock is optional, not standard</td></tr>
-<tr><th scope="row"><a href="/products/g6-pro/">G6 Pro</a></th><td>Hall Effect sticks; Bluetooth, 2.4GHz and wired modes</td><td>Receiver optional; no Switch 2 wake-up</td></tr>
-<tr><th scope="row"><a href="/products/g7/">G7</a></th><td>Micro-switch ABXY; up to 1000Hz (PC) wired / 2.4GHz</td><td>1000Hz does not apply to Bluetooth; confirm receiver bundle</td></tr>
+<tr><th scope="row"><a href="/products/g6-pro/">G6 Pro</a></th><td>Hall Effect sticks; Bluetooth, 2.4GHz and wired modes</td><td>Receiver included; no Switch 2 wake-up</td></tr>
+<tr><th scope="row"><a href="/products/g7/">G7</a></th><td>Micro-switch ABXY; up to 1000Hz (PC) wired / 2.4GHz</td><td>1000Hz is PC-only, wired / 2.4GHz; receiver included</td></tr>
 </tbody></table>
 </div>
 
@@ -46,11 +48,11 @@ Choose [G17](/products/g17/) if your range needs a PS5-compatible controller. It
 
 ### G6 Pro — multi-platform value
 
-[G6 Pro](/products/g6-pro/) focuses on broad platform coverage and core functions, with Hall Effect joysticks and Bluetooth, 2.4GHz and wired connection options. Its Switch 2 compatibility is for gameplay; the product page states it does not wake the console. Confirm the receiver and final bundle, as the receiver is optional.
+[G6 Pro](/products/g6-pro/) focuses on broad platform coverage and core functions, with Hall Effect joysticks and Bluetooth, 2.4GHz and wired connection options. Its Switch 2 compatibility is for gameplay; the product page states it does not wake the console. The 2.4GHz receiver is included as standard.
 
 ### G7 — fast input and tactile face buttons
 
-[G7](/products/g7/) is a fit for buyers looking for micro-switch ABXY buttons and a polling rate of up to 1000Hz (PC) in wired and 2.4GHz modes. Polling rate is mode-dependent; do not apply that figure to Bluetooth operation. Confirm the receiver and the final bundle before publishing a listing.
+[G7](/products/g7/) is a fit for buyers looking for micro-switch ABXY buttons and a polling rate of up to 1000Hz (PC) in wired and 2.4GHz modes. Polling rate is mode-dependent; do not apply that figure to Bluetooth operation. The 2.4GHz receiver is included as standard.
 
 ## Turn the shortlist into a quotation
 

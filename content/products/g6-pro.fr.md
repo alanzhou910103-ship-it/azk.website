@@ -46,7 +46,7 @@ sections:
 - title: Jeu tri-mode et multi-plateforme
   image: images/g6-pro/hero.webp
   image_side: left
-  content: 'Connectez-vous en Bluetooth 5.3, en sans-fil 2,4 GHz ou par câble USB-C avec les appareils compatibles Switch 2, Switch, PC, iOS, Android et Steam Deck (Bluetooth). Le récepteur sans fil en option n''est pas inclus en standard.
+  content: 'Connectez-vous en Bluetooth 5.3, en sans-fil 2,4 GHz ou par câble USB-C avec les appareils compatibles Switch 2, Switch, PC, iOS, Android et Steam Deck (Bluetooth). Le récepteur sans fil 2,4 GHz est inclus de série.
 
 
     Le G6 Pro est compatible avec les jeux Switch 2, mais il ne permet pas de sortir la console Switch 2 de veille. Les fonctions peuvent varier selon la plateforme, le jeu et le mode de connexion.'
@@ -96,7 +96,7 @@ specs:
 - label: Poids
   value: Environ 180 g
 - label: Récepteur sans fil
-  value: Accessoire en option ; non inclus en standard
+  value: "Récepteur 2,4 GHz inclus de série"
 - label: Certifications
   value: CE / RoHS / FCC
 - label: Emballage

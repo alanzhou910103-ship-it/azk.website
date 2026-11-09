@@ -48,7 +48,7 @@ sections:
   - title: "Tri-Mode, Multi-Platform Play"
     image: "images/g6-pro/hero.webp"
     image_side: "left"
-    content: "Connect through Bluetooth 5.3, 2.4GHz wireless, or USB-C wired mode across compatible Switch 2, Switch, PC, iOS, Android, and Steam Deck (Bluetooth) devices. The optional wireless receiver is not included as standard.\n\nG6 Pro is compatible with Switch 2 gameplay, but it does not wake the Switch 2 console. Functions may vary by platform, game, and connection mode."
+    content: "Connect through Bluetooth 5.3, 2.4GHz wireless, or USB-C wired mode across compatible Switch 2, Switch, PC, iOS, Android, and Steam Deck (Bluetooth) devices. The 2.4GHz wireless receiver is included as standard.\n\nG6 Pro is compatible with Switch 2 gameplay, but it does not wake the Switch 2 console. Functions may vary by platform, game, and connection mode."
 
   - title: "Programmable Back Controls and Turbo"
     image: "images/g6-pro/macro-buttons.webp"
@@ -92,7 +92,7 @@ specs:
   - label: "Weight"
     value: "About 180g"
   - label: "Wireless Receiver"
-    value: "Optional accessory; not standard"
+    value: "2.4GHz receiver included as standard"
   - label: "Certifications"
     value: "CE / RoHS / FCC"
   - label: "Packaging"

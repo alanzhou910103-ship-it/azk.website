@@ -13,6 +13,8 @@ La bonne manette dépend de la plateforme, du public et du positionnement de vot
 
 Les G1, G2, G6 Pro et G7 sont compatibles avec Switch 2, Switch, PC, les appareils mobiles et Steam Deck. Ces quatre modèles se connectent au Steam Deck en Bluetooth. Les G1 et G2 permettent également de sortir la console Switch 2 de veille.
 
+Les G1, G2, G6 Pro et G7 comprennent un récepteur 2,4 GHz de série. Sur Switch 2, les G1 et G2 prennent en charge la détection de mouvement à six axes et la vibration standard, mais ni les vibrations HD ni le NFC ; aucune des deux manettes ne dispose de prise casque. Le coffret G2 avec station ajoute uniquement la station de recharge au coffret standard, et la station G2 ne peut pas être utilisée avec G1.
+
 ## Comparaison rapide pour votre sélection
 
 Sur mobile, faites défiler le tableau horizontalement. Ouvrez chaque modèle pour consulter sa fiche complète.
@@ -25,8 +27,8 @@ Sur mobile, faites défiler le tableau horizontalement. Ouvrez chaque modèle po
 <tr><th scope="row"><a href="/fr/products/g17/">G17</a></th><td>Joysticks à effet Hall ; quatre boutons arrière programmables ; audio intégré</td><td>Fonctions requises sur chaque plateforme</td></tr>
 <tr><th scope="row"><a href="/fr/products/g1/">G1</a></th><td>Joysticks TMR ; ABXY à micro-interrupteur ; gâchettes à deux modes</td><td>Modes de connexion et contenu final</td></tr>
 <tr><th scope="row"><a href="/fr/products/g2/">G2</a></th><td>Joysticks TMR ; affichage de batterie ; disposition des boutons permutable</td><td>Station de charge en option, non incluse de série</td></tr>
-<tr><th scope="row"><a href="/fr/products/g6-pro/">G6 Pro</a></th><td>Joysticks à effet Hall ; Bluetooth, 2,4 GHz et filaire</td><td>Récepteur en option ; pas de sortie de veille de la Switch 2</td></tr>
-<tr><th scope="row"><a href="/fr/products/g7/">G7</a></th><td>ABXY à micro-interrupteur ; jusqu’à 1000 Hz (PC) en filaire / 2,4 GHz</td><td>1000 Hz ne concerne pas le Bluetooth ; confirmer le récepteur</td></tr>
+<tr><th scope="row"><a href="/fr/products/g6-pro/">G6 Pro</a></th><td>Joysticks à effet Hall ; Bluetooth, 2,4 GHz et filaire</td><td>Récepteur inclus ; pas de sortie de veille de la Switch 2</td></tr>
+<tr><th scope="row"><a href="/fr/products/g7/">G7</a></th><td>ABXY à micro-interrupteur ; jusqu’à 1000 Hz (PC) en filaire / 2,4 GHz</td><td>1000 Hz sur PC uniquement, filaire / 2,4 GHz ; récepteur inclus</td></tr>
 </tbody></table>
 </div>
 
@@ -46,11 +48,11 @@ La [G2](/fr/products/g2/) ajoute des joysticks TMR, un affichage du pourcentage 
 
 ### G6 Pro — polyvalence et bon rapport fonctions-prix
 
-La [G6 Pro](/fr/products/g6-pro/) vise plusieurs plateformes avec des fonctions essentielles : joysticks à effet Hall et connexions Bluetooth, 2,4 GHz et filaire. Sur Switch 2, elle est compatible avec le jeu mais ne permet pas de sortir la console de veille. Confirmez le récepteur et le coffret final : le récepteur est en option.
+La [G6 Pro](/fr/products/g6-pro/) vise plusieurs plateformes avec des fonctions essentielles : joysticks à effet Hall et connexions Bluetooth, 2,4 GHz et filaire. Sur Switch 2, elle est compatible avec le jeu mais ne permet pas de sortir la console de veille. Le récepteur 2,4 GHz est inclus de série.
 
 ### G7 — réactivité et boutons à micro-interrupteur
 
-La [G7](/fr/products/g7/) s’adresse aux acheteurs recherchant des boutons ABXY à micro-interrupteur et un taux d’interrogation allant jusqu’à 1000 Hz (PC) en mode filaire et 2,4 GHz. Ce chiffre dépend du mode et ne s’applique pas au Bluetooth. Confirmez le récepteur et le contenu final avant publication.
+La [G7](/fr/products/g7/) s’adresse aux acheteurs recherchant des boutons ABXY à micro-interrupteur et un taux d’interrogation allant jusqu’à 1000 Hz (PC) en mode filaire et 2,4 GHz. Ce chiffre dépend du mode et ne s’applique pas au Bluetooth. Le récepteur 2,4 GHz est inclus de série.
 
 ## Passez de la sélection au devis
 

@@ -21,7 +21,7 @@ buyer_needs:
 
 Comparez les [manettes sans fil TMR comme le G1](/fr/products/g1/) aux [modèles Hall Effect comme le G9](/fr/products/g9/). Vérifiez les modes de connexion, la disposition des touches et la compatibilité de chaque modèle avant de demander un échantillon pour votre magasin ou votre réseau de distribution.
 
-Pour une gamme axée sur les performances, la [manette trimode G7](/fr/products/g7/) atteint un taux d’interrogation de 1 000 Hz (PC) en mode filaire et 2,4 GHz. Le [G9](/fr/products/g9/) atteint 1 000 Hz en mode 2,4 GHz. Les récepteurs sans fil sont proposés en option sur ces deux modèles ; précisez la configuration souhaitée dans votre demande.
+Pour une gamme axée sur les performances, la [manette trimode G7](/fr/products/g7/) atteint un taux d’interrogation de 1 000 Hz (PC) en mode filaire et 2,4 GHz. Le [G9](/fr/products/g9/) atteint 1 000 Hz en mode 2,4 GHz. Le G7 comprend un récepteur 2,4 GHz de série. Le récepteur du G9 reste en option ; précisez la configuration souhaitée dans votre demande.
 
 ## Confirmer la compatibilité avant toute commande
 

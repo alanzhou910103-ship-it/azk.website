@@ -46,7 +46,7 @@ sections:
 - title: Conectividad trimodo y multiplataforma
   image: "images/g6-pro/hero.webp"
   image_side: left
-  content: 'Conéctelo mediante Bluetooth 5.3, 2,4 GHz inalámbricos o USB-C con cable a dispositivos compatibles con Switch 2, Switch, PC, iOS, Android y Steam Deck (Bluetooth). El receptor inalámbrico opcional no está incluido como estándar.
+  content: 'Conéctelo mediante Bluetooth 5.3, 2,4 GHz inalámbricos o USB-C con cable a dispositivos compatibles con Switch 2, Switch, PC, iOS, Android y Steam Deck (Bluetooth). El receptor inalámbrico de 2,4 GHz está incluido de serie.
 
 
     El G6 Pro es compatible con el juego Switch 2 pero no activa la consola Switch 2. Las funciones pueden variar por plataforma, juego y modo de conexión.'
@@ -96,7 +96,7 @@ specs:
 - label: Peso
   value: Aprox. 180 g
 - label: Receptor inalámbrico
-  value: Accesorio opcional; no estándar
+  value: "Receptor de 2,4 GHz incluido de serie"
 - label: Certificaciones
   value: CE / RoHS / FCC
 - label: Embalaje

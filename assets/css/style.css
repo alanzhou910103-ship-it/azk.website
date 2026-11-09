@@ -676,6 +676,7 @@ a:hover { color: var(--accent-dim); }
   .contact-form { padding: 22px 18px; }
   .cta-card { padding: 46px 22px; }
   .specs-row { flex-direction: column; gap: 4px; }
+  .specs-label { flex-basis: auto; }
 }
 
 /* Category guides and shared breadcrumb lists */

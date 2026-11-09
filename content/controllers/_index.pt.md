@@ -20,7 +20,7 @@ buyer_needs:
 
 Compare [controles sem fio TMR como o G1](/pt/products/g1/) com [modelos Hall Effect como o G9](/pt/products/g9/). Verifique os modos de conexão, a disposição dos botões e a compatibilidade antes de solicitar uma amostra.
 
-Para uma linha voltada ao desempenho, o [G7 trimodo](/pt/products/g7/) oferece taxa de polling de até 1000 Hz (PC) nos modos com fio e 2,4 GHz. O [G9](/pt/products/g9/) oferece até 1000 Hz em modo 2,4 GHz. Os receptores sem fio são opcionais nos dois modelos; confirme o pacote necessário ao enviar sua consulta.
+Para uma linha voltada ao desempenho, o [G7 trimodo](/pt/products/g7/) oferece taxa de polling de até 1000 Hz (PC) nos modos com fio e 2,4 GHz. O [G9](/pt/products/g9/) oferece até 1000 Hz em modo 2,4 GHz. O G7 inclui um receptor de 2,4 GHz de série. O receptor do G9 continua opcional; confirme o pacote necessário ao enviar sua consulta.
 
 ## Confirme a compatibilidade antes da compra
 

@@ -13,6 +13,8 @@ O controle ideal depende da plataforma, do público e do posicionamento da sua l
 
 G1, G2, G6 Pro e G7 são compatíveis com Switch 2, Switch, PC, dispositivos móveis e Steam Deck. Os quatro se conectam ao Steam Deck por Bluetooth. G1 e G2 também permitem despertar o Switch 2 do modo de repouso.
 
+G1, G2, G6 Pro e G7 incluem um receptor de 2,4 GHz de série. No Switch 2, G1 e G2 oferecem controle de movimento de seis eixos e vibração padrão, mas não HD Rumble nem NFC; nenhum tem entrada para fones de ouvido. O kit G2 com base acrescenta apenas a base de carregamento ao kit padrão, e a base do G2 não é compatível com G1.
+
 ## Comparação rápida para sua seleção
 
 No celular, deslize a tabela na horizontal. Abra cada modelo para consultar a ficha completa.
@@ -25,8 +27,8 @@ No celular, deslize a tabela na horizontal. Abra cada modelo para consultar a fi
 <tr><th scope="row"><a href="/pt/products/g17/">G17</a></th><td>Joysticks Hall Effect; quatro botões traseiros programáveis; áudio integrado</td><td>Funções necessárias em cada plataforma</td></tr>
 <tr><th scope="row"><a href="/pt/products/g1/">G1</a></th><td>Joysticks TMR; ABXY com microinterruptores; gatilhos de dois modos</td><td>Modos de conexão e conteúdo final</td></tr>
 <tr><th scope="row"><a href="/pt/products/g2/">G2</a></th><td>Joysticks TMR; visor de bateria; layout de botões alternável</td><td>Base de carregamento opcional, não incluída como padrão</td></tr>
-<tr><th scope="row"><a href="/pt/products/g6-pro/">G6 Pro</a></th><td>Joysticks Hall Effect; Bluetooth, 2,4 GHz e cabo</td><td>Receptor opcional; não desperta o Switch 2</td></tr>
-<tr><th scope="row"><a href="/pt/products/g7/">G7</a></th><td>ABXY com microinterruptores; até 1000 Hz (PC) por cabo / 2,4 GHz</td><td>1000 Hz não se aplica ao Bluetooth; confirmar receptor</td></tr>
+<tr><th scope="row"><a href="/pt/products/g6-pro/">G6 Pro</a></th><td>Joysticks Hall Effect; Bluetooth, 2,4 GHz e cabo</td><td>Receptor incluído; não desperta o Switch 2</td></tr>
+<tr><th scope="row"><a href="/pt/products/g7/">G7</a></th><td>ABXY com microinterruptores; até 1000 Hz (PC) por cabo / 2,4 GHz</td><td>1000 Hz apenas no PC via cabo / 2,4 GHz; receptor incluído</td></tr>
 </tbody></table>
 </div>
 
@@ -46,11 +48,11 @@ O [G2](/pt/products/g2/) oferece joysticks TMR, visor com percentual de bateria 
 
 ### G6 Pro — versatilidade e custo-benefício
 
-O [G6 Pro](/pt/products/g6-pro/) reúne compatibilidade com várias plataformas e funções essenciais, com joysticks Hall Effect e conexões Bluetooth, 2,4 GHz e por cabo. No Switch 2, é compatível com jogos, mas não desperta o console. Confirme o receptor e o conjunto final: o receptor é opcional.
+O [G6 Pro](/pt/products/g6-pro/) reúne compatibilidade com várias plataformas e funções essenciais, com joysticks Hall Effect e conexões Bluetooth, 2,4 GHz e por cabo. No Switch 2, é compatível com jogos, mas não desperta o console. O receptor de 2,4 GHz está incluído de série.
 
 ### G7 — resposta rápida e botões táteis
 
-O [G7](/pt/products/g7/) atende compradores que procuram botões ABXY com microinterruptores e taxa de resposta de até 1000 Hz (PC) nos modos com cabo e 2,4 GHz. Esse valor depende do modo e não se aplica ao Bluetooth. Confirme o receptor e o conteúdo final antes de publicar o anúncio.
+O [G7](/pt/products/g7/) atende compradores que procuram botões ABXY com microinterruptores e taxa de resposta de até 1000 Hz (PC) nos modos com cabo e 2,4 GHz. Esse valor depende do modo e não se aplica ao Bluetooth. O receptor de 2,4 GHz está incluído de série.
 
 ## Transforme a seleção em uma cotação
 
