@@ -774,3 +774,11 @@ a:hover { color: var(--accent-dim); }
   .nav-dropdown-item { padding: 10px 16px; }
   .nav-chevron { display: none; }
 }
+
+/* Expanded product headings keep feature copy clear of product imagery. */
+.product-hero-feature-heading { display: flex; flex-direction: column; }
+.product-hero-feature-heading .product-hero-content { position: relative; order: -1; padding: clamp(24px, 4vw, 48px) 24px; }
+.product-hero-feature-heading .product-hero-title { font-size: clamp(1.9rem, 3.8vw, 3.5rem); line-height: 1.12; max-width: 1000px; margin-left: auto; margin-right: auto; }
+.product-hero-feature-heading .product-hero-note { max-width: 800px; }
+.product-hero-feature-heading .product-hero-overlay { display: none; }
+.product-hero-feature-heading .product-hero-bg { padding-top: 0; }

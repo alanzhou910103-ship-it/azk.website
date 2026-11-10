@@ -10,7 +10,7 @@
 {{ with .Params }}
 
 <!-- Product Hero -->
-<section class="product-hero{{ if $isVisualStory }} product-hero-visual{{ end }}{{ if in (slice "GA06L" "GA05") $page.Title }} product-hero-accessory{{ end }}">
+<section class="product-hero{{ if .hero.heading }} product-hero-feature-heading{{ end }}{{ if $isVisualStory }} product-hero-visual{{ end }}{{ if in (slice "GA06L" "GA05") $page.Title }} product-hero-accessory{{ end }}">
   {{ with .hero.image }}
   <div class="product-hero-bg">
     <img src="{{ . | relURL }}" alt="{{ $page.Title }} {{ $page.Params.tagline }}" {{ partial "image-dimensions.html" . | safeHTMLAttr }} fetchpriority="high" decoding="async">
@@ -19,7 +19,7 @@
   <div class="product-hero-overlay"></div>
   <div class="container product-hero-content">
     {{ with .hero.badge }}<span class="badge">{{ . }}</span>{{ end }}
-    <h1 class="product-hero-title" data-aos="fade-up">{{ .title }}</h1>
+    <h1 class="product-hero-title" data-aos="fade-up">{{ .hero.heading | default .title }}</h1>
     <p class="product-hero-tagline" data-aos="fade-up" data-aos-delay="150">{{ .tagline }}</p>
     {{ with .hero.note }}<p class="product-hero-note">{{ . }}</p>{{ end }}
     <div class="product-hero-actions">
