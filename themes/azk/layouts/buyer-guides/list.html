@@ -10,7 +10,7 @@
       {{ range .Params.guides }}
       <a class="buyer-guide-card" href="{{ relLangURL .url }}">
         <div class="buyer-guide-card-image">
-          <img src="{{ .image | relURL }}" alt="{{ .image_alt }}" {{ partial "image-dimensions.html" .image | safeHTMLAttr }} loading="lazy" decoding="async">
+          {{ partial "optimized-image.html" (dict "src" .image "alt" (.image_alt) "loading" "lazy") }}
         </div>
         <div class="buyer-guide-card-copy">
           <span>{{ .label }}</span>

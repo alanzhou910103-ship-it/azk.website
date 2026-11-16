@@ -239,7 +239,7 @@ a:hover { color: var(--accent-dim); }
   transition: border-color var(--transition), box-shadow var(--transition);
 }
 .accessory-spotlight:hover { border-color: rgba(86,220,255,0.48); box-shadow: 0 24px 60px rgba(0,0,0,0.3); }
-.accessory-spotlight > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 48%; }
+.accessory-spotlight > img, .accessory-spotlight > picture > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 48%; }
 .accessory-spotlight::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, rgba(3,9,17,0.96) 0%, rgba(3,9,17,0.9) 32%, rgba(3,9,17,0.14) 72%); }
 .accessory-spotlight-content { position: relative; z-index: 2; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; min-height: 390px; max-width: 530px; padding: 44px 56px; }
 .accessory-spotlight-label { color: var(--accent); font-size: 0.72rem; font-weight: 800; letter-spacing: 0.14em; }
@@ -603,7 +603,7 @@ a:hover { color: var(--accent-dim); }
   #featured .product-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .accessory-spotlight { display: flex; flex-direction: column; min-height: 0; }
   .accessory-spotlight::before { display: none; }
-  .accessory-spotlight > img { position: relative; order: 2; height: auto; aspect-ratio: 4 / 3; object-position: 78% center; }
+  .accessory-spotlight > img, .accessory-spotlight > picture > img { position: relative; order: 2; height: auto; aspect-ratio: 4 / 3; object-position: 78% center; }
   .accessory-spotlight-content { order: 1; min-height: 0; max-width: none; padding: 34px 32px 30px; }
   #accessories .product-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .nav-list { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: var(--bg-dark); flex-direction: column; justify-content: center; gap: 24px; opacity: 0; visibility: hidden; transition: all var(--transition); }
@@ -782,3 +782,6 @@ a:hover { color: var(--accent-dim); }
 .product-hero-feature-heading .product-hero-note { max-width: 800px; }
 .product-hero-feature-heading .product-hero-overlay { display: none; }
 .product-hero-feature-heading .product-hero-bg { padding-top: 0; }
+
+/* Preserve existing image layout while offering a smaller AVIF source. */
+picture.optimized-picture { display: contents; }

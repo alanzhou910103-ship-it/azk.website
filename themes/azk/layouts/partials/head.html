@@ -30,8 +30,8 @@
 {{ with .Permalink }}<link rel="canonical" href="{{ . }}">{{ end }}
 {{ range .AllTranslations }}<link rel="alternate" hreflang="{{ .Language.Locale }}" href="{{ .Permalink }}">{{ end }}
 {{ with .AllTranslations }}{{ range . }}{{ if eq .Language.Lang "en" }}<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">{{ end }}{{ end }}{{ end }}
-{{ with .Params.banner.image }}<link rel="preload" as="image" href="{{ . | relURL }}" fetchpriority="high">{{ end }}
-{{ with .Params.hero.image }}<link rel="preload" as="image" href="{{ . | relURL }}" fetchpriority="high">{{ end }}
+{{ with .Params.banner.image }}{{ partial "image-preload.html" . }}{{ end }}
+{{ with .Params.hero.image }}{{ partial "image-preload.html" . }}{{ end }}
 
 <!-- Open Graph -->
 <meta property="og:title" content="{{ $pageTitle }}">

@@ -13,7 +13,7 @@
 <section class="product-hero{{ if .hero.heading }} product-hero-feature-heading{{ end }}{{ if $isVisualStory }} product-hero-visual{{ end }}{{ if in (slice "GA06L" "GA05") $page.Title }} product-hero-accessory{{ end }}">
   {{ with .hero.image }}
   <div class="product-hero-bg">
-    <img src="{{ . | relURL }}" alt="{{ $page.Title }} {{ $page.Params.tagline }}" {{ partial "image-dimensions.html" . | safeHTMLAttr }} fetchpriority="high" decoding="async">
+    {{ partial "optimized-image.html" (dict "src" . "alt" (printf "%v %v" ($page.Title) ($page.Params.tagline)) "fetchpriority" "high") }}
   </div>
   {{ end }}
   <div class="product-hero-overlay"></div>
@@ -94,7 +94,7 @@
       {{ range .variants }}
       <div class="color-card" data-aos="fade-up">
         <div class="color-image">
-          <img src="{{ .image | relURL }}" alt="{{ $page.Title }} — {{ .name }}" {{ partial "image-dimensions.html" .image | safeHTMLAttr }} loading="lazy" decoding="async">
+          {{ partial "optimized-image.html" (dict "src" .image "alt" (printf "%v — %v" ($page.Title) (.name)) "loading" "lazy") }}
         </div>
         <h3 class="color-name">{{ .name }}</h3>
       </div>
@@ -111,7 +111,7 @@
       {{ range $index, $view := .images }}
       <div class="color-card" data-aos="fade-up">
         <div class="color-image">
-          <img src="{{ $view.image | relURL }}" alt="{{ $page.Title }} {{ i18n "product_view" }} {{ add $index 1 }}" {{ partial "image-dimensions.html" $view.image | safeHTMLAttr }} loading="lazy" decoding="async">
+          {{ partial "optimized-image.html" (dict "src" $view.image "alt" (printf "%v %v %v" ($page.Title) (i18n "product_view") (add $index 1)) "loading" "lazy") }}
         </div>
       </div>
       {{ end }}
@@ -144,7 +144,7 @@
     {{ range $index, $section := . }}
     <div class="product-row {{ if eq $section.image_side "left" }}product-row-reverse{{ end }}{{ if $isVisualStory }} product-row-wide{{ end }}" data-aos="fade-up">
       <div class="product-image">
-        <img src="{{ $section.image | relURL }}" alt="{{ $section.title }}" {{ partial "image-dimensions.html" $section.image | safeHTMLAttr }} loading="lazy" decoding="async">
+        {{ partial "optimized-image.html" (dict "src" $section.image "alt" ($section.title) "loading" "lazy") }}
       </div>
       <div class="product-info">
         <h2 class="product-title">{{ $section.title }}</h2>
@@ -254,7 +254,7 @@
       {{ range . }}
       <a href="{{ .RelPermalink }}" class="product-card">
         <div class="product-card-image">
-          <img src="{{ .Params.card_image | relURL }}" alt="{{ .Title }} {{ .Params.tagline }}" {{ partial "image-dimensions.html" .Params.card_image | safeHTMLAttr }} loading="lazy" decoding="async">
+          {{ partial "optimized-image.html" (dict "src" .Params.card_image "alt" (printf "%v %v" (.Title) (.Params.tagline)) "loading" "lazy") }}
         </div>
         <div class="product-card-info">
           <h3 class="product-card-name">{{ .Title }}</h3>

@@ -6,7 +6,7 @@
   <section class="hero" id="home">
     {{ with .image }}
     <div class="hero-bg">
-      <img src="{{ . | relURL }}" alt="{{ $.Params.banner.image_alt | default "INT-ROCK gaming controllers and accessories" }}" {{ partial "image-dimensions.html" . | safeHTMLAttr }} fetchpriority="high" decoding="async">
+      {{ partial "optimized-image.html" (dict "src" . "alt" ($.Params.banner.image_alt | default "INT-ROCK gaming controllers and accessories") "fetchpriority" "high") }}
     </div>
     {{ end }}
     <div class="hero-overlay"></div>
@@ -64,7 +64,7 @@
           <span class="controller-spotlight-action">{{ .action }} <span aria-hidden="true">→</span></span>
         </div>
         <div class="controller-spotlight-visual">
-          <img src="{{ .image | relURL }}" alt="{{ .alt }}" {{ partial "image-dimensions.html" .image | safeHTMLAttr }} loading="lazy" decoding="async">
+          {{ partial "optimized-image.html" (dict "src" .image "alt" (.alt) "loading" "lazy") }}
         </div>
       </a>
       {{ end }}
@@ -91,7 +91,7 @@
       <h2 class="section-title" data-aos="fade-up">{{ .title }}</h2>
       {{ with .spotlight }}
       <a class="accessory-spotlight" href="{{ relLangURL .link }}">
-        <img src="{{ .image | relURL }}" alt="{{ .alt }}" {{ partial "image-dimensions.html" .image | safeHTMLAttr }} loading="lazy" decoding="async">
+        {{ partial "optimized-image.html" (dict "src" .image "alt" (.alt) "loading" "lazy") }}
         <div class="accessory-spotlight-content">
           <span class="accessory-spotlight-label">{{ .label }}</span>
           <h3>{{ .title }}</h3>

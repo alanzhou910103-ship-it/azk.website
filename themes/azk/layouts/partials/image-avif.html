@@ -1,0 +1,9 @@
+{{- $src := strings.TrimPrefix "/" . -}}
+{{- $avif := "" -}}
+{{- if eq (path.Ext $src) ".webp" -}}
+  {{- $candidate := printf "%s.avif" (strings.TrimSuffix ".webp" $src) -}}
+  {{- if fileExists (printf "static/%s" $candidate) -}}
+    {{- $avif = $candidate -}}
+  {{- end -}}
+{{- end -}}
+{{- return $avif -}}

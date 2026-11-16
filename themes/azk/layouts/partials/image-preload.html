@@ -1,0 +1,6 @@
+{{- $avif := partial "image-avif.html" . -}}
+{{- if $avif -}}
+<link rel="preload" as="image" href="{{ $avif | relURL }}" type="image/avif" fetchpriority="high">
+{{- else -}}
+<link rel="preload" as="image" href="{{ . | relURL }}" fetchpriority="high">
+{{- end -}}

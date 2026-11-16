@@ -1,0 +1,4 @@
+{{- $avif := partial "image-avif.html" .src -}}
+{{- with $avif -}}<picture class="optimized-picture"><source type="image/avif" srcset="{{ . | relURL }}">{{- end -}}
+<img src="{{ .src | relURL }}" alt="{{ .alt }}" {{ partial "image-dimensions.html" .src | safeHTMLAttr }}{{ with .class }} class="{{ . }}"{{ end }}{{ with .loading }} loading="{{ . }}"{{ end }}{{ with .fetchpriority }} fetchpriority="{{ . }}"{{ end }} decoding="async">
+{{- if $avif -}}</picture>{{- end -}}
