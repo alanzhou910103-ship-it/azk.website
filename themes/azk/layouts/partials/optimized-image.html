@@ -1,4 +1,12 @@
+{{- $responsive := index hugo.Data.responsive_images .src -}}
+{{- if $responsive -}}
+{{- $sizes := .sizes | default $responsive.sizes -}}
+{{- if $responsive.avif -}}<picture class="optimized-picture"><source type="image/avif" {{ printf "srcset=\"%s\"" (partial "responsive-srcset.html" $responsive.avif) | safeHTMLAttr }} sizes="{{ $sizes }}">{{- end -}}
+<img src="{{ .src | relURL }}" {{ printf "srcset=\"%s\"" (partial "responsive-srcset.html" $responsive.webp) | safeHTMLAttr }} sizes="{{ $sizes }}" alt="{{ .alt }}" {{ partial "image-dimensions.html" .src | safeHTMLAttr }}{{ with .class }} class="{{ . }}"{{ end }}{{ with .loading }} loading="{{ . }}"{{ end }}{{ with .fetchpriority }} fetchpriority="{{ . }}"{{ end }} decoding="async">
+{{- if $responsive.avif -}}</picture>{{- end -}}
+{{- else -}}
 {{- $avif := partial "image-avif.html" .src -}}
 {{- with $avif -}}<picture class="optimized-picture"><source type="image/avif" srcset="{{ . | relURL }}">{{- end -}}
 <img src="{{ .src | relURL }}" alt="{{ .alt }}" {{ partial "image-dimensions.html" .src | safeHTMLAttr }}{{ with .class }} class="{{ . }}"{{ end }}{{ with .loading }} loading="{{ . }}"{{ end }}{{ with .fetchpriority }} fetchpriority="{{ . }}"{{ end }} decoding="async">
 {{- if $avif -}}</picture>{{- end -}}
+{{- end -}}

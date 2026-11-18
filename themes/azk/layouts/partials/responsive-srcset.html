@@ -1,0 +1,5 @@
+{{- $items := slice -}}
+{{- range . -}}
+  {{- $items = $items | append (printf "%s %vw" (.src | relURL) .width) -}}
+{{- end -}}
+{{- return (delimit $items ", ") -}}

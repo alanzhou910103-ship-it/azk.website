@@ -1,0 +1,312 @@
+{
+  "images/g2/hero-v2.webp": {
+    "width": 1536,
+    "height": 1024,
+    "sizes": "100vw",
+    "webp": [
+      {
+        "src": "images/responsive-20261118/g2-hero-v2-w800.webp",
+        "width": 800,
+        "bytes": 57164
+      },
+      {
+        "src": "images/responsive-20261118/g2-hero-v2-w1200.webp",
+        "width": 1200,
+        "bytes": 107666
+      },
+      {
+        "src": "images/g2/hero-v2.webp",
+        "width": 1536,
+        "bytes": 159634
+      }
+    ],
+    "avif": [
+      {
+        "src": "images/responsive-20261118/g2-hero-v2-w800.avif",
+        "width": 800,
+        "bytes": 55611
+      },
+      {
+        "src": "images/responsive-20261118/g2-hero-v2-w1200.avif",
+        "width": 1200,
+        "bytes": 89861
+      },
+      {
+        "src": "images/responsive-20261118/g2-hero-v2-w1536.avif",
+        "width": 1536,
+        "bytes": 116832
+      }
+    ]
+  },
+  "images/g2/glow-white-v2.webp": {
+    "width": 1254,
+    "height": 1254,
+    "sizes": "100vw",
+    "webp": [
+      {
+        "src": "images/responsive-20261118/g2-glow-white-v2-w400.webp",
+        "width": 400,
+        "bytes": 21842
+      },
+      {
+        "src": "images/responsive-20261118/g2-glow-white-v2-w800.webp",
+        "width": 800,
+        "bytes": 66488
+      },
+      {
+        "src": "images/g2/glow-white-v2.webp",
+        "width": 1254,
+        "bytes": 135460
+      }
+    ],
+    "avif": []
+  },
+  "images/g2/mech-black-v2.webp": {
+    "width": 1254,
+    "height": 1254,
+    "sizes": "100vw",
+    "webp": [
+      {
+        "src": "images/responsive-20261118/g2-mech-black-v2-w400.webp",
+        "width": 400,
+        "bytes": 23730
+      },
+      {
+        "src": "images/responsive-20261118/g2-mech-black-v2-w800.webp",
+        "width": 800,
+        "bytes": 70460
+      },
+      {
+        "src": "images/g2/mech-black-v2.webp",
+        "width": 1254,
+        "bytes": 141362
+      }
+    ],
+    "avif": []
+  },
+  "images/g17/hero.webp": {
+    "width": 1495,
+    "height": 1052,
+    "sizes": "max(100vw, 97vh)",
+    "webp": [
+      {
+        "src": "images/responsive-20261118/g17-hero-w800.webp",
+        "width": 800,
+        "bytes": 26544
+      },
+      {
+        "src": "images/g17/hero.webp",
+        "width": 1495,
+        "bytes": 42862
+      }
+    ],
+    "avif": []
+  },
+  "images/g17/color-all-white.webp": {
+    "width": 1495,
+    "height": 1052,
+    "sizes": "100vw",
+    "webp": [
+      {
+        "src": "images/responsive-20261118/g17-color-all-white-w400.webp",
+        "width": 400,
+        "bytes": 10006
+      },
+      {
+        "src": "images/responsive-20261118/g17-color-all-white-w800.webp",
+        "width": 800,
+        "bytes": 28560
+      },
+      {
+        "src": "images/g17/color-all-white.webp",
+        "width": 1495,
+        "bytes": 41110
+      }
+    ],
+    "avif": []
+  },
+  "images/g17/color-pink.webp": {
+    "width": 1495,
+    "height": 1052,
+    "sizes": "100vw",
+    "webp": [
+      {
+        "src": "images/responsive-20261118/g17-color-pink-w400.webp",
+        "width": 400,
+        "bytes": 13710
+      },
+      {
+        "src": "images/responsive-20261118/g17-color-pink-w800.webp",
+        "width": 800,
+        "bytes": 38378
+      },
+      {
+        "src": "images/g17/color-pink.webp",
+        "width": 1495,
+        "bytes": 57250
+      }
+    ],
+    "avif": []
+  },
+  "images/g17/color-white-black.webp": {
+    "width": 1495,
+    "height": 1052,
+    "sizes": "100vw",
+    "webp": [
+      {
+        "src": "images/responsive-20261118/g17-color-white-black-w400.webp",
+        "width": 400,
+        "bytes": 9556
+      },
+      {
+        "src": "images/responsive-20261118/g17-color-white-black-w800.webp",
+        "width": 800,
+        "bytes": 26544
+      },
+      {
+        "src": "images/g17/color-white-black.webp",
+        "width": 1495,
+        "bytes": 42862
+      }
+    ],
+    "avif": []
+  },
+  "images/g17/color-black.webp": {
+    "width": 1495,
+    "height": 1052,
+    "sizes": "100vw",
+    "webp": [
+      {
+        "src": "images/responsive-20261118/g17-color-black-w400.webp",
+        "width": 400,
+        "bytes": 13514
+      },
+      {
+        "src": "images/responsive-20261118/g17-color-black-w800.webp",
+        "width": 800,
+        "bytes": 37476
+      },
+      {
+        "src": "images/g17/color-black.webp",
+        "width": 1495,
+        "bytes": 58884
+      }
+    ],
+    "avif": []
+  },
+  "images/g17/color-red.webp": {
+    "width": 1495,
+    "height": 1052,
+    "sizes": "100vw",
+    "webp": [
+      {
+        "src": "images/responsive-20261118/g17-color-red-w400.webp",
+        "width": 400,
+        "bytes": 16864
+      },
+      {
+        "src": "images/responsive-20261118/g17-color-red-w800.webp",
+        "width": 800,
+        "bytes": 47232
+      },
+      {
+        "src": "images/g17/color-red.webp",
+        "width": 1495,
+        "bytes": 72500
+      }
+    ],
+    "avif": []
+  },
+  "images/g17/color-blue.webp": {
+    "width": 1495,
+    "height": 1052,
+    "sizes": "100vw",
+    "webp": [
+      {
+        "src": "images/responsive-20261118/g17-color-blue-w400.webp",
+        "width": 400,
+        "bytes": 15548
+      },
+      {
+        "src": "images/responsive-20261118/g17-color-blue-w800.webp",
+        "width": 800,
+        "bytes": 42626
+      },
+      {
+        "src": "images/g17/color-blue.webp",
+        "width": 1495,
+        "bytes": 64598
+      }
+    ],
+    "avif": []
+  },
+  "images/g17/color-peach-pink.webp": {
+    "width": 1600,
+    "height": 1124,
+    "sizes": "100vw",
+    "webp": [
+      {
+        "src": "images/responsive-20261118/g17-color-peach-pink-w400.webp",
+        "width": 400,
+        "bytes": 14566
+      },
+      {
+        "src": "images/responsive-20261118/g17-color-peach-pink-w800.webp",
+        "width": 800,
+        "bytes": 37458
+      },
+      {
+        "src": "images/g17/color-peach-pink.webp",
+        "width": 1600,
+        "bytes": 52178
+      }
+    ],
+    "avif": []
+  },
+  "images/g17/color-light-blue.webp": {
+    "width": 1600,
+    "height": 1124,
+    "sizes": "100vw",
+    "webp": [
+      {
+        "src": "images/responsive-20261118/g17-color-light-blue-w400.webp",
+        "width": 400,
+        "bytes": 17358
+      },
+      {
+        "src": "images/responsive-20261118/g17-color-light-blue-w800.webp",
+        "width": 800,
+        "bytes": 44804
+      },
+      {
+        "src": "images/g17/color-light-blue.webp",
+        "width": 1600,
+        "bytes": 64280
+      }
+    ],
+    "avif": []
+  },
+  "images/g17/color-nova-pink.webp": {
+    "width": 1600,
+    "height": 1124,
+    "sizes": "100vw",
+    "webp": [
+      {
+        "src": "images/responsive-20261118/g17-color-nova-pink-w400.webp",
+        "width": 400,
+        "bytes": 17680
+      },
+      {
+        "src": "images/responsive-20261118/g17-color-nova-pink-w800.webp",
+        "width": 800,
+        "bytes": 46572
+      },
+      {
+        "src": "images/g17/color-nova-pink.webp",
+        "width": 1600,
+        "bytes": 67092
+      }
+    ],
+    "avif": []
+  }
+}

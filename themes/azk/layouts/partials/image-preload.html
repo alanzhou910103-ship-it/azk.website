@@ -1,6 +1,15 @@
+{{- $responsive := index hugo.Data.responsive_images . -}}
+{{- if $responsive -}}
+{{- $items := $responsive.webp -}}
+{{- $type := "image/webp" -}}
+{{- if $responsive.avif }}{{ $items = $responsive.avif }}{{ $type = "image/avif" }}{{ end -}}
+{{- $fallback := index $items (sub (len $items) 1) -}}
+<link rel="preload" as="image" href="{{ $fallback.src | relURL }}" type="{{ $type }}" {{ printf "imagesrcset=\"%s\"" (partial "responsive-srcset.html" $items) | safeHTMLAttr }} imagesizes="{{ $responsive.sizes }}" fetchpriority="high">
+{{- else -}}
 {{- $avif := partial "image-avif.html" . -}}
 {{- if $avif -}}
 <link rel="preload" as="image" href="{{ $avif | relURL }}" type="image/avif" fetchpriority="high">
 {{- else -}}
 <link rel="preload" as="image" href="{{ . | relURL }}" fetchpriority="high">
+{{- end -}}
 {{- end -}}

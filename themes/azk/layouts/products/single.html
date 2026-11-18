@@ -87,6 +87,8 @@
 
 <!-- Color Variants -->
 {{ with .colors }}
+{{ $colorSizes := "(max-width: 768px) 300px, (max-width: 964px) calc((100vw - 128px) / 3), 278px" }}
+{{ if eq (len .variants) 4 }}{{ $colorSizes = "(max-width: 768px) calc((100vw - 60px) / 2), (max-width: 1264px) calc((100vw - 160px) / 4), 276px" }}{{ end }}
 <section class="colors section" id="colors">
   <div class="container">
     <h2 class="section-title" data-aos="fade-up">{{ .title }}</h2>
@@ -94,7 +96,7 @@
       {{ range .variants }}
       <div class="color-card" data-aos="fade-up">
         <div class="color-image">
-          {{ partial "optimized-image.html" (dict "src" .image "alt" (printf "%v — %v" ($page.Title) (.name)) "loading" "lazy") }}
+          {{ partial "optimized-image.html" (dict "src" .image "alt" (printf "%v — %v" ($page.Title) (.name)) "loading" "lazy" "sizes" $colorSizes) }}
         </div>
         <h3 class="color-name">{{ .name }}</h3>
       </div>
